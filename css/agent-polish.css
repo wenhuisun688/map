@@ -1,0 +1,16 @@
+/* Stable guide transition: never expose the previous map's empty state. */
+#map-page.map-switching #overview-list{visibility:hidden}
+#agents .home-container{max-width:1240px}
+#agents .home-header{border-bottom:0;height:96px}
+.agent-back{display:inline-flex;align-items:center;gap:9px;padding:10px 15px 10px 11px;border:1px solid #ffffff17;border-radius:14px;background:#ffffff05;color:#d6d8e1;font-size:15px;text-decoration:none;transition:background .25s,border-color .25s}
+.agent-back svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}.agent-back:hover{background:#ffffff0c;border-color:#ffffff30;color:white}
+.agent-hub{max-width:none;padding:36px 0 70px}.agent-heading{margin-bottom:34px}.agent-heading h1{font-size:42px;letter-spacing:-1.5px}.agent-heading p{font-size:17px;margin-top:12px;color:#9ba2b2}
+.agent-grid{display:grid;grid-auto-flow:column;grid-auto-columns:280px;grid-template-columns:none;gap:20px;justify-content:start;overflow-x:auto;padding:15px 10px 30px;margin:0 -10px;scroll-snap-type:x proximity;scrollbar-width:thin;scrollbar-color:#ff46554d transparent;perspective:1200px}
+.agent-card{width:280px;height:375px;border-radius:23px;scroll-snap-align:start;transform:perspective(1000px) rotateX(var(--tilt-x,0deg)) rotateY(var(--tilt-y,0deg));transition:transform .24s ease-out,translate .4s var(--ease),border-color .25s,box-shadow .4s}
+.agent-card::before{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;background:radial-gradient(circle at var(--light-x,50%) var(--light-y,25%),#ffffff24,transparent 65%);opacity:0;transition:opacity .4s}
+.agent-card:hover::before,.agent-card:focus-visible::before{opacity:1}.agent-card:active:not(:disabled){transform:perspective(1000px) scale(.98);translate:0 0}
+.agent-card>img{height:395px;top:0;left:55%}.agent-word{font-size:55px;left:17px;top:22px;letter-spacing:-2px}.agent-card-bottom{left:21px;right:19px;bottom:23px}.agent-card-bottom strong{font-size:26px;letter-spacing:.5px}.agent-skills{font-size:14px;margin-top:7px}
+.agent-enter{width:30px;height:35px;border:0;background:transparent;border-radius:0;color:#acb4c5;opacity:.65;transition:translate .3s,color .3s,opacity .3s}.agent-enter svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.agent-card:hover .agent-enter{background:transparent;color:#fff;opacity:1;translate:3px 0}
+.agent-card:hover{border-color:#ffffff48;box-shadow:0 15px 35px #0005}.agent-card:focus-visible{outline:2px solid #ff4655;outline-offset:4px}
+@media(max-width:700px){#agents .home-header{height:78px}.agent-back{padding:8px 12px 8px 9px;border-radius:12px}.agent-hub{padding:26px 0 45px}.agent-heading h1{font-size:32px}.agent-heading{margin-bottom:23px}.agent-grid{grid-auto-columns:245px;gap:15px;padding-bottom:24px;margin-right:-24px;padding-right:24px}.agent-card{width:245px;height:345px;border-radius:20px}.agent-card>img{height:365px;left:55%}.agent-word{font-size:49px}.agent-card-bottom strong{font-size:25px}.agent-card-bottom{left:19px;right:16px;bottom:22px}}
+@media(prefers-reduced-motion:reduce){.agent-card{transform:none!important}.agent-card:hover{translate:none}.agent-card>img{transform:translateX(-50%)!important}}

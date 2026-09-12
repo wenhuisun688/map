@@ -1,0 +1,7 @@
+/* Portraits reveal on hover; fade the lower edge while leaving heads unmasked. */
+.agent-card>img{mask-image:linear-gradient(#000 0%,#000 72%,transparent 97%)}
+.agent-grid{padding-top:48px}.agent-card{overflow:visible;background:transparent!important;border-color:transparent;box-shadow:none;isolation:isolate}.agent-card::before{inset:0;opacity:1;border-radius:23px;background:radial-gradient(circle at var(--light-x,50%) var(--light-y,25%),#28485d,#131c28 80%);border:1px solid #ffffff1f;z-index:-1}.agent-card.fade-card::before{background:radial-gradient(circle at var(--light-x,50%) var(--light-y,25%),#513342,#201922 80%)}.agent-card::after{border-radius:23px;overflow:hidden}.agent-card>img{height:410px;top:-25px;filter:brightness(.38) saturate(.65) drop-shadow(0 8px 20px #0007);transition:filter .5s,transform .6s var(--ease)}.agent-card:hover>img,.agent-card:focus-visible>img{filter:brightness(1.08) saturate(1.06) drop-shadow(0 12px 22px #0006);transform:translateX(-50%) translateY(-9px) scale(1.04)}.agent-card:hover{border-color:transparent;box-shadow:none}.agent-card:hover::before{border-color:#ff637055}.agent-card:active:not(:disabled)>img{filter:brightness(1.1)}
+
+@media(max-width:700px){.agent-card>img{height:375px;top:-25px}}
+@media(hover:none){.agent-card>img{filter:brightness(.82) saturate(.9)}}
+@media(prefers-reduced-motion:reduce){.agent-card>img{transition:none}.agent-card:hover>img{transform:translateX(-50%)!important}}
