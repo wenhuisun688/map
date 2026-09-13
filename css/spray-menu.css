@@ -9,5 +9,8 @@
 @media(max-width:700px){.spray-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 18px}.spray-hub{padding:0 20px;margin-top:24px}.spray-hub h1{font-size:30px;margin-bottom:36px}#home .home-header{height:82px;padding:18px 20px}#home .home-logo{width:120px}#home .menu-spray{height:225px}#home .menu-spray>.spray-art{height:180px;top:-20px}#home .agent-card-bottom{left:15px;right:12px;bottom:15px}#home .agent-card-bottom strong{font-size:17px}#home .agent-enter{width:17px}#home .agent-skills{font-size:12px;margin-top:5px}}
 @media(max-width:350px){.spray-grid{gap:28px 12px}.spray-hub{padding:0 14px}#home .agent-card-bottom strong{font-size:15px}#home .agent-card-bottom{left:12px;right:9px}}
 @media(hover:none){#home .menu-spray>.spray-art{filter:brightness(.95)}}
+.spray-sequence{display:none;position:absolute;top:-22px;left:50%;width:min(calc(100% + 20px),215px);aspect-ratio:1;transform:translateX(-50%);background-repeat:no-repeat;pointer-events:none;filter:brightness(.95) drop-shadow(0 12px 20px #0005)}
+.sequence-playing .spray-sequence{display:block}#home .sequence-playing>.spray-art{visibility:hidden}
+@media(max-width:700px){.spray-sequence{width:min(calc(100% + 20px),180px);top:-20px}}
 @media(prefers-reduced-motion:reduce){#home .menu-spray,#home .menu-spray>.spray-art{transition:none!important}#home .menu-spray:hover>.spray-art{transform:translateX(-50%)}}
 
