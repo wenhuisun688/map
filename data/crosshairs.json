@@ -5,8 +5,8 @@
     "team": "EDG",
     "kind": "pro",
     "events": "EDG 冠军赛 2024 冠军",
-    "photo": "images/27dc9a5e6e5d768982778e3ac1ecf78ddba186a25465b229a4839d30e3d0e6da.png",
-    "preview": "images/2ed4dcd25905aa309d85a6f4ddf5df9ae0d78ecd23f42b270433c494f5791fbc.png",
+    "photo": "variants/27dc9a5e6e5d768982778e3ac1ecf78ddba186a25465b229a4839d30e3d0e6da-v2-portrait.webp",
+    "preview": "variants/2ed4dcd25905aa309d85a6f4ddf5df9ae0d78ecd23f42b270433c494f5791fbc-v2-crosshair.webp",
     "code": "0;s;1;P;h;0;0l;3;0o;1;0f;0;1b;0;S;o;1"
   },
   {
@@ -15,8 +15,8 @@
     "team": "EDG",
     "kind": "pro",
     "events": "EDG 冠军赛 2024 冠军",
-    "photo": "images/27dc9a5e6e5d768982778e3ac1ecf78ddba186a25465b229a4839d30e3d0e6da.png",
-    "preview": "images/58e1372d9ff325246f0d43d854520119c7c6cf9ced08b8a996c1f1dc5125617a.png",
+    "photo": "variants/27dc9a5e6e5d768982778e3ac1ecf78ddba186a25465b229a4839d30e3d0e6da-v2-portrait.webp",
+    "preview": "variants/58e1372d9ff325246f0d43d854520119c7c6cf9ced08b8a996c1f1dc5125617a-v2-crosshair.webp",
     "code": "0;s;1;P;c;2;o;1;d;1;f;0;0b;0;1b;0;S;c;0;o;1"
   },
   {
@@ -25,8 +25,8 @@
     "team": "EDG",
     "kind": "pro",
     "events": "EDG 冠军赛 2024 冠军",
-    "photo": "images/27dc9a5e6e5d768982778e3ac1ecf78ddba186a25465b229a4839d30e3d0e6da.png",
-    "preview": "images/4403b697b176b8d957c78cdec0cbe065c7db23ac9041d5e6ca3e6ad8b285730d.png",
+    "photo": "variants/27dc9a5e6e5d768982778e3ac1ecf78ddba186a25465b229a4839d30e3d0e6da-v2-portrait.webp",
+    "preview": "variants/4403b697b176b8d957c78cdec0cbe065c7db23ac9041d5e6ca3e6ad8b285730d-v2-crosshair.webp",
     "code": "0;s;1;P;c;1;u;FF6600FF;h;0;0l;4;0o;2;0a;1;0f;0;1t;1;1l;4;1o;2;1a;1;1f;0"
   },
   {
@@ -35,8 +35,8 @@
     "team": "EDG",
     "kind": "pro",
     "events": "EDG 冠军赛 2024 冠军",
-    "photo": "images/27dc9a5e6e5d768982778e3ac1ecf78ddba186a25465b229a4839d30e3d0e6da.png",
-    "preview": "images/fbec9a19744e7bc02ebf31d151b0e00e4b57f003d570a71b8d2ad104f3fef91c.png",
+    "photo": "variants/27dc9a5e6e5d768982778e3ac1ecf78ddba186a25465b229a4839d30e3d0e6da-v2-portrait.webp",
+    "preview": "variants/fbec9a19744e7bc02ebf31d151b0e00e4b57f003d570a71b8d2ad104f3fef91c-v2-crosshair.webp",
     "code": "0;P;c;5;o;1;d;1;0b;0;1b;0"
   },
   {
@@ -46,7 +46,7 @@
     "kind": "streamer",
     "events": "",
     "photo": "",
-    "preview": "images/e67bc1b86ad99740c9861b343ac68d854a5d15473e35450627f5eb19dd79b549.png",
+    "preview": "variants/e67bc1b86ad99740c9861b343ac68d854a5d15473e35450627f5eb19dd79b549-v2-crosshair.webp",
     "code": "0;s;1;P;c;5;o;1;d;1;f;0;0l;2;0o;0;0a;1;0f;0;1b;0;S;s;0.408"
   },
   {
@@ -55,8 +55,8 @@
     "team": "DRG",
     "kind": "pro",
     "events": "",
-    "photo": "images/a3e560d9093a2a321d104fda545f3a948083bc57b8823bd376641c749aea933b.png",
-    "preview": "images/a582569ad1b491f9a3ba07130b043ab879b42f9c8197c497d1ab0ce2fc4e5de6.png",
+    "photo": "variants/a3e560d9093a2a321d104fda545f3a948083bc57b8823bd376641c749aea933b-v2-portrait.webp",
+    "preview": "variants/a582569ad1b491f9a3ba07130b043ab879b42f9c8197c497d1ab0ce2fc4e5de6-v2-crosshair.webp",
     "code": ""
   },
   {
@@ -65,8 +65,8 @@
     "team": "DRG",
     "kind": "pro",
     "events": "",
-    "photo": "images/a3274684ce95eb500a3dfed73b8524a5ce4e7daa4ba4df94bfd2277dc5df04e8.png",
-    "preview": "images/e842dcf8d73faf52937e8b1bec302f85014c37a140e0d65e3a4b9452ba1d573b.png",
+    "photo": "variants/a3274684ce95eb500a3dfed73b8524a5ce4e7daa4ba4df94bfd2277dc5df04e8-v2-portrait.webp",
+    "preview": "variants/e842dcf8d73faf52937e8b1bec302f85014c37a140e0d65e3a4b9452ba1d573b-v2-crosshair.webp",
     "code": "0;c;1;s;1;P;o;1;d;1;f;0;0b;0;1b;0;S;d;0"
   },
   {
@@ -75,8 +75,8 @@
     "team": "NRG",
     "kind": "pro",
     "events": "",
-    "photo": "images/e6fce541d2043d2666aba986bb6e75b2f7e1c676b47a6ea0298cbb670bfbb64f.png",
-    "preview": "images/3b3108d0256120891f99cd7d3cb3e3bfd74181d9cb63b9dfcc927decf44aeb1b.png",
+    "photo": "variants/e6fce541d2043d2666aba986bb6e75b2f7e1c676b47a6ea0298cbb670bfbb64f-v2-portrait.webp",
+    "preview": "variants/3b3108d0256120891f99cd7d3cb3e3bfd74181d9cb63b9dfcc927decf44aeb1b-v2-crosshair.webp",
     "code": "0;P;o;1;0t;1;0l;2;0a;1;0f;0;1b;0"
   },
   {
@@ -85,8 +85,8 @@
     "team": "NRG",
     "kind": "pro",
     "events": "",
-    "photo": "images/e6fce541d2043d2666aba986bb6e75b2f7e1c676b47a6ea0298cbb670bfbb64f.png",
-    "preview": "images/0195dfbe39df8f0a7b00be78a7c893fe18a5b947eff9d8df7f567a4aaa882d87.png",
+    "photo": "variants/e6fce541d2043d2666aba986bb6e75b2f7e1c676b47a6ea0298cbb670bfbb64f-v2-portrait.webp",
+    "preview": "variants/0195dfbe39df8f0a7b00be78a7c893fe18a5b947eff9d8df7f567a4aaa882d87-v2-crosshair.webp",
     "code": "0;P;c;1;h;0;0l;4;0a;1;0f;0;1b;0"
   }
 ]

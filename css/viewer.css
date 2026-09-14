@@ -61,6 +61,7 @@ body.detail-open .guide-panel{display:block}
 .viewer-nav .nav-list-button{margin-left:0}
 .viewer-nav .nav-side-switch+.nav-list-button{margin-left:-10px}
 @media(max-width:640px){.viewer-nav{gap:8px;padding:10px 12px}.viewer-nav .nav-divider,.viewer-nav>h1{display:none}.viewer-nav .back-link{gap:7px}.viewer-nav .back-link>span{font-size:24px}.viewer-nav .back-link img{width:74px}.viewer-nav .nav-side-switch{padding:3px;border-radius:10px}.viewer-nav .nav-side-switch .side-slider{inset-block:3px;left:3px;width:calc((100% - 6px)/2);border-radius:7px}.viewer-nav .nav-side-switch button{min-width:56px;padding:5px 6px;font-size:13px;border-radius:7px}.viewer-nav .nav-list-button,.viewer-nav .nav-side-switch+.nav-list-button{max-width:92px;margin-left:0;padding:6px 8px;gap:6px}}
+@media(max-width:640px){.viewer-nav{padding-left:max(12px,env(safe-area-inset-left));padding-right:max(12px,env(safe-area-inset-right))}.viewer-nav .back-link,.viewer-nav .nav-side-switch button,.viewer-nav .nav-list-button{min-height:44px}.map-tabs button{min-height:44px}.viewer-map-column .map-controls button{width:44px;height:44px}}
 
 /* 精简的地图信标：大点击区，小而清晰的视觉标记。 */
 .viewer-map-column .map-dot{--marker:#4d9de0;--marker-deep:#28689f}

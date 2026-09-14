@@ -29,10 +29,11 @@ for (const card of home.querySelectorAll('.menu-spray')) {
 
 // Static sprite strips let us play exactly one cycle using the source frame delays.
 const cards = [...home.querySelectorAll('.menu-spray')];
-let strips, generation = 0, activeAnimation, activeCard;
+let generation = 0, activeAnimation, activeCard;
+const stripEntries = new Map();
 const canSequence = () => touchMenu.matches && !reduceMotion.matches && !document.hidden && !home.hidden && !home.inert ;
-function loadStrips() {
-  return strips ||= Promise.all(cards.map(async card => {
+function loadStrip(card) {
+  if (!stripEntries.has(card)) stripEntries.set(card, (async () => {
     const image = card.querySelector('.spray-art'), strip = new Image();
     strip.src = image.dataset.strip;
     try { await strip.decode(); } catch { return null; }
@@ -49,24 +50,26 @@ function loadStrips() {
     });
     frames.push({backgroundPosition: '100% 0', offset: 1});
     return {card, layer, frames, duration};
-  }));
+  })());
+  return stripEntries.get(card);
 }
 async function sequence() {
   const run = ++generation;
   activeAnimation?.cancel(); activeCard?.classList.remove('sequence-playing');
   activeAnimation = activeCard = null;
   if (!canSequence()) return;
-  const entries = (await loadStrips()).filter(Boolean);
-  if (!entries.length) return;
-  let index = 0;
+  let index = 0, misses = 0;
   while (run === generation && canSequence()) {
-    const entry = entries[index];
+    const entry = await loadStrip(cards[index]);
+    if (!entry) { if (++misses >= cards.length) return; index = (index + 1) % cards.length; continue; }
+    misses = 0;
     activeCard = entry.card; activeCard.classList.add('sequence-playing');
     activeAnimation = entry.layer.animate(entry.frames, {duration: entry.duration, iterations: 1, fill: 'forwards'});
+    void loadStrip(cards[(index + 1) % cards.length]);
     try { await activeAnimation.finished; } catch { return; }
     if (run !== generation) return;
     activeCard.classList.remove('sequence-playing'); activeAnimation.cancel();
-    index = (index + 1) % entries.length;
+    index = (index + 1) % cards.length;
   }
 }
 new MutationObserver(sequence).observe(home, {attributes: true, attributeFilter: ['hidden', 'inert']});

@@ -4,7 +4,7 @@
     "weapon": "ares",
     "name": "奇点",
     "heat": 100,
-    "image": "images/7b39674542b9e211d32ff80234ca1ef33133e43b3a1206891b5c1a69be48aefc.png",
+    "image": "variants/7b39674542b9e211d32ff80234ca1ef33133e43b3a1206891b5c1a69be48aefc-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -28,7 +28,7 @@
     "weapon": "ares",
     "name": "离子武器//2.0",
     "heat": 89.5,
-    "image": "images/62eb8ad391612694e0cf215c1655f0c02857ed157ef9f93229a59ae38928bccd.png",
+    "image": "variants/62eb8ad391612694e0cf215c1655f0c02857ed157ef9f93229a59ae38928bccd-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -52,7 +52,7 @@
     "weapon": "ares",
     "name": "沙场老兵",
     "heat": 86.1,
-    "image": "images/48e3f4242bdcfd4ed75c0371174959cf110a9de27ee045d72214a0d8a5ae91f8.png",
+    "image": "variants/48e3f4242bdcfd4ed75c0371174959cf110a9de27ee045d72214a0d8a5ae91f8-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -76,7 +76,7 @@
     "weapon": "ares",
     "name": "光明哨兵",
     "heat": 85,
-    "image": "images/79e7df5843fb064a8c4d2b2a4886cd377daac98dc00b239d4f1a99426da15688.png",
+    "image": "variants/79e7df5843fb064a8c4d2b2a4886cd377daac98dc00b239d4f1a99426da15688-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -100,7 +100,7 @@
     "weapon": "ares",
     "name": "盖世英雄",
     "heat": 74.9,
-    "image": "images/1c755d8c0d90129972a306d93deea301aa2a3e4790911c8a9ac589b972f395fb.png",
+    "image": "variants/1c755d8c0d90129972a306d93deea301aa2a3e4790911c8a9ac589b972f395fb-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -124,7 +124,7 @@
     "weapon": "ares",
     "name": "暗域界碑",
     "heat": 74.2,
-    "image": "images/1340d394821730687b84bd7aaa9a4eb8015f3f225b1205667c53d3fec5f1e0fa.png",
+    "image": "variants/1340d394821730687b84bd7aaa9a4eb8015f3f225b1205667c53d3fec5f1e0fa-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -142,7 +142,7 @@
     "weapon": "ares",
     "name": "般若假面//2.0",
     "heat": 73.5,
-    "image": "images/36206207a9dcd60c2befdb693559f7c8d30be0903cc69c62a8415ae188b978d0.png",
+    "image": "variants/36206207a9dcd60c2befdb693559f7c8d30be0903cc69c62a8415ae188b978d0-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -166,7 +166,7 @@
     "weapon": "ares",
     "name": "星航勇进",
     "heat": 72.5,
-    "image": "images/ca3fbb101aa6a05166831d6c8018f5c22abeabe87bc77f2f361e221312bd4cac.png",
+    "image": "variants/ca3fbb101aa6a05166831d6c8018f5c22abeabe87bc77f2f361e221312bd4cac-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -190,7 +190,7 @@
     "weapon": "ares",
     "name": "奇幻朋克//2.0",
     "heat": 68.5,
-    "image": "images/843344e82fe837cae415790b836c44ed7dffc9ea00fe5831df2f0690ce8f8632.png",
+    "image": "variants/843344e82fe837cae415790b836c44ed7dffc9ea00fe5831df2f0690ce8f8632-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -214,7 +214,7 @@
     "weapon": "ares",
     "name": "千灵华绽//2.0",
     "heat": 67,
-    "image": "images/66688b2d7e19c33249a4c2641da149313c5a038866607a2e222dc37d8f3a973f.png",
+    "image": "variants/66688b2d7e19c33249a4c2641da149313c5a038866607a2e222dc37d8f3a973f-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -232,7 +232,7 @@
     "weapon": "ares",
     "name": "盖亚的复仇//2.0",
     "heat": 66.3,
-    "image": "images/24f1b5212f916dca5a521aad5ac289cdb7aec9abb0c9318356701f33db232982.png",
+    "image": "variants/24f1b5212f916dca5a521aad5ac289cdb7aec9abb0c9318356701f33db232982-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -251,7 +251,7 @@
     "weapon": "bucky",
     "name": "紫阙金琅//2.0",
     "heat": 98.6,
-    "image": "images/870006fd1a8ecb4321a41dab26c585252aca076405ed3af91c106992773912de.png",
+    "image": "variants/870006fd1a8ecb4321a41dab26c585252aca076405ed3af91c106992773912de-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -275,7 +275,7 @@
     "weapon": "bucky",
     "name": "起源",
     "heat": 90.2,
-    "image": "images/6b94f6258ca93cbe6da156c1acd3b2ef6a9fa5b0932a1c00b35cfa59b0c19bd9.png",
+    "image": "variants/6b94f6258ca93cbe6da156c1acd3b2ef6a9fa5b0932a1c00b35cfa59b0c19bd9-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -299,7 +299,7 @@
     "weapon": "bucky",
     "name": "离子武器",
     "heat": 89.5,
-    "image": "images/8b71f05da9fb716d399b9682da7d0b64e59671c1b9e0cb6fe88763ce45c2e30c.png",
+    "image": "variants/8b71f05da9fb716d399b9682da7d0b64e59671c1b9e0cb6fe88763ce45c2e30c-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -323,7 +323,7 @@
     "weapon": "bucky",
     "name": "源能者危机001",
     "heat": 83.3,
-    "image": "images/4c65188f27356070fd7a8263953c8849d843e31521fb5faf3adeef914783763a.png",
+    "image": "variants/4c65188f27356070fd7a8263953c8849d843e31521fb5faf3adeef914783763a-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -347,7 +347,7 @@
     "weapon": "bucky",
     "name": "机动狂飙",
     "heat": 81.3,
-    "image": "images/ad5754a3b19f93fea3a1853454db0c43dec151b5d9da09dfad46acb3af239e97.png",
+    "image": "variants/ad5754a3b19f93fea3a1853454db0c43dec151b5d9da09dfad46acb3af239e97-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -371,7 +371,7 @@
     "weapon": "bucky",
     "name": "盖亚的复仇//2.0",
     "heat": 65,
-    "image": "images/86ad7535c73bf58b43de38b3a49ebac4b37f25ab82ec697eca058b8db1847329.png",
+    "image": "variants/86ad7535c73bf58b43de38b3a49ebac4b37f25ab82ec697eca058b8db1847329-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -390,7 +390,7 @@
     "weapon": "bucky",
     "name": "奇幻朋克",
     "heat": 62.9,
-    "image": "images/3059dac76844122dd0ae7ec018577d1a8d72547cd5860eaa708cd0c2c2461a78.png",
+    "image": "variants/3059dac76844122dd0ae7ec018577d1a8d72547cd5860eaa708cd0c2c2461a78-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -414,7 +414,7 @@
     "weapon": "bucky",
     "name": "盖亚的复仇",
     "heat": 61.1,
-    "image": "images/4b0bce986a13ffbb0a2a5cde13af1e8f1eacc4424a5877210c403eb04cf6ac4c.png",
+    "image": "variants/4b0bce986a13ffbb0a2a5cde13af1e8f1eacc4424a5877210c403eb04cf6ac4c-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -432,7 +432,7 @@
     "weapon": "bucky",
     "name": "狂翼掠空",
     "heat": 57.2,
-    "image": "images/67d0d012aa345750a4cceea78fe24d355e23d65fee450f5ea86c4258faa7b202.png",
+    "image": "variants/67d0d012aa345750a4cceea78fe24d355e23d65fee450f5ea86c4258faa7b202-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -456,7 +456,7 @@
     "weapon": "bucky",
     "name": "异形猎人",
     "heat": 56.3,
-    "image": "images/4da4ae8c097c31a42a832b2ca96475d422b8f92e27c7b29e20c2fa33221d6800.png",
+    "image": "variants/4da4ae8c097c31a42a832b2ca96475d422b8f92e27c7b29e20c2fa33221d6800-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -480,7 +480,7 @@
     "weapon": "bulldog",
     "name": "归零者",
     "heat": 100,
-    "image": "images/c37f7bfce6aab2ec7176567ec33765f2346a5a320d9a6a5b18c0c262bb6a9e9c.png",
+    "image": "variants/c37f7bfce6aab2ec7176567ec33765f2346a5a320d9a6a5b18c0c262bb6a9e9c-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -504,7 +504,7 @@
     "weapon": "bulldog",
     "name": "781-A协议",
     "heat": 97.1,
-    "image": "images/8114370082ce884713dcde754acba745c4ba045d51535698e95e53ff6410708c.png",
+    "image": "variants/8114370082ce884713dcde754acba745c4ba045d51535698e95e53ff6410708c-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -528,7 +528,7 @@
     "weapon": "bulldog",
     "name": "全息波普",
     "heat": 87.6,
-    "image": "images/669c2ea47705aee217278b4b17a304a3765b9450a5677880f8c770a832bc0d05.png",
+    "image": "variants/669c2ea47705aee217278b4b17a304a3765b9450a5677880f8c770a832bc0d05-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -552,7 +552,7 @@
     "weapon": "bulldog",
     "name": "冰点凝冻",
     "heat": 80.8,
-    "image": "images/e7d1d02d10494c5939657204e75b3ed2286b8c026c79d645c952706bb2ddc675.png",
+    "image": "variants/e7d1d02d10494c5939657204e75b3ed2286b8c026c79d645c952706bb2ddc675-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -576,7 +576,7 @@
     "weapon": "classic",
     "name": "电音光谱",
     "heat": 98.2,
-    "image": "images/1c675cc0b45be2b49edaf014948c9a57c3f6f6896f63dd1fac14f0bea8f78298.png",
+    "image": "variants/1c675cc0b45be2b49edaf014948c9a57c3f6f6896f63dd1fac14f0bea8f78298-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -600,7 +600,7 @@
     "weapon": "classic",
     "name": "紫阙金琅",
     "heat": 97.9,
-    "image": "images/1f9a4b08661dc6bc9dcfa5c0c131d6c3243211c06bdc0645668ec708b6bf4e90.png",
+    "image": "variants/1f9a4b08661dc6bc9dcfa5c0c131d6c3243211c06bdc0645668ec708b6bf4e90-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -624,7 +624,7 @@
     "weapon": "classic",
     "name": "堕天遗武",
     "heat": 97.1,
-    "image": "images/46d051557438b1d55db6a78e5668b72003d099d569a6be1761b6d55317640d7b.png",
+    "image": "variants/46d051557438b1d55db6a78e5668b72003d099d569a6be1761b6d55317640d7b-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -648,7 +648,7 @@
     "weapon": "classic",
     "name": "VCT x G2",
     "heat": 94.5,
-    "image": "images/5d0589e3d44f85c346dc60ba587b4822c204ba9b3e14682e40b89744402b9b3f.png",
+    "image": "variants/5d0589e3d44f85c346dc60ba587b4822c204ba9b3e14682e40b89744402b9b3f-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -672,7 +672,7 @@
     "weapon": "classic",
     "name": "VCT x LEV",
     "heat": 90.8,
-    "image": "images/9a41803c9cf555d1d6627b7448843d6b88ea3540df1b7a023e6182c8dadf52e7.png",
+    "image": "variants/9a41803c9cf555d1d6627b7448843d6b88ea3540df1b7a023e6182c8dadf52e7-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -696,7 +696,7 @@
     "weapon": "classic",
     "name": "VCT x PRX",
     "heat": 90.7,
-    "image": "images/3ce9cca8ab41b7a1a93acd49f0fb5c09c4c4fcca6cd6141040c974adba24cc24.png",
+    "image": "variants/3ce9cca8ab41b7a1a93acd49f0fb5c09c4c4fcca6cd6141040c974adba24cc24-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -720,7 +720,7 @@
     "weapon": "classic",
     "name": "全息波普//2.0",
     "heat": 85.6,
-    "image": "images/efe8fe3d273abfd6187e9fbc7c57b86ac6626e9b58c20850b5ba2ca7035142e0.png",
+    "image": "variants/efe8fe3d273abfd6187e9fbc7c57b86ac6626e9b58c20850b5ba2ca7035142e0-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -744,7 +744,7 @@
     "weapon": "classic",
     "name": "VCT x SEN",
     "heat": 81.7,
-    "image": "images/18f166dbe0377fa8f860e6fde904db294b95991eaba703d91ebd1e19b2bffbd0.png",
+    "image": "variants/18f166dbe0377fa8f860e6fde904db294b95991eaba703d91ebd1e19b2bffbd0-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -768,7 +768,7 @@
     "weapon": "classic",
     "name": "VCT x BBL",
     "heat": 80.7,
-    "image": "images/95e29fdf344229f71c27e363907586131dc62994e489f4becec0b8c627c9d5d1.png",
+    "image": "variants/95e29fdf344229f71c27e363907586131dc62994e489f4becec0b8c627c9d5d1-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -792,7 +792,7 @@
     "weapon": "classic",
     "name": "VCT x C9",
     "heat": 80.3,
-    "image": "images/fb55f2d5e06adb67061d7a22d55d70df76fc8d620c52f0841cab51735ac04bcb.png",
+    "image": "variants/fb55f2d5e06adb67061d7a22d55d70df76fc8d620c52f0841cab51735ac04bcb-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -816,7 +816,7 @@
     "weapon": "classic",
     "name": "VCT x DRX",
     "heat": 76.8,
-    "image": "images/4ca882259789b473b649004618e0faf58a0555df46e54618e04cb428c00417d1.png",
+    "image": "variants/4ca882259789b473b649004618e0faf58a0555df46e54618e04cb428c00417d1-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -840,7 +840,7 @@
     "weapon": "classic",
     "name": "VCT x KOI",
     "heat": 76.1,
-    "image": "images/ace6ce550a4551d5fed8dd30feac5345edae82908176dab35d6faf9727d2e389.png",
+    "image": "variants/ace6ce550a4551d5fed8dd30feac5345edae82908176dab35d6faf9727d2e389-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -864,7 +864,7 @@
     "weapon": "classic",
     "name": "VCT x EDG",
     "heat": 75.9,
-    "image": "images/98bdbb13ef9c378626a2804321548acc14aafbe797408e3331ef4c4bbce8c5f9.png",
+    "image": "variants/98bdbb13ef9c378626a2804321548acc14aafbe797408e3331ef4c4bbce8c5f9-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -882,7 +882,7 @@
     "weapon": "classic",
     "name": "VCT x TE",
     "heat": 75.5,
-    "image": "images/106efefdbb1ed4da026c666ab17c1219389dcf6c0dcb6fd8a804a15018cdc4a5.png",
+    "image": "variants/106efefdbb1ed4da026c666ab17c1219389dcf6c0dcb6fd8a804a15018cdc4a5-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -900,7 +900,7 @@
     "weapon": "classic",
     "name": "VCT26 x LEV",
     "heat": 74.9,
-    "image": "images/70674271cc8363eb92544b33a65241ee42cc2327b6276e834ceb42895b62a4c2.png",
+    "image": "variants/70674271cc8363eb92544b33a65241ee42cc2327b6276e834ceb42895b62a4c2-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -918,7 +918,7 @@
     "weapon": "classic",
     "name": "VCT x TH",
     "heat": 73.9,
-    "image": "images/b50fc2976dd0a1b48ac1f89825593f74788513c8c17e77be4eb49c745efa9b0a.png",
+    "image": "variants/b50fc2976dd0a1b48ac1f89825593f74788513c8c17e77be4eb49c745efa9b0a-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -942,7 +942,7 @@
     "weapon": "classic",
     "name": "VCT25 x LEV",
     "heat": 73.9,
-    "image": "images/2c051e5281647c26959ec7254617c81701927ea791ff5db5302c37e964109ab7.png",
+    "image": "variants/2c051e5281647c26959ec7254617c81701927ea791ff5db5302c37e964109ab7-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -960,7 +960,7 @@
     "weapon": "classic",
     "name": "VCT x BLG",
     "heat": 72.8,
-    "image": "images/dcffe133adec3adba4c8a9b22e8c6869f792657a153af4ad03c3ded0a305f7a1.png",
+    "image": "variants/dcffe133adec3adba4c8a9b22e8c6869f792657a153af4ad03c3ded0a305f7a1-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -978,7 +978,7 @@
     "weapon": "classic",
     "name": "VCT x FNC",
     "heat": 72.8,
-    "image": "images/b76cc87c58707ec97635047ad7b66073ff13b67b00bc66a8866648641357b94d.png",
+    "image": "variants/b76cc87c58707ec97635047ad7b66073ff13b67b00bc66a8866648641357b94d-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1002,7 +1002,7 @@
     "weapon": "frenzy",
     "name": "离子武器//2.0",
     "heat": 95.6,
-    "image": "images/498bbb6510b6b042055b9378da8b5f04034be8f94f4f1ba9f2da0015c999f7d6.png",
+    "image": "variants/498bbb6510b6b042055b9378da8b5f04034be8f94f4f1ba9f2da0015c999f7d6-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1026,7 +1026,7 @@
     "weapon": "frenzy",
     "name": "全息波普",
     "heat": 95.4,
-    "image": "images/791381ccc6996493b3311814d2d6ffd0d8087d009b5e3218bd2c0bf6c86c6fef.png",
+    "image": "variants/791381ccc6996493b3311814d2d6ffd0d8087d009b5e3218bd2c0bf6c86c6fef-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1050,7 +1050,7 @@
     "weapon": "frenzy",
     "name": "天界神兵2.0",
     "heat": 88.1,
-    "image": "images/f51d0c993e923af221497306d4308268ccb68c9640c98aadd02cad4cb69d1e34.png",
+    "image": "variants/f51d0c993e923af221497306d4308268ccb68c9640c98aadd02cad4cb69d1e34-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1074,7 +1074,7 @@
     "weapon": "frenzy",
     "name": "紫阙金琅//2.0",
     "heat": 84.3,
-    "image": "images/f4d2e18bb916e0f56f0fd330dea668790950dcedb5cdfbcc9150093feb6449ba.png",
+    "image": "variants/f4d2e18bb916e0f56f0fd330dea668790950dcedb5cdfbcc9150093feb6449ba-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1098,7 +1098,7 @@
     "weapon": "frenzy",
     "name": "般若假面//2.0",
     "heat": 82.7,
-    "image": "images/e30d05f92706037dfe88fbc24ade5d8853d1eb01761539173fe2a62c1264c8fe.png",
+    "image": "variants/e30d05f92706037dfe88fbc24ade5d8853d1eb01761539173fe2a62c1264c8fe-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1122,7 +1122,7 @@
     "weapon": "frenzy",
     "name": "起源",
     "heat": 76.4,
-    "image": "images/8db5d47b8b0e42eb196503d4c446a6e115bc2501c9fab956d330d021be2fd160.png",
+    "image": "variants/8db5d47b8b0e42eb196503d4c446a6e115bc2501c9fab956d330d021be2fd160-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1146,7 +1146,7 @@
     "weapon": "frenzy",
     "name": "RGX 11z Pro",
     "heat": 74.6,
-    "image": "images/e9d16026bce0b4447ae7add7988a0701c42f39e022d6bf5244ade0b6e9a1f18a.png",
+    "image": "variants/e9d16026bce0b4447ae7add7988a0701c42f39e022d6bf5244ade0b6e9a1f18a-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1170,7 +1170,7 @@
     "weapon": "frenzy",
     "name": "古焱",
     "heat": 72.5,
-    "image": "images/18b577c04feecbf50510bdf38cc57f8c74d12f7491ebfc431b60e329c68dfe0a.png",
+    "image": "variants/18b577c04feecbf50510bdf38cc57f8c74d12f7491ebfc431b60e329c68dfe0a-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1188,7 +1188,7 @@
     "weapon": "frenzy",
     "name": "砰砰X特攻队",
     "heat": 70.6,
-    "image": "images/55d90c9cafb71891fd010c0048217671d2beba1e72d3cb1fafbf23ef198e3817.png",
+    "image": "variants/55d90c9cafb71891fd010c0048217671d2beba1e72d3cb1fafbf23ef198e3817-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1212,7 +1212,7 @@
     "weapon": "frenzy",
     "name": "上古龙炎",
     "heat": 67.5,
-    "image": "images/a3cae512d960af33feb961f3dca8b61aeb3380193516d8847ae7872807ee158b.png",
+    "image": "variants/a3cae512d960af33feb961f3dca8b61aeb3380193516d8847ae7872807ee158b-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1231,7 +1231,7 @@
     "weapon": "frenzy",
     "name": "神中神罚",
     "heat": 64.5,
-    "image": "images/33bd689dbf8432447fbe883cf639aa8a1bfed517285d725fd797502813ebb67c.png",
+    "image": "variants/33bd689dbf8432447fbe883cf639aa8a1bfed517285d725fd797502813ebb67c-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1249,7 +1249,7 @@
     "weapon": "ghost",
     "name": "天界神兵",
     "heat": 98.4,
-    "image": "images/c6db464326630207c7f194cda91f155e430b42269a8926167db7731288eb87c1.png",
+    "image": "variants/c6db464326630207c7f194cda91f155e430b42269a8926167db7731288eb87c1-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1273,7 +1273,7 @@
     "weapon": "ghost",
     "name": "盖亚的复仇",
     "heat": 94.7,
-    "image": "images/5f38f1ea1b41c16d84fedd7c8a3ca954d802d8b03e4cd3e4eb7c0ddb2e0da26a.png",
+    "image": "variants/5f38f1ea1b41c16d84fedd7c8a3ca954d802d8b03e4cd3e4eb7c0ddb2e0da26a-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1297,7 +1297,7 @@
     "weapon": "ghost",
     "name": "掠影//2.0",
     "heat": 91.8,
-    "image": "images/41b2f5f5f24ebafe1c45d86cc17781d68241e89a08732455cd21a5ad15e655a7.png",
+    "image": "variants/41b2f5f5f24ebafe1c45d86cc17781d68241e89a08732455cd21a5ad15e655a7-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1321,7 +1321,7 @@
     "weapon": "ghost",
     "name": "耀鳞威龙",
     "heat": 90.9,
-    "image": "images/f5128e1b820acc81bc3e5ee099213608eb1df07a8cd998624207aab0db9f6346.png",
+    "image": "variants/f5128e1b820acc81bc3e5ee099213608eb1df07a8cd998624207aab0db9f6346-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1345,7 +1345,7 @@
     "weapon": "ghost",
     "name": "破败军械",
     "heat": 90.7,
-    "image": "images/1fc8a45f2ec3d35f5674eb3f04123bfd100925eae4d89be22895bf98fea202e3.png",
+    "image": "variants/1fc8a45f2ec3d35f5674eb3f04123bfd100925eae4d89be22895bf98fea202e3-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1369,7 +1369,7 @@
     "weapon": "ghost",
     "name": "盖世英雄",
     "heat": 83.2,
-    "image": "images/b05e6c793da0139f319ee6321d7feb53f5bd951df2929fcae958a745aa94df3a.png",
+    "image": "variants/b05e6c793da0139f319ee6321d7feb53f5bd951df2929fcae958a745aa94df3a-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1393,7 +1393,7 @@
     "weapon": "ghost",
     "name": "奇幻朋克",
     "heat": 76.9,
-    "image": "images/ff30d207d3d96defbd47ab4a1b9d74437c9e636cb796ddc63b9b3e77ae64f0ed.png",
+    "image": "variants/ff30d207d3d96defbd47ab4a1b9d74437c9e636cb796ddc63b9b3e77ae64f0ed-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1417,7 +1417,7 @@
     "weapon": "ghost",
     "name": "超时空卫队",
     "heat": 72.1,
-    "image": "images/e030922aa990ffb691720950de41a0157635859c39e02eb81e31b017ceaf0f63.png",
+    "image": "variants/e030922aa990ffb691720950de41a0157635859c39e02eb81e31b017ceaf0f63-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1435,7 +1435,7 @@
     "weapon": "ghost",
     "name": "侦察力量",
     "heat": 70.5,
-    "image": "images/45492eacc7c7b27a19975eba4db14ed2e981194272459359c86c754928522a02.png",
+    "image": "variants/45492eacc7c7b27a19975eba4db14ed2e981194272459359c86c754928522a02-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1459,7 +1459,7 @@
     "weapon": "ghost",
     "name": "塑水宗//2.0",
     "heat": 66.5,
-    "image": "images/489421ae846a33a9d647a745703a375e22323888e5178563da3d159d76c76dc7.png",
+    "image": "variants/489421ae846a33a9d647a745703a375e22323888e5178563da3d159d76c76dc7-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1477,7 +1477,7 @@
     "weapon": "guardian",
     "name": "天界神兵",
     "heat": 96.6,
-    "image": "images/d9d4fa6a4ebf27c611d84c5a81c7185c00d0072ad55f0ce12bd0696a670e9c91.png",
+    "image": "variants/d9d4fa6a4ebf27c611d84c5a81c7185c00d0072ad55f0ce12bd0696a670e9c91-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1501,7 +1501,7 @@
     "weapon": "guardian",
     "name": "破败军械",
     "heat": 93.1,
-    "image": "images/e9d6dda1ff0815aea4b6828f21f7781bf79eee0eb8909437ab208d290f926285.png",
+    "image": "variants/e9d6dda1ff0815aea4b6828f21f7781bf79eee0eb8909437ab208d290f926285-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1525,7 +1525,7 @@
     "weapon": "guardian",
     "name": "紫阙金琅",
     "heat": 89.9,
-    "image": "images/c5e118e4b7d20beb048ad77e0d535f3257defc2e98324ea1eb0790a130865ba2.png",
+    "image": "variants/c5e118e4b7d20beb048ad77e0d535f3257defc2e98324ea1eb0790a130865ba2-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1549,7 +1549,7 @@
     "weapon": "guardian",
     "name": "盖亚的复仇",
     "heat": 89.6,
-    "image": "images/d2633c48bef5b79de9465c208d41d90dc37607b6b54dba16fd428dcc113915f3.png",
+    "image": "variants/d2633c48bef5b79de9465c208d41d90dc37607b6b54dba16fd428dcc113915f3-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1573,7 +1573,7 @@
     "weapon": "guardian",
     "name": "掠影",
     "heat": 89.2,
-    "image": "images/c85514bed6242d2fd2412df5089887847d6b09e54a4089861046791df0535630.png",
+    "image": "variants/c85514bed6242d2fd2412df5089887847d6b09e54a4089861046791df0535630-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1597,7 +1597,7 @@
     "weapon": "guardian",
     "name": "沙场老兵",
     "heat": 79.7,
-    "image": "images/7c6335b9b71cf216b683522fa02d2613a96cbd8e6e072a97874a68a9b9140d6d.png",
+    "image": "variants/7c6335b9b71cf216b683522fa02d2613a96cbd8e6e072a97874a68a9b9140d6d-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1621,7 +1621,7 @@
     "weapon": "guardian",
     "name": "奇幻朋克//2.0",
     "heat": 78.7,
-    "image": "images/5e3fc694d9a22429183675c0bece301f1e35821ce2eee28fbe5377429a5bd4cf.png",
+    "image": "variants/5e3fc694d9a22429183675c0bece301f1e35821ce2eee28fbe5377429a5bd4cf-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1645,7 +1645,7 @@
     "weapon": "guardian",
     "name": "圣契命澜",
     "heat": 73.7,
-    "image": "images/f9e24d6d21b33cb1b0d1a984835e593f8d32c32a3b7eb843161b794ca8c616f2.png",
+    "image": "variants/f9e24d6d21b33cb1b0d1a984835e593f8d32c32a3b7eb843161b794ca8c616f2-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1663,7 +1663,7 @@
     "weapon": "guardian",
     "name": "海洋之星",
     "heat": 73.4,
-    "image": "images/dad2c39cfb73485536edad6fb62fc8256cc369e988cca377577390f64ea66342.png",
+    "image": "variants/dad2c39cfb73485536edad6fb62fc8256cc369e988cca377577390f64ea66342-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1687,7 +1687,7 @@
     "weapon": "guardian",
     "name": "RGX 11z Pro",
     "heat": 70.3,
-    "image": "images/2a09e64f0ffad12423951a12b3a80025aed6b98bba3a53ce1a20dcdbaac5dfdb.png",
+    "image": "variants/2a09e64f0ffad12423951a12b3a80025aed6b98bba3a53ce1a20dcdbaac5dfdb-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1711,7 +1711,7 @@
     "weapon": "guardian",
     "name": "侦察力量",
     "heat": 67.5,
-    "image": "images/df30e44d748ad0ce7b6f40918a0615b6f19ddc5f2679134f434e4db9aec4a568.png",
+    "image": "variants/df30e44d748ad0ce7b6f40918a0615b6f19ddc5f2679134f434e4db9aec4a568-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1735,7 +1735,7 @@
     "weapon": "guardian",
     "name": "电音光谱",
     "heat": 65,
-    "image": "images/e9ddb66595aaf29a0bc64ed9d16b13bd7bca7bc36289dac10a2f173271e831b9.png",
+    "image": "variants/e9ddb66595aaf29a0bc64ed9d16b13bd7bca7bc36289dac10a2f173271e831b9-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1759,7 +1759,7 @@
     "weapon": "judge",
     "name": "全息波普",
     "heat": 94,
-    "image": "images/8c9182b38d5aa2fb7fe9c8e8aa36947c5ea55dc864bf6bcb7239104a256fa142.png",
+    "image": "variants/8c9182b38d5aa2fb7fe9c8e8aa36947c5ea55dc864bf6bcb7239104a256fa142-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1783,7 +1783,7 @@
     "weapon": "judge",
     "name": "天界神兵2.0",
     "heat": 94,
-    "image": "images/a69a7050c7420a16ee58bf6294c88bf19fb00aa7ca0c0eaede293690c6355ecf.png",
+    "image": "variants/a69a7050c7420a16ee58bf6294c88bf19fb00aa7ca0c0eaede293690c6355ecf-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1807,7 +1807,7 @@
     "weapon": "judge",
     "name": "偃月苍龙",
     "heat": 86.8,
-    "image": "images/9af4db0c8972ae20943ef0e49f7d62255cfc2f2a314bdcef8072ade996d18dd2.png",
+    "image": "variants/9af4db0c8972ae20943ef0e49f7d62255cfc2f2a314bdcef8072ade996d18dd2-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1831,7 +1831,7 @@
     "weapon": "judge",
     "name": "虚空遗器",
     "heat": 82.9,
-    "image": "images/ee55593c457183ac512b7136c9e74e24e760302712c7d6cc7da8748e0a0687e7.png",
+    "image": "variants/ee55593c457183ac512b7136c9e74e24e760302712c7d6cc7da8748e0a0687e7-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1855,7 +1855,7 @@
     "weapon": "judge",
     "name": "千灵华绽",
     "heat": 77.3,
-    "image": "images/50af8c0a59df91514caadf13708e390310aa7458310245b64276e06a65b8afd5.png",
+    "image": "variants/50af8c0a59df91514caadf13708e390310aa7458310245b64276e06a65b8afd5-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1873,7 +1873,7 @@
     "weapon": "judge",
     "name": "MK.VII 自由强袭",
     "heat": 73,
-    "image": "images/2632c9bd15dde2ee80e70a31a42e538bf054777f5bbd06a3e581361ed75e102d.png",
+    "image": "variants/2632c9bd15dde2ee80e70a31a42e538bf054777f5bbd06a3e581361ed75e102d-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1897,7 +1897,7 @@
     "weapon": "judge",
     "name": "古焱",
     "heat": 70.9,
-    "image": "images/d13b411a4a8c7f98d7e211d57ea2e850ba20e09a6c81e0592a92aef1d8fb0b99.png",
+    "image": "variants/d13b411a4a8c7f98d7e211d57ea2e850ba20e09a6c81e0592a92aef1d8fb0b99-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1915,7 +1915,7 @@
     "weapon": "judge",
     "name": "上古龙炎",
     "heat": 67.5,
-    "image": "images/e914e4fb2f012857dbc78affa600ec06ae8db93fcf9d23efc2d372864a4a5a35.png",
+    "image": "variants/e914e4fb2f012857dbc78affa600ec06ae8db93fcf9d23efc2d372864a4a5a35-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1934,7 +1934,7 @@
     "weapon": "judge",
     "name": "光荣异象",
     "heat": 67.1,
-    "image": "images/8001e3196c147211dbb7c34e103ca8ae3b6bd193f765f561584a04b25ddaab44.png",
+    "image": "variants/8001e3196c147211dbb7c34e103ca8ae3b6bd193f765f561584a04b25ddaab44-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1952,7 +1952,7 @@
     "weapon": "judge",
     "name": "虹光荆棘",
     "heat": 62.1,
-    "image": "images/c1fcb92ed4979834ee5a1d00f1c47a6b115061d267b5dcc5ffdfa659cf576532.png",
+    "image": "variants/c1fcb92ed4979834ee5a1d00f1c47a6b115061d267b5dcc5ffdfa659cf576532-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1971,7 +1971,7 @@
     "weapon": "judge",
     "name": "毁灭骑士",
     "heat": 60.5,
-    "image": "images/9e006348c3a8ff20262fcb8d1cabdbcc09c56c29cb55b10cb2308c5bc798ad4d.png",
+    "image": "variants/9e006348c3a8ff20262fcb8d1cabdbcc09c56c29cb55b10cb2308c5bc798ad4d-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -1989,7 +1989,7 @@
     "weapon": "judge",
     "name": "缚魔武器",
     "heat": 59.2,
-    "image": "images/ad944d0b477e48f4f2b4231823ee04bba1b72c795dd492d59bf38ad7ab98d516.png",
+    "image": "variants/ad944d0b477e48f4f2b4231823ee04bba1b72c795dd492d59bf38ad7ab98d516-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2008,7 +2008,7 @@
     "weapon": "judge",
     "name": "金镶碧玉",
     "heat": 58.3,
-    "image": "images/bd78b1e893b875cc0af6fa0a55c51c83ce96726d7af66dd5d8b8576b8e36b895.png",
+    "image": "variants/bd78b1e893b875cc0af6fa0a55c51c83ce96726d7af66dd5d8b8576b8e36b895-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2027,7 +2027,7 @@
     "weapon": "marshal",
     "name": "天界神兵",
     "heat": 77.3,
-    "image": "images/2fa64522d07e8e0186ea4bf69e60f4057d61ff3372c9f022667fe2e3daa368bf.png",
+    "image": "variants/2fa64522d07e8e0186ea4bf69e60f4057d61ff3372c9f022667fe2e3daa368bf-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2045,7 +2045,7 @@
     "weapon": "marshal",
     "name": "西部未来",
     "heat": 75,
-    "image": "images/27563426f61625872818f68aad5c6909214289886633df52869fa74d81509955.png",
+    "image": "variants/27563426f61625872818f68aad5c6909214289886633df52869fa74d81509955-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2063,7 +2063,7 @@
     "weapon": "marshal",
     "name": "盖亚的复仇",
     "heat": 71.6,
-    "image": "images/bdba37dc56c40ce1e05d0f9c7482e79abe061abb782d7d60c881ece1c7c437a8.png",
+    "image": "variants/bdba37dc56c40ce1e05d0f9c7482e79abe061abb782d7d60c881ece1c7c437a8-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2081,7 +2081,7 @@
     "weapon": "marshal",
     "name": "塑水宗",
     "heat": 69.3,
-    "image": "images/6487980f3788f8ba94edfef3df6a968615556b91a4dea96f12aefd0b1b3fff87.png",
+    "image": "variants/6487980f3788f8ba94edfef3df6a968615556b91a4dea96f12aefd0b1b3fff87-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2099,7 +2099,7 @@
     "weapon": "marshal",
     "name": "西部未来 飞将",
     "heat": 67.5,
-    "image": "images/b42ab2f50e93fd79edeb0b4fd0218a6aa280ad3b38bc3c9e38f72086035784ff.png",
+    "image": "variants/b42ab2f50e93fd79edeb0b4fd0218a6aa280ad3b38bc3c9e38f72086035784ff-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2118,7 +2118,7 @@
     "weapon": "marshal",
     "name": "圣契命澜",
     "heat": 66.4,
-    "image": "images/9af3ad6c922ee70b8603ab90c4f4160e666aa3beb7a43ab0c83a4337ae8fa886.png",
+    "image": "variants/9af3ad6c922ee70b8603ab90c4f4160e666aa3beb7a43ab0c83a4337ae8fa886-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2136,7 +2136,7 @@
     "weapon": "marshal",
     "name": "塑水宗 飞将",
     "heat": 66.2,
-    "image": "images/4b34088b962a06c6a17af6aeff8f42264861af50f7f2f24b959a54380f689909.png",
+    "image": "variants/4b34088b962a06c6a17af6aeff8f42264861af50f7f2f24b959a54380f689909-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2155,7 +2155,7 @@
     "weapon": "marshal",
     "name": "盖亚的复仇 飞将",
     "heat": 65.4,
-    "image": "images/4b77193662920a5f31aed811e94882536330be0f9719a69cfa5d9cc3b15b4fa7.png",
+    "image": "variants/4b77193662920a5f31aed811e94882536330be0f9719a69cfa5d9cc3b15b4fa7-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2174,7 +2174,7 @@
     "weapon": "marshal",
     "name": "天界神兵 飞将",
     "heat": 64.3,
-    "image": "images/6e236924d463ed12aba89c6b5c3dec87f35aeb57aac8b9068fe96377d113de8f.png",
+    "image": "variants/6e236924d463ed12aba89c6b5c3dec87f35aeb57aac8b9068fe96377d113de8f-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2193,7 +2193,7 @@
     "weapon": "marshal",
     "name": "奇幻朋克 飞将",
     "heat": 63.3,
-    "image": "images/48835b66005be5fd0236d2914089158c95a56832642fdca874f048c274f51d68.png",
+    "image": "variants/48835b66005be5fd0236d2914089158c95a56832642fdca874f048c274f51d68-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2212,7 +2212,7 @@
     "weapon": "marshal",
     "name": "奇幻朋克",
     "heat": 63.2,
-    "image": "images/889bc66a596c2daef7627b20033ed6fb08da12c8106e603a41a7c1c86c696267.png",
+    "image": "variants/889bc66a596c2daef7627b20033ed6fb08da12c8106e603a41a7c1c86c696267-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2230,7 +2230,7 @@
     "weapon": "marshal",
     "name": "哥特废墟 飞将",
     "heat": 61.5,
-    "image": "images/b55236541a87a9cfb27c0df1a15d3b44608025e6db54f9b8d90d1e8dcc905cd1.png",
+    "image": "variants/b55236541a87a9cfb27c0df1a15d3b44608025e6db54f9b8d90d1e8dcc905cd1-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2249,7 +2249,7 @@
     "weapon": "melee",
     "name": "影钩",
     "heat": 98.5,
-    "image": "images/7b4bcdc1db5a6078f9795ae038d9660ac67ee2cd7b1ceb7aedd963ee15f8e640.png",
+    "image": "variants/7b4bcdc1db5a6078f9795ae038d9660ac67ee2cd7b1ceb7aedd963ee15f8e640-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2273,7 +2273,7 @@
     "weapon": "melee",
     "name": "剥皮小刀",
     "heat": 97.2,
-    "image": "images/1a29856440703dcc31cb30b9ecb756ffb560a8bfe010ab86174de8ddc7bc6aad.png",
+    "image": "variants/1a29856440703dcc31cb30b9ecb756ffb560a8bfe010ab86174de8ddc7bc6aad-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2297,7 +2297,7 @@
     "weapon": "melee",
     "name": "紫金爪刀",
     "heat": 93.4,
-    "image": "images/a34c4ae3744daa90a23c1cf4a50117d7a25eb8c702de32606dc32a2f430f93ad.png",
+    "image": "variants/a34c4ae3744daa90a23c1cf4a50117d7a25eb8c702de32606dc32a2f430f93ad-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2321,7 +2321,7 @@
     "weapon": "melee",
     "name": "影刃",
     "heat": 92.7,
-    "image": "images/cd34a039161defa4e563225b3ec799ceeabf7d3df67127c4eb26898c31cab244.png",
+    "image": "variants/cd34a039161defa4e563225b3ec799ceeabf7d3df67127c4eb26898c31cab244-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2345,7 +2345,7 @@
     "weapon": "melee",
     "name": "2022全球冠军赛 蝴蝶刀",
     "heat": 92.4,
-    "image": "images/7963e1577ba7e3a38e7e7e62f48b31b3a2330da67e80b086e04ba10e2e851d11.png",
+    "image": "variants/7963e1577ba7e3a38e7e7e62f48b31b3a2330da67e80b086e04ba10e2e851d11-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2369,7 +2369,7 @@
     "weapon": "melee",
     "name": "天玄刀",
     "heat": 91.3,
-    "image": "images/8d8530d02a87f9454f750968d2221ea2a21499b572e7097083b967406a6211ec.png",
+    "image": "variants/8d8530d02a87f9454f750968d2221ea2a21499b572e7097083b967406a6211ec-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2393,7 +2393,7 @@
     "weapon": "melee",
     "name": "威龙之刃",
     "heat": 90.9,
-    "image": "images/df4cb021bc9f5c71b701599af552cdb40745fe1e8123d22f6e3a6da920ace980.png",
+    "image": "variants/df4cb021bc9f5c71b701599af552cdb40745fe1e8123d22f6e3a6da920ace980-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2417,7 +2417,7 @@
     "weapon": "melee",
     "name": "侦察力量 蝴蝶刀",
     "heat": 89.8,
-    "image": "images/6924fdf82a7f6e2ac5b7ae40c53981bc0f6d25870d4695cb9b14b094147eb6cf.png",
+    "image": "variants/6924fdf82a7f6e2ac5b7ae40c53981bc0f6d25870d4695cb9b14b094147eb6cf-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2441,7 +2441,7 @@
     "weapon": "melee",
     "name": "魔术火花",
     "heat": 89.7,
-    "image": "images/14d43070f5ec5e2dfa503e974f8577d37c366cd6b1c099a458dc8d4d250bad9d.png",
+    "image": "variants/14d43070f5ec5e2dfa503e974f8577d37c366cd6b1c099a458dc8d4d250bad9d-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2465,7 +2465,7 @@
     "weapon": "melee",
     "name": "穿花蝴蝶",
     "heat": 89,
-    "image": "images/f665ca7d7e7fd867ef9e308a4e79be4e87a0b63645fba3f802b1a8b940c14af0.png",
+    "image": "variants/f665ca7d7e7fd867ef9e308a4e79be4e87a0b63645fba3f802b1a8b940c14af0-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2489,7 +2489,7 @@
     "weapon": "melee",
     "name": "未来开拓者",
     "heat": 87.8,
-    "image": "images/5c3486c15bfd997771ef43e689d5efb93dfb3bb853012279c0656a97ac8e312b.png",
+    "image": "variants/5c3486c15bfd997771ef43e689d5efb93dfb3bb853012279c0656a97ac8e312b-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2513,7 +2513,7 @@
     "weapon": "melee",
     "name": "2021全球冠军赛 爪刀",
     "heat": 87.2,
-    "image": "images/e37874473cccc094419f3be479848057196ef9331ee6efdb6301d0c1e5a1585d.png",
+    "image": "variants/e37874473cccc094419f3be479848057196ef9331ee6efdb6301d0c1e5a1585d-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2537,7 +2537,7 @@
     "weapon": "melee",
     "name": "黑波之刃",
     "heat": 86.7,
-    "image": "images/87926bc60e6e288e28eec77a6a4a08f06921c4ebff3dbfc89ff38473ec3489da.png",
+    "image": "variants/87926bc60e6e288e28eec77a6a4a08f06921c4ebff3dbfc89ff38473ec3489da-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2561,7 +2561,7 @@
     "weapon": "melee",
     "name": "澄湖潋滟",
     "heat": 84.8,
-    "image": "images/6167eed66188aa427cd645360707d9f1d1b3dce25d89847ab99017cab5679764.png",
+    "image": "variants/6167eed66188aa427cd645360707d9f1d1b3dce25d89847ab99017cab5679764-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2585,7 +2585,7 @@
     "weapon": "melee",
     "name": "盖亚之愠",
     "heat": 84.8,
-    "image": "images/847037d3616ed3699be72310e330f4bd29d6df3ba8dd72900f6bea51dbadb574.png",
+    "image": "variants/847037d3616ed3699be72310e330f4bd29d6df3ba8dd72900f6bea51dbadb574-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2609,7 +2609,7 @@
     "weapon": "melee",
     "name": "离火刃",
     "heat": 84.5,
-    "image": "images/de92426ee3174ccffd03c095e89ef61be6fe9882932a6515b4cc2fdccd6f7a64.png",
+    "image": "variants/de92426ee3174ccffd03c095e89ef61be6fe9882932a6515b4cc2fdccd6f7a64-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2633,7 +2633,7 @@
     "weapon": "melee",
     "name": "天御刀",
     "heat": 81.6,
-    "image": "images/5113ec0a50889724321a31f63af06c14e88fc8d4825f82e3aa0558337258f215.png",
+    "image": "variants/5113ec0a50889724321a31f63af06c14e88fc8d4825f82e3aa0558337258f215-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2657,7 +2657,7 @@
     "weapon": "melee",
     "name": "魄月玄刃",
     "heat": 78.7,
-    "image": "images/3a0f6eab23cf1fc4c6795a07ab445660591b5bb21255474dd7c5d909425b3823.png",
+    "image": "variants/3a0f6eab23cf1fc4c6795a07ab445660591b5bb21255474dd7c5d909425b3823-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2681,7 +2681,7 @@
     "weapon": "melee",
     "name": "盖亚之怒",
     "heat": 77.7,
-    "image": "images/0e32157f17ec4a0f955793b4b5b2efbcef707d63c9d002fd853c65604887a8b8.png",
+    "image": "variants/0e32157f17ec4a0f955793b4b5b2efbcef707d63c9d002fd853c65604887a8b8-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2705,7 +2705,7 @@
     "weapon": "melee",
     "name": "全息战斧",
     "heat": 77.1,
-    "image": "images/9bc951a24cfcc15c8974b473906b456e938b2ab5ba838fd6ca8f58743299a068.png",
+    "image": "variants/9bc951a24cfcc15c8974b473906b456e938b2ab5ba838fd6ca8f58743299a068-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2729,7 +2729,7 @@
     "weapon": "melee",
     "name": "悲悯之刃",
     "heat": 76.7,
-    "image": "images/011228e7f85f097d554cbb16f6bc6c486c1228c1541da17e46d5fc1ccbced9c9.png",
+    "image": "variants/011228e7f85f097d554cbb16f6bc6c486c1228c1541da17e46d5fc1ccbced9c9-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2747,7 +2747,7 @@
     "weapon": "melee",
     "name": "堕天遗武 仪式匕首",
     "heat": 76.1,
-    "image": "images/02e350b9a11c40b430b38434c77a9b9927742f83bf3441ab0c809942c466141b.png",
+    "image": "variants/02e350b9a11c40b430b38434c77a9b9927742f83bf3441ab0c809942c466141b-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2771,7 +2771,7 @@
     "weapon": "melee",
     "name": "再见安打",
     "heat": 73,
-    "image": "images/5e3ef8b2ab095748ba16aa6f419e9e3c2d2815ce90e8c126e729bcfb1d25c4f0.png",
+    "image": "variants/5e3ef8b2ab095748ba16aa6f419e9e3c2d2815ce90e8c126e729bcfb1d25c4f0-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2795,7 +2795,7 @@
     "weapon": "melee",
     "name": "灵魂冲击 镰刃",
     "heat": 72.6,
-    "image": "images/ffa0097b13141a823b43d555e383fd93cf4b8014600fb28971ab36c4e226c49a.png",
+    "image": "variants/ffa0097b13141a823b43d555e383fd93cf4b8014600fb28971ab36c4e226c49a-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2819,7 +2819,7 @@
     "weapon": "melee",
     "name": "超时空卫队 三棱军刺",
     "heat": 71.3,
-    "image": "images/cacdc00453e74abd5eaa2b2342ae3658e0682a1080c8475147bd23031bb901e2.png",
+    "image": "variants/cacdc00453e74abd5eaa2b2342ae3658e0682a1080c8475147bd23031bb901e2-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2837,7 +2837,7 @@
     "weapon": "melee",
     "name": "金角扇",
     "heat": 70.6,
-    "image": "images/93f2630e565921683ef0bb41e65a4243076a16879fee3939aba8153feb163e58.png",
+    "image": "variants/93f2630e565921683ef0bb41e65a4243076a16879fee3939aba8153feb163e58-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2861,7 +2861,7 @@
     "weapon": "melee",
     "name": "荆刺链刃",
     "heat": 70.5,
-    "image": "images/b7a37a4f787bfe55a607d1313ff096a0edf8ce2d648761f2860792d330a063be.png",
+    "image": "variants/b7a37a4f787bfe55a607d1313ff096a0edf8ce2d648761f2860792d330a063be-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2879,7 +2879,7 @@
     "weapon": "melee",
     "name": "RGX 11z Pro//3.0 爪刀",
     "heat": 70.2,
-    "image": "images/2e6834b95b5abeae1d39faf69ff564afe5a941c1fb14dc190eb57fcaf57dfd7c.png",
+    "image": "variants/2e6834b95b5abeae1d39faf69ff564afe5a941c1fb14dc190eb57fcaf57dfd7c-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2897,7 +2897,7 @@
     "weapon": "melee",
     "name": "落英飞旋",
     "heat": 69.9,
-    "image": "images/90d071b8110f5ba5333f4ac226be2e68b7197a33507e1daece1c54503015b563.png",
+    "image": "variants/90d071b8110f5ba5333f4ac226be2e68b7197a33507e1daece1c54503015b563-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2915,7 +2915,7 @@
     "weapon": "melee",
     "name": "机动狂飙 战刀",
     "heat": 69.8,
-    "image": "images/18347c7584f28b0ae001ba7e1b6d8a3a617b53e16c55c9618ad4c8b41c4ff113.png",
+    "image": "variants/18347c7584f28b0ae001ba7e1b6d8a3a617b53e16c55c9618ad4c8b41c4ff113-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2939,7 +2939,7 @@
     "weapon": "odin",
     "name": "西部未来",
     "heat": 98.6,
-    "image": "images/56bc1d9536e5dc3c5346beca69aa4da9cf4173d1d679f3495c749117305fbe8b.png",
+    "image": "variants/56bc1d9536e5dc3c5346beca69aa4da9cf4173d1d679f3495c749117305fbe8b-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2963,7 +2963,7 @@
     "weapon": "odin",
     "name": "掠影//2.0",
     "heat": 96.1,
-    "image": "images/5c9031ad5e3fd86db8139a28e6a961232164e1d3dda20dec2f7ede9839529c63.png",
+    "image": "variants/5c9031ad5e3fd86db8139a28e6a961232164e1d3dda20dec2f7ede9839529c63-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -2987,7 +2987,7 @@
     "weapon": "odin",
     "name": "紫阙金琅//2.0",
     "heat": 88.1,
-    "image": "images/ae31a1c57d17b2232852b5720ec9c48bf6dbd0f30d7467cccde848e70697fee9.png",
+    "image": "variants/ae31a1c57d17b2232852b5720ec9c48bf6dbd0f30d7467cccde848e70697fee9-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3011,7 +3011,7 @@
     "weapon": "odin",
     "name": "全息波普",
     "heat": 81.5,
-    "image": "images/5f83d71c7d97539102784813980d59d42cf06f28f99b946a686b817af7347d23.png",
+    "image": "variants/5f83d71c7d97539102784813980d59d42cf06f28f99b946a686b817af7347d23-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3035,7 +3035,7 @@
     "weapon": "odin",
     "name": "砰砰X特攻队",
     "heat": 74.4,
-    "image": "images/2380241456ebdbfcb3bbb422a1de40fe01cf7726e3cd08be9b14b391e51d74f6.png",
+    "image": "variants/2380241456ebdbfcb3bbb422a1de40fe01cf7726e3cd08be9b14b391e51d74f6-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3059,7 +3059,7 @@
     "weapon": "odin",
     "name": "天界神兵2.0",
     "heat": 68.8,
-    "image": "images/4d40ed338bdb1352383efe45ec9ecaab1d9b8add1cf39d35c092a710442062b1.png",
+    "image": "variants/4d40ed338bdb1352383efe45ec9ecaab1d9b8add1cf39d35c092a710442062b1-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3083,7 +3083,7 @@
     "weapon": "odin",
     "name": "艾沃莉的梦之翼",
     "heat": 59.6,
-    "image": "images/79b0fdc7addaad75987eb1542bca0ae6aa6f3da0b2e5baab280b38e611fabf02.png",
+    "image": "variants/79b0fdc7addaad75987eb1542bca0ae6aa6f3da0b2e5baab280b38e611fabf02-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3101,7 +3101,7 @@
     "weapon": "odin",
     "name": "狼人猎手",
     "heat": 58.4,
-    "image": "images/bde65aaac844c6d4389ddf2a64538373e1ab84264f0c9f2f1f44d1450ecc396c.png",
+    "image": "variants/bde65aaac844c6d4389ddf2a64538373e1ab84264f0c9f2f1f44d1450ecc396c-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3120,7 +3120,7 @@
     "weapon": "odin",
     "name": "光明哨兵//2.0",
     "heat": 58,
-    "image": "images/2129bffe5e35daff18f259782456e9b668409731bb66293dbce3436801dcbdbd.png",
+    "image": "variants/2129bffe5e35daff18f259782456e9b668409731bb66293dbce3436801dcbdbd-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3144,7 +3144,7 @@
     "weapon": "odin",
     "name": "奥丁.EXE",
     "heat": 57,
-    "image": "images/53226f7fb247c2d23a54cc9503177f6fc397eca1be71660db4fad909ea5d93a1.png",
+    "image": "variants/53226f7fb247c2d23a54cc9503177f6fc397eca1be71660db4fad909ea5d93a1-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3163,7 +3163,7 @@
     "weapon": "odin",
     "name": "海洋之星//2.0",
     "heat": 54.4,
-    "image": "images/09cdd3259f86a59f3a3780cb356a5b80f107ca7c0a3c550d23c327f041c0dcbe.png",
+    "image": "variants/09cdd3259f86a59f3a3780cb356a5b80f107ca7c0a3c550d23c327f041c0dcbe-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3181,7 +3181,7 @@
     "weapon": "odin",
     "name": "战术小伙伴",
     "heat": 54,
-    "image": "images/b534998d07f4d387718818cda72e752670a59e2925b5473d03bfe068f41fa73f.png",
+    "image": "variants/b534998d07f4d387718818cda72e752670a59e2925b5473d03bfe068f41fa73f-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3200,7 +3200,7 @@
     "weapon": "operator",
     "name": "堕天遗武",
     "heat": 97.7,
-    "image": "images/ec751fbb8d1a56d7b1ce923feda7ec61bbe3257ded4921400a9a6db8fa899a53.png",
+    "image": "variants/ec751fbb8d1a56d7b1ce923feda7ec61bbe3257ded4921400a9a6db8fa899a53-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3224,7 +3224,7 @@
     "weapon": "operator",
     "name": "离子武器",
     "heat": 91.6,
-    "image": "images/b4a7a0dc04a2695905ab4e9babc426fd085592022579e5cc6f704225cc735ac1.png",
+    "image": "variants/b4a7a0dc04a2695905ab4e9babc426fd085592022579e5cc6f704225cc735ac1-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3248,7 +3248,7 @@
     "weapon": "operator",
     "name": "掠影",
     "heat": 90.3,
-    "image": "images/bb15c4733680dd60785047b872d02b71675b9a3466147dea60c720e57d1cee6b.png",
+    "image": "variants/bb15c4733680dd60785047b872d02b71675b9a3466147dea60c720e57d1cee6b-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3272,7 +3272,7 @@
     "weapon": "operator",
     "name": "归零者",
     "heat": 86.6,
-    "image": "images/8d2436a5f92ccdfebe62f10570d436d74354fdc17c17bed922784c166c5254bd.png",
+    "image": "variants/8d2436a5f92ccdfebe62f10570d436d74354fdc17c17bed922784c166c5254bd-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3296,7 +3296,7 @@
     "weapon": "operator",
     "name": "起源",
     "heat": 85.5,
-    "image": "images/8675f2ed6cb4392362b8e751d50e2caab1d070f56f8dad2952e66698bde44424.png",
+    "image": "variants/8675f2ed6cb4392362b8e751d50e2caab1d070f56f8dad2952e66698bde44424-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3320,7 +3320,7 @@
     "weapon": "operator",
     "name": "混沌序曲",
     "heat": 76.8,
-    "image": "images/c848411fb8ce5e0fae671ec0fcd4e60dfb76ba2c9bc029a299204f8bf55acbc9.png",
+    "image": "variants/c848411fb8ce5e0fae671ec0fcd4e60dfb76ba2c9bc029a299204f8bf55acbc9-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3344,7 +3344,7 @@
     "weapon": "operator",
     "name": "逆命中队",
     "heat": 74.2,
-    "image": "images/eddcb59249279f9ea21aa03f56f2d609a03042e62a38c62b4b0da023af8153ac.png",
+    "image": "variants/eddcb59249279f9ea21aa03f56f2d609a03042e62a38c62b4b0da023af8153ac-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3362,7 +3362,7 @@
     "weapon": "operator",
     "name": "千灵华绽",
     "heat": 73.6,
-    "image": "images/8b4940ab14316c70a91f8245499a2b3a5d25ac513a96dd0b090cb358a483b2ba.png",
+    "image": "variants/8b4940ab14316c70a91f8245499a2b3a5d25ac513a96dd0b090cb358a483b2ba-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3380,7 +3380,7 @@
     "weapon": "operator",
     "name": "光明哨兵",
     "heat": 73.4,
-    "image": "images/1cc82b2706f0cb2bb3218b8f5e2ed2c88774ad2f8337d93e008305a6123308e5.png",
+    "image": "variants/1cc82b2706f0cb2bb3218b8f5e2ed2c88774ad2f8337d93e008305a6123308e5-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3404,7 +3404,7 @@
     "weapon": "operator",
     "name": "光荣异象",
     "heat": 71.8,
-    "image": "images/e215bddc1b25130bc1d045ad8103a942828524c2973a18b14863e57e4bb3adb9.png",
+    "image": "variants/e215bddc1b25130bc1d045ad8103a942828524c2973a18b14863e57e4bb3adb9-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3422,7 +3422,7 @@
     "weapon": "operator",
     "name": "沙场老兵",
     "heat": 71.1,
-    "image": "images/6028fce1c57d61cec012e14f7f5afbcd734fe6cffe238e5286f7fb17bac17074.png",
+    "image": "variants/6028fce1c57d61cec012e14f7f5afbcd734fe6cffe238e5286f7fb17bac17074-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3446,7 +3446,7 @@
     "weapon": "operator",
     "name": "偃月苍龙",
     "heat": 69.9,
-    "image": "images/f20c4c172d0645799c2175bf6c3e3435e63624bf35f9ab5ab102e2cf939f7ccb.png",
+    "image": "variants/f20c4c172d0645799c2175bf6c3e3435e63624bf35f9ab5ab102e2cf939f7ccb-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3470,7 +3470,7 @@
     "weapon": "operator",
     "name": "全息波普//2.0",
     "heat": 66.3,
-    "image": "images/319ccbc811cf9af1390c071cd431e5f78fa9a26a9bc29f3ade8e37f1a389b2f2.png",
+    "image": "variants/319ccbc811cf9af1390c071cd431e5f78fa9a26a9bc29f3ade8e37f1a389b2f2-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3494,7 +3494,7 @@
     "weapon": "outlaw",
     "name": "RGX 11z Pro//3.0",
     "heat": 77.5,
-    "image": "images/bde07f5de1aff6eb68bfd63d46c09cde091425e00249376433bf877188f5ebcb.png",
+    "image": "variants/bde07f5de1aff6eb68bfd63d46c09cde091425e00249376433bf877188f5ebcb-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3512,7 +3512,7 @@
     "weapon": "outlaw",
     "name": "神中神罚",
     "heat": 72.5,
-    "image": "images/ea0b803a25e383b7220a8c6f17685c688120be1c7ab55fdf7291d225911ac7da.png",
+    "image": "variants/ea0b803a25e383b7220a8c6f17685c688120be1c7ab55fdf7291d225911ac7da-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3530,7 +3530,7 @@
     "weapon": "outlaw",
     "name": "异彩晶棱//回溯 莽侠",
     "heat": 67.5,
-    "image": "images/b90dca9f7fa41cd5bb4d5c798269db6341c0fa2ecc68732a1cd4426a18faf999.png",
+    "image": "variants/b90dca9f7fa41cd5bb4d5c798269db6341c0fa2ecc68732a1cd4426a18faf999-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3549,7 +3549,7 @@
     "weapon": "outlaw",
     "name": "千灵华绽//2.0",
     "heat": 66.8,
-    "image": "images/3b1f73469e5dc8aabd6f66414002ca3f05dab2b520d63117cb39948c0d3e081f.png",
+    "image": "variants/3b1f73469e5dc8aabd6f66414002ca3f05dab2b520d63117cb39948c0d3e081f-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3567,7 +3567,7 @@
     "weapon": "phantom",
     "name": "侦察力量",
     "heat": 99.3,
-    "image": "images/720899be6be0e102037a7bdce3513d96b2e91e712a516714a64dfa6a9855eee5.png",
+    "image": "variants/720899be6be0e102037a7bdce3513d96b2e91e712a516714a64dfa6a9855eee5-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3591,7 +3591,7 @@
     "weapon": "phantom",
     "name": "洪荒怒焰",
     "heat": 96.7,
-    "image": "images/29f9914f6a6e58fb74adda0f590b0dd3d2c3b0a0baa817bc469b12bcfd9effac.png",
+    "image": "variants/29f9914f6a6e58fb74adda0f590b0dd3d2c3b0a0baa817bc469b12bcfd9effac-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3615,7 +3615,7 @@
     "weapon": "phantom",
     "name": "2022全球冠军赛",
     "heat": 96.3,
-    "image": "images/03a1c7d4c959631c12a8bb768bc7f48274dbde646a4ba761c8702e50315f0641.png",
+    "image": "variants/03a1c7d4c959631c12a8bb768bc7f48274dbde646a4ba761c8702e50315f0641-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3639,7 +3639,7 @@
     "weapon": "phantom",
     "name": "般若假面",
     "heat": 95.1,
-    "image": "images/a65313188a1c0784e4ce0ed60d798e1e8afb85dfe8f951dd3551e7dfa847c708.png",
+    "image": "variants/a65313188a1c0784e4ce0ed60d798e1e8afb85dfe8f951dd3551e7dfa847c708-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3663,7 +3663,7 @@
     "weapon": "phantom",
     "name": "781-A协议",
     "heat": 89.6,
-    "image": "images/be6b05e6dc7f4720a6e7a29c33b95044a6c08c677795d29796f47d4cb6ada608.png",
+    "image": "variants/be6b05e6dc7f4720a6e7a29c33b95044a6c08c677795d29796f47d4cb6ada608-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3687,7 +3687,7 @@
     "weapon": "phantom",
     "name": "西部未来",
     "heat": 86.8,
-    "image": "images/8f5dcb0cc7ea5580a2fb997714c319abd4a25df484ab132df68b822f6afd4f11.png",
+    "image": "variants/8f5dcb0cc7ea5580a2fb997714c319abd4a25df484ab132df68b822f6afd4f11-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3711,7 +3711,7 @@
     "weapon": "phantom",
     "name": "砰砰X特攻队",
     "heat": 84.4,
-    "image": "images/9e8c32b9f4cc4265e76754c437f7d0535290002fa4b90213bbe45b86e2f369a0.png",
+    "image": "variants/9e8c32b9f4cc4265e76754c437f7d0535290002fa4b90213bbe45b86e2f369a0-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3735,7 +3735,7 @@
     "weapon": "phantom",
     "name": "破败军械",
     "heat": 82.2,
-    "image": "images/07e10836115d2e5901dba43174baab149ece612e576b6fbc23e9275d2f6bdb75.png",
+    "image": "variants/07e10836115d2e5901dba43174baab149ece612e576b6fbc23e9275d2f6bdb75-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3759,7 +3759,7 @@
     "weapon": "phantom",
     "name": "天界神兵2.0",
     "heat": 82.2,
-    "image": "images/3dfb875fcd421fe8cd33f12ffd403879fe11335f7f429aa781a77d1fccaeac26.png",
+    "image": "variants/3dfb875fcd421fe8cd33f12ffd403879fe11335f7f429aa781a77d1fccaeac26-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3783,7 +3783,7 @@
     "weapon": "phantom",
     "name": "离子武器",
     "heat": 81.4,
-    "image": "images/84e1fb586159588a1365d5a7a4a34bb34673768fbdd4df371512907a8119cb60.png",
+    "image": "variants/84e1fb586159588a1365d5a7a4a34bb34673768fbdd4df371512907a8119cb60-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3807,7 +3807,7 @@
     "weapon": "phantom",
     "name": "掠影//2.0",
     "heat": 80.8,
-    "image": "images/8255790a1b3b966373e6e4dcc912958e7b78899055d945cc71ccda1308f111d3.png",
+    "image": "variants/8255790a1b3b966373e6e4dcc912958e7b78899055d945cc71ccda1308f111d3-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3831,7 +3831,7 @@
     "weapon": "phantom",
     "name": "虚空遗器",
     "heat": 78.2,
-    "image": "images/52c1cadea7183cda1210c8b7ed65be7bcc0b9923383efe11d6c3242b43a83d45.png",
+    "image": "variants/52c1cadea7183cda1210c8b7ed65be7bcc0b9923383efe11d6c3242b43a83d45-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3855,7 +3855,7 @@
     "weapon": "phantom",
     "name": "源能者危机001",
     "heat": 75.3,
-    "image": "images/7fb05ccebfee1d85debce599f50796d4d949bca96ca21724a66ed85bdb3933b6.png",
+    "image": "variants/7fb05ccebfee1d85debce599f50796d4d949bca96ca21724a66ed85bdb3933b6-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3879,7 +3879,7 @@
     "weapon": "phantom",
     "name": "辐能娱乐系统",
     "heat": 74.4,
-    "image": "images/123bd6dcf7c3c5c916e91cfcac05c09fa46be2e4f9f12ad4a202ab5b2c8b89f9.png",
+    "image": "variants/123bd6dcf7c3c5c916e91cfcac05c09fa46be2e4f9f12ad4a202ab5b2c8b89f9-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3897,7 +3897,7 @@
     "weapon": "phantom",
     "name": "异鳞魔蛇",
     "heat": 72.7,
-    "image": "images/0c51ecdad107e70eeec535baa58cee230727e8ff9c4a3b33430c2ee6b4eb48d0.png",
+    "image": "variants/0c51ecdad107e70eeec535baa58cee230727e8ff9c4a3b33430c2ee6b4eb48d0-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3915,7 +3915,7 @@
     "weapon": "phantom",
     "name": "末日泡泡",
     "heat": 71.9,
-    "image": "images/fd30984a8424fddaad4cd2cf28da8de8913c0925c0ef0529abfee7a6e8570869.png",
+    "image": "variants/fd30984a8424fddaad4cd2cf28da8de8913c0925c0ef0529abfee7a6e8570869-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3933,7 +3933,7 @@
     "weapon": "sheriff",
     "name": "奇点",
     "heat": 98.7,
-    "image": "images/3f0b4eae1d5a0794d8b4335dfbb04add8617a1958b7ea11748d00e7ff4811224.png",
+    "image": "variants/3f0b4eae1d5a0794d8b4335dfbb04add8617a1958b7ea11748d00e7ff4811224-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3957,7 +3957,7 @@
     "weapon": "sheriff",
     "name": "离子武器",
     "heat": 95.1,
-    "image": "images/443cba67631424bba77edebbd354030ddd3556e5ac1e9775f3faf02ef9cd0be7.png",
+    "image": "variants/443cba67631424bba77edebbd354030ddd3556e5ac1e9775f3faf02ef9cd0be7-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -3981,7 +3981,7 @@
     "weapon": "sheriff",
     "name": "虚空遗器",
     "heat": 91.7,
-    "image": "images/f81611ca876954cbf729306d49333b9c294794be9869e220b8f18385314fe87d.png",
+    "image": "variants/f81611ca876954cbf729306d49333b9c294794be9869e220b8f18385314fe87d-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4005,7 +4005,7 @@
     "weapon": "sheriff",
     "name": "掠影",
     "heat": 89.4,
-    "image": "images/1541af29e11883a8a310cfabe8ed8187677fc34dab3136f8d84ce787c27e26b3.png",
+    "image": "variants/1541af29e11883a8a310cfabe8ed8187677fc34dab3136f8d84ce787c27e26b3-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4029,7 +4029,7 @@
     "weapon": "sheriff",
     "name": "西部未来",
     "heat": 88.8,
-    "image": "images/b9b517e6bf39d00243e8189f83053e402f71a524fcd817df6f75b9642234d3d0.png",
+    "image": "variants/b9b517e6bf39d00243e8189f83053e402f71a524fcd817df6f75b9642234d3d0-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4053,7 +4053,7 @@
     "weapon": "sheriff",
     "name": "奇幻朋克//2.0",
     "heat": 79.7,
-    "image": "images/a09bcd4ce7623081c8b5188fbad2b7a4c9879bf4895b64c4b64f667674ea9acd.png",
+    "image": "variants/a09bcd4ce7623081c8b5188fbad2b7a4c9879bf4895b64c4b64f667674ea9acd-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4077,7 +4077,7 @@
     "weapon": "sheriff",
     "name": "塑水宗",
     "heat": 79.5,
-    "image": "images/228ed7032fac1b790c4105613ffdd2123cd258d6bff1ed200c95eb79a019e8ed.png",
+    "image": "variants/228ed7032fac1b790c4105613ffdd2123cd258d6bff1ed200c95eb79a019e8ed-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4101,7 +4101,7 @@
     "weapon": "sheriff",
     "name": "781-A协议",
     "heat": 78.7,
-    "image": "images/9f827ff37cd4458552979c0a96cb39dd7070deea6593939efa6987850b0b076a.png",
+    "image": "variants/9f827ff37cd4458552979c0a96cb39dd7070deea6593939efa6987850b0b076a-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4125,7 +4125,7 @@
     "weapon": "sheriff",
     "name": "光明哨兵",
     "heat": 74.3,
-    "image": "images/49b983e36ca55df40b307bc1f73b12463b1ca131778278dcb3140300e7fbb0ce.png",
+    "image": "variants/49b983e36ca55df40b307bc1f73b12463b1ca131778278dcb3140300e7fbb0ce-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4149,7 +4149,7 @@
     "weapon": "sheriff",
     "name": "千灵华绽",
     "heat": 69.9,
-    "image": "images/11d53b4b9cef664c11deb0d1d9ec9e6f6a96e76cf2242939398ef7285a3747de.png",
+    "image": "variants/11d53b4b9cef664c11deb0d1d9ec9e6f6a96e76cf2242939398ef7285a3747de-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4167,7 +4167,7 @@
     "weapon": "sheriff",
     "name": "ORA x 颗秒",
     "heat": 68.2,
-    "image": "images/de40a39fad8a201404294858e212b013ec2600277f7db292df5a70832f21d303.png",
+    "image": "variants/de40a39fad8a201404294858e212b013ec2600277f7db292df5a70832f21d303-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4185,7 +4185,7 @@
     "weapon": "sheriff",
     "name": "机动狂飙",
     "heat": 66.7,
-    "image": "images/3c8d4d5f99834d45d583578cfb49d666196737ebd4a7b14bac61e97f278fd5a7.png",
+    "image": "variants/3c8d4d5f99834d45d583578cfb49d666196737ebd4a7b14bac61e97f278fd5a7-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4209,7 +4209,7 @@
     "weapon": "sheriff",
     "name": "双城之战",
     "heat": 65.8,
-    "image": "images/de857f5a1dea37f14293c1b4a4bd0c3b0944d4ce898ee47bc5fdaa78df631074.png",
+    "image": "variants/de857f5a1dea37f14293c1b4a4bd0c3b0944d4ce898ee47bc5fdaa78df631074-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4233,7 +4233,7 @@
     "weapon": "sheriff",
     "name": "RGX 11z Pro//3.0",
     "heat": 59.9,
-    "image": "images/505b88f4965c99b174255df25b74f5e679cb115980d31065bde8ccac0f434923.png",
+    "image": "variants/505b88f4965c99b174255df25b74f5e679cb115980d31065bde8ccac0f434923-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4251,7 +4251,7 @@
     "weapon": "shorty",
     "name": "归零者",
     "heat": 100,
-    "image": "images/74cebee5cc7d7fd3cca146fc71cd7578387709ef8f83aac67797fc65629b8f1a.png",
+    "image": "variants/74cebee5cc7d7fd3cca146fc71cd7578387709ef8f83aac67797fc65629b8f1a-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4275,7 +4275,7 @@
     "weapon": "shorty",
     "name": "混沌序曲",
     "heat": 89.1,
-    "image": "images/0697a23decce8e3ecc34fe02f306c230f937f6d30dbe62e57b590d32ce64037d.png",
+    "image": "variants/0697a23decce8e3ecc34fe02f306c230f937f6d30dbe62e57b590d32ce64037d-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4299,7 +4299,7 @@
     "weapon": "shorty",
     "name": "海洋之星",
     "heat": 77.5,
-    "image": "images/ca004fe50dbe26cb4cda9fc0688402efc8295a763ac07af54cbc0b8dbf90a369.png",
+    "image": "variants/ca004fe50dbe26cb4cda9fc0688402efc8295a763ac07af54cbc0b8dbf90a369-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4323,7 +4323,7 @@
     "weapon": "shorty",
     "name": "光明哨兵//2.0",
     "heat": 77.4,
-    "image": "images/283fbaefe913ded3d8513996a1a0f9dd77eb35e7a34636125e70bda54814e304.png",
+    "image": "variants/283fbaefe913ded3d8513996a1a0f9dd77eb35e7a34636125e70bda54814e304-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4347,7 +4347,7 @@
     "weapon": "spectre",
     "name": "光明哨兵//2.0",
     "heat": 94.5,
-    "image": "images/eafec362a67ba5e6733c6217389500592af720f8a84be17d7c913bc3f157bdea.png",
+    "image": "variants/eafec362a67ba5e6733c6217389500592af720f8a84be17d7c913bc3f157bdea-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4371,7 +4371,7 @@
     "weapon": "spectre",
     "name": "紫阙金琅",
     "heat": 93.3,
-    "image": "images/a3172ac1ba0683c74b3f398b5ffc5b798424b5e4a58c0fcab9f3670df201c60b.png",
+    "image": "variants/a3172ac1ba0683c74b3f398b5ffc5b798424b5e4a58c0fcab9f3670df201c60b-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4395,7 +4395,7 @@
     "weapon": "spectre",
     "name": "781-A协议",
     "heat": 92.8,
-    "image": "images/7960f91b01995a6c8c009fe0f772ef3816e28bb4bc84c5bced703402ac6d797b.png",
+    "image": "variants/7960f91b01995a6c8c009fe0f772ef3816e28bb4bc84c5bced703402ac6d797b-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4419,7 +4419,7 @@
     "weapon": "spectre",
     "name": "侦察力量",
     "heat": 91.4,
-    "image": "images/2c113721d60e8f5270177976e1cfebd0a9970a3736aef62dea1a66b77fd67015.png",
+    "image": "variants/2c113721d60e8f5270177976e1cfebd0a9970a3736aef62dea1a66b77fd67015-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4443,7 +4443,7 @@
     "weapon": "spectre",
     "name": "堕天遗武",
     "heat": 89.7,
-    "image": "images/f5633be6221367d115f3084ac00da9694fff115458d31e23a4ad4c1a478595a6.png",
+    "image": "variants/f5633be6221367d115f3084ac00da9694fff115458d31e23a4ad4c1a478595a6-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4467,7 +4467,7 @@
     "weapon": "spectre",
     "name": "掠影//2.0",
     "heat": 88.6,
-    "image": "images/92636110364eea53161c12e30f183dfb669fc74027234fbb52686c2b3b6a62bf.png",
+    "image": "variants/92636110364eea53161c12e30f183dfb669fc74027234fbb52686c2b3b6a62bf-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4491,7 +4491,7 @@
     "weapon": "spectre",
     "name": "破败军械",
     "heat": 86.3,
-    "image": "images/e69b8d40faf3e618915c1d5aa327bf29fda26246a83b267baa9d49b71df64562.png",
+    "image": "variants/e69b8d40faf3e618915c1d5aa327bf29fda26246a83b267baa9d49b71df64562-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4515,7 +4515,7 @@
     "weapon": "spectre",
     "name": "奇点",
     "heat": 85.2,
-    "image": "images/ddb8516da889ed97f02a185dbce93bc26b3c1fddf2ace1debfbe37a55ada51d7.png",
+    "image": "variants/ddb8516da889ed97f02a185dbce93bc26b3c1fddf2ace1debfbe37a55ada51d7-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4539,7 +4539,7 @@
     "weapon": "spectre",
     "name": "离子武器//2.0",
     "heat": 83,
-    "image": "images/b46399b7161db54d929c047c4e487b0de05b7300e8c53e7ce81afe90d234e185.png",
+    "image": "variants/b46399b7161db54d929c047c4e487b0de05b7300e8c53e7ce81afe90d234e185-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4563,7 +4563,7 @@
     "weapon": "spectre",
     "name": "砰砰X特攻队",
     "heat": 82.3,
-    "image": "images/e76756463ad77b05defb5a9f407f475e0bfa69df863756b0d13f24d0ceef2875.png",
+    "image": "variants/e76756463ad77b05defb5a9f407f475e0bfa69df863756b0d13f24d0ceef2875-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4587,7 +4587,7 @@
     "weapon": "spectre",
     "name": "塑水宗",
     "heat": 78,
-    "image": "images/da3c7d4dd7e5aba6e12def2f705c4395a4e3e573cc6f47d3141d7b1253fced91.png",
+    "image": "variants/da3c7d4dd7e5aba6e12def2f705c4395a4e3e573cc6f47d3141d7b1253fced91-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4611,7 +4611,7 @@
     "weapon": "spectre",
     "name": "源能者危机001",
     "heat": 74.1,
-    "image": "images/724b5e9b33124d01a0e705e0e378b44be7c52c4344efc642e3ae7142a40bec39.png",
+    "image": "variants/724b5e9b33124d01a0e705e0e378b44be7c52c4344efc642e3ae7142a40bec39-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4635,7 +4635,7 @@
     "weapon": "spectre",
     "name": "海洋之星",
     "heat": 73.7,
-    "image": "images/0350e659e8a5cc4b571339de7fedc728261fe6f8f9f7946a1e58d461b2f68207.png",
+    "image": "variants/0350e659e8a5cc4b571339de7fedc728261fe6f8f9f7946a1e58d461b2f68207-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4659,7 +4659,7 @@
     "weapon": "stinger",
     "name": "混沌序曲",
     "heat": 100,
-    "image": "images/cacda84b8f17e3e3fbd9c59ae771ac5137e3c229dea88e89b76b2874bffc19aa.png",
+    "image": "variants/cacda84b8f17e3e3fbd9c59ae771ac5137e3c229dea88e89b76b2874bffc19aa-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4683,7 +4683,7 @@
     "weapon": "stinger",
     "name": "天界神兵",
     "heat": 92.3,
-    "image": "images/a6ac95282ae898d090a238899df15c53515ff45c71120fc7c1901e99cf78e392.png",
+    "image": "variants/a6ac95282ae898d090a238899df15c53515ff45c71120fc7c1901e99cf78e392-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4707,7 +4707,7 @@
     "weapon": "stinger",
     "name": "机动狂飙",
     "heat": 85.6,
-    "image": "images/4516d62aef79c993ce501da265e3a83c64514504e13f663dbe57c4ea6f1c4e48.png",
+    "image": "variants/4516d62aef79c993ce501da265e3a83c64514504e13f663dbe57c4ea6f1c4e48-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4731,7 +4731,7 @@
     "weapon": "vandal",
     "name": "盖亚的复仇",
     "heat": 98.6,
-    "image": "images/6e24dc44c822f680e073eb0305b57b9945dfefcbbbdc9ccf796eeb05b09d6eb3.png",
+    "image": "variants/6e24dc44c822f680e073eb0305b57b9945dfefcbbbdc9ccf796eeb05b09d6eb3-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4755,7 +4755,7 @@
     "weapon": "vandal",
     "name": "混沌序曲",
     "heat": 98,
-    "image": "images/5e4c34c572ecd14f1ca7f3b8a88c72019811d56d1b76d5eb5cb00976d5ab4b21.png",
+    "image": "variants/5e4c34c572ecd14f1ca7f3b8a88c72019811d56d1b76d5eb5cb00976d5ab4b21-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4779,7 +4779,7 @@
     "weapon": "vandal",
     "name": "堕天遗武",
     "heat": 93.1,
-    "image": "images/f677180876df98207746dfc48b294d21bcc4e90bb413581cbf9f0329e4b37842.png",
+    "image": "variants/f677180876df98207746dfc48b294d21bcc4e90bb413581cbf9f0329e4b37842-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4803,7 +4803,7 @@
     "weapon": "vandal",
     "name": "洪荒怒焰",
     "heat": 92,
-    "image": "images/a79cdee24fd18ce1f9dc77c82cef9736206ceb67ebad4bb34e41fe6ecc0e6be7.png",
+    "image": "variants/a79cdee24fd18ce1f9dc77c82cef9736206ceb67ebad4bb34e41fe6ecc0e6be7-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4827,7 +4827,7 @@
     "weapon": "vandal",
     "name": "RGX 11z Pro",
     "heat": 91.8,
-    "image": "images/614a7b8808fd7c7f9d009a6758a7c300c04eaff2f99641b556b95612fea30430.png",
+    "image": "variants/614a7b8808fd7c7f9d009a6758a7c300c04eaff2f99641b556b95612fea30430-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4851,7 +4851,7 @@
     "weapon": "vandal",
     "name": "掠影",
     "heat": 90.5,
-    "image": "images/0e56b570b678325c84a213d462967207b002a042d9be0f6deb5d4da5be05af31.png",
+    "image": "variants/0e56b570b678325c84a213d462967207b002a042d9be0f6deb5d4da5be05af31-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4875,7 +4875,7 @@
     "weapon": "vandal",
     "name": "紫阙金琅",
     "heat": 88.7,
-    "image": "images/c7fbbeb51f0c0282bc062d0187d105023f0c32408693e86c4358991fc69544b9.png",
+    "image": "variants/c7fbbeb51f0c0282bc062d0187d105023f0c32408693e86c4358991fc69544b9-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4899,7 +4899,7 @@
     "weapon": "vandal",
     "name": "归零者",
     "heat": 87.6,
-    "image": "images/60aea4ed81db958849c59efb4e1bc8c2e44fe87bac24ab3b8e9310aad05efa85.png",
+    "image": "variants/60aea4ed81db958849c59efb4e1bc8c2e44fe87bac24ab3b8e9310aad05efa85-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4923,7 +4923,7 @@
     "weapon": "vandal",
     "name": "冰点凝冻",
     "heat": 85.4,
-    "image": "images/a3d9f96657e0cfeb3f4c82f8052035fd7ab396f5820830bdde220dff4b77e28f.png",
+    "image": "variants/a3d9f96657e0cfeb3f4c82f8052035fd7ab396f5820830bdde220dff4b77e28f-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4947,7 +4947,7 @@
     "weapon": "vandal",
     "name": "2021全球冠军赛",
     "heat": 84.5,
-    "image": "images/e82e84dde17b3cd8704ac34fc30f51966b7953c8e4035d0a24f6b3d236e6f78a.png",
+    "image": "variants/e82e84dde17b3cd8704ac34fc30f51966b7953c8e4035d0a24f6b3d236e6f78a-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4971,7 +4971,7 @@
     "weapon": "vandal",
     "name": "虚空遗器",
     "heat": 81.2,
-    "image": "images/afce454e2b7060890682161501752dba05c607bf803aa552cf79288a3e0cb177.png",
+    "image": "variants/afce454e2b7060890682161501752dba05c607bf803aa552cf79288a3e0cb177-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -4995,7 +4995,7 @@
     "weapon": "vandal",
     "name": "2023全球冠军赛",
     "heat": 79,
-    "image": "images/a05b040c204462ba1776ba82ab39099509c3709b402e3ea6da152cc9e95cd5af.png",
+    "image": "variants/a05b040c204462ba1776ba82ab39099509c3709b402e3ea6da152cc9e95cd5af-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -5019,7 +5019,7 @@
     "weapon": "vandal",
     "name": "离子武器//2.0",
     "heat": 78.3,
-    "image": "images/daaa5376c0ea3731e7d8bde05eb86cf8eb2f5949a1f80fe291baabd9d241988c.png",
+    "image": "variants/daaa5376c0ea3731e7d8bde05eb86cf8eb2f5949a1f80fe291baabd9d241988c-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -5043,7 +5043,7 @@
     "weapon": "vandal",
     "name": "逆命中队",
     "heat": 76.4,
-    "image": "images/3c821af86b8a474d15b2ae0f0e4c56e415dec9c16308f8de9aab663788ed0879.png",
+    "image": "variants/3c821af86b8a474d15b2ae0f0e4c56e415dec9c16308f8de9aab663788ed0879-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -5061,7 +5061,7 @@
     "weapon": "vandal",
     "name": "光荣异象",
     "heat": 74.7,
-    "image": "images/acad9a6728847f0347c1f782d8cec523e2b638f300aaa5f4ad955568785d7e99.png",
+    "image": "variants/acad9a6728847f0347c1f782d8cec523e2b638f300aaa5f4ad955568785d7e99-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -5079,7 +5079,7 @@
     "weapon": "vandal",
     "name": "光明哨兵",
     "heat": 74.6,
-    "image": "images/47540e71908a17817cf75d9f515071c4002d79d01741af866e8ad9b82f0c5c34.png",
+    "image": "variants/47540e71908a17817cf75d9f515071c4002d79d01741af866e8ad9b82f0c5c34-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -5103,7 +5103,7 @@
     "weapon": "vandal",
     "name": "海洋之星",
     "heat": 74.6,
-    "image": "images/0143e81c722f7c23c0612e7fc885e7ece4a4b6121aab226ab1463797e07d6de3.png",
+    "image": "variants/0143e81c722f7c23c0612e7fc885e7ece4a4b6121aab226ab1463797e07d6de3-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -5127,7 +5127,7 @@
     "weapon": "vandal",
     "name": "塑水宗",
     "heat": 72.9,
-    "image": "images/5db3a0a95e62d10db27a165e16431bdadbd9025029232d172df6f7f67a8b2d5e.png",
+    "image": "variants/5db3a0a95e62d10db27a165e16431bdadbd9025029232d172df6f7f67a8b2d5e-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -5151,7 +5151,7 @@
     "weapon": "vandal",
     "name": "偃月苍龙",
     "heat": 69.7,
-    "image": "images/ad83b249b400d50709844a8113276f89a6d7c83719b67b25a504bfb9023fb82f.png",
+    "image": "variants/ad83b249b400d50709844a8113276f89a6d7c83719b67b25a504bfb9023fb82f-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -5175,7 +5175,7 @@
     "weapon": "vandal",
     "name": "机动狂飙",
     "heat": 69,
-    "image": "images/dde7d3575666d1894cc2bd75d34fa77894d791c7d7afd78b386c5a9bc1d642ad.png",
+    "image": "variants/dde7d3575666d1894cc2bd75d34fa77894d791c7d7afd78b386c5a9bc1d642ad-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -5199,7 +5199,7 @@
     "weapon": "vandal",
     "name": "圣契命澜",
     "heat": 68.3,
-    "image": "images/1b0c9ea690bdfa38989bea1c9bfc5fd5ce1cb44a1bb13bb2eacc7842a53f68c5.png",
+    "image": "variants/1b0c9ea690bdfa38989bea1c9bfc5fd5ce1cb44a1bb13bb2eacc7842a53f68c5-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -5217,7 +5217,7 @@
     "weapon": "vandal",
     "name": "日冕雄师",
     "heat": 65.9,
-    "image": "images/b9a782dff82d1e2d530a7f589d281b7e1016423d281e26c2ce6aad401359ab7f.png",
+    "image": "variants/b9a782dff82d1e2d530a7f589d281b7e1016423d281e26c2ce6aad401359ab7f-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -5235,7 +5235,7 @@
     "weapon": "vandal",
     "name": "盖世英雄",
     "heat": 65.5,
-    "image": "images/a7e76a5dd19ebf27d2d02df4147e6143c276eedd67d8a0f32bc74a65ad893aba.png",
+    "image": "variants/a7e76a5dd19ebf27d2d02df4147e6143c276eedd67d8a0f32bc74a65ad893aba-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -5259,7 +5259,7 @@
     "weapon": "vandal",
     "name": "赤焰铁骥",
     "heat": 64.9,
-    "image": "images/5d5a440ee08e5c0dcf0a4f8f623121ad28fd0069ce0336a33b091fa05f0bf6dd.png",
+    "image": "variants/5d5a440ee08e5c0dcf0a4f8f623121ad28fd0069ce0336a33b091fa05f0bf6dd-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -5277,7 +5277,7 @@
     "weapon": "vandal",
     "name": "般若假面//2.0",
     "heat": 63.8,
-    "image": "images/e6329f0485c0ecf577d15bf809335fffd6f5b43ebbde40adb0869d813f16e1e9.png",
+    "image": "variants/e6329f0485c0ecf577d15bf809335fffd6f5b43ebbde40adb0869d813f16e1e9-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -5301,7 +5301,7 @@
     "weapon": "vandal",
     "name": "全息波普//2.0",
     "heat": 63.7,
-    "image": "images/c7e2c9a816e18fda38223bec4868e5ff978ae36f1bbeda5b92f388b3e0b550b6.png",
+    "image": "variants/c7e2c9a816e18fda38223bec4868e5ff978ae36f1bbeda5b92f388b3e0b550b6-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -5325,7 +5325,7 @@
     "weapon": "vandal",
     "name": "西部未来//2.0",
     "heat": 63.7,
-    "image": "images/eeef511bbe886088f44884c869cfd89d59fe9b0c30a4c277669f87a0a76fe5d6.png",
+    "image": "variants/eeef511bbe886088f44884c869cfd89d59fe9b0c30a4c277669f87a0a76fe5d6-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -5343,7 +5343,7 @@
     "weapon": "vandal",
     "name": "千灵华绽//2.0",
     "heat": 61.2,
-    "image": "images/294ced2ebb9cbcad8ef8da63f0f7833ce443e996dc03b562d676e476a14d32e7.png",
+    "image": "variants/294ced2ebb9cbcad8ef8da63f0f7833ce443e996dc03b562d676e476a14d32e7-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -5361,7 +5361,7 @@
     "weapon": "vandal",
     "name": "虫巢心智",
     "heat": 60.5,
-    "image": "images/61383f4e0084067a18a224c721a1769e56d9ba8b1bb4ad357820a9eb1debbfd5.png",
+    "image": "variants/61383f4e0084067a18a224c721a1769e56d9ba8b1bb4ad357820a9eb1debbfd5-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -5380,7 +5380,7 @@
     "weapon": "vandal",
     "name": "2025全球冠军赛",
     "heat": 60.1,
-    "image": "images/576b3e0481ca372d1bced60131271c853faac1b6011804f0f8830ee8c1735794.png",
+    "image": "variants/576b3e0481ca372d1bced60131271c853faac1b6011804f0f8830ee8c1735794-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -5398,7 +5398,7 @@
     "weapon": "vandal",
     "name": "奇幻朋克//3.0",
     "heat": 60.1,
-    "image": "images/640e4e80585b1d89aa454abe516a3720cf21bbfbe363b1823593213a3d288b1a.png",
+    "image": "variants/640e4e80585b1d89aa454abe516a3720cf21bbfbe363b1823593213a3d288b1a-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -5422,7 +5422,7 @@
     "weapon": "vandal",
     "name": "狼人猎手",
     "heat": 60,
-    "image": "images/67355d047b51f7f782178205528f622621ee16bb6513cab5e4e75fdab9c10b0a.png",
+    "image": "variants/67355d047b51f7f782178205528f622621ee16bb6513cab5e4e75fdab9c10b0a-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -5441,7 +5441,7 @@
     "weapon": "vandal",
     "name": "荆刺圣骸",
     "heat": 58.7,
-    "image": "images/c776b26e6bfaa6a8f79d1622e70f7a9e59d3641dad54eb83de46e21451415dcc.png",
+    "image": "variants/c776b26e6bfaa6a8f79d1622e70f7a9e59d3641dad54eb83de46e21451415dcc-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",
@@ -5459,7 +5459,7 @@
     "weapon": "vandal",
     "name": "上古龙炎",
     "heat": 58.5,
-    "image": "images/d94597866b1eb64b3796e019295a4b77de59d2b70872b096c76339ed1062413d.png",
+    "image": "variants/d94597866b1eb64b3796e019295a4b77de59d2b70872b096c76339ed1062413d-v2-skin.webp",
     "sources": {
       "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
       "capturedAt": "2026-09-13T17:30:52.040Z",

@@ -1,4 +1,4 @@
-import {node,lightbox} from './map.js';
+import {node} from './map.js';
 let catalogPromise,serial=0;
 const tiers={
  premium:{label:'紫色品质',light:'#9468d5',top:'#3b2854',bottom:'#17131f',border:'#b58be57a'},
@@ -29,9 +29,9 @@ export async function showNightWeapons(weapon='vandal'){
   const cards=document.createDocumentFragment();
   selected.items.forEach((s,i)=>{
    const tier=tiers[s.tier]||tiers.default;
-   const card=node('button',{type:'button',class:'agent-card skin-card night-weapon-card','data-tier':s.tier||'default','aria-label':'查看 '+s.name+'，'+tier.label,onclick:()=>lightbox(s.image,s.name)},[
+   const card=node('article',{class:'agent-card skin-card night-weapon-card','data-tier':s.tier||'default','aria-label':s.name+'，'+tier.label},[
     node('span',{class:'skin-orbit','aria-hidden':'true'}),
-    node('img',{src:s.image,alt:s.name,loading:i<6?'eager':'lazy',decoding:'async',draggable:'false',width:'560',height:'240'}),
+    node('img',{src:s.image,alt:s.name,loading:'eager',fetchpriority:i<4?'high':'low',decoding:'async',draggable:'false',width:'560',height:'240'}),
     node('span',{class:'agent-card-bottom'},[node('strong',{text:s.name})])
    ]);
    card.style.setProperty('--tier-light',tier.light);

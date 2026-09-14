@@ -145,6 +145,7 @@ async function page(viewing,prepare,override){
   const next=override||(viewing?'map-page':'home'),el=$(next);
   if(currentPage===next){el.inert=false;return;}
   const old=$(currentPage);old.inert=true;
+  if(document.documentElement.classList.contains('initial-deep-route')){old.hidden=true;el.hidden=false;currentPage=next;if(prepare)await prepare();old.inert=false;el.inert=false;return;}
   try{
    await motion(old,currentPage==='map-page'?[{opacity:1},{opacity:0}]:[{opacity:1,transform:'translateY(0)'},{opacity:0,transform:'translateY(-10px)'}],170);
    old.hidden=true;el.hidden=false;currentPage=next;
@@ -238,6 +239,7 @@ try{
   renderPersonal();
   await route();if(currentPage==='home'){enter($('hub-title'),450);[...document.querySelectorAll('.menu-section')].forEach((el,i)=>enter(el,500,60+i*65));}
 }catch(e){$('load-error').hidden=false;$('load-error').textContent='点位内容暂时无法加载，请重新加载。';$('reload-data').hidden=false;$('enter-map').disabled=true;}
+document.documentElement.classList.remove('initial-deep-route');
 
 const finePointer=matchMedia('(hover:hover) and (pointer:fine)');
 for(const card of document.querySelectorAll('.agent-card')){
