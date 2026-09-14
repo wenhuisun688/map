@@ -1,0 +1,48 @@
+/* 设置&关于网站：沿用站内面板配方（#14171d 底、#ffffff0c 描边、20px 圆角、guide-item 行） */
+.settings-hub{max-width:760px}
+.about-block{-webkit-user-select:text;user-select:text}
+
+/* 右上角百宝箱按钮：金色胶囊，柔光内衬。 */
+.treasure-btn{padding:10px 20px 10px 16px;gap:9px;color:#e8d5a8;border:1px solid #e5bb5e24;border-radius:999px;background:linear-gradient(150deg,#2c2618 0%,#1c1a24 60%,#191720 100%);box-shadow:inset 0 1px 0 #ffffff10,0 6px 18px #0000003a;transition:background .3s,border-color .3s,color .3s,box-shadow .35s,transform .2s var(--ease)}
+.treasure-btn svg{width:19px;height:19px;flex-shrink:0;transition:transform .45s cubic-bezier(.22,1,.36,1)}
+.treasure-btn:hover{background:linear-gradient(150deg,#38301c 0%,#232030 60%,#1e1c28 100%);border-color:#e5bb5e4d;color:#f5e6bf;box-shadow:inset 0 1px 0 #ffffff1a,0 10px 26px #0000004d,0 0 22px #e5bb5e14}
+.treasure-btn:hover svg{transform:translateY(-2px) rotate(-6deg)}
+.treasure-btn:active{transform:scale(.97)}
+.treasure-btn:focus-visible{outline:2px solid #e5bb5e;outline-offset:3px}
+#settings-page .home-actions{display:flex;align-items:center;gap:16px}
+.settings-section{margin-top:26px;padding:10px 10px 12px;background:linear-gradient(170deg,#181b22,#131519 70%);border:1px solid #ffffff0d;border-radius:26px;box-shadow:inset 0 1px 0 #ffffff0a,0 18px 44px #00000030}
+.settings-section>h2{font-size:20px;font-weight:550;margin:18px 22px 12px;color:#eef0f4}
+.setting-row{display:flex;align-items:center;justify-content:space-between;gap:24px;margin:0 6px 6px;padding:16px 18px;border:1px solid transparent;border-radius:18px;background:transparent;transition:background .25s,border-color .25s}
+.setting-row:hover{background:#ffffff06;border-color:#ffffff0d}
+.setting-row>div{min-width:0}
+.setting-row strong{display:block;font-size:16px;font-weight:500;color:#e6e9ef}
+.setting-row p{margin:5px 0 0;font-size:14px;line-height:1.7;color:#98a1b0}
+.setting-toggle{position:relative;flex-shrink:0;width:52px;height:30px;padding:0;border:1px solid #ffffff14;border-radius:999px;background:#ffffff0a;cursor:pointer;transition:background .3s,border-color .3s,box-shadow .3s}
+.setting-toggle:hover{border-color:#ffffff24}
+.setting-toggle span{position:absolute;left:3px;top:50%;width:22px;height:22px;border-radius:50%;background:#79828f;transform:translateY(-50%);box-shadow:0 2px 6px #00000047;transition:transform .32s cubic-bezier(.22,1,.36,1),background .3s}
+.setting-toggle.on{background:linear-gradient(140deg,#f05a6940,#ff465530);border-color:#ff566659;box-shadow:inset 0 1px 0 #ffffff12,0 0 16px #ff46551f}
+.setting-toggle.on span{transform:translate(22px,-50%);background:linear-gradient(160deg,#ff97a1,#ff6b78);box-shadow:0 2px 8px #ff46554d}
+.setting-toggle:active span{width:25px}
+.setting-toggle.on:active span{transform:translate(18px,-50%)}
+.setting-toggle:focus-visible{outline:2px solid #ff929c;outline-offset:4px}
+.settings-section .quiet.danger{border:1px solid #ff56663d;color:#ff9199;background:#ff56660d;padding:9px 22px;border-radius:999px;font-size:14px;white-space:nowrap;flex-shrink:0;transition:background .25s,border-color .25s,box-shadow .3s}
+.settings-section .quiet.danger:hover{background:#ff56661f;border-color:#ff566666;box-shadow:0 0 16px #ff465514}
+.about-block{padding:2px 20px 16px}
+.about-block p{margin:0 0 13px;font-size:15px;line-height:1.9;color:#aeb6c4}
+.about-block p:last-child{margin-bottom:0}
+.about-block strong{color:#d7dce5;font-weight:550}
+.about-block a{color:#95c0e3;text-decoration:none;border-bottom:1px solid #95c0e340}
+.about-block a:hover{color:#bcdcf5;border-bottom-color:#bcdcf580}
+.about-version{font-size:13px;color:#79828f;letter-spacing:.4px;margin-top:18px!important;font-variant-numeric:tabular-nums}
+@media(max-width:640px){.settings-section>h2{font-size:18px;margin:14px 14px 8px}.setting-row{align-items:flex-start;flex-direction:column;gap:12px;padding:14px}.setting-toggle{align-self:flex-end}}
+
+/* 百宝箱：全屏嵌入音乐地形。 */
+#treasure-page{height:100dvh;display:flex;flex-direction:column;background:#0b0d11}
+.treasure-shell{flex:1;display:flex;flex-direction:column;min-height:0}
+.treasure-bar{display:flex;align-items:center;gap:18px;padding:12px 22px;border-bottom:1px solid #ffffff0a;background:#101217}
+.treasure-bar strong{font-size:15px;font-weight:550;letter-spacing:.5px;color:#dfe3ea}
+.treasure-bar .agent-back{font-size:14px}
+.treasure-fullscreen{margin-left:auto;font-size:13px;color:#9aa3b2;text-decoration:none;border:1px solid #ffffff14;border-radius:999px;padding:7px 16px;transition:color .25s,border-color .25s,background .25s}
+.treasure-fullscreen:hover{color:#fff;border-color:#ffffff2e;background:#ffffff0a}
+#treasure-frame{flex:1;width:100%;border:0;min-height:0;background:#0b0d11}
+@media(max-width:640px){.treasure-bar{padding:10px 14px;gap:12px}.treasure-bar strong{display:none}}

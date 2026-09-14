@@ -1,0 +1,42 @@
+#crosshair-page .home-container{max-width:1200px}
+.ch-section{margin-bottom:40px}.ch-section:last-child{margin-bottom:0}
+.ch-section-title{font-size:20px;font-weight:700;margin:0 0 18px 0;color:#e8eaef;padding-bottom:10px;border-bottom:2px solid #ff465566;display:inline-block;letter-spacing:1px}
+.crosshair-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px 18px;perspective:1200px}
+.crosshair-card.agent-card{width:100%;height:auto;aspect-ratio:1.66;border:1px solid #ffffff18;border-radius:20px;cursor:pointer;position:relative;overflow:hidden;isolation:isolate;box-shadow:0 16px 36px #0003;transition:transform .18s ease-out,border-color .35s ease,box-shadow .45s cubic-bezier(.22,1,.36,1)}
+.crosshair-card.agent-card:hover{clip-path:none;border-color:#ff778044;box-shadow:0 22px 46px #0006,0 0 0 1px #ff465514}
+.crosshair-card.agent-card::before{inset:0;z-index:-2;border:0;border-radius:20px;opacity:1;background:radial-gradient(120% 120% at var(--light-x,35%) var(--light-y,35%),#654452 0%,#292332 34%,#12151d 78%);transition:filter .45s cubic-bezier(.22,1,.36,1)}
+.crosshair-card.agent-card:hover::before{filter:brightness(1.17) saturate(1.08)}
+.crosshair-card.agent-card::after{content:'';position:absolute;inset:0;z-index:1;pointer-events:none;border-radius:20px;background:linear-gradient(90deg,#0c0e15b8 0%,transparent 48%),linear-gradient(0deg,#090b11d9 0%,transparent 58%);opacity:.72;transition:opacity .45s cubic-bezier(.22,1,.36,1)}
+.crosshair-card.agent-card:hover::after{opacity:.46}
+.crosshair-name{position:absolute;top:15px;left:16px;right:12px;font-size:20px;line-height:1.25;z-index:6;letter-spacing:0;text-shadow:0 2px 12px #000;overflow-wrap:anywhere;transition:transform .42s cubic-bezier(.22,1,.36,1),color .3s}.crosshair-card:hover .crosshair-name{transform:translateY(-1px);color:#fff}
+.crosshair-card.agent-card>img.player-portrait{position:absolute;z-index:2;width:46%;height:auto;max-height:58%;left:73%;top:52%;transform:translate(-50%,-50%);object-fit:contain;border-radius:0;filter:drop-shadow(0 6px 16px #0008);transition:transform .6s cubic-bezier(.16,1,.3,1),filter .5s cubic-bezier(.22,1,.36,1);will-change:transform,filter}
+.crosshair-card.agent-card:hover>img.player-portrait,.crosshair-card.agent-card:focus-visible>img.player-portrait{transform:translate(-50%,-50%) scale(1.05);filter:drop-shadow(0 10px 22px #000a)}
+.crosshair-preview-wrap{position:absolute;left:29%;top:59%;transform:translate(-50%,-50%);width:32%;aspect-ratio:1;z-index:5;display:grid;place-items:center;overflow:hidden;border-radius:15px;border:1px solid #ffffff16;background:#0d111977;box-shadow:0 10px 24px #0004;transition:transform .48s cubic-bezier(.16,1,.3,1),border-color .35s,box-shadow .4s}
+.crosshair-card:is(:hover,:focus-visible) .crosshair-preview-wrap{transform:translate(-50%,-50%) scale(1.07);border-color:#ff7a8544;box-shadow:0 13px 30px #0006,0 0 22px #ff465514}
+.crosshair-preview-wrap>img{display:block;width:100%;height:100%;object-fit:contain;object-position:center;image-rendering:pixelated;transform:translateZ(0);transition:transform .45s cubic-bezier(.16,1,.3,1),filter .4s}.crosshair-card:is(:hover,:focus-visible) .crosshair-preview-wrap>img{transform:scale(1.035);filter:brightness(1.08)}
+.crosshair-unverified{font-size:14px;color:#99a1b2}.player-monogram{position:absolute;z-index:0;left:76%;top:55%;transform:translate(-50%,-50%);font-size:54px;font-weight:700;color:#bb8495;opacity:.46;transition:opacity .4s,transform .55s cubic-bezier(.16,1,.3,1)}.crosshair-card:hover .player-monogram{opacity:.82;transform:translate(-50%,-50%) scale(1.1)}
+.crosshair-status{min-height:24px;color:#d1d8e2;margin-top:24px;font-size:15px}.crosshair-code{display:block;width:100%;margin-top:12px;padding:12px;color:white;background:#171b24;border:1px solid #ffffff30;border-radius:10px}
+.ch-toast{position:fixed;top:24px;left:50%;transform:translateX(-50%) translateY(-120%);z-index:99999;padding:14px 36px;border-radius:14px;font-size:18px;background:#1a8a5c;color:#fff;box-shadow:0 6px 24px #00000080;opacity:0;transition:opacity .3s,transform .3s cubic-bezier(.22,1,.36,1);pointer-events:none}.ch-toast-visible{opacity:1;transform:translateX(-50%) translateY(0)}
+@media(max-width:1050px){.crosshair-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.crosshair-name{font-size:19px}}
+@media(max-width:760px){.crosshair-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.crosshair-grid{grid-template-columns:1fr;max-width:340px;margin:auto;gap:20px}.crosshair-name{font-size:21px}.crosshair-card.agent-card{aspect-ratio:1.74}.crosshair-preview-wrap{width:31%}.crosshair-card.agent-card>img.player-portrait{width:48%;left:72%}}
+@media(hover:hover) and (pointer:fine){.crosshair-card.agent-card.is-pro:hover{z-index:20}}
+@media(prefers-reduced-motion:reduce){.player-monogram{transition:none}.crosshair-card:hover .player-monogram{transform:translate(-50%,-50%)}.crosshair-card.agent-card>img,.crosshair-card.agent-card::before,.crosshair-card.agent-card::after{transition:none}.crosshair-card.agent-card:hover>img{transform:translate(-50%,-50%)}}
+
+/* 常用准星：竖版黄金比例卡，高度=职业卡宽度，名称在上、预览居中。 */
+.crosshair-mini-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px 18px;perspective:1200px}
+.crosshair-card.crosshair-mini{width:61.8%;justify-self:start;aspect-ratio:1/1.45;border:1px solid #ffffff18;border-radius:20px;cursor:pointer;position:relative;overflow:hidden;isolation:isolate;box-shadow:0 16px 36px #0003;transition:transform .18s ease-out,border-color .35s ease,box-shadow .45s cubic-bezier(.22,1,.36,1);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0;padding:0}
+.crosshair-card.crosshair-mini:hover{border-color:#ff778044;box-shadow:0 22px 46px #0006,0 0 0 1px #ff465514}
+.crosshair-card.crosshair-mini::before{content:'';position:absolute;inset:0;z-index:-2;border-radius:20px;opacity:1;background:radial-gradient(120% 120% at var(--light-x,35%) var(--light-y,30%),#654452 0%,#292332 34%,#12151d 78%);transition:filter .45s cubic-bezier(.22,1,.36,1)}
+.crosshair-card.crosshair-mini:hover::before{filter:brightness(1.17) saturate(1.08)}
+.crosshair-card.crosshair-mini::after{content:'';position:absolute;inset:0;z-index:1;pointer-events:none;border-radius:20px;background:linear-gradient(0deg,#090b11d9 0%,transparent 58%);opacity:.72;transition:opacity .45s cubic-bezier(.22,1,.36,1)}
+.crosshair-card.crosshair-mini:hover::after{opacity:.46}
+.crosshair-mini .mini-preview{position:absolute;width:84%;left:8%;bottom:4.94%;aspect-ratio:1;display:grid;place-items:center;overflow:hidden;border-radius:15px;border:1px solid #ffffff16;background:#0d111977;box-shadow:0 10px 24px #0004;transition:transform .48s cubic-bezier(.16,1,.3,1),border-color .35s,box-shadow .4s}
+.crosshair-mini:is(:hover,:focus-visible) .mini-preview{transform:scale(1.07);border-color:#ff7a8544;box-shadow:0 13px 30px #0006,0 0 22px #ff465514}
+.crosshair-mini .mini-preview>img{display:block;width:100%;height:100%;object-fit:contain;object-position:center;image-rendering:pixelated;transition:transform .45s cubic-bezier(.16,1,.3,1),filter .4s}
+.crosshair-mini:is(:hover,:focus-visible) .mini-preview>img{transform:scale(1.035);filter:brightness(1.08)}
+.crosshair-mini .mini-name{position:absolute;top:20px;left:10px;right:10px;font-size:24px;line-height:1.25;font-weight:700;z-index:6;letter-spacing:0;color:#e8eaef;text-shadow:0 2px 12px #000;overflow-wrap:anywhere;text-align:center;transition:transform .42s cubic-bezier(.22,1,.36,1),color .3s}
+.crosshair-mini:hover .mini-name{transform:translateY(-1px);color:#fff}
+@media(max-width:1050px){.crosshair-mini-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:760px){.crosshair-mini-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.crosshair-mini-grid{grid-template-columns:1fr;max-width:340px;margin:auto;gap:20px}.crosshair-mini .mini-name{font-size:21px}}

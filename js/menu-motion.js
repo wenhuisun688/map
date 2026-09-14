@@ -1,4 +1,4 @@
-const home = document.getElementById('home');
+function setupSprayMenu(home) {
 const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
 const touchMenu = matchMedia('(hover: none), (pointer: coarse)');
 for (const card of home.querySelectorAll('.menu-spray')) {
@@ -10,7 +10,7 @@ for (const card of home.querySelectorAll('.menu-spray')) {
     try { await animation.decode(); ready = true; update(); } catch { /* Keep the static cover if loading fails. */ }
   })();
   const update = () => {
-    const playing = !touchMenu.matches && !reduceMotion.matches && !document.hidden && !home.hidden && (hovering || card.matches(':focus-visible'));
+    const playing = !touchMenu.matches && !reduceMotion.matches && !document.hidden && !home.hidden && !document.documentElement.classList.contains('no-card-motion') && (hovering || card.matches(':focus-visible'));
     if (playing && !ready) prepare();
     const source = playing && ready ? image.dataset.motion : image.dataset.still;
     if (image.getAttribute('src') !== source) image.src = source;
@@ -30,7 +30,7 @@ for (const card of home.querySelectorAll('.menu-spray')) {
 // Static sprite strips let us play exactly one cycle using the source frame delays.
 const cards = [...home.querySelectorAll('.menu-spray')];
 let strips, generation = 0, activeAnimation, activeCard;
-const canSequence = () => touchMenu.matches && !reduceMotion.matches && !document.hidden && !home.hidden && !home.inert && (!location.hash || location.hash === '#');
+const canSequence = () => touchMenu.matches && !reduceMotion.matches && !document.hidden && !home.hidden && !home.inert ;
 function loadStrips() {
   return strips ||= Promise.all(cards.map(async card => {
     const image = card.querySelector('.spray-art'), strip = new Image();
@@ -75,3 +75,6 @@ window.addEventListener('hashchange', sequence);
 touchMenu.addEventListener('change', sequence);
 reduceMotion.addEventListener('change', sequence);
 sequence();
+
+}
+for (const id of ['home','night-page']) setupSprayMenu(document.getElementById(id));

@@ -1,0 +1,5476 @@
+[
+  {
+    "id": "aba7f841-4a79-469e-a017-1b18753ee097",
+    "weapon": "ares",
+    "name": "奇点",
+    "heat": 100,
+    "image": "images/7b39674542b9e211d32ff80234ca1ef33133e43b3a1206891b5c1a69be48aefc.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3264,
+        "score": 9.24,
+        "scoreCount": 1767,
+        "rank": 1
+      },
+      "skinranks": {
+        "elo": 1836.7,
+        "votes": 27534,
+        "bestVariantRank": 1,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:21:26.252Z"
+      }
+    }
+  },
+  {
+    "id": "99cf0a17-872f-4ed0-a435-e72b5293ef12",
+    "weapon": "ares",
+    "name": "离子武器//2.0",
+    "heat": 89.5,
+    "image": "images/62eb8ad391612694e0cf215c1655f0c02857ed157ef9f93229a59ae38928bccd.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3287,
+        "score": 8.51,
+        "scoreCount": 834,
+        "rank": 4
+      },
+      "skinranks": {
+        "elo": 1751.8,
+        "votes": 27494,
+        "bestVariantRank": 2,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:21:26.252Z"
+      }
+    }
+  },
+  {
+    "id": "skin-ares-cd4e21b69ce7dce840cb24d9",
+    "weapon": "ares",
+    "name": "沙场老兵",
+    "heat": 86.1,
+    "image": "images/48e3f4242bdcfd4ed75c0371174959cf110a9de27ee045d72214a0d8a5ae91f8.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3344,
+        "score": 8.52,
+        "scoreCount": 492,
+        "rank": 3
+      },
+      "skinranks": {
+        "elo": 1560,
+        "votes": 6777,
+        "bestVariantRank": 29,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:21:26.252Z"
+      }
+    }
+  },
+  {
+    "id": "d2a03b75-ff14-4b01-9884-63acc14c8567",
+    "weapon": "ares",
+    "name": "光明哨兵",
+    "heat": 85,
+    "image": "images/79e7df5843fb064a8c4d2b2a4886cd377daac98dc00b239d4f1a99426da15688.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3288,
+        "score": 8.09,
+        "scoreCount": 336,
+        "rank": 6
+      },
+      "skinranks": {
+        "elo": 1791,
+        "votes": 27438,
+        "bestVariantRank": 5,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:21:26.252Z"
+      }
+    }
+  },
+  {
+    "id": "16c5bbad-13ee-4a0d-b65f-a46ca5a9db05",
+    "weapon": "ares",
+    "name": "盖世英雄",
+    "heat": 74.9,
+    "image": "images/1c755d8c0d90129972a306d93deea301aa2a3e4790911c8a9ac589b972f395fb.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3926,
+        "score": 6.61,
+        "scoreCount": 393,
+        "rank": 9
+      },
+      "skinranks": {
+        "elo": 1637.9,
+        "votes": 16471,
+        "bestVariantRank": 9,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:21:26.252Z"
+      }
+    }
+  },
+  {
+    "id": "2e5ec674-b04c-49f5-a38e-4fc5d4dcc0fb",
+    "weapon": "ares",
+    "name": "暗域界碑",
+    "heat": 74.2,
+    "image": "images/1340d394821730687b84bd7aaa9a4eb8015f3f225b1205667c53d3fec5f1e0fa.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 10398,
+        "score": 8.62,
+        "scoreCount": 429,
+        "rank": 2
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "564623f4-05d1-45b5-af29-47cbb583fca0",
+    "weapon": "ares",
+    "name": "般若假面//2.0",
+    "heat": 73.5,
+    "image": "images/36206207a9dcd60c2befdb693559f7c8d30be0903cc69c62a8415ae188b978d0.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3780,
+        "score": 6.55,
+        "scoreCount": 285,
+        "rank": 10
+      },
+      "skinranks": {
+        "elo": 1667.2,
+        "votes": 27327,
+        "bestVariantRank": 14,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:21:26.252Z"
+      }
+    }
+  },
+  {
+    "id": "skin-ares-ffc9d6e937e9eb5c4b93f605",
+    "weapon": "ares",
+    "name": "星航勇进",
+    "heat": 72.5,
+    "image": "images/ca3fbb101aa6a05166831d6c8018f5c22abeabe87bc77f2f361e221312bd4cac.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3331,
+        "score": 6.7,
+        "scoreCount": 171,
+        "rank": 8
+      },
+      "skinranks": {
+        "elo": 1528,
+        "votes": 6695,
+        "bestVariantRank": 31,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:21:26.252Z"
+      }
+    }
+  },
+  {
+    "id": "a862a3fa-829d-4191-ada3-2e0620832240",
+    "weapon": "ares",
+    "name": "奇幻朋克//2.0",
+    "heat": 68.5,
+    "image": "images/843344e82fe837cae415790b836c44ed7dffc9ea00fe5831df2f0690ce8f8632.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3395,
+        "score": 6.34,
+        "scoreCount": 105,
+        "rank": 11
+      },
+      "skinranks": {
+        "elo": 1633.8,
+        "votes": 27413,
+        "bestVariantRank": 19,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:21:26.252Z"
+      }
+    }
+  },
+  {
+    "id": "skin-ares-eb54e16ca8443d2829207d17",
+    "weapon": "ares",
+    "name": "千灵华绽//2.0",
+    "heat": 67,
+    "image": "images/66688b2d7e19c33249a4c2641da149313c5a038866607a2e222dc37d8f3a973f.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 9658,
+        "score": 8.12,
+        "scoreCount": 465,
+        "rank": 5
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-ares-ba272e43d20d3b0ade22d90a",
+    "weapon": "ares",
+    "name": "盖亚的复仇//2.0",
+    "heat": 66.3,
+    "image": "images/24f1b5212f916dca5a521aad5ac289cdb7aec9abb0c9318356701f33db232982.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": null,
+      "skinranks": {
+        "elo": 1794.5,
+        "votes": 16661,
+        "bestVariantRank": 4,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:21:26.252Z"
+      }
+    }
+  },
+  {
+    "id": "e2bde10d-ce32-4ac0-aa19-55c56def1ecd",
+    "weapon": "bucky",
+    "name": "紫阙金琅//2.0",
+    "heat": 98.6,
+    "image": "images/870006fd1a8ecb4321a41dab26c585252aca076405ed3af91c106992773912de.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3280,
+        "score": 9.13,
+        "scoreCount": 783,
+        "rank": 1
+      },
+      "skinranks": {
+        "elo": 1756,
+        "votes": 31041,
+        "bestVariantRank": 2,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:28:48.785Z"
+      }
+    }
+  },
+  {
+    "id": "435e5a40-432d-43b9-af96-f40e50293637",
+    "weapon": "bucky",
+    "name": "起源",
+    "heat": 90.2,
+    "image": "images/6b94f6258ca93cbe6da156c1acd3b2ef6a9fa5b0932a1c00b35cfa59b0c19bd9.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3305,
+        "score": 9.04,
+        "scoreCount": 1158,
+        "rank": 2
+      },
+      "skinranks": {
+        "elo": 1587.9,
+        "votes": 30874,
+        "bestVariantRank": 19,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:28:48.785Z"
+      }
+    }
+  },
+  {
+    "id": "6a821485-73a0-4324-bf4d-ee99d1eb4b6d",
+    "weapon": "bucky",
+    "name": "离子武器",
+    "heat": 89.5,
+    "image": "images/8b71f05da9fb716d399b9682da7d0b64e59671c1b9e0cb6fe88763ce45c2e30c.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3273,
+        "score": 8.27,
+        "scoreCount": 429,
+        "rank": 4
+      },
+      "skinranks": {
+        "elo": 1823,
+        "votes": 7830,
+        "bestVariantRank": 1,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:28:48.785Z"
+      }
+    }
+  },
+  {
+    "id": "skin-bucky-0c0780ea44856168037b41c9",
+    "weapon": "bucky",
+    "name": "源能者危机001",
+    "heat": 83.3,
+    "image": "images/4c65188f27356070fd7a8263953c8849d843e31521fb5faf3adeef914783763a.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3306,
+        "score": 8.28,
+        "scoreCount": 327,
+        "rank": 3
+      },
+      "skinranks": {
+        "elo": 1526,
+        "votes": 7820,
+        "bestVariantRank": 29,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:28:48.785Z"
+      }
+    }
+  },
+  {
+    "id": "89a8505e-f76e-4ead-8a82-50b029f6c175",
+    "weapon": "bucky",
+    "name": "机动狂飙",
+    "heat": 81.3,
+    "image": "images/ad5754a3b19f93fea3a1853454db0c43dec151b5d9da09dfad46acb3af239e97.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 5524,
+        "score": 8.07,
+        "scoreCount": 519,
+        "rank": 5
+      },
+      "skinranks": {
+        "elo": 1614.7,
+        "votes": 18534,
+        "bestVariantRank": 14,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:28:48.785Z"
+      }
+    }
+  },
+  {
+    "id": "skin-bucky-b665eb0cfe81256d02588f99",
+    "weapon": "bucky",
+    "name": "盖亚的复仇//2.0",
+    "heat": 65,
+    "image": "images/86ad7535c73bf58b43de38b3a49ebac4b37f25ab82ec697eca058b8db1847329.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": null,
+      "skinranks": {
+        "elo": 1750.4,
+        "votes": 18440,
+        "bestVariantRank": 3,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:28:48.785Z"
+      }
+    }
+  },
+  {
+    "id": "2240efbb-c72f-4955-939c-42e5137e4a39",
+    "weapon": "bucky",
+    "name": "奇幻朋克",
+    "heat": 62.9,
+    "image": "images/3059dac76844122dd0ae7ec018577d1a8d72547cd5860eaa708cd0c2c2461a78.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3377,
+        "score": 6.35,
+        "scoreCount": 69,
+        "rank": 11
+      },
+      "skinranks": {
+        "elo": 1669.6,
+        "votes": 30583,
+        "bestVariantRank": 8,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:28:48.785Z"
+      }
+    }
+  },
+  {
+    "id": "aaf143de-fd39-4dc6-8b5c-a01cd583d9b1",
+    "weapon": "bucky",
+    "name": "盖亚的复仇",
+    "heat": 61.1,
+    "image": "images/4b0bce986a13ffbb0a2a5cde13af1e8f1eacc4424a5877210c403eb04cf6ac4c.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3902,
+        "score": 7.68,
+        "scoreCount": 222,
+        "rank": 6
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-bucky-7a07e94c91dda9ac8653f61c",
+    "weapon": "bucky",
+    "name": "狂翼掠空",
+    "heat": 57.2,
+    "image": "images/67d0d012aa345750a4cceea78fe24d355e23d65fee450f5ea86c4258faa7b202.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3788,
+        "score": 7.29,
+        "scoreCount": 210,
+        "rank": 7
+      },
+      "skinranks": {
+        "elo": 1378,
+        "votes": 7699,
+        "bestVariantRank": 46,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:28:48.785Z"
+      }
+    }
+  },
+  {
+    "id": "skin-bucky-6c89994ed1f57a42aed247d4",
+    "weapon": "bucky",
+    "name": "异形猎人",
+    "heat": 56.3,
+    "image": "images/4da4ae8c097c31a42a832b2ca96475d422b8f92e27c7b29e20c2fa33221d6800.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3431,
+        "score": 6.63,
+        "scoreCount": 114,
+        "rank": 9
+      },
+      "skinranks": {
+        "elo": 1462,
+        "votes": 7714,
+        "bestVariantRank": 37,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:28:48.785Z"
+      }
+    }
+  },
+  {
+    "id": "4ca98d07-c063-4026-95af-03d5f4a0e21c",
+    "weapon": "bulldog",
+    "name": "归零者",
+    "heat": 100,
+    "image": "images/c37f7bfce6aab2ec7176567ec33765f2346a5a320d9a6a5b18c0c262bb6a9e9c.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3183,
+        "score": 9.28,
+        "scoreCount": 3174,
+        "rank": 1
+      },
+      "skinranks": {
+        "elo": 1866.2,
+        "votes": 25475,
+        "bestVariantRank": 1,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:28:49.427Z"
+      }
+    }
+  },
+  {
+    "id": "fc1cbc54-753a-4d3d-a16c-9dc519030439",
+    "weapon": "bulldog",
+    "name": "781-A协议",
+    "heat": 97.1,
+    "image": "images/8114370082ce884713dcde754acba745c4ba045d51535698e95e53ff6410708c.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3233,
+        "score": 9.19,
+        "scoreCount": 2919,
+        "rank": 2
+      },
+      "skinranks": {
+        "elo": 1765.6,
+        "votes": 25072,
+        "bestVariantRank": 3,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:28:49.427Z"
+      }
+    }
+  },
+  {
+    "id": "78611759-e29a-4afc-9c24-b9dc48935162",
+    "weapon": "bulldog",
+    "name": "全息波普",
+    "heat": 87.6,
+    "image": "images/669c2ea47705aee217278b4b17a304a3765b9450a5677880f8c770a832bc0d05.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3271,
+        "score": 8.75,
+        "scoreCount": 903,
+        "rank": 6
+      },
+      "skinranks": {
+        "elo": 1721,
+        "votes": 24903,
+        "bestVariantRank": 5,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:28:49.427Z"
+      }
+    }
+  },
+  {
+    "id": "skin-bulldog-fd5e00945b15b2ab796fce32",
+    "weapon": "bulldog",
+    "name": "冰点凝冻",
+    "heat": 80.8,
+    "image": "images/e7d1d02d10494c5939657204e75b3ed2286b8c026c79d645c952706bb2ddc675.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3348,
+        "score": 8.46,
+        "scoreCount": 375,
+        "rank": 7
+      },
+      "skinranks": {
+        "elo": 1589,
+        "votes": 6288,
+        "bestVariantRank": 24,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:28:49.427Z"
+      }
+    }
+  },
+  {
+    "id": "cfda7b22-e66c-4e82-bd8a-0703162ea9d1",
+    "weapon": "classic",
+    "name": "电音光谱",
+    "heat": 98.2,
+    "image": "images/1c675cc0b45be2b49edaf014948c9a57c3f6f6896f63dd1fac14f0bea8f78298.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3181,
+        "score": 9.29,
+        "scoreCount": 4260,
+        "rank": 2
+      },
+      "skinranks": {
+        "elo": 1743.7,
+        "votes": 22759,
+        "bestVariantRank": 5,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:28:54.332Z"
+      }
+    }
+  },
+  {
+    "id": "e25e89b3-899e-4e1a-94bf-55373ad69019",
+    "weapon": "classic",
+    "name": "紫阙金琅",
+    "heat": 97.9,
+    "image": "images/1f9a4b08661dc6bc9dcfa5c0c131d6c3243211c06bdc0645668ec708b6bf4e90.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3197,
+        "score": 9.33,
+        "scoreCount": 3159,
+        "rank": 1
+      },
+      "skinranks": {
+        "elo": 1717.2,
+        "votes": 22871,
+        "bestVariantRank": 1,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:28:54.332Z"
+      }
+    }
+  },
+  {
+    "id": "f30b63f9-9b4b-4020-9e44-c563d6e5f1e6",
+    "weapon": "classic",
+    "name": "堕天遗武",
+    "heat": 97.1,
+    "image": "images/46d051557438b1d55db6a78e5668b72003d099d569a6be1761b6d55317640d7b.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3278,
+        "score": 9.1,
+        "scoreCount": 882,
+        "rank": 3
+      },
+      "skinranks": {
+        "elo": 1747.5,
+        "votes": 11607,
+        "bestVariantRank": 2,
+        "variants": 2,
+        "capturedAt": "2026-09-13T17:28:54.332Z"
+      }
+    }
+  },
+  {
+    "id": "skin-classic-7dd9a646a7229c04e1da1542",
+    "weapon": "classic",
+    "name": "VCT x G2",
+    "heat": 94.5,
+    "image": "images/5d0589e3d44f85c346dc60ba587b4822c204ba9b3e14682e40b89744402b9b3f.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 6985,
+        "score": 8.94,
+        "scoreCount": 237,
+        "rank": 8
+      },
+      "skinranks": {
+        "elo": 1773,
+        "votes": 3241,
+        "bestVariantRank": 4,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:28:54.332Z"
+      }
+    }
+  },
+  {
+    "id": "skin-classic-3a7f2e7f529f63712b8f9a7a",
+    "weapon": "classic",
+    "name": "VCT x LEV",
+    "heat": 90.8,
+    "image": "images/9a41803c9cf555d1d6627b7448843d6b88ea3540df1b7a023e6182c8dadf52e7.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 6997,
+        "score": 8.81,
+        "scoreCount": 363,
+        "rank": 14
+      },
+      "skinranks": {
+        "elo": 1709,
+        "votes": 3146,
+        "bestVariantRank": 12,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:28:54.332Z"
+      }
+    }
+  },
+  {
+    "id": "skin-classic-13bd68bb1b9b509e8f59dbc7",
+    "weapon": "classic",
+    "name": "VCT x PRX",
+    "heat": 90.7,
+    "image": "images/3ce9cca8ab41b7a1a93acd49f0fb5c09c4c4fcca6cd6141040c974adba24cc24.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 7010,
+        "score": 8.87,
+        "scoreCount": 750,
+        "rank": 10
+      },
+      "skinranks": {
+        "elo": 1668,
+        "votes": 3229,
+        "bestVariantRank": 19,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:28:54.332Z"
+      }
+    }
+  },
+  {
+    "id": "9ca92449-4d1e-46c5-9927-a77859d5251e",
+    "weapon": "classic",
+    "name": "全息波普//2.0",
+    "heat": 85.6,
+    "image": "images/efe8fe3d273abfd6187e9fbc7c57b86ac6626e9b58c20850b5ba2ca7035142e0.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3240,
+        "score": 8.53,
+        "scoreCount": 603,
+        "rank": 25
+      },
+      "skinranks": {
+        "elo": 1651.9,
+        "votes": 22789,
+        "bestVariantRank": 15,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:28:54.332Z"
+      }
+    }
+  },
+  {
+    "id": "skin-classic-31d76e92d2e0c9e0ab3e9e11",
+    "weapon": "classic",
+    "name": "VCT x SEN",
+    "heat": 81.7,
+    "image": "images/18f166dbe0377fa8f860e6fde904db294b95991eaba703d91ebd1e19b2bffbd0.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 7015,
+        "score": 8.19,
+        "scoreCount": 249,
+        "rank": 38
+      },
+      "skinranks": {
+        "elo": 1692,
+        "votes": 3185,
+        "bestVariantRank": 13,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:28:54.332Z"
+      }
+    }
+  },
+  {
+    "id": "skin-classic-9e08c2202bd73c0ebc6f6117",
+    "weapon": "classic",
+    "name": "VCT x BBL",
+    "heat": 80.7,
+    "image": "images/95e29fdf344229f71c27e363907586131dc62994e489f4becec0b8c627c9d5d1.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 6962,
+        "score": 8.55,
+        "scoreCount": 66,
+        "rank": 24
+      },
+      "skinranks": {
+        "elo": 1624,
+        "votes": 2999,
+        "bestVariantRank": 30,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:28:54.332Z"
+      }
+    }
+  },
+  {
+    "id": "skin-classic-a22f0d1de3f4f1d1a2f93493",
+    "weapon": "classic",
+    "name": "VCT x C9",
+    "heat": 80.3,
+    "image": "images/fb55f2d5e06adb67061d7a22d55d70df76fc8d620c52f0841cab51735ac04bcb.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 6965,
+        "score": 8.8,
+        "scoreCount": 60,
+        "rank": 15
+      },
+      "skinranks": {
+        "elo": 1591,
+        "votes": 3083,
+        "bestVariantRank": 38,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:28:54.332Z"
+      }
+    }
+  },
+  {
+    "id": "skin-classic-eb2b8b4e0e5cccfaea7455a8",
+    "weapon": "classic",
+    "name": "VCT x DRX",
+    "heat": 76.8,
+    "image": "images/4ca882259789b473b649004618e0faf58a0555df46e54618e04cb428c00417d1.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 6969,
+        "score": 8.51,
+        "scoreCount": 105,
+        "rank": 28
+      },
+      "skinranks": {
+        "elo": 1592,
+        "votes": 3063,
+        "bestVariantRank": 37,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:28:54.332Z"
+      }
+    }
+  },
+  {
+    "id": "skin-classic-5a4f414455cc55f503451d2e",
+    "weapon": "classic",
+    "name": "VCT x KOI",
+    "heat": 76.1,
+    "image": "images/ace6ce550a4551d5fed8dd30feac5345edae82908176dab35d6faf9727d2e389.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 6994,
+        "score": 8.86,
+        "scoreCount": 63,
+        "rank": 12
+      },
+      "skinranks": {
+        "elo": 1527,
+        "votes": 3251,
+        "bestVariantRank": 51,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:28:54.332Z"
+      }
+    }
+  },
+  {
+    "id": "skin-classic-2ee2d1d9af935b4da8c4683d",
+    "weapon": "classic",
+    "name": "VCT x EDG",
+    "heat": 75.9,
+    "image": "images/98bdbb13ef9c378626a2804321548acc14aafbe797408e3331ef4c4bbce8c5f9.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 7478,
+        "score": 9.02,
+        "scoreCount": 2907,
+        "rank": 5
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-classic-5279a8f82f4ab5ddfc3e1898",
+    "weapon": "classic",
+    "name": "VCT x TE",
+    "heat": 75.5,
+    "image": "images/106efefdbb1ed4da026c666ab17c1219389dcf6c0dcb6fd8a804a15018cdc4a5.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 7474,
+        "score": 9.05,
+        "scoreCount": 825,
+        "rank": 4
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-classic-1f6337af273b0800b23d287d",
+    "weapon": "classic",
+    "name": "VCT26 x LEV",
+    "heat": 74.9,
+    "image": "images/70674271cc8363eb92544b33a65241ee42cc2327b6276e834ceb42895b62a4c2.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 9744,
+        "score": 9.02,
+        "scoreCount": 852,
+        "rank": 6
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-classic-559affaa09b143497387d7a6",
+    "weapon": "classic",
+    "name": "VCT x TH",
+    "heat": 73.9,
+    "image": "images/b50fc2976dd0a1b48ac1f89825593f74788513c8c17e77be4eb49c745efa9b0a.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 7018,
+        "score": 8.18,
+        "scoreCount": 33,
+        "rank": 39
+      },
+      "skinranks": {
+        "elo": 1601,
+        "votes": 3159,
+        "bestVariantRank": 34,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:28:54.332Z"
+      }
+    }
+  },
+  {
+    "id": "skin-classic-2aeb272d7207d5b526a5b464",
+    "weapon": "classic",
+    "name": "VCT25 x LEV",
+    "heat": 73.9,
+    "image": "images/2c051e5281647c26959ec7254617c81701927ea791ff5db5302c37e964109ab7.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 8266,
+        "score": 9,
+        "scoreCount": 282,
+        "rank": 7
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-classic-36e2f01875534079b9c28c9a",
+    "weapon": "classic",
+    "name": "VCT x BLG",
+    "heat": 72.8,
+    "image": "images/dcffe133adec3adba4c8a9b22e8c6869f792657a153af4ad03c3ded0a305f7a1.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 7476,
+        "score": 8.93,
+        "scoreCount": 129,
+        "rank": 9
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-classic-f4cd3e4ee8145b847658a2b2",
+    "weapon": "classic",
+    "name": "VCT x FNC",
+    "heat": 72.8,
+    "image": "images/b76cc87c58707ec97635047ad7b66073ff13b67b00bc66a8866648641357b94d.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 6975,
+        "score": 8.29,
+        "scoreCount": 84,
+        "rank": 34
+      },
+      "skinranks": {
+        "elo": 1575,
+        "votes": 3172,
+        "bestVariantRank": 42,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:28:54.332Z"
+      }
+    }
+  },
+  {
+    "id": "5863ac1e-43d1-4325-9dec-f4f5fa803f1c",
+    "weapon": "frenzy",
+    "name": "离子武器//2.0",
+    "heat": 95.6,
+    "image": "images/498bbb6510b6b042055b9378da8b5f04034be8f94f4f1ba9f2da0015c999f7d6.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3252,
+        "score": 8.86,
+        "scoreCount": 708,
+        "rank": 2
+      },
+      "skinranks": {
+        "elo": 1717.7,
+        "votes": 25301,
+        "bestVariantRank": 9,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:00.262Z"
+      }
+    }
+  },
+  {
+    "id": "25d380ff-443d-472c-8730-3f2414d3b983",
+    "weapon": "frenzy",
+    "name": "全息波普",
+    "heat": 95.4,
+    "image": "images/791381ccc6996493b3311814d2d6ffd0d8087d009b5e3218bd2c0bf6c86c6fef.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3253,
+        "score": 9.26,
+        "scoreCount": 1056,
+        "rank": 1
+      },
+      "skinranks": {
+        "elo": 1672.6,
+        "votes": 25008,
+        "bestVariantRank": 7,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:00.262Z"
+      }
+    }
+  },
+  {
+    "id": "0483581c-2ea9-4930-960b-15e480755dd9",
+    "weapon": "frenzy",
+    "name": "天界神兵2.0",
+    "heat": 88.1,
+    "image": "images/f51d0c993e923af221497306d4308268ccb68c9640c98aadd02cad4cb69d1e34.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 7274,
+        "score": 8,
+        "scoreCount": 228,
+        "rank": 4
+      },
+      "skinranks": {
+        "elo": 1690.3,
+        "votes": 15495,
+        "bestVariantRank": 10,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:00.262Z"
+      }
+    }
+  },
+  {
+    "id": "99817732-9b4a-4453-bc4d-622842469acd",
+    "weapon": "frenzy",
+    "name": "紫阙金琅//2.0",
+    "heat": 84.3,
+    "image": "images/f4d2e18bb916e0f56f0fd330dea668790950dcedb5cdfbcc9150093feb6449ba.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3275,
+        "score": 7.86,
+        "scoreCount": 252,
+        "rank": 5
+      },
+      "skinranks": {
+        "elo": 1619.9,
+        "votes": 25397,
+        "bestVariantRank": 6,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:00.262Z"
+      }
+    }
+  },
+  {
+    "id": "f3984dc5-41ac-49ff-b5c2-7d5b19d01bd8",
+    "weapon": "frenzy",
+    "name": "般若假面//2.0",
+    "heat": 82.7,
+    "image": "images/e30d05f92706037dfe88fbc24ade5d8853d1eb01761539173fe2a62c1264c8fe.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3783,
+        "score": 7.52,
+        "scoreCount": 372,
+        "rank": 7
+      },
+      "skinranks": {
+        "elo": 1702.1,
+        "votes": 25181,
+        "bestVariantRank": 11,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:00.262Z"
+      }
+    }
+  },
+  {
+    "id": "42163e0f-c51d-4d5e-9d64-a2aa438efdff",
+    "weapon": "frenzy",
+    "name": "起源",
+    "heat": 76.4,
+    "image": "images/8db5d47b8b0e42eb196503d4c446a6e115bc2501c9fab956d330d021be2fd160.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3317,
+        "score": 7.38,
+        "scoreCount": 213,
+        "rank": 8
+      },
+      "skinranks": {
+        "elo": 1603.9,
+        "votes": 24830,
+        "bestVariantRank": 18,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:00.262Z"
+      }
+    }
+  },
+  {
+    "id": "56fc2b60-3af2-4264-bc99-1a15c3d13076",
+    "weapon": "frenzy",
+    "name": "RGX 11z Pro",
+    "heat": 74.6,
+    "image": "images/e9d16026bce0b4447ae7add7988a0701c42f39e022d6bf5244ade0b6e9a1f18a.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3296,
+        "score": 6.75,
+        "scoreCount": 120,
+        "rank": 11
+      },
+      "skinranks": {
+        "elo": 1730.1,
+        "votes": 25170,
+        "bestVariantRank": 1,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:00.262Z"
+      }
+    }
+  },
+  {
+    "id": "skin-frenzy-388866e3a6fdf227e4a76ec1",
+    "weapon": "frenzy",
+    "name": "古焱",
+    "heat": 72.5,
+    "image": "images/18b577c04feecbf50510bdf38cc57f8c74d12f7491ebfc431b60e329c68dfe0a.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3251,
+        "score": 8.5,
+        "scoreCount": 552,
+        "rank": 3
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-frenzy-50f1cab16a4dadf8481b7ddf",
+    "weapon": "frenzy",
+    "name": "砰砰X特攻队",
+    "heat": 70.6,
+    "image": "images/55d90c9cafb71891fd010c0048217671d2beba1e72d3cb1fafbf23ef198e3817.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3313,
+        "score": 6.81,
+        "scoreCount": 141,
+        "rank": 10
+      },
+      "skinranks": {
+        "elo": 1583.3,
+        "votes": 25360,
+        "bestVariantRank": 15,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:00.262Z"
+      }
+    }
+  },
+  {
+    "id": "3b6f1f47-5e55-4cb7-afd6-6abe04f125fd",
+    "weapon": "frenzy",
+    "name": "上古龙炎",
+    "heat": 67.5,
+    "image": "images/a3cae512d960af33feb961f3dca8b61aeb3380193516d8847ae7872807ee158b.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": null,
+      "skinranks": {
+        "elo": 1808.7,
+        "votes": 25451,
+        "bestVariantRank": 2,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:00.262Z"
+      }
+    }
+  },
+  {
+    "id": "skin-frenzy-99ebc91b28bd491f6a62fa32",
+    "weapon": "frenzy",
+    "name": "神中神罚",
+    "heat": 64.5,
+    "image": "images/33bd689dbf8432447fbe883cf639aa8a1bfed517285d725fd797502813ebb67c.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 8784,
+        "score": 7.77,
+        "scoreCount": 129,
+        "rank": 6
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "cc143bac-9955-4de7-a1f5-cbb00caeb759",
+    "weapon": "ghost",
+    "name": "天界神兵",
+    "heat": 98.4,
+    "image": "images/c6db464326630207c7f194cda91f155e430b42269a8926167db7731288eb87c1.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3187,
+        "score": 9.35,
+        "scoreCount": 5136,
+        "rank": 1
+      },
+      "skinranks": {
+        "elo": 1804.9,
+        "votes": 30294,
+        "bestVariantRank": 2,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:19:55.588Z"
+      }
+    }
+  },
+  {
+    "id": "fd77e2c8-66d1-4eee-b23b-ca36d74306b6",
+    "weapon": "ghost",
+    "name": "盖亚的复仇",
+    "heat": 94.7,
+    "image": "images/5f38f1ea1b41c16d84fedd7c8a3ca954d802d8b03e4cd3e4eb7c0ddb2e0da26a.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3195,
+        "score": 9.19,
+        "scoreCount": 2706,
+        "rank": 2
+      },
+      "skinranks": {
+        "elo": 1736.2,
+        "votes": 30386,
+        "bestVariantRank": 6,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:19:55.588Z"
+      }
+    }
+  },
+  {
+    "id": "c3738646-8679-4783-acc7-ccd6ea8369da",
+    "weapon": "ghost",
+    "name": "掠影//2.0",
+    "heat": 91.8,
+    "image": "images/41b2f5f5f24ebafe1c45d86cc17781d68241e89a08732455cd21a5ad15e655a7.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3213,
+        "score": 9.07,
+        "scoreCount": 2115,
+        "rank": 5
+      },
+      "skinranks": {
+        "elo": 1811.4,
+        "votes": 29824,
+        "bestVariantRank": 4,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:19:55.588Z"
+      }
+    }
+  },
+  {
+    "id": "62fbf3c1-e604-4243-8bbb-d941ee551d0d",
+    "weapon": "ghost",
+    "name": "耀鳞威龙",
+    "heat": 90.9,
+    "image": "images/f5128e1b820acc81bc3e5ee099213608eb1df07a8cd998624207aab0db9f6346.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 6702,
+        "score": 8.87,
+        "scoreCount": 3075,
+        "rank": 6
+      },
+      "skinranks": {
+        "elo": 1830.3,
+        "votes": 18876,
+        "bestVariantRank": 1,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:19:55.588Z"
+      }
+    }
+  },
+  {
+    "id": "skin-ghost-5836d1048a0e4318a4cb71bb",
+    "weapon": "ghost",
+    "name": "破败军械",
+    "heat": 90.7,
+    "image": "images/1fc8a45f2ec3d35f5674eb3f04123bfd100925eae4d89be22895bf98fea202e3.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3198,
+        "score": 9.16,
+        "scoreCount": 3219,
+        "rank": 3
+      },
+      "skinranks": {
+        "elo": 1672,
+        "votes": 30533,
+        "bestVariantRank": 24,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:19:55.588Z"
+      }
+    }
+  },
+  {
+    "id": "1f49bf71-1308-4775-a1d5-b59680250674",
+    "weapon": "ghost",
+    "name": "盖世英雄",
+    "heat": 83.2,
+    "image": "images/b05e6c793da0139f319ee6321d7feb53f5bd951df2929fcae958a745aa94df3a.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3930,
+        "score": 8.77,
+        "scoreCount": 2106,
+        "rank": 8
+      },
+      "skinranks": {
+        "elo": 1715.2,
+        "votes": 18854,
+        "bestVariantRank": 14,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:19:55.588Z"
+      }
+    }
+  },
+  {
+    "id": "08d04f74-d6d6-4e5c-8e6e-4c069b96f675",
+    "weapon": "ghost",
+    "name": "奇幻朋克",
+    "heat": 76.9,
+    "image": "images/ff30d207d3d96defbd47ab4a1b9d74437c9e636cb796ddc63b9b3e77ae64f0ed.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3248,
+        "score": 8.66,
+        "scoreCount": 729,
+        "rank": 11
+      },
+      "skinranks": {
+        "elo": 1700.3,
+        "votes": 29954,
+        "bestVariantRank": 17,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:19:55.588Z"
+      }
+    }
+  },
+  {
+    "id": "skin-ghost-95e9d5c7d087f22e4fd7f746",
+    "weapon": "ghost",
+    "name": "超时空卫队",
+    "heat": 72.1,
+    "image": "images/e030922aa990ffb691720950de41a0157635859c39e02eb81e31b017ceaf0f63.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 9051,
+        "score": 9.15,
+        "scoreCount": 3372,
+        "rank": 4
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "814d67bf-764a-4ce1-92b1-01a99cfebfc7",
+    "weapon": "ghost",
+    "name": "侦察力量",
+    "heat": 70.5,
+    "image": "images/45492eacc7c7b27a19975eba4db14ed2e981194272459359c86c754928522a02.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3326,
+        "score": 8.38,
+        "scoreCount": 282,
+        "rank": 13
+      },
+      "skinranks": {
+        "elo": 1648.7,
+        "votes": 30123,
+        "bestVariantRank": 26,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:19:55.588Z"
+      }
+    }
+  },
+  {
+    "id": "skin-ghost-070b1b92c236885e45ca3395",
+    "weapon": "ghost",
+    "name": "塑水宗//2.0",
+    "heat": 66.5,
+    "image": "images/489421ae846a33a9d647a745703a375e22323888e5178563da3d159d76c76dc7.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 10244,
+        "score": 8.83,
+        "scoreCount": 1485,
+        "rank": 7
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "17721efb-4cd5-483d-9877-61f51b867abf",
+    "weapon": "guardian",
+    "name": "天界神兵",
+    "heat": 96.6,
+    "image": "images/d9d4fa6a4ebf27c611d84c5a81c7185c00d0072ad55f0ce12bd0696a670e9c91.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3285,
+        "score": 9.02,
+        "scoreCount": 2604,
+        "rank": 1
+      },
+      "skinranks": {
+        "elo": 1698.3,
+        "votes": 22233,
+        "bestVariantRank": 4,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:20:37.268Z"
+      }
+    }
+  },
+  {
+    "id": "skin-guardian-dbc33c765b35c15f22e288a7",
+    "weapon": "guardian",
+    "name": "破败军械",
+    "heat": 93.1,
+    "image": "images/e9d6dda1ff0815aea4b6828f21f7781bf79eee0eb8909437ab208d290f926285.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3283,
+        "score": 8.97,
+        "scoreCount": 2214,
+        "rank": 2
+      },
+      "skinranks": {
+        "elo": 1678.2,
+        "votes": 21884,
+        "bestVariantRank": 10,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:20:37.268Z"
+      }
+    }
+  },
+  {
+    "id": "f3de39ed-d212-47e3-87f2-65c7d7e345a2",
+    "weapon": "guardian",
+    "name": "紫阙金琅",
+    "heat": 89.9,
+    "image": "images/c5e118e4b7d20beb048ad77e0d535f3257defc2e98324ea1eb0790a130865ba2.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3268,
+        "score": 8.93,
+        "scoreCount": 1059,
+        "rank": 4
+      },
+      "skinranks": {
+        "elo": 1683.4,
+        "votes": 21775,
+        "bestVariantRank": 5,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:20:37.268Z"
+      }
+    }
+  },
+  {
+    "id": "b71a3c5f-d78b-4d88-9a68-17fbc1c24a70",
+    "weapon": "guardian",
+    "name": "盖亚的复仇",
+    "heat": 89.6,
+    "image": "images/d2633c48bef5b79de9465c208d41d90dc37607b6b54dba16fd428dcc113915f3.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3279,
+        "score": 8.84,
+        "scoreCount": 942,
+        "rank": 6
+      },
+      "skinranks": {
+        "elo": 1779.6,
+        "votes": 22078,
+        "bestVariantRank": 2,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:20:37.268Z"
+      }
+    }
+  },
+  {
+    "id": "ee713cee-804b-4b02-8d1d-b46c33b51caf",
+    "weapon": "guardian",
+    "name": "掠影",
+    "heat": 89.2,
+    "image": "images/c85514bed6242d2fd2412df5089887847d6b09e54a4089861046791df0535630.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3292,
+        "score": 8.8,
+        "scoreCount": 2337,
+        "rank": 7
+      },
+      "skinranks": {
+        "elo": 1827.9,
+        "votes": 21907,
+        "bestVariantRank": 1,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:20:37.268Z"
+      }
+    }
+  },
+  {
+    "id": "skin-guardian-fa95034411bcb3ae0e116465",
+    "weapon": "guardian",
+    "name": "沙场老兵",
+    "heat": 79.7,
+    "image": "images/7c6335b9b71cf216b683522fa02d2613a96cbd8e6e072a97874a68a9b9140d6d.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3327,
+        "score": 8.91,
+        "scoreCount": 2856,
+        "rank": 5
+      },
+      "skinranks": {
+        "elo": 1474,
+        "votes": 5542,
+        "bestVariantRank": 47,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:20:37.268Z"
+      }
+    }
+  },
+  {
+    "id": "b48fbd0a-27e8-4d68-b7d5-170ee8c59451",
+    "weapon": "guardian",
+    "name": "奇幻朋克//2.0",
+    "heat": 78.7,
+    "image": "images/5e3fc694d9a22429183675c0bece301f1e35821ce2eee28fbe5377429a5bd4cf.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3318,
+        "score": 8.72,
+        "scoreCount": 375,
+        "rank": 9
+      },
+      "skinranks": {
+        "elo": 1674.9,
+        "votes": 21705,
+        "bestVariantRank": 11,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:20:37.268Z"
+      }
+    }
+  },
+  {
+    "id": "2772af9c-d7e4-4910-9d2a-a28c69f2ccc3",
+    "weapon": "guardian",
+    "name": "圣契命澜",
+    "heat": 73.7,
+    "image": "images/f9e24d6d21b33cb1b0d1a984835e593f8d32c32a3b7eb843161b794ca8c616f2.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 10515,
+        "score": 8.96,
+        "scoreCount": 1989,
+        "rank": 3
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "b3ba605d-7d9c-421d-b70e-dc7b0c3a9980",
+    "weapon": "guardian",
+    "name": "海洋之星",
+    "heat": 73.4,
+    "image": "images/dad2c39cfb73485536edad6fb62fc8256cc369e988cca377577390f64ea66342.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3282,
+        "score": 8.46,
+        "scoreCount": 570,
+        "rank": 11
+      },
+      "skinranks": {
+        "elo": 1647.6,
+        "votes": 10894,
+        "bestVariantRank": 26,
+        "variants": 2,
+        "capturedAt": "2026-09-13T17:20:37.268Z"
+      }
+    }
+  },
+  {
+    "id": "dc37b61e-71eb-40f2-909e-c032cefcd27f",
+    "weapon": "guardian",
+    "name": "RGX 11z Pro",
+    "heat": 70.3,
+    "image": "images/2a09e64f0ffad12423951a12b3a80025aed6b98bba3a53ce1a20dcdbaac5dfdb.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3295,
+        "score": 7.89,
+        "scoreCount": 282,
+        "rank": 16
+      },
+      "skinranks": {
+        "elo": 1762.5,
+        "votes": 22114,
+        "bestVariantRank": 3,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:20:37.268Z"
+      }
+    }
+  },
+  {
+    "id": "aebfd05b-549a-485d-962e-aa7ea2e2885e",
+    "weapon": "guardian",
+    "name": "侦察力量",
+    "heat": 67.5,
+    "image": "images/df30e44d748ad0ce7b6f40918a0615b6f19ddc5f2679134f434e4db9aec4a568.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3333,
+        "score": 7.75,
+        "scoreCount": 237,
+        "rank": 17
+      },
+      "skinranks": {
+        "elo": 1706.2,
+        "votes": 21964,
+        "bestVariantRank": 7,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:20:37.268Z"
+      }
+    }
+  },
+  {
+    "id": "f01dedd5-8585-499e-8da2-88e75cc8e6a0",
+    "weapon": "guardian",
+    "name": "电音光谱",
+    "heat": 65,
+    "image": "images/e9ddb66595aaf29a0bc64ed9d16b13bd7bca7bc36289dac10a2f173271e831b9.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3263,
+        "score": 8.05,
+        "scoreCount": 636,
+        "rank": 15
+      },
+      "skinranks": {
+        "elo": 1616.3,
+        "votes": 21959,
+        "bestVariantRank": 19,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:20:37.268Z"
+      }
+    }
+  },
+  {
+    "id": "29cf0c9d-3660-4a77-8f35-2a2612af250a",
+    "weapon": "judge",
+    "name": "全息波普",
+    "heat": 94,
+    "image": "images/8c9182b38d5aa2fb7fe9c8e8aa36947c5ea55dc864bf6bcb7239104a256fa142.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3291,
+        "score": 8.64,
+        "scoreCount": 1269,
+        "rank": 2
+      },
+      "skinranks": {
+        "elo": 1696.7,
+        "votes": 26663,
+        "bestVariantRank": 12,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:02.336Z"
+      }
+    }
+  },
+  {
+    "id": "skin-judge-964a99d0e7202ee585be2118",
+    "weapon": "judge",
+    "name": "天界神兵2.0",
+    "heat": 94,
+    "image": "images/a69a7050c7420a16ee58bf6294c88bf19fb00aa7ca0c0eaede293690c6355ecf.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 7275,
+        "score": 8.61,
+        "scoreCount": 753,
+        "rank": 3
+      },
+      "skinranks": {
+        "elo": 1815.5,
+        "votes": 15815,
+        "bestVariantRank": 1,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:02.336Z"
+      }
+    }
+  },
+  {
+    "id": "d530eef8-ba6a-4333-bffe-ff8b5aaf2401",
+    "weapon": "judge",
+    "name": "偃月苍龙",
+    "heat": 86.8,
+    "image": "images/9af4db0c8972ae20943ef0e49f7d62255cfc2f2a314bdcef8072ade996d18dd2.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3866,
+        "score": 8.24,
+        "scoreCount": 1086,
+        "rank": 6
+      },
+      "skinranks": {
+        "elo": 1794.5,
+        "votes": 16167,
+        "bestVariantRank": 3,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:02.336Z"
+      }
+    }
+  },
+  {
+    "id": "ee7295a2-6d01-4ada-a29c-27d608d456e9",
+    "weapon": "judge",
+    "name": "虚空遗器",
+    "heat": 82.9,
+    "image": "images/ee55593c457183ac512b7136c9e74e24e760302712c7d6cc7da8748e0a0687e7.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3304,
+        "score": 8.1,
+        "scoreCount": 294,
+        "rank": 7
+      },
+      "skinranks": {
+        "elo": 1699.7,
+        "votes": 26271,
+        "bestVariantRank": 8,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:02.336Z"
+      }
+    }
+  },
+  {
+    "id": "c83a0c6e-64d3-4c80-abab-e3ea932c23e8",
+    "weapon": "judge",
+    "name": "千灵华绽",
+    "heat": 77.3,
+    "image": "images/50af8c0a59df91514caadf13708e390310aa7458310245b64276e06a65b8afd5.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 7333,
+        "score": 8.68,
+        "scoreCount": 987,
+        "rank": 1
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "1d9bf536-466d-4d86-853f-fbd341ac5dc3",
+    "weapon": "judge",
+    "name": "MK.VII 自由强袭",
+    "heat": 73,
+    "image": "images/2632c9bd15dde2ee80e70a31a42e538bf054777f5bbd06a3e581361ed75e102d.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 7036,
+        "score": 6,
+        "scoreCount": 33,
+        "rank": 9
+      },
+      "skinranks": {
+        "elo": 1540.4,
+        "votes": 15816,
+        "bestVariantRank": 22,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:02.336Z"
+      }
+    }
+  },
+  {
+    "id": "8bf978f8-e26a-4293-b6c6-c2018d72b1d8",
+    "weapon": "judge",
+    "name": "古焱",
+    "heat": 70.9,
+    "image": "images/d13b411a4a8c7f98d7e211d57ea2e850ba20e09a6c81e0592a92aef1d8fb0b99.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3261,
+        "score": 8.56,
+        "scoreCount": 1230,
+        "rank": 4
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "37ac62e2-3a74-4e03-9183-437a039dff0b",
+    "weapon": "judge",
+    "name": "上古龙炎",
+    "heat": 67.5,
+    "image": "images/e914e4fb2f012857dbc78affa600ec06ae8db93fcf9d23efc2d372864a4a5a35.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": null,
+      "skinranks": {
+        "elo": 1835.3,
+        "votes": 26635,
+        "bestVariantRank": 2,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:02.336Z"
+      }
+    }
+  },
+  {
+    "id": "skin-judge-54c4995f1e4f632507443993",
+    "weapon": "judge",
+    "name": "光荣异象",
+    "heat": 67.1,
+    "image": "images/8001e3196c147211dbb7c34e103ca8ae3b6bd193f765f561584a04b25ddaab44.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 8822,
+        "score": 8.42,
+        "scoreCount": 129,
+        "rank": 5
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-judge-e236bc45ddbbc5dfd93dd6ec",
+    "weapon": "judge",
+    "name": "虹光荆棘",
+    "heat": 62.1,
+    "image": "images/c1fcb92ed4979834ee5a1d00f1c47a6b115061d267b5dcc5ffdfa659cf576532.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": null,
+      "skinranks": {
+        "elo": 1642,
+        "votes": 6705,
+        "bestVariantRank": 20,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:29:02.336Z"
+      }
+    }
+  },
+  {
+    "id": "skin-judge-81860f71f349cda599c8adc5",
+    "weapon": "judge",
+    "name": "毁灭骑士",
+    "heat": 60.5,
+    "image": "images/9e006348c3a8ff20262fcb8d1cabdbcc09c56c29cb55b10cb2308c5bc798ad4d.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 8036,
+        "score": 7.4,
+        "scoreCount": 120,
+        "rank": 8
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-judge-3c35b9c8d6222d0bdea63cb8",
+    "weapon": "judge",
+    "name": "缚魔武器",
+    "heat": 59.2,
+    "image": "images/ad944d0b477e48f4f2b4231823ee04bba1b72c795dd492d59bf38ad7ab98d516.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": null,
+      "skinranks": {
+        "elo": 1526,
+        "votes": 6540,
+        "bestVariantRank": 27,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:29:02.336Z"
+      }
+    }
+  },
+  {
+    "id": "skin-judge-042d94bd51db880f2b6cf731",
+    "weapon": "judge",
+    "name": "金镶碧玉",
+    "heat": 58.3,
+    "image": "images/bd78b1e893b875cc0af6fa0a55c51c83ce96726d7af66dd5d8b8576b8e36b895.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": null,
+      "skinranks": {
+        "elo": 1503,
+        "votes": 6570,
+        "bestVariantRank": 30,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:29:02.336Z"
+      }
+    }
+  },
+  {
+    "id": "f681e711-1d20-4084-b98f-e5153f26d492",
+    "weapon": "marshal",
+    "name": "天界神兵",
+    "heat": 77.3,
+    "image": "images/2fa64522d07e8e0186ea4bf69e60f4057d61ff3372c9f022667fe2e3daa368bf.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3184,
+        "score": 9.51,
+        "scoreCount": 3597,
+        "rank": 1
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "6d0f95f7-eb4e-4fd5-aaed-80571287e079",
+    "weapon": "marshal",
+    "name": "西部未来",
+    "heat": 75,
+    "image": "images/27563426f61625872818f68aad5c6909214289886633df52869fa74d81509955.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3825,
+        "score": 9.46,
+        "scoreCount": 5031,
+        "rank": 2
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "1af7f645-48fa-48d0-9ca4-02b77f81ff64",
+    "weapon": "marshal",
+    "name": "盖亚的复仇",
+    "heat": 71.6,
+    "image": "images/bdba37dc56c40ce1e05d0f9c7482e79abe061abb782d7d60c881ece1c7c437a8.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3208,
+        "score": 8.77,
+        "scoreCount": 1092,
+        "rank": 3
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "a1d073be-9b95-4d91-823b-d837c3ee0859",
+    "weapon": "marshal",
+    "name": "塑水宗",
+    "heat": 69.3,
+    "image": "images/6487980f3788f8ba94edfef3df6a968615556b91a4dea96f12aefd0b1b3fff87.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 6585,
+        "score": 8.63,
+        "scoreCount": 1641,
+        "rank": 4
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-marshal-36910cf972dd6dad9706a8b1",
+    "weapon": "marshal",
+    "name": "西部未来 飞将",
+    "heat": 67.5,
+    "image": "images/b42ab2f50e93fd79edeb0b4fd0218a6aa280ad3b38bc3c9e38f72086035784ff.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": null,
+      "skinranks": {
+        "elo": 1858.6,
+        "votes": 34459,
+        "bestVariantRank": 1,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:22:13.127Z"
+      }
+    }
+  },
+  {
+    "id": "skin-marshal-01e273532f1ae7a4fbe21684",
+    "weapon": "marshal",
+    "name": "圣契命澜",
+    "heat": 66.4,
+    "image": "images/9af3ad6c922ee70b8603ab90c4f4160e666aa3beb7a43ab0c83a4337ae8fa886.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 10514,
+        "score": 8.55,
+        "scoreCount": 711,
+        "rank": 5
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-marshal-d83521bbb325b6f620ac7a23",
+    "weapon": "marshal",
+    "name": "塑水宗 飞将",
+    "heat": 66.2,
+    "image": "images/4b34088b962a06c6a17af6aeff8f42264861af50f7f2f24b959a54380f689909.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": null,
+      "skinranks": {
+        "elo": 1857.4,
+        "votes": 19890,
+        "bestVariantRank": 2,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:22:13.127Z"
+      }
+    }
+  },
+  {
+    "id": "skin-marshal-4ce746fb177c141ceb81ef73",
+    "weapon": "marshal",
+    "name": "盖亚的复仇 飞将",
+    "heat": 65.4,
+    "image": "images/4b77193662920a5f31aed811e94882536330be0f9719a69cfa5d9cc3b15b4fa7.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": null,
+      "skinranks": {
+        "elo": 1756.2,
+        "votes": 34093,
+        "bestVariantRank": 7,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:22:13.127Z"
+      }
+    }
+  },
+  {
+    "id": "skin-marshal-bee5ca9dfdf9674158bff373",
+    "weapon": "marshal",
+    "name": "天界神兵 飞将",
+    "heat": 64.3,
+    "image": "images/6e236924d463ed12aba89c6b5c3dec87f35aeb57aac8b9068fe96377d113de8f.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": null,
+      "skinranks": {
+        "elo": 1705.5,
+        "votes": 33910,
+        "bestVariantRank": 9,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:22:13.127Z"
+      }
+    }
+  },
+  {
+    "id": "skin-marshal-4c35aef974c4883b9837925f",
+    "weapon": "marshal",
+    "name": "奇幻朋克 飞将",
+    "heat": 63.3,
+    "image": "images/48835b66005be5fd0236d2914089158c95a56832642fdca874f048c274f51d68.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": null,
+      "skinranks": {
+        "elo": 1674.4,
+        "votes": 34158,
+        "bestVariantRank": 12,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:22:13.127Z"
+      }
+    }
+  },
+  {
+    "id": "a5114818-5e52-41be-ade1-ea1c7c50ed13",
+    "weapon": "marshal",
+    "name": "奇幻朋克",
+    "heat": 63.2,
+    "image": "images/889bc66a596c2daef7627b20033ed6fb08da12c8106e603a41a7c1c86c696267.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3289,
+        "score": 7.84,
+        "scoreCount": 222,
+        "rank": 6
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-marshal-f2ce759feffb9fdacb2d22fe",
+    "weapon": "marshal",
+    "name": "哥特废墟 飞将",
+    "heat": 61.5,
+    "image": "images/b55236541a87a9cfb27c0df1a15d3b44608025e6db54f9b8d90d1e8dcc905cd1.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": null,
+      "skinranks": {
+        "elo": 1558,
+        "votes": 8335,
+        "bestVariantRank": 22,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:22:13.127Z"
+      }
+    }
+  },
+  {
+    "id": "0a56b061-0498-4f0d-b68f-1c60e3ed1fa0",
+    "weapon": "melee",
+    "name": "影钩",
+    "heat": 98.5,
+    "image": "images/7b4bcdc1db5a6078f9795ae038d9660ac67ee2cd7b1ceb7aedd963ee15f8e640.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3170,
+        "score": 9.34,
+        "scoreCount": 21990,
+        "rank": 3
+      },
+      "skinranks": {
+        "elo": 1870.2,
+        "votes": 25926,
+        "bestVariantRank": 4,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:21:02.847Z"
+      }
+    }
+  },
+  {
+    "id": "fb86d98b-478a-4ac1-8ed2-891e3ce3f001",
+    "weapon": "melee",
+    "name": "剥皮小刀",
+    "heat": 97.2,
+    "image": "images/1a29856440703dcc31cb30b9ecb756ffb560a8bfe010ab86174de8ddc7bc6aad.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3172,
+        "score": 9.48,
+        "scoreCount": 10395,
+        "rank": 1
+      },
+      "skinranks": {
+        "elo": 1791,
+        "votes": 6496,
+        "bestVariantRank": 18,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:21:02.847Z"
+      }
+    }
+  },
+  {
+    "id": "skin-melee-e698a38c8be2f3729bc09ad3",
+    "weapon": "melee",
+    "name": "紫金爪刀",
+    "heat": 93.4,
+    "image": "images/a34c4ae3744daa90a23c1cf4a50117d7a25eb8c702de32606dc32a2f430f93ad.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3211,
+        "score": 9.13,
+        "scoreCount": 4491,
+        "rank": 11
+      },
+      "skinranks": {
+        "elo": 1867,
+        "votes": 6506,
+        "bestVariantRank": 10,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:21:02.847Z"
+      }
+    }
+  },
+  {
+    "id": "skin-melee-3d21ba49610caea783b2a141",
+    "weapon": "melee",
+    "name": "影刃",
+    "heat": 92.7,
+    "image": "images/cd34a039161defa4e563225b3ec799ceeabf7d3df67127c4eb26898c31cab244.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3246,
+        "score": 9.22,
+        "scoreCount": 1719,
+        "rank": 9
+      },
+      "skinranks": {
+        "elo": 1781,
+        "votes": 6412,
+        "bestVariantRank": 23,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:21:02.847Z"
+      }
+    }
+  },
+  {
+    "id": "skin-melee-11540a8e051baa157f687927",
+    "weapon": "melee",
+    "name": "2022全球冠军赛 蝴蝶刀",
+    "heat": 92.4,
+    "image": "images/7963e1577ba7e3a38e7e7e62f48b31b3a2330da67e80b086e04ba10e2e851d11.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3527,
+        "score": 9.12,
+        "scoreCount": 2901,
+        "rank": 12
+      },
+      "skinranks": {
+        "elo": 1850,
+        "votes": 6487,
+        "bestVariantRank": 11,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:21:02.847Z"
+      }
+    }
+  },
+  {
+    "id": "skin-melee-e8d1381e787d943c2324c43a",
+    "weapon": "melee",
+    "name": "天玄刀",
+    "heat": 91.3,
+    "image": "images/8d8530d02a87f9454f750968d2221ea2a21499b572e7097083b967406a6211ec.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3218,
+        "score": 9.22,
+        "scoreCount": 2754,
+        "rank": 8
+      },
+      "skinranks": {
+        "elo": 1741,
+        "votes": 6287,
+        "bestVariantRank": 33,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:21:02.847Z"
+      }
+    }
+  },
+  {
+    "id": "skin-melee-ba1052c8719ade412ca9f20d",
+    "weapon": "melee",
+    "name": "威龙之刃",
+    "heat": 90.9,
+    "image": "images/df4cb021bc9f5c71b701599af552cdb40745fe1e8123d22f6e3a6da920ace980.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 6704,
+        "score": 9.1,
+        "scoreCount": 10005,
+        "rank": 15
+      },
+      "skinranks": {
+        "elo": 1778.5,
+        "votes": 16762,
+        "bestVariantRank": 16,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:21:02.847Z"
+      }
+    }
+  },
+  {
+    "id": "skin-melee-a22d46440934c6483a9d38ed",
+    "weapon": "melee",
+    "name": "侦察力量 蝴蝶刀",
+    "heat": 89.8,
+    "image": "images/6924fdf82a7f6e2ac5b7ae40c53981bc0f6d25870d4695cb9b14b094147eb6cf.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3191,
+        "score": 9.29,
+        "scoreCount": 4056,
+        "rank": 5
+      },
+      "skinranks": {
+        "elo": 1632.8,
+        "votes": 26126,
+        "bestVariantRank": 41,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:21:02.847Z"
+      }
+    }
+  },
+  {
+    "id": "7e8e8bc4-5090-4923-854f-3e36bbe50e42",
+    "weapon": "melee",
+    "name": "魔术火花",
+    "heat": 89.7,
+    "image": "images/14d43070f5ec5e2dfa503e974f8577d37c366cd6b1c099a458dc8d4d250bad9d.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3818,
+        "score": 9.15,
+        "scoreCount": 13722,
+        "rank": 10
+      },
+      "skinranks": {
+        "elo": 1666.1,
+        "votes": 25711,
+        "bestVariantRank": 37,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:21:02.847Z"
+      }
+    }
+  },
+  {
+    "id": "skin-melee-13463c2ebf88eebb36effa2b",
+    "weapon": "melee",
+    "name": "穿花蝴蝶",
+    "heat": 89,
+    "image": "images/f665ca7d7e7fd867ef9e308a4e79be4e87a0b63645fba3f802b1a8b940c14af0.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3795,
+        "score": 9.26,
+        "scoreCount": 8781,
+        "rank": 7
+      },
+      "skinranks": {
+        "elo": 1638,
+        "votes": 6465,
+        "bestVariantRank": 62,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:21:02.847Z"
+      }
+    }
+  },
+  {
+    "id": "skin-melee-ba7d17ce8ec7b50b8f6e890c",
+    "weapon": "melee",
+    "name": "未来开拓者",
+    "heat": 87.8,
+    "image": "images/5c3486c15bfd997771ef43e689d5efb93dfb3bb853012279c0656a97ac8e312b.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3837,
+        "score": 9.27,
+        "scoreCount": 4872,
+        "rank": 6
+      },
+      "skinranks": {
+        "elo": 1608.3,
+        "votes": 25349,
+        "bestVariantRank": 39,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:21:02.847Z"
+      }
+    }
+  },
+  {
+    "id": "skin-melee-43c48a01f42b7612622deab9",
+    "weapon": "melee",
+    "name": "2021全球冠军赛 爪刀",
+    "heat": 87.2,
+    "image": "images/e37874473cccc094419f3be479848057196ef9331ee6efdb6301d0c1e5a1585d.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3529,
+        "score": 8.94,
+        "scoreCount": 1236,
+        "rank": 27
+      },
+      "skinranks": {
+        "elo": 2022,
+        "votes": 6388,
+        "bestVariantRank": 1,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:21:02.847Z"
+      }
+    }
+  },
+  {
+    "id": "skin-melee-8df33d47efc801c3763ae6be",
+    "weapon": "melee",
+    "name": "黑波之刃",
+    "heat": 86.7,
+    "image": "images/87926bc60e6e288e28eec77a6a4a08f06921c4ebff3dbfc89ff38473ec3489da.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 6590,
+        "score": 8.92,
+        "scoreCount": 4140,
+        "rank": 30
+      },
+      "skinranks": {
+        "elo": 1933.3,
+        "votes": 16470,
+        "bestVariantRank": 2,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:21:02.847Z"
+      }
+    }
+  },
+  {
+    "id": "skin-melee-c4c69d640ac810ef736ffc04",
+    "weapon": "melee",
+    "name": "澄湖潋滟",
+    "heat": 84.8,
+    "image": "images/6167eed66188aa427cd645360707d9f1d1b3dce25d89847ab99017cab5679764.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3207,
+        "score": 9.34,
+        "scoreCount": 7500,
+        "rank": 4
+      },
+      "skinranks": {
+        "elo": 1527.5,
+        "votes": 12885,
+        "bestVariantRank": 81,
+        "variants": 2,
+        "capturedAt": "2026-09-13T17:21:02.847Z"
+      }
+    }
+  },
+  {
+    "id": "skin-melee-3a255ae36eeff97ef59295bc",
+    "weapon": "melee",
+    "name": "盖亚之愠",
+    "heat": 84.8,
+    "image": "images/847037d3616ed3699be72310e330f4bd29d6df3ba8dd72900f6bea51dbadb574.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3905,
+        "score": 9.09,
+        "scoreCount": 4410,
+        "rank": 16
+      },
+      "skinranks": {
+        "elo": 1630.8,
+        "votes": 16665,
+        "bestVariantRank": 46,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:21:02.847Z"
+      }
+    }
+  },
+  {
+    "id": "skin-melee-99f3080b9025fe7e41851cd3",
+    "weapon": "melee",
+    "name": "离火刃",
+    "heat": 84.5,
+    "image": "images/de92426ee3174ccffd03c095e89ef61be6fe9882932a6515b4cc2fdccd6f7a64.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3853,
+        "score": 8.95,
+        "scoreCount": 13689,
+        "rank": 25
+      },
+      "skinranks": {
+        "elo": 1711.9,
+        "votes": 12873,
+        "bestVariantRank": 34,
+        "variants": 2,
+        "capturedAt": "2026-09-13T17:21:02.847Z"
+      }
+    }
+  },
+  {
+    "id": "skin-melee-842230ab3528ba40990aaddd",
+    "weapon": "melee",
+    "name": "天御刀",
+    "heat": 81.6,
+    "image": "images/5113ec0a50889724321a31f63af06c14e88fc8d4825f82e3aa0558337258f215.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 7278,
+        "score": 8.95,
+        "scoreCount": 2082,
+        "rank": 26
+      },
+      "skinranks": {
+        "elo": 1647.2,
+        "votes": 16545,
+        "bestVariantRank": 51,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:21:02.847Z"
+      }
+    }
+  },
+  {
+    "id": "skin-melee-da91e4d6713d56e7961aec55",
+    "weapon": "melee",
+    "name": "魄月玄刃",
+    "heat": 78.7,
+    "image": "images/3a0f6eab23cf1fc4c6795a07ab445660591b5bb21255474dd7c5d909425b3823.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3521,
+        "score": 8.82,
+        "scoreCount": 1341,
+        "rank": 34
+      },
+      "skinranks": {
+        "elo": 1685,
+        "votes": 6290,
+        "bestVariantRank": 47,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:21:02.847Z"
+      }
+    }
+  },
+  {
+    "id": "skin-melee-4030d49419edd6c36a52eca1",
+    "weapon": "melee",
+    "name": "盖亚之怒",
+    "heat": 77.7,
+    "image": "images/0e32157f17ec4a0f955793b4b5b2efbcef707d63c9d002fd853c65604887a8b8.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3224,
+        "score": 8.94,
+        "scoreCount": 1152,
+        "rank": 28
+      },
+      "skinranks": {
+        "elo": 1593.9,
+        "votes": 25773,
+        "bestVariantRank": 64,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:21:02.847Z"
+      }
+    }
+  },
+  {
+    "id": "skin-melee-552e19f0a2fff06a08edfe50",
+    "weapon": "melee",
+    "name": "全息战斧",
+    "heat": 77.1,
+    "image": "images/9bc951a24cfcc15c8974b473906b456e938b2ab5ba838fd6ca8f58743299a068.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3277,
+        "score": 9.04,
+        "scoreCount": 789,
+        "rank": 20
+      },
+      "skinranks": {
+        "elo": 1530,
+        "votes": 6304,
+        "bestVariantRank": 105,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:21:02.847Z"
+      }
+    }
+  },
+  {
+    "id": "skin-melee-eb9a958af889c92989051c8b",
+    "weapon": "melee",
+    "name": "悲悯之刃",
+    "heat": 76.7,
+    "image": "images/011228e7f85f097d554cbb16f6bc6c486c1228c1541da17e46d5fc1ccbced9c9.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3760,
+        "score": 9.39,
+        "scoreCount": 11922,
+        "rank": 2
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-melee-4e8649b7bc9aa07eecd1b600",
+    "weapon": "melee",
+    "name": "堕天遗武 仪式匕首",
+    "heat": 76.1,
+    "image": "images/02e350b9a11c40b430b38434c77a9b9927742f83bf3441ab0c809942c466141b.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3276,
+        "score": 8.81,
+        "scoreCount": 1209,
+        "rank": 37
+      },
+      "skinranks": {
+        "elo": 1641,
+        "votes": 6546,
+        "bestVariantRank": 61,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:21:02.847Z"
+      }
+    }
+  },
+  {
+    "id": "skin-melee-696f37bcf40ca2254f413ae2",
+    "weapon": "melee",
+    "name": "再见安打",
+    "heat": 73,
+    "image": "images/5e3ef8b2ab095748ba16aa6f419e9e3c2d2815ce90e8c126e729bcfb1d25c4f0.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3243,
+        "score": 8.88,
+        "scoreCount": 942,
+        "rank": 32
+      },
+      "skinranks": {
+        "elo": 1531,
+        "votes": 6394,
+        "bestVariantRank": 104,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:21:02.847Z"
+      }
+    }
+  },
+  {
+    "id": "skin-melee-9d55a2a4797d7ca7115bbfc6",
+    "weapon": "melee",
+    "name": "灵魂冲击 镰刃",
+    "heat": 72.6,
+    "image": "images/ffa0097b13141a823b43d555e383fd93cf4b8014600fb28971ab36c4e226c49a.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3332,
+        "score": 8.55,
+        "scoreCount": 588,
+        "rank": 47
+      },
+      "skinranks": {
+        "elo": 1669,
+        "votes": 6328,
+        "bestVariantRank": 52,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:21:02.847Z"
+      }
+    }
+  },
+  {
+    "id": "skin-melee-c57c3f8775bce408a8ebec48",
+    "weapon": "melee",
+    "name": "超时空卫队 三棱军刺",
+    "heat": 71.3,
+    "image": "images/cacdc00453e74abd5eaa2b2342ae3658e0682a1080c8475147bd23031bb901e2.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 9055,
+        "score": 9.11,
+        "scoreCount": 2034,
+        "rank": 13
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-melee-ba715ec72193086a79bc9d0f",
+    "weapon": "melee",
+    "name": "金角扇",
+    "heat": 70.6,
+    "image": "images/93f2630e565921683ef0bb41e65a4243076a16879fee3939aba8153feb163e58.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3209,
+        "score": 8.63,
+        "scoreCount": 1146,
+        "rank": 43
+      },
+      "skinranks": {
+        "elo": 1588,
+        "votes": 6521,
+        "bestVariantRank": 80,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:21:02.847Z"
+      }
+    }
+  },
+  {
+    "id": "skin-melee-db8966a507febf03b1373369",
+    "weapon": "melee",
+    "name": "荆刺链刃",
+    "heat": 70.5,
+    "image": "images/b7a37a4f787bfe55a607d1313ff096a0edf8ce2d648761f2860792d330a063be.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 10080,
+        "score": 9.11,
+        "scoreCount": 858,
+        "rank": 14
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-melee-c09dde5561002a60d4601cfb",
+    "weapon": "melee",
+    "name": "RGX 11z Pro//3.0 爪刀",
+    "heat": 70.2,
+    "image": "images/2e6834b95b5abeae1d39faf69ff564afe5a941c1fb14dc190eb57fcaf57dfd7c.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 7676,
+        "score": 9.06,
+        "scoreCount": 11796,
+        "rank": 18
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-melee-45be6b23bd1ff33286c3b27b",
+    "weapon": "melee",
+    "name": "落英飞旋",
+    "heat": 69.9,
+    "image": "images/90d071b8110f5ba5333f4ac226be2e68b7197a33507e1daece1c54503015b563.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 7337,
+        "score": 9.08,
+        "scoreCount": 3321,
+        "rank": 17
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-melee-350f35888d90c9a5728b5e0c",
+    "weapon": "melee",
+    "name": "机动狂飙 战刀",
+    "heat": 69.8,
+    "image": "images/18347c7584f28b0ae001ba7e1b6d8a3a617b53e16c55c9618ad4c8b41c4ff113.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 5528,
+        "score": 8.46,
+        "scoreCount": 3894,
+        "rank": 50
+      },
+      "skinranks": {
+        "elo": 1611.3,
+        "votes": 16635,
+        "bestVariantRank": 42,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:21:02.847Z"
+      }
+    }
+  },
+  {
+    "id": "86a97af7-458c-40a7-8ecf-a8a5332ef4fc",
+    "weapon": "odin",
+    "name": "西部未来",
+    "heat": 98.6,
+    "image": "images/56bc1d9536e5dc3c5346beca69aa4da9cf4173d1d679f3495c749117305fbe8b.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3834,
+        "score": 9.36,
+        "scoreCount": 2421,
+        "rank": 1
+      },
+      "skinranks": {
+        "elo": 1738.8,
+        "votes": 37781,
+        "bestVariantRank": 3,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:20:49.952Z"
+      }
+    }
+  },
+  {
+    "id": "5c314b99-bdc8-4a95-a76c-a427f2b9a239",
+    "weapon": "odin",
+    "name": "掠影//2.0",
+    "heat": 96.1,
+    "image": "images/5c9031ad5e3fd86db8139a28e6a961232164e1d3dda20dec2f7ede9839529c63.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3241,
+        "score": 9.07,
+        "scoreCount": 1194,
+        "rank": 2
+      },
+      "skinranks": {
+        "elo": 1854.9,
+        "votes": 37335,
+        "bestVariantRank": 1,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:20:49.952Z"
+      }
+    }
+  },
+  {
+    "id": "9b31d0c9-438d-408f-b657-eba81293d558",
+    "weapon": "odin",
+    "name": "紫阙金琅//2.0",
+    "heat": 88.1,
+    "image": "images/ae31a1c57d17b2232852b5720ec9c48bf6dbd0f30d7467cccde848e70697fee9.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3270,
+        "score": 8.79,
+        "scoreCount": 642,
+        "rank": 3
+      },
+      "skinranks": {
+        "elo": 1676.7,
+        "votes": 37638,
+        "bestVariantRank": 7,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:20:49.952Z"
+      }
+    }
+  },
+  {
+    "id": "ade943c0-33db-49e5-bc9f-1d0eb81c41f7",
+    "weapon": "odin",
+    "name": "全息波普",
+    "heat": 81.5,
+    "image": "images/5f83d71c7d97539102784813980d59d42cf06f28f99b946a686b817af7347d23.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3284,
+        "score": 8.68,
+        "scoreCount": 399,
+        "rank": 4
+      },
+      "skinranks": {
+        "elo": 1632.3,
+        "votes": 37251,
+        "bestVariantRank": 9,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:20:49.952Z"
+      }
+    }
+  },
+  {
+    "id": "skin-odin-86919d32dcc726958b70c55e",
+    "weapon": "odin",
+    "name": "砰砰X特攻队",
+    "heat": 74.4,
+    "image": "images/2380241456ebdbfcb3bbb422a1de40fe01cf7726e3cd08be9b14b391e51d74f6.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3322,
+        "score": 8.63,
+        "scoreCount": 819,
+        "rank": 5
+      },
+      "skinranks": {
+        "elo": 1534.5,
+        "votes": 37717,
+        "bestVariantRank": 20,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:20:49.952Z"
+      }
+    }
+  },
+  {
+    "id": "79d1dae3-6095-48fe-a4f5-0704589a0cac",
+    "weapon": "odin",
+    "name": "天界神兵2.0",
+    "heat": 68.8,
+    "image": "images/4d40ed338bdb1352383efe45ec9ecaab1d9b8add1cf39d35c092a710442062b1.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 7276,
+        "score": 8.02,
+        "scoreCount": 333,
+        "rank": 8
+      },
+      "skinranks": {
+        "elo": 1633.5,
+        "votes": 21943,
+        "bestVariantRank": 10,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:20:49.952Z"
+      }
+    }
+  },
+  {
+    "id": "skin-odin-80d530a12d656cf3b6e62833",
+    "weapon": "odin",
+    "name": "艾沃莉的梦之翼",
+    "heat": 59.6,
+    "image": "images/79b0fdc7addaad75987eb1542bca0ae6aa6f3da0b2e5baab280b38e611fabf02.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 7655,
+        "score": 8.36,
+        "scoreCount": 843,
+        "rank": 6
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "eb28b1f9-f2e8-487f-9f8d-d0489c9e682f",
+    "weapon": "odin",
+    "name": "狼人猎手",
+    "heat": 58.4,
+    "image": "images/bde65aaac844c6d4389ddf2a64538373e1ab84264f0c9f2f1f44d1450ecc396c.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": null,
+      "skinranks": {
+        "elo": 1563,
+        "votes": 9531,
+        "bestVariantRank": 27,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:20:49.952Z"
+      }
+    }
+  },
+  {
+    "id": "4a8248a1-41ac-4426-b478-bacfbb9a2abb",
+    "weapon": "odin",
+    "name": "光明哨兵//2.0",
+    "heat": 58,
+    "image": "images/2129bffe5e35daff18f259782456e9b668409731bb66293dbce3436801dcbdbd.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3968,
+        "score": 7.43,
+        "scoreCount": 429,
+        "rank": 12
+      },
+      "skinranks": {
+        "elo": 1679,
+        "votes": 22383,
+        "bestVariantRank": 8,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:20:49.952Z"
+      }
+    }
+  },
+  {
+    "id": "skin-odin-e5534294267d55eccf584d5e",
+    "weapon": "odin",
+    "name": "奥丁.EXE",
+    "heat": 57,
+    "image": "images/53226f7fb247c2d23a54cc9503177f6fc397eca1be71660db4fad909ea5d93a1.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": null,
+      "skinranks": {
+        "elo": 1553,
+        "votes": 9281,
+        "bestVariantRank": 28,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:20:49.952Z"
+      }
+    }
+  },
+  {
+    "id": "skin-odin-ef047697aa56f4c35d6733ee",
+    "weapon": "odin",
+    "name": "海洋之星//2.0",
+    "heat": 54.4,
+    "image": "images/09cdd3259f86a59f3a3780cb356a5b80f107ca7c0a3c550d23c327f041c0dcbe.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 8552,
+        "score": 8.25,
+        "scoreCount": 48,
+        "rank": 7
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-odin-4b66f8ae040c0609d8ff0d94",
+    "weapon": "odin",
+    "name": "战术小伙伴",
+    "heat": 54,
+    "image": "images/b534998d07f4d387718818cda72e752670a59e2925b5473d03bfe068f41fa73f.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": null,
+      "skinranks": {
+        "elo": 1456,
+        "votes": 5619,
+        "bestVariantRank": 30,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:20:49.952Z"
+      }
+    }
+  },
+  {
+    "id": "c695f1b0-4cca-47ab-afc8-04809400a831",
+    "weapon": "operator",
+    "name": "堕天遗武",
+    "heat": 97.7,
+    "image": "images/ec751fbb8d1a56d7b1ce923feda7ec61bbe3257ded4921400a9a6db8fa899a53.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3201,
+        "score": 9.12,
+        "scoreCount": 6600,
+        "rank": 1
+      },
+      "skinranks": {
+        "elo": 1797.5,
+        "votes": 14287,
+        "bestVariantRank": 5,
+        "variants": 2,
+        "capturedAt": "2026-09-13T17:29:10.042Z"
+      }
+    }
+  },
+  {
+    "id": "9aeb2988-03fa-419e-b6c1-3708bf0c8a7d",
+    "weapon": "operator",
+    "name": "离子武器",
+    "heat": 91.6,
+    "image": "images/b4a7a0dc04a2695905ab4e9babc426fd085592022579e5cc6f704225cc735ac1.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3196,
+        "score": 8.8,
+        "scoreCount": 2661,
+        "rank": 6
+      },
+      "skinranks": {
+        "elo": 1830,
+        "votes": 7229,
+        "bestVariantRank": 4,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:29:10.042Z"
+      }
+    }
+  },
+  {
+    "id": "63fcb24c-33a0-4683-be54-f2f027495e9b",
+    "weapon": "operator",
+    "name": "掠影",
+    "heat": 90.3,
+    "image": "images/bb15c4733680dd60785047b872d02b71675b9a3466147dea60c720e57d1cee6b.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3221,
+        "score": 8.81,
+        "scoreCount": 1773,
+        "rank": 5
+      },
+      "skinranks": {
+        "elo": 1725.1,
+        "votes": 28052,
+        "bestVariantRank": 10,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:10.042Z"
+      }
+    }
+  },
+  {
+    "id": "b6bf4362-7959-44ae-a334-7f24a77d74e9",
+    "weapon": "operator",
+    "name": "归零者",
+    "heat": 86.6,
+    "image": "images/8d2436a5f92ccdfebe62f10570d436d74354fdc17c17bed922784c166c5254bd.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3177,
+        "score": 8.59,
+        "scoreCount": 7527,
+        "rank": 10
+      },
+      "skinranks": {
+        "elo": 1824.2,
+        "votes": 28449,
+        "bestVariantRank": 1,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:10.042Z"
+      }
+    }
+  },
+  {
+    "id": "b4e037a3-f359-461f-a0e6-dfb749d40795",
+    "weapon": "operator",
+    "name": "起源",
+    "heat": 85.5,
+    "image": "images/8675f2ed6cb4392362b8e751d50e2caab1d070f56f8dad2952e66698bde44424.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3215,
+        "score": 8.7,
+        "scoreCount": 3465,
+        "rank": 7
+      },
+      "skinranks": {
+        "elo": 1680.1,
+        "votes": 28225,
+        "bestVariantRank": 12,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:10.042Z"
+      }
+    }
+  },
+  {
+    "id": "1507d9bb-8c5e-494a-885b-6e5a0707ebd3",
+    "weapon": "operator",
+    "name": "混沌序曲",
+    "heat": 76.8,
+    "image": "images/c848411fb8ce5e0fae671ec0fcd4e60dfb76ba2c9bc029a299204f8bf55acbc9.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3210,
+        "score": 8.23,
+        "scoreCount": 1008,
+        "rank": 14
+      },
+      "skinranks": {
+        "elo": 1708.9,
+        "votes": 28514,
+        "bestVariantRank": 8,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:10.042Z"
+      }
+    }
+  },
+  {
+    "id": "skin-operator-9ec480778c8892b69089c445",
+    "weapon": "operator",
+    "name": "逆命中队",
+    "heat": 74.2,
+    "image": "images/eddcb59249279f9ea21aa03f56f2d609a03042e62a38c62b4b0da023af8153ac.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 10343,
+        "score": 8.89,
+        "scoreCount": 336,
+        "rank": 2
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-operator-cf0588729759f6dace8e640f",
+    "weapon": "operator",
+    "name": "千灵华绽",
+    "heat": 73.6,
+    "image": "images/8b4940ab14316c70a91f8245499a2b3a5d25ac513a96dd0b090cb358a483b2ba.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 7335,
+        "score": 8.88,
+        "scoreCount": 1344,
+        "rank": 3
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "bf3daf0f-0c51-44a1-a6c1-b67678a1f7bf",
+    "weapon": "operator",
+    "name": "光明哨兵",
+    "heat": 73.4,
+    "image": "images/1cc82b2706f0cb2bb3218b8f5e2ed2c88774ad2f8337d93e008305a6123308e5.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3227,
+        "score": 8.34,
+        "scoreCount": 933,
+        "rank": 13
+      },
+      "skinranks": {
+        "elo": 1599.2,
+        "votes": 28141,
+        "bestVariantRank": 27,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:10.042Z"
+      }
+    }
+  },
+  {
+    "id": "skin-operator-32347f715b56461277be1da3",
+    "weapon": "operator",
+    "name": "光荣异象",
+    "heat": 71.8,
+    "image": "images/e215bddc1b25130bc1d045ad8103a942828524c2973a18b14863e57e4bb3adb9.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 8823,
+        "score": 8.84,
+        "scoreCount": 669,
+        "rank": 4
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-operator-8e2142a02c9db345c15b94fa",
+    "weapon": "operator",
+    "name": "沙场老兵",
+    "heat": 71.1,
+    "image": "images/6028fce1c57d61cec012e14f7f5afbcd734fe6cffe238e5286f7fb17bac17074.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3272,
+        "score": 8.61,
+        "scoreCount": 1656,
+        "rank": 8
+      },
+      "skinranks": {
+        "elo": 1385,
+        "votes": 7074,
+        "bestVariantRank": 66,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:29:10.042Z"
+      }
+    }
+  },
+  {
+    "id": "a1665be1-9471-4b29-8708-0580f522f005",
+    "weapon": "operator",
+    "name": "偃月苍龙",
+    "heat": 69.9,
+    "image": "images/f20c4c172d0645799c2175bf6c3e3435e63624bf35f9ab5ab102e2cf939f7ccb.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3867,
+        "score": 7.67,
+        "scoreCount": 12360,
+        "rank": 21
+      },
+      "skinranks": {
+        "elo": 1771,
+        "votes": 17491,
+        "bestVariantRank": 3,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:10.042Z"
+      }
+    }
+  },
+  {
+    "id": "skin-operator-15b7dad29f4df4ffb29d7ae6",
+    "weapon": "operator",
+    "name": "全息波普//2.0",
+    "heat": 66.3,
+    "image": "images/319ccbc811cf9af1390c071cd431e5f78fa9a26a9bc29f3ade8e37f1a389b2f2.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3232,
+        "score": 8.12,
+        "scoreCount": 1008,
+        "rank": 17
+      },
+      "skinranks": {
+        "elo": 1545.6,
+        "votes": 28326,
+        "bestVariantRank": 22,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:10.042Z"
+      }
+    }
+  },
+  {
+    "id": "skin-outlaw-e12c692b0cb203a97b9d4e65",
+    "weapon": "outlaw",
+    "name": "RGX 11z Pro//3.0",
+    "heat": 77.5,
+    "image": "images/bde07f5de1aff6eb68bfd63d46c09cde091425e00249376433bf877188f5ebcb.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 7674,
+        "score": 8.95,
+        "scoreCount": 1233,
+        "rank": 1
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-outlaw-ba126314669862422fa1f10d",
+    "weapon": "outlaw",
+    "name": "神中神罚",
+    "heat": 72.5,
+    "image": "images/ea0b803a25e383b7220a8c6f17685c688120be1c7ab55fdf7291d225911ac7da.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 8785,
+        "score": 8.85,
+        "scoreCount": 1305,
+        "rank": 2
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-outlaw-7515ee5c90637c2c52a63e98",
+    "weapon": "outlaw",
+    "name": "异彩晶棱//回溯 莽侠",
+    "heat": 67.5,
+    "image": "images/b90dca9f7fa41cd5bb4d5c798269db6341c0fa2ecc68732a1cd4426a18faf999.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": null,
+      "skinranks": {
+        "elo": 1522.7,
+        "votes": 115506,
+        "bestVariantRank": 2,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:10.079Z"
+      }
+    }
+  },
+  {
+    "id": "skin-outlaw-8b27aa98805adaa51bbad1ee",
+    "weapon": "outlaw",
+    "name": "千灵华绽//2.0",
+    "heat": 66.8,
+    "image": "images/3b1f73469e5dc8aabd6f66414002ca3f05dab2b520d63117cb39948c0d3e081f.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 9659,
+        "score": 8.28,
+        "scoreCount": 501,
+        "rank": 3
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "43744438-4655-4d02-83c1-b627491ad0d1",
+    "weapon": "phantom",
+    "name": "侦察力量",
+    "heat": 99.3,
+    "image": "images/720899be6be0e102037a7bdce3513d96b2e91e712a516714a64dfa6a9855eee5.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3205,
+        "score": 9.4,
+        "scoreCount": 12000,
+        "rank": 1
+      },
+      "skinranks": {
+        "elo": 1848.6,
+        "votes": 28860,
+        "bestVariantRank": 2,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:21:07.388Z"
+      }
+    }
+  },
+  {
+    "id": "112e695a-f501-476f-9b45-095a1374af43",
+    "weapon": "phantom",
+    "name": "洪荒怒焰",
+    "heat": 96.7,
+    "image": "images/29f9914f6a6e58fb74adda0f590b0dd3d2c3b0a0baa817bc469b12bcfd9effac.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 7044,
+        "score": 9.05,
+        "scoreCount": 6348,
+        "rank": 3
+      },
+      "skinranks": {
+        "elo": 1840.2,
+        "votes": 18724,
+        "bestVariantRank": 3,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:21:07.388Z"
+      }
+    }
+  },
+  {
+    "id": "6fd6b353-b85c-4a2a-9e5a-fff13dff288c",
+    "weapon": "phantom",
+    "name": "2022全球冠军赛",
+    "heat": 96.3,
+    "image": "images/03a1c7d4c959631c12a8bb768bc7f48274dbde646a4ba761c8702e50315f0641.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3526,
+        "score": 8.95,
+        "scoreCount": 3708,
+        "rank": 4
+      },
+      "skinranks": {
+        "elo": 1929,
+        "votes": 7277,
+        "bestVariantRank": 1,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:21:07.388Z"
+      }
+    }
+  },
+  {
+    "id": "ad9e2b77-0d5e-41d4-86f5-15a164ed2d8c",
+    "weapon": "phantom",
+    "name": "般若假面",
+    "heat": 95.1,
+    "image": "images/a65313188a1c0784e4ce0ed60d798e1e8afb85dfe8f951dd3551e7dfa847c708.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3182,
+        "score": 9.1,
+        "scoreCount": 6498,
+        "rank": 2
+      },
+      "skinranks": {
+        "elo": 1732.6,
+        "votes": 28854,
+        "bestVariantRank": 22,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:21:07.388Z"
+      }
+    }
+  },
+  {
+    "id": "77994214-fab5-457a-93be-2861aa7aa54a",
+    "weapon": "phantom",
+    "name": "781-A协议",
+    "heat": 89.6,
+    "image": "images/be6b05e6dc7f4720a6e7a29c33b95044a6c08c677795d29796f47d4cb6ada608.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3189,
+        "score": 8.71,
+        "scoreCount": 5055,
+        "rank": 11
+      },
+      "skinranks": {
+        "elo": 1774.9,
+        "votes": 28847,
+        "bestVariantRank": 7,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:21:07.388Z"
+      }
+    }
+  },
+  {
+    "id": "30fb4f59-09ed-41ca-a915-8ffc1206ead9",
+    "weapon": "phantom",
+    "name": "西部未来",
+    "heat": 86.8,
+    "image": "images/8f5dcb0cc7ea5580a2fb997714c319abd4a25df484ab132df68b822f6afd4f11.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3835,
+        "score": 8.8,
+        "scoreCount": 3939,
+        "rank": 9
+      },
+      "skinranks": {
+        "elo": 1691.2,
+        "votes": 28741,
+        "bestVariantRank": 27,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:21:07.388Z"
+      }
+    }
+  },
+  {
+    "id": "skin-phantom-4df56ff1eef57b04d9eb4acc",
+    "weapon": "phantom",
+    "name": "砰砰X特攻队",
+    "heat": 84.4,
+    "image": "images/9e8c32b9f4cc4265e76754c437f7d0535290002fa4b90213bbe45b86e2f369a0.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3247,
+        "score": 8.82,
+        "scoreCount": 3228,
+        "rank": 8
+      },
+      "skinranks": {
+        "elo": 1605.6,
+        "votes": 28878,
+        "bestVariantRank": 33,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:21:07.388Z"
+      }
+    }
+  },
+  {
+    "id": "skin-phantom-86faed8b8c3df96c2ecda159",
+    "weapon": "phantom",
+    "name": "破败军械",
+    "heat": 82.2,
+    "image": "images/07e10836115d2e5901dba43174baab149ece612e576b6fbc23e9275d2f6bdb75.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3226,
+        "score": 8.71,
+        "scoreCount": 1716,
+        "rank": 13
+      },
+      "skinranks": {
+        "elo": 1681.6,
+        "votes": 28642,
+        "bestVariantRank": 36,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:21:07.388Z"
+      }
+    }
+  },
+  {
+    "id": "skin-phantom-383dcbf0450fcf00c3939aea",
+    "weapon": "phantom",
+    "name": "天界神兵2.0",
+    "heat": 82.2,
+    "image": "images/3dfb875fcd421fe8cd33f12ffd403879fe11335f7f429aa781a77d1fccaeac26.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 7277,
+        "score": 8.64,
+        "scoreCount": 2175,
+        "rank": 15
+      },
+      "skinranks": {
+        "elo": 1693.3,
+        "votes": 18457,
+        "bestVariantRank": 21,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:21:07.388Z"
+      }
+    }
+  },
+  {
+    "id": "skin-phantom-7fc4c13b6d943de0ee7fc99b",
+    "weapon": "phantom",
+    "name": "离子武器",
+    "heat": 81.4,
+    "image": "images/84e1fb586159588a1365d5a7a4a34bb34673768fbdd4df371512907a8119cb60.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3194,
+        "score": 8.67,
+        "scoreCount": 1959,
+        "rank": 14
+      },
+      "skinranks": {
+        "elo": 1690,
+        "votes": 7176,
+        "bestVariantRank": 43,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:21:07.388Z"
+      }
+    }
+  },
+  {
+    "id": "14a3c03a-583c-4125-b5f9-a2b2c86be90f",
+    "weapon": "phantom",
+    "name": "掠影//2.0",
+    "heat": 80.8,
+    "image": "images/8255790a1b3b966373e6e4dcc912958e7b78899055d945cc71ccda1308f111d3.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3236,
+        "score": 8.34,
+        "scoreCount": 1857,
+        "rank": 21
+      },
+      "skinranks": {
+        "elo": 1766.4,
+        "votes": 29083,
+        "bestVariantRank": 10,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:21:07.388Z"
+      }
+    }
+  },
+  {
+    "id": "skin-phantom-ac722fbb6a555e287bf56a96",
+    "weapon": "phantom",
+    "name": "虚空遗器",
+    "heat": 78.2,
+    "image": "images/52c1cadea7183cda1210c8b7ed65be7bcc0b9923383efe11d6c3242b43a83d45.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3254,
+        "score": 8.64,
+        "scoreCount": 1176,
+        "rank": 16
+      },
+      "skinranks": {
+        "elo": 1625.2,
+        "votes": 28833,
+        "bestVariantRank": 49,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:21:07.388Z"
+      }
+    }
+  },
+  {
+    "id": "skin-phantom-869e112c8a43666f999395a2",
+    "weapon": "phantom",
+    "name": "源能者危机001",
+    "heat": 75.3,
+    "image": "images/7fb05ccebfee1d85debce599f50796d4d949bca96ca21724a66ed85bdb3933b6.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3217,
+        "score": 8.58,
+        "scoreCount": 1473,
+        "rank": 17
+      },
+      "skinranks": {
+        "elo": 1534,
+        "votes": 7209,
+        "bestVariantRank": 72,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:21:07.388Z"
+      }
+    }
+  },
+  {
+    "id": "3fcf7b56-9b95-465c-b2fb-0de6ebe2f474",
+    "weapon": "phantom",
+    "name": "辐能娱乐系统",
+    "heat": 74.4,
+    "image": "images/123bd6dcf7c3c5c916e91cfcac05c09fa46be2e4f9f12ad4a202ab5b2c8b89f9.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3811,
+        "score": 8.93,
+        "scoreCount": 15567,
+        "rank": 5
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "14876d9e-4182-45e9-a114-74f18244a338",
+    "weapon": "phantom",
+    "name": "异鳞魔蛇",
+    "heat": 72.7,
+    "image": "images/0c51ecdad107e70eeec535baa58cee230727e8ff9c4a3b33430c2ee6b4eb48d0.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 8524,
+        "score": 8.93,
+        "scoreCount": 2490,
+        "rank": 6
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-phantom-a3078083c6b953231acce796",
+    "weapon": "phantom",
+    "name": "末日泡泡",
+    "heat": 71.9,
+    "image": "images/fd30984a8424fddaad4cd2cf28da8de8913c0925c0ef0529abfee7a6e8570869.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 9167,
+        "score": 8.89,
+        "scoreCount": 2598,
+        "rank": 7
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "0b4131c7-7359-4f0d-bfa6-d91c16bb5513",
+    "weapon": "sheriff",
+    "name": "奇点",
+    "heat": 98.7,
+    "image": "images/3f0b4eae1d5a0794d8b4335dfbb04add8617a1958b7ea11748d00e7ff4811224.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3186,
+        "score": 9.55,
+        "scoreCount": 6147,
+        "rank": 1
+      },
+      "skinranks": {
+        "elo": 1931.9,
+        "votes": 33064,
+        "bestVariantRank": 1,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:19:56.591Z"
+      }
+    }
+  },
+  {
+    "id": "873a9d35-f746-4fca-88c8-e5097be2d7f8",
+    "weapon": "sheriff",
+    "name": "离子武器",
+    "heat": 95.1,
+    "image": "images/443cba67631424bba77edebbd354030ddd3556e5ac1e9775f3faf02ef9cd0be7.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3199,
+        "score": 9.28,
+        "scoreCount": 2244,
+        "rank": 2
+      },
+      "skinranks": {
+        "elo": 1743,
+        "votes": 8159,
+        "bestVariantRank": 9,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:19:56.591Z"
+      }
+    }
+  },
+  {
+    "id": "5d7b6a86-a06b-4b20-8acc-baf23f58ebd2",
+    "weapon": "sheriff",
+    "name": "虚空遗器",
+    "heat": 91.7,
+    "image": "images/f81611ca876954cbf729306d49333b9c294794be9869e220b8f18385314fe87d.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3204,
+        "score": 9.09,
+        "scoreCount": 1848,
+        "rank": 4
+      },
+      "skinranks": {
+        "elo": 1609.9,
+        "votes": 32483,
+        "bestVariantRank": 11,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:19:56.591Z"
+      }
+    }
+  },
+  {
+    "id": "d7f5f915-270e-4e68-91e3-d831f207109f",
+    "weapon": "sheriff",
+    "name": "掠影",
+    "heat": 89.4,
+    "image": "images/1541af29e11883a8a310cfabe8ed8187677fc34dab3136f8d84ce787c27e26b3.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3200,
+        "score": 8.8,
+        "scoreCount": 2445,
+        "rank": 7
+      },
+      "skinranks": {
+        "elo": 1946.2,
+        "votes": 33076,
+        "bestVariantRank": 2,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:19:56.591Z"
+      }
+    }
+  },
+  {
+    "id": "86d2eb0b-acb5-4f1e-b8a5-9795e7dc033a",
+    "weapon": "sheriff",
+    "name": "西部未来",
+    "heat": 88.8,
+    "image": "images/b9b517e6bf39d00243e8189f83053e402f71a524fcd817df6f75b9642234d3d0.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3836,
+        "score": 9.21,
+        "scoreCount": 14907,
+        "rank": 3
+      },
+      "skinranks": {
+        "elo": 1524.6,
+        "votes": 32896,
+        "bestVariantRank": 24,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:19:56.591Z"
+      }
+    }
+  },
+  {
+    "id": "f8af19a4-b0f9-4503-936d-c19437a03bd0",
+    "weapon": "sheriff",
+    "name": "奇幻朋克//2.0",
+    "heat": 79.7,
+    "image": "images/a09bcd4ce7623081c8b5188fbad2b7a4c9879bf4895b64c4b64f667674ea9acd.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3286,
+        "score": 8.57,
+        "scoreCount": 507,
+        "rank": 9
+      },
+      "skinranks": {
+        "elo": 1558.7,
+        "votes": 32322,
+        "bestVariantRank": 12,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:19:56.591Z"
+      }
+    }
+  },
+  {
+    "id": "7745b301-85fa-4deb-bb55-397c80f2044e",
+    "weapon": "sheriff",
+    "name": "塑水宗",
+    "heat": 79.5,
+    "image": "images/228ed7032fac1b790c4105613ffdd2123cd258d6bff1ed200c95eb79a019e8ed.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 6587,
+        "score": 8.49,
+        "scoreCount": 2355,
+        "rank": 10
+      },
+      "skinranks": {
+        "elo": 1569.3,
+        "votes": 20338,
+        "bestVariantRank": 14,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:19:56.591Z"
+      }
+    }
+  },
+  {
+    "id": "6d016806-9d1e-4c17-901b-77c7fe289723",
+    "weapon": "sheriff",
+    "name": "781-A协议",
+    "heat": 78.7,
+    "image": "images/9f827ff37cd4458552979c0a96cb39dd7070deea6593939efa6987850b0b076a.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3216,
+        "score": 8.74,
+        "scoreCount": 1314,
+        "rank": 8
+      },
+      "skinranks": {
+        "elo": 1515.8,
+        "votes": 32834,
+        "bestVariantRank": 30,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:19:56.591Z"
+      }
+    }
+  },
+  {
+    "id": "8ac91b6b-d208-4ac4-8520-a8ff10fd0bc4",
+    "weapon": "sheriff",
+    "name": "光明哨兵",
+    "heat": 74.3,
+    "image": "images/49b983e36ca55df40b307bc1f73b12463b1ca131778278dcb3140300e7fbb0ce.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3231,
+        "score": 8.27,
+        "scoreCount": 804,
+        "rank": 14
+      },
+      "skinranks": {
+        "elo": 1606,
+        "votes": 32862,
+        "bestVariantRank": 10,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:19:56.591Z"
+      }
+    }
+  },
+  {
+    "id": "skin-sheriff-23f0ea2c2e84c62734e265cd",
+    "weapon": "sheriff",
+    "name": "千灵华绽",
+    "heat": 69.9,
+    "image": "images/11d53b4b9cef664c11deb0d1d9ec9e6f6a96e76cf2242939398ef7285a3747de.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 7334,
+        "score": 9,
+        "scoreCount": 1704,
+        "rank": 5
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "4acef9d5-e45b-4235-8b9a-70d79e3a0985",
+    "weapon": "sheriff",
+    "name": "ORA x 颗秒",
+    "heat": 68.2,
+    "image": "images/de40a39fad8a201404294858e212b013ec2600277f7db292df5a70832f21d303.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 9551,
+        "score": 8.97,
+        "scoreCount": 1341,
+        "rank": 6
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "e271cb33-56fb-49b9-9d9d-1510ddc4825d",
+    "weapon": "sheriff",
+    "name": "机动狂飙",
+    "heat": 66.7,
+    "image": "images/3c8d4d5f99834d45d583578cfb49d666196737ebd4a7b14bac61e97f278fd5a7.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 5526,
+        "score": 7.8,
+        "scoreCount": 750,
+        "rank": 18
+      },
+      "skinranks": {
+        "elo": 1585.5,
+        "votes": 20331,
+        "bestVariantRank": 17,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:19:56.591Z"
+      }
+    }
+  },
+  {
+    "id": "0b215cb6-07ca-4706-b156-e674acd214e1",
+    "weapon": "sheriff",
+    "name": "双城之战",
+    "heat": 65.8,
+    "image": "images/de857f5a1dea37f14293c1b4a4bd0c3b0944d4ce898ee47bc5fdaa78df631074.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3718,
+        "score": 7.87,
+        "scoreCount": 1374,
+        "rank": 17
+      },
+      "skinranks": {
+        "elo": 1555,
+        "votes": 8156,
+        "bestVariantRank": 29,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:19:56.591Z"
+      }
+    }
+  },
+  {
+    "id": "skin-sheriff-3467bdab7eeda11ccd703239",
+    "weapon": "sheriff",
+    "name": "RGX 11z Pro//3.0",
+    "heat": 59.9,
+    "image": "images/505b88f4965c99b174255df25b74f5e679cb115980d31065bde8ccac0f434923.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 7675,
+        "score": 8.48,
+        "scoreCount": 969,
+        "rank": 11
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "dae080b7-1b9a-4911-9916-f1ccbdb345e4",
+    "weapon": "shorty",
+    "name": "归零者",
+    "heat": 100,
+    "image": "images/74cebee5cc7d7fd3cca146fc71cd7578387709ef8f83aac67797fc65629b8f1a.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3192,
+        "score": 8.98,
+        "scoreCount": 1167,
+        "rank": 1
+      },
+      "skinranks": {
+        "elo": 1831.2,
+        "votes": 36411,
+        "bestVariantRank": 1,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:12.071Z"
+      }
+    }
+  },
+  {
+    "id": "c247902e-1449-4826-af48-f988fae98393",
+    "weapon": "shorty",
+    "name": "混沌序曲",
+    "heat": 89.1,
+    "image": "images/0697a23decce8e3ecc34fe02f306c230f937f6d30dbe62e57b590d32ce64037d.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3266,
+        "score": 8.62,
+        "scoreCount": 858,
+        "rank": 3
+      },
+      "skinranks": {
+        "elo": 1671.1,
+        "votes": 35796,
+        "bestVariantRank": 6,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:12.071Z"
+      }
+    }
+  },
+  {
+    "id": "51be3f40-a8c4-42af-be66-036ccaa16f9f",
+    "weapon": "shorty",
+    "name": "海洋之星",
+    "heat": 77.5,
+    "image": "images/ca004fe50dbe26cb4cda9fc0688402efc8295a763ac07af54cbc0b8dbf90a369.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3259,
+        "score": 8.54,
+        "scoreCount": 669,
+        "rank": 4
+      },
+      "skinranks": {
+        "elo": 1530,
+        "votes": 17933,
+        "bestVariantRank": 26,
+        "variants": 2,
+        "capturedAt": "2026-09-13T17:29:12.071Z"
+      }
+    }
+  },
+  {
+    "id": "skin-shorty-fc686ad491d546d46d90229c",
+    "weapon": "shorty",
+    "name": "光明哨兵//2.0",
+    "heat": 77.4,
+    "image": "images/283fbaefe913ded3d8513996a1a0f9dd77eb35e7a34636125e70bda54814e304.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3967,
+        "score": 8.38,
+        "scoreCount": 351,
+        "rank": 5
+      },
+      "skinranks": {
+        "elo": 1597.7,
+        "votes": 19911,
+        "bestVariantRank": 10,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:12.071Z"
+      }
+    }
+  },
+  {
+    "id": "49ba649b-4392-4231-94c3-3522780d4705",
+    "weapon": "spectre",
+    "name": "光明哨兵//2.0",
+    "heat": 94.5,
+    "image": "images/eafec362a67ba5e6733c6217389500592af720f8a84be17d7c913bc3f157bdea.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3969,
+        "score": 9.12,
+        "scoreCount": 2319,
+        "rank": 2
+      },
+      "skinranks": {
+        "elo": 1699,
+        "votes": 11485,
+        "bestVariantRank": 19,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:19:57.892Z"
+      }
+    }
+  },
+  {
+    "id": "bce847d2-266d-4ebb-9912-c1596a67c1f2",
+    "weapon": "spectre",
+    "name": "紫阙金琅",
+    "heat": 93.3,
+    "image": "images/a3172ac1ba0683c74b3f398b5ffc5b798424b5e4a58c0fcab9f3670df201c60b.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3212,
+        "score": 9.19,
+        "scoreCount": 2058,
+        "rank": 1
+      },
+      "skinranks": {
+        "elo": 1632.9,
+        "votes": 18319,
+        "bestVariantRank": 21,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:19:57.892Z"
+      }
+    }
+  },
+  {
+    "id": "20be0dd5-9745-4426-a786-df8b728fba8f",
+    "weapon": "spectre",
+    "name": "781-A协议",
+    "heat": 92.8,
+    "image": "images/7960f91b01995a6c8c009fe0f772ef3816e28bb4bc84c5bced703402ac6d797b.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3229,
+        "score": 9.01,
+        "scoreCount": 2172,
+        "rank": 3
+      },
+      "skinranks": {
+        "elo": 1684,
+        "votes": 18398,
+        "bestVariantRank": 15,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:19:57.892Z"
+      }
+    }
+  },
+  {
+    "id": "c7205786-36fa-4b54-b124-581de13c197d",
+    "weapon": "spectre",
+    "name": "侦察力量",
+    "heat": 91.4,
+    "image": "images/2c113721d60e8f5270177976e1cfebd0a9970a3736aef62dea1a66b77fd67015.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3314,
+        "score": 8.75,
+        "scoreCount": 483,
+        "rank": 6
+      },
+      "skinranks": {
+        "elo": 1774.8,
+        "votes": 18510,
+        "bestVariantRank": 5,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:19:57.892Z"
+      }
+    }
+  },
+  {
+    "id": "skin-spectre-40fac356c6fbdbbec9466056",
+    "weapon": "spectre",
+    "name": "堕天遗武",
+    "heat": 89.7,
+    "image": "images/f5633be6221367d115f3084ac00da9694fff115458d31e23a4ad4c1a478595a6.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3294,
+        "score": 8.78,
+        "scoreCount": 537,
+        "rank": 4
+      },
+      "skinranks": {
+        "elo": 1669.5,
+        "votes": 9181,
+        "bestVariantRank": 35,
+        "variants": 2,
+        "capturedAt": "2026-09-13T17:19:57.892Z"
+      }
+    }
+  },
+  {
+    "id": "f087e7b5-c890-4e50-87ae-721714dc4c60",
+    "weapon": "spectre",
+    "name": "掠影//2.0",
+    "heat": 88.6,
+    "image": "images/92636110364eea53161c12e30f183dfb669fc74027234fbb52686c2b3b6a62bf.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3255,
+        "score": 8.59,
+        "scoreCount": 732,
+        "rank": 9
+      },
+      "skinranks": {
+        "elo": 1809.2,
+        "votes": 18406,
+        "bestVariantRank": 2,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:19:57.892Z"
+      }
+    }
+  },
+  {
+    "id": "skin-spectre-bdb586b9f0ee2bb63c2a96b1",
+    "weapon": "spectre",
+    "name": "破败军械",
+    "heat": 86.3,
+    "image": "images/e69b8d40faf3e618915c1d5aa327bf29fda26246a83b267baa9d49b71df64562.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3256,
+        "score": 8.77,
+        "scoreCount": 678,
+        "rank": 5
+      },
+      "skinranks": {
+        "elo": 1609.5,
+        "votes": 18525,
+        "bestVariantRank": 37,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:19:57.892Z"
+      }
+    }
+  },
+  {
+    "id": "1b435ed5-56ec-415a-b969-cee7ac1e094e",
+    "weapon": "spectre",
+    "name": "奇点",
+    "heat": 85.2,
+    "image": "images/ddb8516da889ed97f02a185dbce93bc26b3c1fddf2ace1debfbe37a55ada51d7.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3242,
+        "score": 8.52,
+        "scoreCount": 1512,
+        "rank": 10
+      },
+      "skinranks": {
+        "elo": 1743.1,
+        "votes": 18304,
+        "bestVariantRank": 3,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:19:57.892Z"
+      }
+    }
+  },
+  {
+    "id": "82bb1db2-f680-4a34-b3e4-7012e127fc1c",
+    "weapon": "spectre",
+    "name": "离子武器//2.0",
+    "heat": 83,
+    "image": "images/b46399b7161db54d929c047c4e487b0de05b7300e8c53e7ce81afe90d234e185.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3238,
+        "score": 8.69,
+        "scoreCount": 522,
+        "rank": 8
+      },
+      "skinranks": {
+        "elo": 1618.2,
+        "votes": 18102,
+        "bestVariantRank": 25,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:19:57.892Z"
+      }
+    }
+  },
+  {
+    "id": "skin-spectre-b96812145b3881e253c66ed1",
+    "weapon": "spectre",
+    "name": "砰砰X特攻队",
+    "heat": 82.3,
+    "image": "images/e76756463ad77b05defb5a9f407f475e0bfa69df863756b0d13f24d0ceef2875.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3269,
+        "score": 8.69,
+        "scoreCount": 555,
+        "rank": 7
+      },
+      "skinranks": {
+        "elo": 1561.8,
+        "votes": 18301,
+        "bestVariantRank": 38,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:19:57.892Z"
+      }
+    }
+  },
+  {
+    "id": "d448db58-ff1a-474a-9888-99839b03f920",
+    "weapon": "spectre",
+    "name": "塑水宗",
+    "heat": 78,
+    "image": "images/da3c7d4dd7e5aba6e12def2f705c4395a4e3e573cc6f47d3141d7b1253fced91.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 6588,
+        "score": 7.74,
+        "scoreCount": 1071,
+        "rank": 18
+      },
+      "skinranks": {
+        "elo": 1834.1,
+        "votes": 11689,
+        "bestVariantRank": 1,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:19:57.892Z"
+      }
+    }
+  },
+  {
+    "id": "skin-spectre-2f2550aeaf0a5cbe08a8bfb0",
+    "weapon": "spectre",
+    "name": "源能者危机001",
+    "heat": 74.1,
+    "image": "images/724b5e9b33124d01a0e705e0e378b44be7c52c4344efc642e3ae7142a40bec39.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3234,
+        "score": 8.5,
+        "scoreCount": 648,
+        "rank": 11
+      },
+      "skinranks": {
+        "elo": 1520,
+        "votes": 4586,
+        "bestVariantRank": 58,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:19:57.892Z"
+      }
+    }
+  },
+  {
+    "id": "skin-spectre-8943437f9fdfccfc7b2e9270",
+    "weapon": "spectre",
+    "name": "海洋之星",
+    "heat": 73.7,
+    "image": "images/0350e659e8a5cc4b571339de7fedc728261fe6f8f9f7946a1e58d461b2f68207.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3257,
+        "score": 8.13,
+        "scoreCount": 423,
+        "rank": 14
+      },
+      "skinranks": {
+        "elo": 1600.1,
+        "votes": 9141,
+        "bestVariantRank": 33,
+        "variants": 2,
+        "capturedAt": "2026-09-13T17:19:57.892Z"
+      }
+    }
+  },
+  {
+    "id": "1b5694b2-b90f-4a18-a887-607c8b328964",
+    "weapon": "stinger",
+    "name": "混沌序曲",
+    "heat": 100,
+    "image": "images/cacda84b8f17e3e3fbd9c59ae771ac5137e3c229dea88e89b76b2874bffc19aa.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3235,
+        "score": 9.27,
+        "scoreCount": 1605,
+        "rank": 1
+      },
+      "skinranks": {
+        "elo": 1857.4,
+        "votes": 33577,
+        "bestVariantRank": 1,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:12.374Z"
+      }
+    }
+  },
+  {
+    "id": "19a5f071-7db7-46e6-9435-ba77c7c617a3",
+    "weapon": "stinger",
+    "name": "天界神兵",
+    "heat": 92.3,
+    "image": "images/a6ac95282ae898d090a238899df15c53515ff45c71120fc7c1901e99cf78e392.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3298,
+        "score": 8.65,
+        "scoreCount": 516,
+        "rank": 2
+      },
+      "skinranks": {
+        "elo": 1554.4,
+        "votes": 33609,
+        "bestVariantRank": 9,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:12.374Z"
+      }
+    }
+  },
+  {
+    "id": "48eda248-bd3a-441e-949a-bd6081b337d7",
+    "weapon": "stinger",
+    "name": "机动狂飙",
+    "heat": 85.6,
+    "image": "images/4516d62aef79c993ce501da265e3a83c64514504e13f663dbe57c4ea6f1c4e48.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 5525,
+        "score": 8.53,
+        "scoreCount": 1008,
+        "rank": 3
+      },
+      "skinranks": {
+        "elo": 1522,
+        "votes": 20036,
+        "bestVariantRank": 8,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:29:12.374Z"
+      }
+    }
+  },
+  {
+    "id": "6c80d2ac-6833-4e59-9801-b9104912d31c",
+    "weapon": "vandal",
+    "name": "盖亚的复仇",
+    "heat": 98.6,
+    "image": "images/6e24dc44c822f680e073eb0305b57b9945dfefcbbbdc9ccf796eeb05b09d6eb3.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3185,
+        "score": 9.33,
+        "scoreCount": 14991,
+        "rank": 1
+      },
+      "skinranks": {
+        "elo": 1651.6,
+        "votes": 66616,
+        "bestVariantRank": 4,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:12:21.090Z"
+      }
+    }
+  },
+  {
+    "id": "0930de35-a0a3-4193-be5c-9c911c5c278f",
+    "weapon": "vandal",
+    "name": "混沌序曲",
+    "heat": 98,
+    "image": "images/5e4c34c572ecd14f1ca7f3b8a88c72019811d56d1b76d5eb5cb00976d5ab4b21.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3171,
+        "score": 9.28,
+        "scoreCount": 27171,
+        "rank": 3
+      },
+      "skinranks": {
+        "elo": 1655.3,
+        "votes": 66244,
+        "bestVariantRank": 10,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:12:21.090Z"
+      }
+    }
+  },
+  {
+    "id": "b34a43be-cc9f-4734-af8e-52f5da1abadc",
+    "weapon": "vandal",
+    "name": "堕天遗武",
+    "heat": 93.1,
+    "image": "images/f677180876df98207746dfc48b294d21bcc4e90bb413581cbf9f0329e4b37842.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3219,
+        "score": 9.13,
+        "scoreCount": 5991,
+        "rank": 6
+      },
+      "skinranks": {
+        "elo": 1639.1,
+        "votes": 33291,
+        "bestVariantRank": 2,
+        "variants": 2,
+        "capturedAt": "2026-09-13T17:12:21.090Z"
+      }
+    }
+  },
+  {
+    "id": "a15296b0-1ad4-43f1-8f26-947df5f8dcef",
+    "weapon": "vandal",
+    "name": "洪荒怒焰",
+    "heat": 92,
+    "image": "images/a79cdee24fd18ce1f9dc77c82cef9736206ceb67ebad4bb34e41fe6ecc0e6be7.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 7045,
+        "score": 9.05,
+        "scoreCount": 6657,
+        "rank": 7
+      },
+      "skinranks": {
+        "elo": 1638.9,
+        "votes": 41326,
+        "bestVariantRank": 3,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:12:21.090Z"
+      }
+    }
+  },
+  {
+    "id": "900d05c7-cc6f-4903-ab5b-fd3c0881bdb3",
+    "weapon": "vandal",
+    "name": "RGX 11z Pro",
+    "heat": 91.8,
+    "image": "images/614a7b8808fd7c7f9d009a6758a7c300c04eaff2f99641b556b95612fea30430.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3193,
+        "score": 8.98,
+        "scoreCount": 7383,
+        "rank": 9
+      },
+      "skinranks": {
+        "elo": 1640.4,
+        "votes": 65708,
+        "bestVariantRank": 14,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:12:21.090Z"
+      }
+    }
+  },
+  {
+    "id": "7cb1fb93-607b-4361-a811-d89d64b79a81",
+    "weapon": "vandal",
+    "name": "掠影",
+    "heat": 90.5,
+    "image": "images/0e56b570b678325c84a213d462967207b002a042d9be0f6deb5d4da5be05af31.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3175,
+        "score": 9.01,
+        "scoreCount": 8730,
+        "rank": 8
+      },
+      "skinranks": {
+        "elo": 1615.5,
+        "votes": 66424,
+        "bestVariantRank": 12,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:12:21.090Z"
+      }
+    }
+  },
+  {
+    "id": "37a4c56d-7dfb-405d-996e-7716d70231e0",
+    "weapon": "vandal",
+    "name": "紫阙金琅",
+    "heat": 88.7,
+    "image": "images/c7fbbeb51f0c0282bc062d0187d105023f0c32408693e86c4358991fc69544b9.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3174,
+        "score": 9.18,
+        "scoreCount": 11637,
+        "rank": 5
+      },
+      "skinranks": {
+        "elo": 1553.1,
+        "votes": 66276,
+        "bestVariantRank": 6,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:12:21.090Z"
+      }
+    }
+  },
+  {
+    "id": "cd333d30-fe8e-4ac3-a876-7407249db4e1",
+    "weapon": "vandal",
+    "name": "归零者",
+    "heat": 87.6,
+    "image": "images/60aea4ed81db958849c59efb4e1bc8c2e44fe87bac24ab3b8e9310aad05efa85.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3176,
+        "score": 8.77,
+        "scoreCount": 13575,
+        "rank": 13
+      },
+      "skinranks": {
+        "elo": 1621.9,
+        "votes": 66682,
+        "bestVariantRank": 5,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:12:21.090Z"
+      }
+    }
+  },
+  {
+    "id": "70e5344b-1771-4843-b893-e185e0576fb4",
+    "weapon": "vandal",
+    "name": "冰点凝冻",
+    "heat": 85.4,
+    "image": "images/a3d9f96657e0cfeb3f4c82f8052035fd7ab396f5820830bdde220dff4b77e28f.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3307,
+        "score": 8.9,
+        "scoreCount": 2340,
+        "rank": 11
+      },
+      "skinranks": {
+        "elo": 1584,
+        "votes": 16416,
+        "bestVariantRank": 38,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:12:21.090Z"
+      }
+    }
+  },
+  {
+    "id": "734ab07f-29ac-48fd-a291-8cd02680887c",
+    "weapon": "vandal",
+    "name": "2021全球冠军赛",
+    "heat": 84.5,
+    "image": "images/e82e84dde17b3cd8704ac34fc30f51966b7953c8e4035d0a24f6b3d236e6f78a.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3528,
+        "score": 8.72,
+        "scoreCount": 3471,
+        "rank": 14
+      },
+      "skinranks": {
+        "elo": 1608,
+        "votes": 16738,
+        "bestVariantRank": 28,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:12:21.090Z"
+      }
+    }
+  },
+  {
+    "id": "9a0643aa-51f9-4307-b0d6-497c028c7768",
+    "weapon": "vandal",
+    "name": "虚空遗器",
+    "heat": 81.2,
+    "image": "images/afce454e2b7060890682161501752dba05c607bf803aa552cf79288a3e0cb177.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3214,
+        "score": 8.94,
+        "scoreCount": 3714,
+        "rank": 10
+      },
+      "skinranks": {
+        "elo": 1524.1,
+        "votes": 65721,
+        "bestVariantRank": 42,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:12:21.090Z"
+      }
+    }
+  },
+  {
+    "id": "3fbf30b5-997c-45a2-8a11-06bfec1c9a2a",
+    "weapon": "vandal",
+    "name": "2023全球冠军赛",
+    "heat": 79,
+    "image": "images/a05b040c204462ba1776ba82ab39099509c3709b402e3ea6da152cc9e95cd5af.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3854,
+        "score": 8.25,
+        "scoreCount": 13968,
+        "rank": 28
+      },
+      "skinranks": {
+        "elo": 1793,
+        "votes": 16561,
+        "bestVariantRank": 1,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:12:21.090Z"
+      }
+    }
+  },
+  {
+    "id": "9d597857-805f-44a6-a467-51fcf10e06f5",
+    "weapon": "vandal",
+    "name": "离子武器//2.0",
+    "heat": 78.3,
+    "image": "images/daaa5376c0ea3731e7d8bde05eb86cf8eb2f5949a1f80fe291baabd9d241988c.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3179,
+        "score": 8.57,
+        "scoreCount": 4800,
+        "rank": 19
+      },
+      "skinranks": {
+        "elo": 1554.2,
+        "votes": 65881,
+        "bestVariantRank": 27,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:12:21.090Z"
+      }
+    }
+  },
+  {
+    "id": "skin-vandal-1423eaa95cc517029e644cad",
+    "weapon": "vandal",
+    "name": "逆命中队",
+    "heat": 76.4,
+    "image": "images/3c821af86b8a474d15b2ae0f0e4c56e415dec9c16308f8de9aab663788ed0879.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 10346,
+        "score": 9.32,
+        "scoreCount": 11979,
+        "rank": 2
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-vandal-a7c79fbae223f7763dffc634",
+    "weapon": "vandal",
+    "name": "光荣异象",
+    "heat": 74.7,
+    "image": "images/acad9a6728847f0347c1f782d8cec523e2b638f300aaa5f4ad955568785d7e99.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 8825,
+        "score": 9.22,
+        "scoreCount": 8565,
+        "rank": 4
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "66783bb1-d337-4ad3-8a31-4fda95b2584a",
+    "weapon": "vandal",
+    "name": "光明哨兵",
+    "heat": 74.6,
+    "image": "images/47540e71908a17817cf75d9f515071c4002d79d01741af866e8ad9b82f0c5c34.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3188,
+        "score": 8.3,
+        "scoreCount": 3705,
+        "rank": 26
+      },
+      "skinranks": {
+        "elo": 1573.7,
+        "votes": 65987,
+        "bestVariantRank": 24,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:12:21.090Z"
+      }
+    }
+  },
+  {
+    "id": "566e24d8-c4dc-4c80-86c1-c0004b99216d",
+    "weapon": "vandal",
+    "name": "海洋之星",
+    "heat": 74.6,
+    "image": "images/0143e81c722f7c23c0612e7fc885e7ece4a4b6121aab226ab1463797e07d6de3.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3178,
+        "score": 8.62,
+        "scoreCount": 3522,
+        "rank": 17
+      },
+      "skinranks": {
+        "elo": 1522,
+        "votes": 33061,
+        "bestVariantRank": 64,
+        "variants": 2,
+        "capturedAt": "2026-09-13T17:12:21.090Z"
+      }
+    }
+  },
+  {
+    "id": "f994707a-af8f-46cb-8f4c-549bf59229ab",
+    "weapon": "vandal",
+    "name": "塑水宗",
+    "heat": 72.9,
+    "image": "images/5db3a0a95e62d10db27a165e16431bdadbd9025029232d172df6f7f67a8b2d5e.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 6589,
+        "score": 8.15,
+        "scoreCount": 7998,
+        "rank": 30
+      },
+      "skinranks": {
+        "elo": 1590.9,
+        "votes": 41483,
+        "bestVariantRank": 8,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:12:21.090Z"
+      }
+    }
+  },
+  {
+    "id": "3bcff7ea-88d4-436d-af36-07fb9b844a63",
+    "weapon": "vandal",
+    "name": "偃月苍龙",
+    "heat": 69.7,
+    "image": "images/ad83b249b400d50709844a8113276f89a6d7c83719b67b25a504bfb9023fb82f.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3870,
+        "score": 8.2,
+        "scoreCount": 5673,
+        "rank": 29
+      },
+      "skinranks": {
+        "elo": 1552.7,
+        "votes": 41714,
+        "bestVariantRank": 31,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:12:21.090Z"
+      }
+    }
+  },
+  {
+    "id": "7cf86e95-484a-47dc-bff6-9e41055f122a",
+    "weapon": "vandal",
+    "name": "机动狂飙",
+    "heat": 69,
+    "image": "images/dde7d3575666d1894cc2bd75d34fa77894d791c7d7afd78b386c5a9bc1d642ad.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 5527,
+        "score": 8.39,
+        "scoreCount": 4977,
+        "rank": 22
+      },
+      "skinranks": {
+        "elo": 1500.2,
+        "votes": 41058,
+        "bestVariantRank": 30,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:12:21.090Z"
+      }
+    }
+  },
+  {
+    "id": "skin-vandal-c64979f17be3b43ae021c706",
+    "weapon": "vandal",
+    "name": "圣契命澜",
+    "heat": 68.3,
+    "image": "images/1b0c9ea690bdfa38989bea1c9bfc5fd5ce1cb44a1bb13bb2eacc7842a53f68c5.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 10517,
+        "score": 8.89,
+        "scoreCount": 3210,
+        "rank": 12
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-vandal-14a10c0734ff34a46421eb5f",
+    "weapon": "vandal",
+    "name": "日冕雄师",
+    "heat": 65.9,
+    "image": "images/b9a782dff82d1e2d530a7f589d281b7e1016423d281e26c2ce6aad401359ab7f.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 7517,
+        "score": 8.7,
+        "scoreCount": 2340,
+        "rank": 15
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "ea2dfd97-1946-4146-a592-df8fdc261061",
+    "weapon": "vandal",
+    "name": "盖世英雄",
+    "heat": 65.5,
+    "image": "images/a7e76a5dd19ebf27d2d02df4147e6143c276eedd67d8a0f32bc74a65ad893aba.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3929,
+        "score": 8.1,
+        "scoreCount": 2625,
+        "rank": 32
+      },
+      "skinranks": {
+        "elo": 1531,
+        "votes": 41135,
+        "bestVariantRank": 35,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:12:21.090Z"
+      }
+    }
+  },
+  {
+    "id": "skin-vandal-9da2b0997ec1a548b4d0888c",
+    "weapon": "vandal",
+    "name": "赤焰铁骥",
+    "heat": 64.9,
+    "image": "images/5d5a440ee08e5c0dcf0a4f8f623121ad28fd0069ce0336a33b091fa05f0bf6dd.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 9971,
+        "score": 8.68,
+        "scoreCount": 1473,
+        "rank": 16
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "d571dc1a-bbd8-45a0-a44c-8719d1628c52",
+    "weapon": "vandal",
+    "name": "般若假面//2.0",
+    "heat": 63.8,
+    "image": "images/e6329f0485c0ecf577d15bf809335fffd6f5b43ebbde40adb0869d813f16e1e9.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3781,
+        "score": 8.32,
+        "scoreCount": 4437,
+        "rank": 25
+      },
+      "skinranks": {
+        "elo": 1469,
+        "votes": 66281,
+        "bestVariantRank": 47,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:12:21.090Z"
+      }
+    }
+  },
+  {
+    "id": "2b1705ef-b133-4e1c-8366-8df15775a2c3",
+    "weapon": "vandal",
+    "name": "全息波普//2.0",
+    "heat": 63.7,
+    "image": "images/c7e2c9a816e18fda38223bec4868e5ff978ae36f1bbeda5b92f388b3e0b550b6.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3202,
+        "score": 8.44,
+        "scoreCount": 3516,
+        "rank": 20
+      },
+      "skinranks": {
+        "elo": 1449.9,
+        "votes": 65847,
+        "bestVariantRank": 77,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:12:21.090Z"
+      }
+    }
+  },
+  {
+    "id": "skin-vandal-346c6af7baeac3468d78163a",
+    "weapon": "vandal",
+    "name": "西部未来//2.0",
+    "heat": 63.7,
+    "image": "images/eeef511bbe886088f44884c869cfd89d59fe9b0c30a4c277669f87a0a76fe5d6.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 10479,
+        "score": 8.6,
+        "scoreCount": 2466,
+        "rank": 18
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-vandal-3aec80128a417081716100a6",
+    "weapon": "vandal",
+    "name": "千灵华绽//2.0",
+    "heat": 61.2,
+    "image": "images/294ced2ebb9cbcad8ef8da63f0f7833ce443e996dc03b562d676e476a14d32e7.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 9660,
+        "score": 8.41,
+        "scoreCount": 1494,
+        "rank": 21
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-vandal-ca556b47af0c9a8d07aeae34",
+    "weapon": "vandal",
+    "name": "虫巢心智",
+    "heat": 60.5,
+    "image": "images/61383f4e0084067a18a224c721a1769e56d9ba8b1bb4ad357820a9eb1debbfd5.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": null,
+      "skinranks": {
+        "elo": 1572,
+        "votes": 16470,
+        "bestVariantRank": 41,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:12:21.090Z"
+      }
+    }
+  },
+  {
+    "id": "skin-vandal-e07b45eedb97fb0da0add85d",
+    "weapon": "vandal",
+    "name": "2025全球冠军赛",
+    "heat": 60.1,
+    "image": "images/576b3e0481ca372d1bced60131271c853faac1b6011804f0f8830ee8c1735794.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 9184,
+        "score": 8.39,
+        "scoreCount": 3444,
+        "rank": 23
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "47106a17-f2ce-4231-a8c4-4f4f8ccb403a",
+    "weapon": "vandal",
+    "name": "奇幻朋克//3.0",
+    "heat": 60.1,
+    "image": "images/640e4e80585b1d89aa454abe516a3720cf21bbfbe363b1823593213a3d288b1a.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 3816,
+        "score": 8.03,
+        "scoreCount": 1995,
+        "rank": 33
+      },
+      "skinranks": {
+        "elo": 1496.8,
+        "votes": 65366,
+        "bestVariantRank": 65,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:12:21.090Z"
+      }
+    }
+  },
+  {
+    "id": "skin-vandal-a5aaa332738a7aac1b3ea45f",
+    "weapon": "vandal",
+    "name": "狼人猎手",
+    "heat": 60,
+    "image": "images/67355d047b51f7f782178205528f622621ee16bb6513cab5e4e75fdab9c10b0a.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": null,
+      "skinranks": {
+        "elo": 1557,
+        "votes": 16634,
+        "bestVariantRank": 51,
+        "variants": 1,
+        "capturedAt": "2026-09-13T17:12:21.090Z"
+      }
+    }
+  },
+  {
+    "id": "skin-vandal-0a93453b6ae5d40578a334a2",
+    "weapon": "vandal",
+    "name": "荆刺圣骸",
+    "heat": 58.7,
+    "image": "images/c776b26e6bfaa6a8f79d1622e70f7a9e59d3641dad54eb83de46e21451415dcc.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": {
+        "id": 10079,
+        "score": 8.33,
+        "scoreCount": 885,
+        "rank": 24
+      },
+      "skinranks": null
+    }
+  },
+  {
+    "id": "skin-vandal-3e1689c79b3ce636cb05f469",
+    "weapon": "vandal",
+    "name": "上古龙炎",
+    "heat": 58.5,
+    "image": "images/d94597866b1eb64b3796e019295a4b77de59d2b70872b096c76339ed1062413d.png",
+    "sources": {
+      "formula": "游民手感55% + SkinRanks Elo35% + 样本置信度10%",
+      "capturedAt": "2026-09-13T17:30:52.040Z",
+      "gamersky": null,
+      "skinranks": {
+        "elo": 1532.5,
+        "votes": 66065,
+        "bestVariantRank": 21,
+        "variants": 4,
+        "capturedAt": "2026-09-13T17:12:21.090Z"
+      }
+    }
+  }
+]

@@ -1,11 +1,11 @@
 /* Shared by the viewer and editor. Keep dots and their legends consistent. */
 .map-surface.selecting .map-dot:not([data-draft]){pointer-events:none}
 .map-surface:not(.selecting) .map-dot[data-draft]{pointer-events:none}
-.map-surface .map-world .map-dot{background:#1687ff;border-color:#b9ddff;box-shadow:0 0 0 4px #1687ff22,0 2px 8px #0005}
-.map-surface .map-world .map-dot.defense{background:#ff3049;border-color:#ffbbc4;box-shadow:0 0 0 4px #ff304922,0 2px 8px #0005}
-.map-surface .map-world .map-dot.combined{background:#00b96b;border-color:#a0ffcf;box-shadow:0 0 0 4px #00d47b22,0 2px 8px #0005}
+.map-surface .map-world .map-dot{background:transparent;border-color:transparent;box-shadow:none}
+.map-surface .map-world .map-dot.defense{background:transparent;border-color:transparent;box-shadow:none}
+.map-surface .map-world .map-dot.combined{background:transparent;border-color:transparent;box-shadow:none}
 .map-surface .map-world .map-dot.chosen{background:transparent;border-color:#fff;box-shadow:0 0 0 4px #ff3049}
-.map-surface .map-world .map-dot:hover,.map-surface .map-world .map-dot.is-current{box-shadow:0 0 0 5px #ffffff35,0 2px 10px #0005}
+.map-surface .map-world .map-dot:hover,.map-surface .map-world .map-dot.is-current{box-shadow:none}
 .legend span i{background:#1687ff}.legend .defense i{background:#ff3049}.legend .combined i{background:#00b96b}
 .detail-head .badge.attack{color:#62b4ff;background:#006deb38;border:1px solid #1687ff70}
 .detail-head .badge.defense{color:#ff6575;background:#f51e4138;border:1px solid #ff304970}

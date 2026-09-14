@@ -1,4 +1,9 @@
+import {showNightWeapons} from './night-weapons.js';
+import {showNight} from './night.js';
+import {showUpdates} from './updates.js';
 import {MapSurface,node} from './map.js';
+import {showSkinRanks,weaponLabels} from './skin-ranks.js';
+import {showCrosshairPage} from './crosshair.js';
 
 const $=id=>document.getElementById(id);
 const reduced=matchMedia('(prefers-reduced-motion: reduce)'),mobile=matchMedia('(max-width: 640px)');
@@ -10,6 +15,15 @@ const categoryPoints=id=>(data.points[id]||[]).filter(p=>currentAgent?p.kind==='
 const pointsFor=id=>categoryPoints(id).filter(p=>p.side===currentSide);
 const routeFor=(mapId,p)=>p.kind==='utility'?('utility/'+p.agent+'/'+mapId+'/'+encodeURIComponent(p.id)+'?side='+p.side):('map/'+mapId+'/'+encodeURIComponent(p.id)+'?side='+p.side);
 const storageKey='valorant-guide-personal-v1';
+const settingsKey='valorant-guide-settings-v1';
+let settings={motion:true,anim:true};
+try{const saved=JSON.parse(localStorage.getItem(settingsKey));if(saved&&typeof saved==='object'){settings.motion=saved.motion!==false;settings.anim=saved.anim!==false;}}catch{}
+function applySettings(){
+  document.documentElement.classList.toggle('no-card-motion',!settings.motion);
+  document.documentElement.classList.toggle('no-page-anim',!settings.anim);
+  localStorage.setItem(settingsKey,JSON.stringify(settings));
+}
+applySettings();
 let personal={favorites:[],recent:[]},personalTab='recent';
 try{const saved=JSON.parse(localStorage.getItem(storageKey));if(saved)for(const key of ['favorites','recent'])if(Array.isArray(saved[key]))personal[key]=saved[key].filter(v=>typeof v==='string').slice(0,200);}catch{}
 const pointKey=(mapId,id)=>JSON.stringify([mapId,id]);
@@ -25,7 +39,7 @@ function renderPersonal(){
 const map=new MapSurface($('viewer-map'),{onPoint:points=>points.length===1?openPoint(points[0]):pick(points)});
 
 async function motion(el,frames,duration=300,delay=0){
-  if(!el||reduced.matches)return;
+  if(!el||reduced.matches||!settings.anim)return;
   const animation=el.animate(frames,{duration,delay,easing:ease,fill:'backwards'});
   try{await animation.finished;}catch{}finally{animation.cancel();}
 }
@@ -42,15 +56,18 @@ async function closeDialog(dialog){
   dialog.close();delete dialog.dataset.closing;
 }
 function openDialog(dialog){if(dialog.open)return;dialog.showModal();motion(dialog,[{opacity:0,transform:'translateY(18px) scale(.98)'},{opacity:1,transform:'translateY(0) scale(1)'}],350);}
+async function closePicker(){const picker=$('point-picker');if(!picker.matches(':popover-open')||picker.dataset.closing)return;picker.dataset.closing='true';await motion(picker,[{opacity:1,transform:'translateY(0) scale(1)'},{opacity:0,transform:'translateY(-7px) scale(.985)'}],140);picker.hidePopover();delete picker.dataset.closing;}
+function openPicker(){const picker=$('point-picker'),button=$('list-toggle'),rect=button.getBoundingClientRect();picker.style.setProperty('--picker-top',rect.bottom+8+'px');picker.style.setProperty('--picker-right',Math.max(12,innerWidth-rect.right)+'px');if(!picker.matches(':popover-open')){picker.showPopover();motion(picker,[{opacity:0,transform:'translateY(-9px) scale(.98)'},{opacity:1,transform:'translateY(0) scale(1)'}],260);}}
 function pick(points){
-  const list=$('picker-list');list.replaceChildren(...points.map((p,i)=>node('button',{class:'picker-item',onclick:async()=>{await closeDialog($('point-picker'));openPoint(p);}},[
-    node('span',{class:'guide-index',text:String(i+1).padStart(2,'0')}),node('span',{},[node('strong',{text:p.name}),node('small',{text:(p.side==='attack'?'进攻方':'防守方')+' · '+p.detail.description})])
+  const list=$('picker-list'),mapName=data.maps.find(m=>m.id===currentMap)?.name||'';$('picker-context').textContent=mapName+' · '+(currentSide==='attack'?'进攻方':'防守方');list.replaceChildren(...points.map((p,i)=>node('button',{class:'picker-item',onclick:async()=>{await closePicker();openPoint(p);}},[
+    node('span',{class:'guide-index',text:String(i+1).padStart(2,'0')}),node('strong',{text:p.name})
   ])));
   if(!points.length)list.append(node('p',{class:'empty',text:'当前地图暂无'+(currentSide==='attack'?'进攻方':'防守方')+'点位，试试另一阵营或地图。'}));
-  openDialog($('point-picker'));
+  openPicker();
 }
-$('point-picker').addEventListener('cancel',e=>{e.preventDefault();closeDialog($('point-picker'));});
-$('point-picker').addEventListener('click',e=>{if(e.target===$('point-picker'))closeDialog($('point-picker'));});
+$('point-picker').addEventListener('beforetoggle',e=>{if(e.newState==='closed')delete $('point-picker').dataset.closing;});
+document.addEventListener('pointerdown',e=>{const picker=$('point-picker');if(picker.matches(':popover-open')&&!picker.contains(e.target)&&!$('list-toggle').contains(e.target)&&!$('side-switch').contains(e.target))closePicker();});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('point-picker').matches(':popover-open')){e.preventDefault();closePicker();}});
 
 function gallery(items,index){
   const dialog=node('dialog',{class:'lightbox','aria-label':'攻略截图预览'}),img=node('img',{alt:''});
@@ -73,7 +90,7 @@ function syncModal(){
   else{$('guide-panel').removeAttribute('role');$('guide-panel').removeAttribute('aria-modal');}
 }
 function renderDetail(p){
-  $('detail-title').textContent=p.name;$('detail-description').textContent=p.detail.description||'暂无操作说明。';
+  $('detail-title').textContent=p.name;$('list-toggle-label').textContent=p.name;$('list-toggle').title='点位列表 · '+p.name;$('detail-description').textContent=p.detail.description||'暂无操作说明。';
   $('detail-badges').replaceChildren(node('span',{class:'badge '+p.side,text:p.side==='attack'?'进攻方':'防守方'}));
   if(p.detail.crouch)$('detail-badges').append(node('span',{class:'badge crouch',text:'需要蹲下'}));
   const key=pointKey(currentMap,p.id),favorite=node('button',{class:'favorite-button'});
@@ -94,14 +111,13 @@ async function setDetail(p){
   const wasOpen=!!detailId;
   if(p){
     if(wasOpen)await motion($('detail'),[{opacity:1},{opacity:0}],100);
-    else if(!mobile.matches)await motion($('overview'),[{opacity:1},{opacity:0}],140);
     detailId=p.id;renderDetail(p);$('overview').hidden=true;$('detail').hidden=false;document.body.classList.add('detail-open');syncModal();
     const target=mobile.matches&&!wasOpen?$('guide-panel'):$('detail');
     await motion(target,[{opacity:0,transform:mobile.matches&&!wasOpen?'translateY(45px)':'translateX(12px)'},{opacity:1,transform:'translate(0,0)'}],360);
     $('detail-close').focus({preventScroll:true});
   }else{
     await motion(mobile.matches?$('guide-panel'):$('detail'),[{opacity:1,transform:'translate(0,0)'},{opacity:0,transform:mobile.matches?'translateY(35px)':'translateX(8px)'}],200);
-    detailId=null;$('detail').hidden=true;$('overview').hidden=false;document.body.classList.remove('detail-open');syncModal();
+    detailId=null;$('detail').hidden=true;$('overview').hidden=true;$('list-toggle-label').textContent='点位列表';$('list-toggle').removeAttribute('title');document.body.classList.remove('detail-open');syncModal();
     
     if(lastFocus?.isConnected)lastFocus.focus({preventScroll:true});else $('list-toggle').focus({preventScroll:true});
   }
@@ -126,18 +142,31 @@ function overview(id){
   if(!pts.length)$('overview-list').append(node('p',{class:'empty',text:'当前地图暂无'+(currentSide==='attack'?'进攻方':'防守方')+'点位，试试另一阵营或地图。'}));
 }
 async function page(viewing,prepare,override){
-  const next=override||(viewing?'map-page':'home');if(currentPage===next)return;
+  const next=override||(viewing?'map-page':'home'),el=$(next);
+  if(currentPage===next){el.inert=false;return;}
   const old=$(currentPage);old.inert=true;
-  await motion(old,currentPage==='map-page'?[{opacity:1},{opacity:0}]:[{opacity:1,transform:'translateY(0)'},{opacity:0,transform:'translateY(-10px)'}],170);
-  old.hidden=true;old.inert=false;const el=$(next);el.hidden=false;currentPage=next;
-  if(prepare)await prepare();
-  if(!viewing)window.scrollTo({top:0,behavior:'instant'});
-  await motion(el,viewing?[{opacity:0},{opacity:1}]:[{opacity:0,transform:'translateY(14px)'},{opacity:1,transform:'translateY(0)'}],360);
+  try{
+   await motion(old,currentPage==='map-page'?[{opacity:1},{opacity:0}]:[{opacity:1,transform:'translateY(0)'},{opacity:0,transform:'translateY(-10px)'}],170);
+   old.hidden=true;el.hidden=false;currentPage=next;
+   if(prepare)await prepare();
+   if(!viewing)window.scrollTo({top:0,behavior:'instant'});
+   await motion(el,viewing?[{opacity:0},{opacity:1}]:[{opacity:0,transform:'translateY(14px)'},{opacity:1,transform:'translateY(0)'}],360);
+  }finally{old.inert=false;el.inert=false;}
 }
 async function renderRoute(hash){
   let parts;try{parts=decodeURIComponent(hash.slice(1).split('?')[0]).split('/');}catch{parts=[];}
+  if(parts[0]==='updates'){await setDetail(null);currentMap=null;await page(false,null,'updates-page');showUpdates();document.title='版本最新改动 · VALORANT';return;}
   const oldAgent=currentAgent,oldSide=currentSide;
   currentAgent=parts[0]==='utility'&&agentNames[parts[1]]?parts[1]:null;
+  if(parts[0]==='skins'&&parts[1]==='ranking'&&weaponLabels[parts[2]]){await setDetail(null);currentMap=null;await page(false,null,'skin-ranks-page');await showSkinRanks(parts[2]);document.title=weaponLabels[parts[2]]+' · 手感排行';return;}
+  if(parts[0]==='skins'&&parts[1]==='ranking'){await setDetail(null);currentMap=null;await page(false,null,'ranking-page');document.title='手感排行 · VALORANT';return;}
+  if(parts[0]==='skins'&&parts[1]==='night'&&parts[2]==='weapons'){await setDetail(null);currentMap=null;await page(false,null,'night-weapons-page');await showNightWeapons(parts[3]);document.title='夜市全部武器 · VALORANT';return;}
+  if(parts[0]==='skins'&&parts[1]==='night'){await setDetail(null);currentMap=null;await page(false,null,'night-page');showNight();document.title='夜市专题 · VALORANT';return;}
+  if(parts[0]==='skins'){await setDetail(null);currentMap=null;await page(false,null,'skins-page');document.title='皮肤专题 · VALORANT';return;}
+  // 准星页面路由
+  if(parts[0]==='crosshair'){await setDetail(null);currentMap=null;currentAgent=null;await page(false,showCrosshairPage,'crosshair-page');document.title='主播职业准星方案';return;}
+  if(parts[0]==='settings'){await setDetail(null);currentMap=null;currentAgent=null;await page(false,renderSettings,'settings-page');document.title='设置&关于网站 · VALORANT';return;}
+  if(parts[0]==='treasure'){await setDetail(null);currentMap=null;currentAgent=null;await page(false,()=>{const fr=$('treasure-frame');if(fr&&fr.src==='about:blank')fr.src=fr.dataset.src;},'treasure-page');document.title='百宝箱 · 音乐地形';return;}
   if(parts[0]==='utility'&&!currentAgent){await setDetail(null);await page(false,null,'agents');currentMap=null;document.title='选择英雄 · 道具点位';return;}
   if(currentAgent)parts=['map',parts[2],parts[3]];
   const viewing=parts[0]==='map';
@@ -155,19 +184,30 @@ async function renderRoute(hash){
     overview(id);if(keepView)map.setPoints(pts);else await map.load(id,pts);await motion(map.world,[{opacity:0},{opacity:1}],300);if(location.hash===hash)$('map-page').classList.remove('map-switching');
   }
   if(location.hash!==hash)return;
+  if($('point-picker').matches(':popover-open'))pick(pointsFor(id));
   await setDetail(pts.find(p=>p.id===parts[2])||null);document.title=(data.maps.find(m=>m.id===id).name)+' · '+(currentAgent?agentNames[currentAgent]+'道具点位':'穿墙指南');
 }
 async function route(){
   if(!data||routing)return;routing=true;
   try{while(renderedHash!==location.hash){const hash=location.hash;renderedHash=hash;await renderRoute(hash);}}
   catch(e){console.error(e);map.message.textContent='页面暂时无法切换，请刷新重试。';}
-  finally{$('map-page').classList.remove('map-switching');routing=false;}
+  finally{$('map-page').classList.remove('map-switching');$(currentPage).inert=false;routing=false;}
 }
 
 for(const button of $('side-switch').querySelectorAll('button'))button.onclick=()=>{if(!currentMap)return;location.hash=(currentAgent?'utility/'+currentAgent+'/'+currentMap:'map/'+currentMap)+'?side='+button.dataset.side;};
-$('enter-utility').onclick=()=>{location.hash='utility';};for(const button of document.querySelectorAll('[data-agent]'))button.onclick=()=>{location.hash='utility/'+button.dataset.agent+'/'+(data.maps.find(m=>(data.points[m.id]||[]).some(p=>p.kind==='utility'&&p.agent===button.dataset.agent))||data.maps[0]).id;};
+$('enter-utility').onclick=()=>{location.hash='utility';};$('enter-crosshair').onclick=()=>{location.hash='crosshair';};const enterSettings=$('enter-settings');if(enterSettings)enterSettings.onclick=()=>{location.hash='settings';};const treasureOpen=$('treasure-open');if(treasureOpen)treasureOpen.onclick=()=>{location.hash='treasure';};
+function renderSettings(){
+  const motionBtn=$('setting-motion'),animBtn=$('setting-anim');
+  const sync=(btn,on)=>{btn.setAttribute('aria-checked',String(on));btn.classList.toggle('on',on);};
+  sync(motionBtn,settings.motion);sync(animBtn,settings.anim);
+  motionBtn.onclick=()=>{settings.motion=!settings.motion;applySettings();sync(motionBtn,settings.motion);};
+  animBtn.onclick=()=>{settings.anim=!settings.anim;applySettings();sync(animBtn,settings.anim);};
+  const favCount=personal.favorites.length,recCount=personal.recent.length;
+  $('settings-personal-count').textContent=`当前设备已收藏 ${favCount} 个点位，最近浏览 ${recCount} 个。数据仅保存在本机浏览器中。`;
+  $('settings-clear-personal').onclick=()=>{personal.favorites=[];personal.recent=[];savePersonal();$('settings-personal-count').textContent='收藏与浏览记录已清空。';};
+}for(const button of document.querySelectorAll('[data-agent]'))button.onclick=()=>{location.hash='utility/'+button.dataset.agent+'/'+(data.maps.find(m=>(data.points[m.id]||[]).some(p=>p.kind==='utility'&&p.agent===button.dataset.agent))||data.maps[0]).id;};
 $('detail-close').onclick=closeDetail;$('detail-backdrop').onclick=closeDetail;
-$('picker-close').onclick=()=>closeDialog($('point-picker'));$('list-toggle').onclick=()=>pick(pointsFor(currentMap));
+$('picker-close').onclick=closePicker;$('list-toggle').onclick=()=>$('point-picker').matches(':popover-open')?closePicker():pick(pointsFor(currentMap));
 for(const button of document.querySelectorAll('[data-upcoming]'))button.onclick=()=>{$('upcoming-title').textContent=button.dataset.upcoming;$('upcoming-description').textContent='这个功能还未开放。';openDialog($('upcoming-dialog'));};
 const ideas={'英雄速查':'选择英雄后，集中查看技能说明、适用地图和相关点位。这个功能目前是提案。','战术画板':'在地图上标出队友站位、进攻路线和技能范围，再导出图片分享。这个功能目前是提案。','训练清单':'选择点位加入练习计划，记录哪些已经掌握。这个功能目前是提案。'};
 for(const button of document.querySelectorAll('[data-idea]'))button.onclick=()=>{$('upcoming-title').textContent=button.dataset.idea;$('upcoming-description').textContent=ideas[button.dataset.idea];openDialog($('upcoming-dialog'));};
@@ -205,3 +245,12 @@ for(const card of document.querySelectorAll('.agent-card')){
  card.addEventListener('pointermove',event=>{if(reduced.matches||!finePointer.matches)return;cancelAnimationFrame(frame);const x=event.clientX,y=event.clientY;frame=requestAnimationFrame(()=>{const r=card.getBoundingClientRect(),u=(x-r.left)/r.width,v=(y-r.top)/r.height;card.style.setProperty('--light-x',u*100+'%');card.style.setProperty('--light-y',v*100+'%');card.style.setProperty('--tilt-x',(0.5-v)*5+'deg');card.style.setProperty('--tilt-y',(u-0.5)*5+'deg');});});
  card.addEventListener('pointerleave',()=>{cancelAnimationFrame(frame);card.style.removeProperty('--tilt-x');card.style.removeProperty('--tilt-y');});
 }
+
+$('enter-skins').onclick=()=>{location.hash='skins';};
+for(const button of document.querySelectorAll('[data-skin-topic]'))button.onclick=()=>{if(button.dataset.skinTopic==='夜市专题'){location.hash='skins/night';return;}if(button.dataset.skinTopic==='手感排行'){location.hash='skins/ranking';return;}$('upcoming-title').textContent=button.dataset.skinTopic;$('upcoming-description').textContent='专题内容正在准备中。';openDialog($('upcoming-dialog'));};
+
+for(const button of document.querySelectorAll('[data-weapon]'))button.onclick=()=>{const id=Object.keys(weaponLabels).find(k=>weaponLabels[k]===button.dataset.weapon);location.hash='skins/ranking/'+id;};
+
+$('enter-updates').onclick=()=>{location.hash='updates';};
+
+for(const button of document.querySelectorAll('[data-night-topic]'))button.onclick=()=>{if(button.dataset.nightTopic==='夜市全部武器'){location.hash='skins/night/weapons';return;}$('upcoming-title').textContent=button.dataset.nightTopic;$('upcoming-description').textContent='内容正在准备中。';openDialog($('upcoming-dialog'));};
