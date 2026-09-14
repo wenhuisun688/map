@@ -1,6 +1,12 @@
 {
   "tracks": [
-    { "file": "die-for-you.flac", "name": "Die For You 为你而战 (2021全球冠军赛主题曲)" },
-    { "file": "ticking-away.flac", "name": "Ticking Away 流光似箭 (2023全球冠军赛主题曲)" }
+    {
+      "file": "die-for-you.m4a",
+      "name": "Die For You 为你而战 (2021全球冠军赛主题曲)"
+    },
+    {
+      "file": "ticking-away.m4a",
+      "name": "Ticking Away 流光似箭 (2023全球冠军赛主题曲)"
+    }
   ]
 }
