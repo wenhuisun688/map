@@ -219,7 +219,7 @@ function syncModal(){
 function renderDetail(p){
   $('detail-title').textContent=p.name;$('list-toggle-label').textContent=p.name;$('list-toggle').title='点位列表 · '+p.name;$('detail-description').textContent=p.detail.description||'暂无操作说明。';
   $('detail-badges').replaceChildren(node('span',{class:'badge '+p.side,text:p.side==='attack'?'进攻方':'防守方'}));
-  if(p.kind!=='utility')$('detail-badges').append(node('span',{class:'badge '+(p.source==='player'?'source-player':'source-admin'),text:p.source==='player'?'玩家投稿':'站长实录'}));
+  {const src=$('detail-source');if(p.kind!=='utility'){src.hidden=false;src.textContent=p.source==='player'?'玩家投稿':'站长实录';src.className='badge '+(p.source==='player'?'source-player':'source-admin');}else src.hidden=true;}
   if(p.detail.crouch)$('detail-badges').append(node('span',{class:'badge crouch',text:'需要蹲下'}));
   const key=pointKey(currentMap,p.id),favorite=node('button',{class:'favorite-button detail-fav'});
   const updateFavorite=()=>{const active=personal.favorites.includes(key);favorite.textContent=active?'★ 已收藏':'☆ 收藏';favorite.setAttribute('aria-pressed',String(active));};
@@ -307,7 +307,7 @@ async function renderRoute(hash){
   if(currentAgent)parts=['map',parts[2],parts[3]];
   const viewing=parts[0]==='map';
   document.querySelector('.viewer-nav h1').textContent=currentAgent?agentNames[currentAgent]+' · 道具点位':'穿墙点位';
-  document.querySelector('.viewer-nav .back-link').href=currentAgent?'#utility':'#';document.querySelector('.viewer-nav .back-link').setAttribute('aria-label',currentAgent?'返回英雄选择':'返回首页');
+  document.querySelector('.viewer-nav .back-link').href='#';document.querySelector('.viewer-nav .back-link').setAttribute('aria-label','返回首页');{const up=document.querySelector('.viewer-nav .nav-up-btn');if(up)up.hidden=!currentAgent;}
   if(!viewing){await setDetail(null);await page(false);currentMap=null;document.title='瓦小探 · VALORANT 点位手册';return;}
   const id=data.maps.some(m=>m.id===parts[1])?parts[1]:data.maps.find(m=>data.points[m.id]?.length)?.id||data.maps[0].id;
   const linked=categoryPoints(id).find(p=>p.id===parts[2]);const sideParam=new URLSearchParams(hash.split('?')[1]||'').get('side');currentSide=linked?.side||(['attack','defense'].includes(sideParam)?sideParam:currentSide);
@@ -366,7 +366,7 @@ function renderSettings(){
   $('settings-clear-personal').onclick=()=>{personal.favorites=[];personal.recent=[];savePersonal();$('settings-personal-count').textContent='收藏与浏览记录已清空。';};
 }for(const button of document.querySelectorAll('[data-agent]'))button.onclick=()=>navigate('utility/'+button.dataset.agent+'/'+(data.maps.find(m=>(data.points[m.id]||[]).some(p=>p.kind==='utility'&&p.agent===button.dataset.agent))||data.maps[0]).id);
 $('detail-close').onclick=closeDetail;$('detail-backdrop').onclick=closeDetail;
-$('picker-close').onclick=closePicker;$('list-toggle').onclick=()=>$('point-picker').matches(':popover-open')?closePicker():pick(pointsFor(currentMap));
+if($('picker-close'))$('picker-close').onclick=closePicker;$('list-toggle').onclick=()=>$('point-picker').matches(':popover-open')?closePicker():pick(pointsFor(currentMap));
 for(const button of document.querySelectorAll('[data-upcoming]'))button.onclick=()=>{$('upcoming-title').textContent=button.dataset.upcoming;$('upcoming-description').textContent='这个功能还未开放。';openDialog($('upcoming-dialog'));};
 const ideas={'英雄速查':'选择英雄后，集中查看技能说明、适用地图和相关点位。这个功能目前是提案。','战术画板':'在地图上标出队友站位、进攻路线和技能范围，再导出图片分享。这个功能目前是提案。','训练清单':'选择点位加入练习计划，记录哪些已经掌握。这个功能目前是提案。'};
 for(const button of document.querySelectorAll('[data-idea]'))button.onclick=()=>{$('upcoming-title').textContent=button.dataset.idea;$('upcoming-description').textContent=ideas[button.dataset.idea];openDialog($('upcoming-dialog'));};

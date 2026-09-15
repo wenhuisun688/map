@@ -4,12 +4,11 @@
 .map-surface .map-world .map-dot{background:transparent;border-color:transparent;box-shadow:none}
 .map-surface .map-world .map-dot.defense{background:transparent;border-color:transparent;box-shadow:none}
 .map-surface .map-world .map-dot.combined{background:transparent;border-color:transparent;box-shadow:none}
-.map-surface .map-world .map-dot.chosen{background:transparent;border-color:#fff;box-shadow:0 0 0 4px #ff3049}
+.map-surface .map-world .map-dot.chosen{background:transparent;border-color:#fff;box-shadow:0 0 0 4px #ff4655}
 .map-surface .map-world .map-dot:hover,.map-surface .map-world .map-dot.is-current{box-shadow:none}
-.legend span i{background:#1687ff}.legend .defense i{background:#ff3049}.legend .combined i{background:#00b96b}
+.legend span i{background:#1687ff}.legend .defense i{background:#ff4655}.legend .combined i{background:#00b96b}
 .detail-head .badge.attack{color:#62b4ff;background:#006deb38;border:1px solid #1687ff70}
-.detail-head .badge.defense{color:#ff6575;background:#f51e4138;border:1px solid #ff304970}
-.detail-head .badge.crouch{color:#ffab3d;background:#ff7a0040;border:1px solid #ff7a0090}
-.favorite-button{color:#ff5265;background:#ff30491a;border-color:#ff304960}
-.favorite-button[aria-pressed=true]{color:#fff;background:#d91c38;border-color:#ff5265}
-.favorite-button:hover{background:#ff304940}.favorite-button[aria-pressed=true]:hover{background:#ed2442}
+.detail-head .badge.defense{color:#ff6575;background:#f51e4138;border:1px solid #ff465570}
+.favorite-button{color:#ff7d89;background:#ff46551a;border-color:#ff465560}
+.favorite-button[aria-pressed=true]{color:#fff;background:#e53849;border-color:#ff7d89}
+.favorite-button:hover{background:#ff465540}.favorite-button[aria-pressed=true]:hover{background:#e53849}

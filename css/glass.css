@@ -570,7 +570,7 @@
   text-align: center;
 }
 
-.home-errors p { font-size: 13px; color: #ff9ea6; }
+.home-errors p { font-size: 13px; color: #ff929c; }
 .home-errors .quiet { font-size: 12px; color: var(--ink-dim); background: none; border: none; cursor: pointer; }
 .home-errors .quiet:hover { color: var(--ink); }
 

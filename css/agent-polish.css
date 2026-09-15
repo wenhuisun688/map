@@ -8,10 +8,10 @@
 .agent-back span{position:relative;line-height:1}
 .agent-back:hover{translate:-2px 0;background:linear-gradient(145deg,#ffffff12,#ffffff07);border-color:#ffffff2c;box-shadow:inset 0 1px 0 #ffffff14,0 10px 28px #0003;color:white}
 .agent-back:hover::before{transform:translateX(110%)}
-.agent-back:hover svg{transform:translateX(-2px);background:#ff46551c;border-color:#ff657044;color:#ff929b}
+.agent-back:hover svg{translate:-2px 0;background:#ff46551c;border-color:#ff7d8944;color:#ff929c}
 .agent-back:active{translate:0 1px;box-shadow:inset 0 1px 0 #ffffff0a,0 3px 10px #0002}
-.agent-back:focus-visible{outline:2px solid #ff7b86;outline-offset:3px}
-.agent-hub{max-width:none;padding:36px 0 70px}.agent-heading{margin-bottom:34px}.agent-heading h1{font-size:42px;letter-spacing:-1.5px}.agent-heading p{font-size:17px;margin-top:12px;color:#9ba2b2}
+.agent-back:focus-visible{outline:2px solid #ff7d89;outline-offset:3px}
+.agent-hub{max-width:none;padding:36px 0 70px}.agent-heading{margin-bottom:34px}.agent-heading h1{font-size:42px;letter-spacing:var(--track-title)}.agent-heading p{font-size:17px;margin-top:12px;color:#9ba2b2}
 .agent-grid{display:grid;grid-auto-flow:column;grid-auto-columns:280px;grid-template-columns:none;gap:20px;justify-content:start;overflow-x:auto;padding:15px 10px 30px;margin:0 -10px;scroll-snap-type:x proximity;scrollbar-width:thin;scrollbar-color:#ff46554d transparent;perspective:1200px}
 .agent-card{width:280px;height:375px;border-radius:23px;scroll-snap-align:start;transform:perspective(1000px) rotateX(var(--tilt-x,0deg)) rotateY(var(--tilt-y,0deg));transition:transform .24s ease-out,translate .4s var(--ease),border-color .25s,box-shadow .4s}
 .agent-card::before{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;background:radial-gradient(circle at var(--light-x,50%) var(--light-y,25%),#ffffff24,transparent 65%);opacity:0;transition:opacity .4s}
