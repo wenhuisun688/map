@@ -31,3 +31,13 @@
 @media(hover:none){.skin-card>img{filter:brightness(.95) saturate(1) drop-shadow(0 14px 16px #0008)}}
 @media(prefers-reduced-motion:reduce){.skin-card>img,.skin-card:hover>img,.skin-card:focus-visible>img{transform:translateX(-50%) rotate(55deg)!important;transition:none}.skin-card::before{transition:none}}
 @media(prefers-reduced-motion:reduce){#ranking-page .weapon-card>img,#ranking-page .weapon-card:hover>img,#ranking-page .weapon-card:focus-visible>img{transform:translateX(-50%) rotate(47deg) scale(1.04)!important}#ranking-page .weapon-melee>img,#ranking-page .weapon-melee:hover>img,#ranking-page .weapon-melee:focus-visible>img{transform:translateX(-50%) rotate(7deg) scale(1.04)!important}}
+
+/* 皮肤专题两张卡：一排容纳两张，比例缩小 */
+/* 桌面端：一排两张 320px 竖卡；手机端沿用下方原有响应式规则 */
+@media(min-width:701px){#skins-page .skin-grid{grid-template-columns:repeat(2,minmax(0,320px));justify-content:start;gap:26px;padding-top:34px}
+#skins-page .skin-card{width:100%;height:352px}
+#skins-page .skin-card>img{width:300px;top:76px}
+#skins-page .skin-card .agent-word{font-size:66px;left:20px;top:20px}
+#skins-page .skin-card .agent-card-bottom{bottom:24px;left:22px;right:20px}
+#skins-page .skin-card .agent-card-bottom strong{font-size:24px}
+#skins-page .skin-orbit{width:222px;height:222px;left:26px;top:34px}}

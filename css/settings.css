@@ -3,13 +3,45 @@
 .about-block{-webkit-user-select:text;user-select:text}
 
 /* 右上角百宝箱按钮：金色胶囊，柔光内衬。 */
-.treasure-btn{padding:10px 20px 10px 16px;gap:9px;color:#e8d5a8;border:1px solid #e5bb5e24;border-radius:999px;background:linear-gradient(150deg,#2c2618 0%,#1c1a24 60%,#191720 100%);box-shadow:inset 0 1px 0 #ffffff10,0 6px 18px #0000003a;transition:background .3s,border-color .3s,color .3s,box-shadow .35s,transform .2s var(--ease)}
+.treasure-btn{padding:10px 20px 10px 16px;gap:9px;flex-shrink:0;white-space:nowrap;color:#e8d5a8;border:1px solid #e5bb5e24;border-radius:999px;background:linear-gradient(150deg,#2c2618 0%,#1c1a24 60%,#191720 100%);box-shadow:inset 0 1px 0 #ffffff10,0 6px 18px #0000003a;transition:background .3s,border-color .3s,color .3s,box-shadow .35s,transform .2s var(--ease)}
 .treasure-btn svg{width:19px;height:19px;flex-shrink:0;transition:transform .45s cubic-bezier(.22,1,.36,1)}
+.treasure-btn i{width:7px;height:7px;margin-left:2px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg) translateY(-2px);transition:transform .3s cubic-bezier(.22,1,.36,1)}
+.treasure-btn[aria-expanded="true"] i{transform:rotate(225deg) translate(-2px,-1px)}
 .treasure-btn:hover{background:linear-gradient(150deg,#38301c 0%,#232030 60%,#1e1c28 100%);border-color:#e5bb5e4d;color:#f5e6bf;box-shadow:inset 0 1px 0 #ffffff1a,0 10px 26px #0000004d,0 0 22px #e5bb5e14}
 .treasure-btn:hover svg{transform:translateY(-2px) rotate(-6deg)}
 .treasure-btn:active{transform:scale(.97)}
 .treasure-btn:focus-visible{outline:2px solid #e5bb5e;outline-offset:3px}
 #settings-page .home-actions{display:flex;align-items:center;gap:16px}
+.treasure-menu-wrap{position:relative;z-index:12}
+.treasure-menu{position:absolute;right:0;top:calc(100% + 10px);width:248px;padding:7px;border:1px solid #ffffff18;border-radius:17px;background:linear-gradient(155deg,#202127f2,#121419f7);box-shadow:inset 0 1px 0 #ffffff12,0 24px 60px #0009;backdrop-filter:blur(20px) saturate(1.3);transform-origin:90% 0;animation:treasure-drop .28s cubic-bezier(.22,1,.36,1) both}
+.treasure-menu[hidden]{display:none}
+.treasure-menu button{display:flex;width:100%;min-height:56px;padding:10px 12px;align-items:flex-start;justify-content:center;flex-direction:column;text-align:left;border:1px solid transparent;border-radius:12px;background:transparent;color:#e9e1d0;transition:background .22s,border-color .22s,transform .18s}
+.treasure-menu button+button{margin-top:4px}
+.treasure-menu button:hover,.treasure-menu button:focus-visible{background:#ffffff09;border-color:#ffffff10;transform:translateX(2px)}
+.treasure-menu button:active{transform:scale(.98)}
+.treasure-menu span{font-size:15px;font-weight:600}
+.treasure-menu small{margin-top:3px;font-size:12px;color:#a99f8c}
+.treasure-menu .treasure-danger{color:#ff7a86;background:#ff46550a;border-color:#ff46551a}
+.treasure-menu .treasure-danger small{color:#ba626b}
+.treasure-menu .treasure-danger:hover,.treasure-menu .treasure-danger:focus-visible{background:#ff46551d;border-color:#ff66734d;box-shadow:inset 0 0 24px #ff46550c}
+@keyframes treasure-drop{from{opacity:0;transform:translateY(-8px) scale(.96)}to{opacity:1;transform:none}}
+.treasure-confirm{width:min(430px,calc(100vw - 28px));padding:0;overflow:hidden;color:#f6f1f2;border:1px solid #ff5b6852;border-radius:24px;background:radial-gradient(circle at 50% -15%,#9e23394d,transparent 52%),linear-gradient(155deg,#24171c,#111217 75%);box-shadow:inset 0 1px 0 #ffffff12,0 30px 100px #000c,0 0 45px #ff20351c;animation:danger-dialog-in .3s cubic-bezier(.22,1,.36,1) both}
+.treasure-confirm::backdrop{background:#06070bd9;backdrop-filter:blur(9px);animation:backdrop-in .22s ease both}
+.danger-signal{display:flex;gap:6px;padding:18px 22px 0}
+.danger-signal i{width:7px;height:7px;border-radius:50%;background:#ff4655;box-shadow:0 0 12px #ff4655}
+.danger-signal i:nth-child(2){opacity:.58}.danger-signal i:nth-child(3){opacity:.28}
+.treasure-confirm[data-step="2"] .danger-signal i:nth-child(2),.treasure-confirm[data-step="3"] .danger-signal i{opacity:1}
+.treasure-confirm-head{padding:20px 24px 23px}
+.treasure-confirm-head>span{display:block;margin-bottom:14px;color:#ff7b86;font-size:13px;font-weight:650;letter-spacing:.08em}
+.treasure-confirm-head h2{margin:0;font-size:27px;font-weight:650;letter-spacing:-.5px}
+.treasure-confirm-head p{margin:10px 0 0;color:#bda9ad;font-size:15px;line-height:1.7}
+.treasure-confirm-actions{display:grid;grid-template-columns:1fr 1.25fr;gap:10px;padding:15px 18px 18px;border-top:1px solid #ffffff0d;background:#08090d4d}
+.treasure-confirm-actions button{min-height:48px;border-radius:13px;border:1px solid #ffffff14;background:#ffffff06;color:#c9cbd2;font-size:15px;font-weight:600}
+.treasure-confirm-actions button:hover{background:#ffffff0d;color:white}
+.treasure-confirm-actions .danger-confirm-button{color:#fff;border-color:#ff61705c;background:linear-gradient(145deg,#e73347,#a91931);box-shadow:inset 0 1px 0 #ff9aa24a,0 8px 24px #b3152d3b}
+.treasure-confirm-actions .danger-confirm-button:hover{background:linear-gradient(145deg,#ff4655,#bf1d35);box-shadow:inset 0 1px 0 #ffffff3b,0 10px 30px #e1193845}
+.treasure-confirm[data-step="3"]{border-color:#ff5363a6;box-shadow:inset 0 1px 0 #ffffff12,0 30px 100px #000c,0 0 65px #ff203534}
+@keyframes danger-dialog-in{from{opacity:0;transform:translateY(14px) scale(.95)}to{opacity:1;transform:none}}
 .settings-section{margin-top:26px;padding:10px 10px 12px;background:linear-gradient(170deg,#181b22,#131519 70%);border:1px solid #ffffff0d;border-radius:26px;box-shadow:inset 0 1px 0 #ffffff0a,0 18px 44px #00000030}
 .settings-section>h2{font-size:20px;font-weight:550;margin:18px 22px 12px;color:#eef0f4}
 .setting-row{display:flex;align-items:center;justify-content:space-between;gap:24px;margin:0 6px 6px;padding:16px 18px;border:1px solid transparent;border-radius:18px;background:transparent;transition:background .25s,border-color .25s}
@@ -34,7 +66,9 @@
 .about-block a{color:#95c0e3;text-decoration:none;border-bottom:1px solid #95c0e340}
 .about-block a:hover{color:#bcdcf5;border-bottom-color:#bcdcf580}
 .about-version{font-size:13px;color:#79828f;letter-spacing:.4px;margin-top:18px!important;font-variant-numeric:tabular-nums}
-@media(max-width:640px){.settings-section>h2{font-size:18px;margin:14px 14px 8px}.setting-row{align-items:flex-start;flex-direction:column;gap:12px;padding:14px}.setting-toggle{align-self:flex-end}}
+@media(max-width:640px){.settings-section>h2{font-size:18px;margin:14px 14px 8px}.setting-row{align-items:flex-start;flex-direction:column;gap:12px;padding:14px}.setting-toggle{align-self:flex-end}.treasure-menu{position:fixed;top:calc(max(0px,env(safe-area-inset-top)) + 70px);left:14px;right:14px;width:auto;max-width:none;transform-origin:85% 0}.treasure-btn{min-height:44px;padding:8px 13px}.treasure-btn span{font-size:14px}}
+@media(max-width:360px){#settings-page .agent-brand{display:none}.treasure-menu{position:fixed;top:70px;left:14px;right:14px;width:auto;transform-origin:80% 0}}
+@media(max-width:480px){.treasure-confirm{border-radius:20px}.treasure-confirm-head{padding:17px 19px 21px}.treasure-confirm-head h2{font-size:24px}.treasure-confirm-actions{padding:13px 14px 15px}.treasure-confirm-actions button{min-height:50px}}
 
 /* 百宝箱：全屏嵌入音乐地形。 */
 #treasure-page{height:100dvh;display:flex;flex-direction:column;background:#0b0d11}
@@ -46,3 +80,31 @@
 .treasure-fullscreen:hover{color:#fff;border-color:#ffffff2e;background:#ffffff0a}
 #treasure-frame{flex:1;width:100%;border:0;min-height:0;background:#0b0d11}
 @media(max-width:640px){.treasure-bar{padding:10px 14px;gap:12px}.treasure-bar strong{display:none}}
+
+/* 设置页：紧凑的系统面板布局。 */
+#settings-page{background:radial-gradient(circle at 9% 8%,#5c1c2a35,transparent 34%),radial-gradient(circle at 92% 28%,#203f6224,transparent 31%),#0c0d11}
+#settings-page .home-container{max-width:1160px}
+#settings-page .home-header{height:88px;border:0}
+#settings-page .agent-back{flex-shrink:0;white-space:nowrap;color:#d9dde5}
+#settings-page .settings-hub{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(320px,.92fr);gap:18px;max-width:980px;padding:20px 0 68px}
+#settings-page .agent-heading{grid-column:1/-1;margin:0 0 6px}
+#settings-page .agent-heading h1{font-size:38px;font-weight:620;letter-spacing:-1.2px}
+#settings-page .settings-section{margin:0;padding:8px;border-radius:22px;background:linear-gradient(155deg,#191c23e8,#111319e8);border:1px solid #ffffff12;box-shadow:inset 0 1px 0 #ffffff0a,0 18px 50px #0003;backdrop-filter:blur(16px)}
+#settings-page .settings-section>h2{display:flex;align-items:center;gap:10px;margin:11px 14px 8px;font-size:17px;font-weight:600;color:#eef1f5}
+#settings-page .settings-section>h2::before{content:'';width:7px;height:7px;border-radius:50%;background:#ff5c69;box-shadow:0 0 14px #ff46558c}
+#settings-page .setting-row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:18px;margin:0;padding:16px 14px;border:0;border-radius:14px}
+#settings-page .setting-row+.setting-row{border-top:1px solid #ffffff0b;border-radius:0}
+#settings-page .setting-row:hover{background:#ffffff04}
+#settings-page .setting-row strong{font-size:16px;color:#edf0f5}
+#settings-page .setting-row p{max-width:520px;margin-top:5px;font-size:14px;line-height:1.65;color:#929dac}
+#settings-page .setting-toggle{align-self:center}
+#settings-page .settings-section[aria-label="个人数据"] .setting-row{min-height:94px}
+#settings-page .settings-section .quiet.danger{min-height:42px;padding:8px 18px}
+#settings-page .settings-section[aria-label="关于网站"]{grid-column:1/-1}
+#settings-page .about-block{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 30px;padding:7px 14px 15px}
+#settings-page .about-block p{margin:0;padding:12px 0;font-size:14px;line-height:1.78;color:#a7b0bf;border-top:1px solid #ffffff09}
+#settings-page .about-block p:nth-child(-n+2){border-top:0}
+#settings-page .about-block strong{color:#e0e4eb}
+#settings-page .about-version{grid-column:1/-1;color:#727e8e!important;font-size:12px!important;padding-bottom:2px!important}
+@media(max-width:760px){#settings-page .settings-hub{grid-template-columns:1fr;gap:13px;padding-top:14px}#settings-page .agent-heading,#settings-page .settings-section[aria-label="关于网站"]{grid-column:1}#settings-page .settings-section{border-radius:19px}#settings-page .about-block{grid-template-columns:1fr}#settings-page .about-block p:nth-child(2){border-top:1px solid #ffffff09}#settings-page .about-version{grid-column:1}}
+@media(max-width:640px){#settings-page .home-header{height:74px}#settings-page .settings-hub{padding-bottom:44px}#settings-page .agent-heading{margin-bottom:2px}#settings-page .agent-heading h1{font-size:29px;letter-spacing:-.7px}#settings-page .settings-section{padding:6px}#settings-page .setting-row{grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:12px;padding:14px 11px}#settings-page .setting-row p{font-size:13px;line-height:1.55}#settings-page .setting-toggle{align-self:center}#settings-page .settings-section>h2{margin:10px 11px 6px;font-size:16px}#settings-page .about-block{padding:5px 11px 12px}#settings-page .about-block p{font-size:13px;line-height:1.7;padding:11px 0}}

@@ -55,16 +55,16 @@
           "description": "对齐墙边站立，准星与栅栏齐平，瞄准白墙中间位置",
           "crouch": true,
           "images": [
-            "variants/3eae30c5371e22936aef3bad1a1e88f39070c3d700a8652cd3bb045a21917e1f-v1-full.webp",
-            "variants/121af0fdb6be00b8f55881aece068fb57049f4a0f1109ba7ac781519125ab902-v1-full.webp"
+            "variants/3eae30c5371e22936aef3bad1a1e88f39070c3d700a8652cd3bb045a21917e1f-v2-full.webp",
+            "variants/121af0fdb6be00b8f55881aece068fb57049f4a0f1109ba7ac781519125ab902-v2-full.webp"
           ],
           "captions": [
             "站位图",
             "瞄点图"
           ],
           "thumbnails": [
-            "variants/3eae30c5371e22936aef3bad1a1e88f39070c3d700a8652cd3bb045a21917e1f-v1-thumb.webp",
-            "variants/121af0fdb6be00b8f55881aece068fb57049f4a0f1109ba7ac781519125ab902-v1-thumb.webp"
+            "variants/3eae30c5371e22936aef3bad1a1e88f39070c3d700a8652cd3bb045a21917e1f-v2-thumb.webp",
+            "variants/121af0fdb6be00b8f55881aece068fb57049f4a0f1109ba7ac781519125ab902-v2-thumb.webp"
           ]
         },
         "mapId": "haven"
@@ -81,16 +81,16 @@
           "description": "蹲下准星对齐台阶边缘中心，对齐门上第三条黑线，瞄准门框中央区域",
           "crouch": true,
           "images": [
-            "variants/49682ce3c3a5f6e4b74bc5213d9e81d248e865aad00bd38214f5f3d280502be7-v1-full.webp",
-            "variants/cdbcafe9f1030c5c5291011c331969e5f7b848e7aa6017588b8579f686d5a942-v1-full.webp"
+            "variants/49682ce3c3a5f6e4b74bc5213d9e81d248e865aad00bd38214f5f3d280502be7-v2-full.webp",
+            "variants/cdbcafe9f1030c5c5291011c331969e5f7b848e7aa6017588b8579f686d5a942-v2-full.webp"
           ],
           "captions": [
             "站位图",
             "瞄点图"
           ],
           "thumbnails": [
-            "variants/49682ce3c3a5f6e4b74bc5213d9e81d248e865aad00bd38214f5f3d280502be7-v1-thumb.webp",
-            "variants/cdbcafe9f1030c5c5291011c331969e5f7b848e7aa6017588b8579f686d5a942-v1-thumb.webp"
+            "variants/49682ce3c3a5f6e4b74bc5213d9e81d248e865aad00bd38214f5f3d280502be7-v2-thumb.webp",
+            "variants/cdbcafe9f1030c5c5291011c331969e5f7b848e7aa6017588b8579f686d5a942-v2-thumb.webp"
           ]
         }
       },
@@ -106,16 +106,16 @@
           "description": "贴近门框中间蹲下，回头瞄准黑砖右下角区域",
           "crouch": true,
           "images": [
-            "variants/f81d49ca173022cb21752e6dc29db3553fed4b4c88184b1a542136f09f3a06cf-v1-full.webp",
-            "variants/06ceab68bce1f6a20f4ae9e4d9f3f915e0d9a36d6325fcbf393a1dd6560c5396-v1-full.webp"
+            "variants/f81d49ca173022cb21752e6dc29db3553fed4b4c88184b1a542136f09f3a06cf-v2-full.webp",
+            "variants/06ceab68bce1f6a20f4ae9e4d9f3f915e0d9a36d6325fcbf393a1dd6560c5396-v2-full.webp"
           ],
           "captions": [
             "站位图",
             "瞄点图"
           ],
           "thumbnails": [
-            "variants/f81d49ca173022cb21752e6dc29db3553fed4b4c88184b1a542136f09f3a06cf-v1-thumb.webp",
-            "variants/06ceab68bce1f6a20f4ae9e4d9f3f915e0d9a36d6325fcbf393a1dd6560c5396-v1-thumb.webp"
+            "variants/f81d49ca173022cb21752e6dc29db3553fed4b4c88184b1a542136f09f3a06cf-v2-thumb.webp",
+            "variants/06ceab68bce1f6a20f4ae9e4d9f3f915e0d9a36d6325fcbf393a1dd6560c5396-v2-thumb.webp"
           ]
         }
       },
@@ -131,16 +131,16 @@
           "description": "对准墙上小白点贴紧蹲下，回头瞄准两块砖中间空白区域",
           "crouch": true,
           "images": [
-            "variants/97506133b8ce46d1c75b0cec53cb696157b00832ae238d20717f55cad84af74a-v1-full.webp",
-            "variants/84a7c5833b688aef9bbb32dfca4b5e71e51a2e817db7e0d51174d0c8b71a3ca8-v1-full.webp"
+            "variants/97506133b8ce46d1c75b0cec53cb696157b00832ae238d20717f55cad84af74a-v2-full.webp",
+            "variants/84a7c5833b688aef9bbb32dfca4b5e71e51a2e817db7e0d51174d0c8b71a3ca8-v2-full.webp"
           ],
           "captions": [
             "站位图",
             "瞄点图"
           ],
           "thumbnails": [
-            "variants/97506133b8ce46d1c75b0cec53cb696157b00832ae238d20717f55cad84af74a-v1-thumb.webp",
-            "variants/84a7c5833b688aef9bbb32dfca4b5e71e51a2e817db7e0d51174d0c8b71a3ca8-v1-thumb.webp"
+            "variants/97506133b8ce46d1c75b0cec53cb696157b00832ae238d20717f55cad84af74a-v2-thumb.webp",
+            "variants/84a7c5833b688aef9bbb32dfca4b5e71e51a2e817db7e0d51174d0c8b71a3ca8-v2-thumb.webp"
           ]
         }
       },
@@ -156,16 +156,16 @@
           "description": "对齐墙边站立，准星与栅栏齐平，瞄准两墙中间区域",
           "crouch": false,
           "images": [
-            "variants/3eae30c5371e22936aef3bad1a1e88f39070c3d700a8652cd3bb045a21917e1f-v1-full.webp",
-            "variants/3ad3664437efb94516d4915dd47ca38d100b1f40f0925daa43ac4eda841f4506-v1-full.webp"
+            "variants/3eae30c5371e22936aef3bad1a1e88f39070c3d700a8652cd3bb045a21917e1f-v2-full.webp",
+            "variants/3ad3664437efb94516d4915dd47ca38d100b1f40f0925daa43ac4eda841f4506-v2-full.webp"
           ],
           "captions": [
             "站位图",
             "瞄点图"
           ],
           "thumbnails": [
-            "variants/3eae30c5371e22936aef3bad1a1e88f39070c3d700a8652cd3bb045a21917e1f-v1-thumb.webp",
-            "variants/3ad3664437efb94516d4915dd47ca38d100b1f40f0925daa43ac4eda841f4506-v1-thumb.webp"
+            "variants/3eae30c5371e22936aef3bad1a1e88f39070c3d700a8652cd3bb045a21917e1f-v2-thumb.webp",
+            "variants/3ad3664437efb94516d4915dd47ca38d100b1f40f0925daa43ac4eda841f4506-v2-thumb.webp"
           ]
         }
       },
@@ -181,16 +181,16 @@
           "description": "开局抵住光幕与墙的夹角，准星与门上 X 同一水平线，瞄准门框中央",
           "crouch": true,
           "images": [
-            "variants/89248c4bc7493cf9efb7eedf5fac299b53f63207142dc5616db1fc6393a71bf2-v1-full.webp",
-            "variants/20c110ff774d0a766f1775829539510e69b65693f05d9708687f3fe23cc18c7b-v1-full.webp"
+            "variants/89248c4bc7493cf9efb7eedf5fac299b53f63207142dc5616db1fc6393a71bf2-v2-full.webp",
+            "variants/20c110ff774d0a766f1775829539510e69b65693f05d9708687f3fe23cc18c7b-v2-full.webp"
           ],
           "captions": [
             "站位图",
             "瞄点图"
           ],
           "thumbnails": [
-            "variants/89248c4bc7493cf9efb7eedf5fac299b53f63207142dc5616db1fc6393a71bf2-v1-thumb.webp",
-            "variants/20c110ff774d0a766f1775829539510e69b65693f05d9708687f3fe23cc18c7b-v1-thumb.webp"
+            "variants/89248c4bc7493cf9efb7eedf5fac299b53f63207142dc5616db1fc6393a71bf2-v2-thumb.webp",
+            "variants/20c110ff774d0a766f1775829539510e69b65693f05d9708687f3fe23cc18c7b-v2-thumb.webp"
           ]
         }
       },
@@ -206,16 +206,16 @@
           "description": "对准地下电线凸起贴墙蹲下，准星与门把手齐平，瞄准第三块门板中间",
           "crouch": true,
           "images": [
-            "variants/6679df03da988447934782817f7bd867555a555574c22fc7a6922ba20b3afa70-v1-full.webp",
-            "variants/a32280cff7e19979c0a2ed57dca0fdb1151fe721a5f212dfd142ec8fc2c2c865-v1-full.webp"
+            "variants/6679df03da988447934782817f7bd867555a555574c22fc7a6922ba20b3afa70-v2-full.webp",
+            "variants/a32280cff7e19979c0a2ed57dca0fdb1151fe721a5f212dfd142ec8fc2c2c865-v2-full.webp"
           ],
           "captions": [
             "站位图",
             "瞄点图"
           ],
           "thumbnails": [
-            "variants/6679df03da988447934782817f7bd867555a555574c22fc7a6922ba20b3afa70-v1-thumb.webp",
-            "variants/a32280cff7e19979c0a2ed57dca0fdb1151fe721a5f212dfd142ec8fc2c2c865-v1-thumb.webp"
+            "variants/6679df03da988447934782817f7bd867555a555574c22fc7a6922ba20b3afa70-v2-thumb.webp",
+            "variants/a32280cff7e19979c0a2ed57dca0fdb1151fe721a5f212dfd142ec8fc2c2c865-v2-thumb.webp"
           ]
         }
       },
@@ -231,16 +231,16 @@
           "description": "抵住墙，瞄准两个罐子中间位置后，蹲下，穿射管子下方地板区域（适用于进攻方二楼封烟）",
           "crouch": true,
           "images": [
-            "variants/1e14b36022dfa9d546dba3934f79dde59568f8677853eff7f1de34350f2e2275-v1-full.webp",
-            "variants/4565ae18395602abe6ecef6000aa52dca69806c1dd0bf4371f24f350e5cbc635-v1-full.webp"
+            "variants/1e14b36022dfa9d546dba3934f79dde59568f8677853eff7f1de34350f2e2275-v2-full.webp",
+            "variants/4565ae18395602abe6ecef6000aa52dca69806c1dd0bf4371f24f350e5cbc635-v2-full.webp"
           ],
           "captions": [
             "站位图",
             "瞄点图"
           ],
           "thumbnails": [
-            "variants/1e14b36022dfa9d546dba3934f79dde59568f8677853eff7f1de34350f2e2275-v1-thumb.webp",
-            "variants/4565ae18395602abe6ecef6000aa52dca69806c1dd0bf4371f24f350e5cbc635-v1-thumb.webp"
+            "variants/1e14b36022dfa9d546dba3934f79dde59568f8677853eff7f1de34350f2e2275-v2-thumb.webp",
+            "variants/4565ae18395602abe6ecef6000aa52dca69806c1dd0bf4371f24f350e5cbc635-v2-thumb.webp"
           ]
         }
       },
@@ -256,9 +256,9 @@
           "description": "（适用于队友下防守烟后）抵住门把手位置，蹲下瞄准墙上上方较浅的线与墙的边缘位置，可以穿到躲在凹槽里等烟散的敌人",
           "crouch": true,
           "images": [
-            "variants/54bfe0974b9eb24678e7a21c45841acc9702004dda0dc55957a2a247c1f41cd4-v1-full.webp",
-            "variants/0c767c833ade93af3a224643109a2b5922249e4b006cc4e7e851aed621424b9a-v1-full.webp",
-            "variants/e4ec5e85e20c847673787d8643fb837a45a9efce81edf4ec258ff4a55af86ca8-v1-full.webp"
+            "variants/54bfe0974b9eb24678e7a21c45841acc9702004dda0dc55957a2a247c1f41cd4-v2-full.webp",
+            "variants/0c767c833ade93af3a224643109a2b5922249e4b006cc4e7e851aed621424b9a-v2-full.webp",
+            "variants/e4ec5e85e20c847673787d8643fb837a45a9efce81edf4ec258ff4a55af86ca8-v2-full.webp"
           ],
           "captions": [
             "站位图",
@@ -266,9 +266,9 @@
             ""
           ],
           "thumbnails": [
-            "variants/54bfe0974b9eb24678e7a21c45841acc9702004dda0dc55957a2a247c1f41cd4-v1-thumb.webp",
-            "variants/0c767c833ade93af3a224643109a2b5922249e4b006cc4e7e851aed621424b9a-v1-thumb.webp",
-            "variants/e4ec5e85e20c847673787d8643fb837a45a9efce81edf4ec258ff4a55af86ca8-v1-thumb.webp"
+            "variants/54bfe0974b9eb24678e7a21c45841acc9702004dda0dc55957a2a247c1f41cd4-v2-thumb.webp",
+            "variants/0c767c833ade93af3a224643109a2b5922249e4b006cc4e7e851aed621424b9a-v2-thumb.webp",
+            "variants/e4ec5e85e20c847673787d8643fb837a45a9efce81edf4ec258ff4a55af86ca8-v2-thumb.webp"
           ]
         }
       },
@@ -284,9 +284,9 @@
           "description": "抵住门框边缘，瞄准去右侧墙上第三个罐子右上角与墙中间的缝隙，即可穿到B门左侧凹槽里的敌人",
           "crouch": false,
           "images": [
-            "variants/61649a03a83aaf8a995813cf99c47a57560be5184e35aacee33f58bd3dcb114c-v1-full.webp",
-            "variants/8e1294725e122a053e374a711a9b1e6331f68c2b7c4f51da2751ccfb75990742-v1-full.webp",
-            "variants/3facdc7a719c1f9351e2ae40dabe13f8504b2a66ea07080a714f4178c4660afe-v1-full.webp"
+            "variants/61649a03a83aaf8a995813cf99c47a57560be5184e35aacee33f58bd3dcb114c-v2-full.webp",
+            "variants/8e1294725e122a053e374a711a9b1e6331f68c2b7c4f51da2751ccfb75990742-v2-full.webp",
+            "variants/3facdc7a719c1f9351e2ae40dabe13f8504b2a66ea07080a714f4178c4660afe-v2-full.webp"
           ],
           "captions": [
             "站位图",
@@ -294,9 +294,9 @@
             ""
           ],
           "thumbnails": [
-            "variants/61649a03a83aaf8a995813cf99c47a57560be5184e35aacee33f58bd3dcb114c-v1-thumb.webp",
-            "variants/8e1294725e122a053e374a711a9b1e6331f68c2b7c4f51da2751ccfb75990742-v1-thumb.webp",
-            "variants/3facdc7a719c1f9351e2ae40dabe13f8504b2a66ea07080a714f4178c4660afe-v1-thumb.webp"
+            "variants/61649a03a83aaf8a995813cf99c47a57560be5184e35aacee33f58bd3dcb114c-v2-thumb.webp",
+            "variants/8e1294725e122a053e374a711a9b1e6331f68c2b7c4f51da2751ccfb75990742-v2-thumb.webp",
+            "variants/3facdc7a719c1f9351e2ae40dabe13f8504b2a66ea07080a714f4178c4660afe-v2-thumb.webp"
           ]
         }
       },
@@ -312,16 +312,16 @@
           "description": "抵住点后木门中央，蹲下瞄准小圆点右侧夹角处",
           "crouch": true,
           "images": [
-            "variants/c90702fbc24c4ef35c6b08977b8d02561576115908ebb1cbf85c4e6c31716de7-v1-full.webp",
-            "variants/99f0d9176942a6b3de9cd14cd87b3dc55e7c1afa9485f6d31bcf405f563be0b5-v1-full.webp"
+            "variants/c90702fbc24c4ef35c6b08977b8d02561576115908ebb1cbf85c4e6c31716de7-v2-full.webp",
+            "variants/99f0d9176942a6b3de9cd14cd87b3dc55e7c1afa9485f6d31bcf405f563be0b5-v2-full.webp"
           ],
           "captions": [
             "站位图",
             "瞄点图"
           ],
           "thumbnails": [
-            "variants/c90702fbc24c4ef35c6b08977b8d02561576115908ebb1cbf85c4e6c31716de7-v1-thumb.webp",
-            "variants/99f0d9176942a6b3de9cd14cd87b3dc55e7c1afa9485f6d31bcf405f563be0b5-v1-thumb.webp"
+            "variants/c90702fbc24c4ef35c6b08977b8d02561576115908ebb1cbf85c4e6c31716de7-v2-thumb.webp",
+            "variants/99f0d9176942a6b3de9cd14cd87b3dc55e7c1afa9485f6d31bcf405f563be0b5-v2-thumb.webp"
           ]
         }
       },
@@ -337,16 +337,16 @@
           "description": "站在凹槽处角落内，准星瞄准墙上十字左上一点点",
           "crouch": false,
           "images": [
-            "variants/33f14d0fbff74ba8fbed9fb428bb8fef089e6710c58a508414f2da2d34cfc895-v1-full.webp",
-            "variants/5bda68be2eb7dfc0afff134a7a18837bd2680d66c285f587089cc2a0ee4e0078-v1-full.webp"
+            "variants/33f14d0fbff74ba8fbed9fb428bb8fef089e6710c58a508414f2da2d34cfc895-v2-full.webp",
+            "variants/5bda68be2eb7dfc0afff134a7a18837bd2680d66c285f587089cc2a0ee4e0078-v2-full.webp"
           ],
           "captions": [
             "站位图",
             "瞄点图"
           ],
           "thumbnails": [
-            "variants/33f14d0fbff74ba8fbed9fb428bb8fef089e6710c58a508414f2da2d34cfc895-v1-thumb.webp",
-            "variants/5bda68be2eb7dfc0afff134a7a18837bd2680d66c285f587089cc2a0ee4e0078-v1-thumb.webp"
+            "variants/33f14d0fbff74ba8fbed9fb428bb8fef089e6710c58a508414f2da2d34cfc895-v2-thumb.webp",
+            "variants/5bda68be2eb7dfc0afff134a7a18837bd2680d66c285f587089cc2a0ee4e0078-v2-thumb.webp"
           ]
         }
       },
@@ -362,9 +362,9 @@
           "description": "抵住凹槽角落，抬头，瞄准最上面的深色砖块右侧边缘，即可穿到B点内箱子上非常规位",
           "crouch": false,
           "images": [
-            "variants/33f14d0fbff74ba8fbed9fb428bb8fef089e6710c58a508414f2da2d34cfc895-v1-full.webp",
-            "variants/f298e60a7ede23b85ea26c63aa5928986dda09a54375f10ff7a82957381cc7de-v1-full.webp",
-            "variants/f13697b7e485da46d97a3ebc81481aad9671dd47fe3eae5fb0f0f93bb5ee5004-v1-full.webp"
+            "variants/33f14d0fbff74ba8fbed9fb428bb8fef089e6710c58a508414f2da2d34cfc895-v2-full.webp",
+            "variants/f298e60a7ede23b85ea26c63aa5928986dda09a54375f10ff7a82957381cc7de-v2-full.webp",
+            "variants/f13697b7e485da46d97a3ebc81481aad9671dd47fe3eae5fb0f0f93bb5ee5004-v2-full.webp"
           ],
           "captions": [
             "站位图",
@@ -372,9 +372,9 @@
             ""
           ],
           "thumbnails": [
-            "variants/33f14d0fbff74ba8fbed9fb428bb8fef089e6710c58a508414f2da2d34cfc895-v1-thumb.webp",
-            "variants/f298e60a7ede23b85ea26c63aa5928986dda09a54375f10ff7a82957381cc7de-v1-thumb.webp",
-            "variants/f13697b7e485da46d97a3ebc81481aad9671dd47fe3eae5fb0f0f93bb5ee5004-v1-thumb.webp"
+            "variants/33f14d0fbff74ba8fbed9fb428bb8fef089e6710c58a508414f2da2d34cfc895-v2-thumb.webp",
+            "variants/f298e60a7ede23b85ea26c63aa5928986dda09a54375f10ff7a82957381cc7de-v2-thumb.webp",
+            "variants/f13697b7e485da46d97a3ebc81481aad9671dd47fe3eae5fb0f0f93bb5ee5004-v2-thumb.webp"
           ]
         }
       },
@@ -390,9 +390,9 @@
           "description": "（需要把包下到B点右侧凹槽）瞄准墙上黑色印记，抵住，回头对准两块木板中间穿射",
           "crouch": false,
           "images": [
-            "variants/ea4b819d1d0cc505f277d80a5d70373b910d83de938429a9ffb79de3339fcef6-v1-full.webp",
-            "variants/bde8829933c42c62394b2211ce20ca74a0e11a81ead05f93075f91b171c37372-v1-full.webp",
-            "variants/5b2e35158b012e018afa9dd461eba0fb83caeb8542f585bdd867ab580c21df58-v1-full.webp"
+            "variants/ea4b819d1d0cc505f277d80a5d70373b910d83de938429a9ffb79de3339fcef6-v2-full.webp",
+            "variants/bde8829933c42c62394b2211ce20ca74a0e11a81ead05f93075f91b171c37372-v2-full.webp",
+            "variants/5b2e35158b012e018afa9dd461eba0fb83caeb8542f585bdd867ab580c21df58-v2-full.webp"
           ],
           "captions": [
             "站位图",
@@ -400,9 +400,9 @@
             ""
           ],
           "thumbnails": [
-            "variants/ea4b819d1d0cc505f277d80a5d70373b910d83de938429a9ffb79de3339fcef6-v1-thumb.webp",
-            "variants/bde8829933c42c62394b2211ce20ca74a0e11a81ead05f93075f91b171c37372-v1-thumb.webp",
-            "variants/5b2e35158b012e018afa9dd461eba0fb83caeb8542f585bdd867ab580c21df58-v1-thumb.webp"
+            "variants/ea4b819d1d0cc505f277d80a5d70373b910d83de938429a9ffb79de3339fcef6-v2-thumb.webp",
+            "variants/bde8829933c42c62394b2211ce20ca74a0e11a81ead05f93075f91b171c37372-v2-thumb.webp",
+            "variants/5b2e35158b012e018afa9dd461eba0fb83caeb8542f585bdd867ab580c21df58-v2-thumb.webp"
           ]
         }
       },
@@ -418,16 +418,16 @@
           "description": "低头瞄准地上较深颜色的报纸的左下角，可以穿到A二楼下左侧靠墙的敌人",
           "crouch": false,
           "images": [
-            "variants/70a9dbbda732945050d12ecf333f81e609aa141dec12e7c62a749254d92fe77e-v1-full.webp",
-            "variants/3cfbfa9853c2053cd56f450f17a71e100a90db4998d7077b4f45a812e068bdfd-v1-full.webp"
+            "variants/70a9dbbda732945050d12ecf333f81e609aa141dec12e7c62a749254d92fe77e-v2-full.webp",
+            "variants/3cfbfa9853c2053cd56f450f17a71e100a90db4998d7077b4f45a812e068bdfd-v2-full.webp"
           ],
           "captions": [
             "站位图",
             "瞄点图"
           ],
           "thumbnails": [
-            "variants/70a9dbbda732945050d12ecf333f81e609aa141dec12e7c62a749254d92fe77e-v1-thumb.webp",
-            "variants/3cfbfa9853c2053cd56f450f17a71e100a90db4998d7077b4f45a812e068bdfd-v1-thumb.webp"
+            "variants/70a9dbbda732945050d12ecf333f81e609aa141dec12e7c62a749254d92fe77e-v2-thumb.webp",
+            "variants/3cfbfa9853c2053cd56f450f17a71e100a90db4998d7077b4f45a812e068bdfd-v2-thumb.webp"
           ]
         }
       },
@@ -443,9 +443,9 @@
           "description": "站在深色报纸上，瞄准上方深色地板缝和墙壁边缘交界处，可以穿到二楼下右侧的敌人",
           "crouch": false,
           "images": [
-            "variants/70a9dbbda732945050d12ecf333f81e609aa141dec12e7c62a749254d92fe77e-v1-full.webp",
-            "variants/3cfbfa9853c2053cd56f450f17a71e100a90db4998d7077b4f45a812e068bdfd-v1-full.webp",
-            "variants/3c6a3cbedd09e6ebfaac37c3b835ecb767e2dbd140cd9dd3628ec0a2fc058a71-v1-full.webp"
+            "variants/70a9dbbda732945050d12ecf333f81e609aa141dec12e7c62a749254d92fe77e-v2-full.webp",
+            "variants/3cfbfa9853c2053cd56f450f17a71e100a90db4998d7077b4f45a812e068bdfd-v2-full.webp",
+            "variants/3c6a3cbedd09e6ebfaac37c3b835ecb767e2dbd140cd9dd3628ec0a2fc058a71-v2-full.webp"
           ],
           "captions": [
             "站位图",
@@ -453,9 +453,9 @@
             ""
           ],
           "thumbnails": [
-            "variants/70a9dbbda732945050d12ecf333f81e609aa141dec12e7c62a749254d92fe77e-v1-thumb.webp",
-            "variants/3cfbfa9853c2053cd56f450f17a71e100a90db4998d7077b4f45a812e068bdfd-v1-thumb.webp",
-            "variants/3c6a3cbedd09e6ebfaac37c3b835ecb767e2dbd140cd9dd3628ec0a2fc058a71-v1-thumb.webp"
+            "variants/70a9dbbda732945050d12ecf333f81e609aa141dec12e7c62a749254d92fe77e-v2-thumb.webp",
+            "variants/3cfbfa9853c2053cd56f450f17a71e100a90db4998d7077b4f45a812e068bdfd-v2-thumb.webp",
+            "variants/3c6a3cbedd09e6ebfaac37c3b835ecb767e2dbd140cd9dd3628ec0a2fc058a71-v2-thumb.webp"
           ]
         }
       },
@@ -471,16 +471,16 @@
           "description": "站在车库门外箱子角落，直接穿敌人大概头线位置，可以穿到蹲在A门后的敌人",
           "crouch": false,
           "images": [
-            "variants/10ee7f9880870971aaa97eda6bd4733725fe7358da4357075c6af580ec174c72-v1-full.webp",
-            "variants/bdcfa9130d346d8de167645f6c20e648a371fd3189b1ae12933669cd54577524-v1-full.webp"
+            "variants/10ee7f9880870971aaa97eda6bd4733725fe7358da4357075c6af580ec174c72-v2-full.webp",
+            "variants/bdcfa9130d346d8de167645f6c20e648a371fd3189b1ae12933669cd54577524-v2-full.webp"
           ],
           "captions": [
             "站位图",
             "瞄点图"
           ],
           "thumbnails": [
-            "variants/10ee7f9880870971aaa97eda6bd4733725fe7358da4357075c6af580ec174c72-v1-thumb.webp",
-            "variants/bdcfa9130d346d8de167645f6c20e648a371fd3189b1ae12933669cd54577524-v1-thumb.webp"
+            "variants/10ee7f9880870971aaa97eda6bd4733725fe7358da4357075c6af580ec174c72-v2-thumb.webp",
+            "variants/bdcfa9130d346d8de167645f6c20e648a371fd3189b1ae12933669cd54577524-v2-thumb.webp"
           ]
         }
       }

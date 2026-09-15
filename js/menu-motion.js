@@ -4,6 +4,7 @@ const touchMenu = matchMedia('(hover: none), (pointer: coarse)');
 for (const card of home.querySelectorAll('.menu-spray')) {
   const image = card.querySelector('.spray-art');
   let hovering = card.matches(':hover'), ready = false, loading;
+  const stillSource = () => touchMenu.matches && image.dataset.mobile ? image.dataset.mobile : image.dataset.still;
   const prepare = () => loading ||= (async () => {
     const animation = new Image();
     animation.src = image.dataset.motion;
@@ -12,18 +13,18 @@ for (const card of home.querySelectorAll('.menu-spray')) {
   const update = () => {
     const playing = !touchMenu.matches && !reduceMotion.matches && !document.hidden && !home.hidden && !document.documentElement.classList.contains('no-card-motion') && (hovering || card.matches(':focus-visible'));
     if (playing && !ready) prepare();
-    const source = playing && ready ? image.dataset.motion : image.dataset.still;
+    const source = playing && ready ? image.dataset.motion : stillSource();
     if (image.getAttribute('src') !== source) image.src = source;
   };
   card.addEventListener('pointerenter', e => { hovering = e.pointerType !== 'touch'; update(); });
   card.addEventListener('pointerleave', () => { hovering = false; update(); });
   card.addEventListener('focus', update);
   card.addEventListener('blur', update);
-  image.addEventListener('error', () => { if (image.getAttribute('src') !== image.dataset.still) image.src = image.dataset.still; });
+  image.addEventListener('error', () => { const source=stillSource();if (image.getAttribute('src') !== source) image.src = source; });
   reduceMotion.addEventListener('change', update);
   touchMenu.addEventListener('change', update);
   document.addEventListener('visibilitychange', update);
-  window.addEventListener('hashchange', () => { hovering = false; image.src = image.dataset.still; });
+  window.addEventListener('hashchange', () => { hovering = false; image.src = stillSource(); });
   if (!reduceMotion.matches && matchMedia('(hover: hover) and (pointer: fine)').matches) prepare();
 }
 
@@ -58,6 +59,8 @@ async function sequence() {
   activeAnimation?.cancel(); activeCard?.classList.remove('sequence-playing');
   activeAnimation = activeCard = null;
   if (!canSequence()) return;
+  await new Promise(resolve => setTimeout(resolve, 850));
+  if (run !== generation || !canSequence()) return;
   let index = 0, misses = 0;
   while (run === generation && canSequence()) {
     const entry = await loadStrip(cards[index]);
@@ -65,8 +68,9 @@ async function sequence() {
     misses = 0;
     activeCard = entry.card; activeCard.classList.add('sequence-playing');
     activeAnimation = entry.layer.animate(entry.frames, {duration: entry.duration, iterations: 1, fill: 'forwards'});
-    void loadStrip(cards[(index + 1) % cards.length]);
-    try { await activeAnimation.finished; } catch { return; }
+    const preloadTimer=setTimeout(()=>{if(run===generation&&canSequence())void loadStrip(cards[(index + 1) % cards.length]);},Math.max(250,entry.duration*.6));
+    try { await activeAnimation.finished; } catch { clearTimeout(preloadTimer);return; }
+    clearTimeout(preloadTimer);
     if (run !== generation) return;
     activeCard.classList.remove('sequence-playing'); activeAnimation.cancel();
     index = (index + 1) % cards.length;

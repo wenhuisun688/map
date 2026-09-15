@@ -9,7 +9,7 @@
 .legend span i{background:#1687ff}.legend .defense i{background:#ff3049}.legend .combined i{background:#00b96b}
 .detail-head .badge.attack{color:#62b4ff;background:#006deb38;border:1px solid #1687ff70}
 .detail-head .badge.defense{color:#ff6575;background:#f51e4138;border:1px solid #ff304970}
-.detail-head .badge.crouch{color:#ffd23b;background:#a978002f;border:1px solid #ffbf0066}
+.detail-head .badge.crouch{color:#ffab3d;background:#ff7a0040;border:1px solid #ff7a0090}
 .favorite-button{color:#ff5265;background:#ff30491a;border-color:#ff304960}
 .favorite-button[aria-pressed=true]{color:#fff;background:#d91c38;border-color:#ff5265}
 .favorite-button:hover{background:#ff304940}.favorite-button[aria-pressed=true]:hover{background:#ed2442}
