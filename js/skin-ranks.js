@@ -1,6 +1,6 @@
 import {node} from './map.js';
 import {ownersByGamerskyId} from './skin-metrics.js';
-export const weaponLabels={vandal:'狂徒',phantom:'幻影',melee:'刀',sheriff:'正义',classic:'标配',operator:'冥驹',odin:'奥丁',judge:'判官',bucky:'雄鹿',spectre:'骇灵'};
+export const weaponLabels={vandal:'狂徒',phantom:'幻影',melee:'近战',sheriff:'正义',classic:'标配',operator:'冥驹',odin:'奥丁',judge:'判官',bucky:'雄鹿',spectre:'骇灵'};
 let request=0;
 const metricColumns=[['综合评分','heat'],['Elo 评分','elo'],['游民星空评分','gamersky'],['持有数量（人）','owners']];
 const present=(value,options={})=>Number.isFinite(value)?value.toLocaleString('zh-CN',options):'—';
