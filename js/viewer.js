@@ -91,6 +91,18 @@ function renderPersonal(){
   const items=allPoints().filter(item=>personal.favorites.includes(item.key));
   $('favorites-list').replaceChildren(...items.map(item=>{const button=pointLink(item);button.addEventListener('click',()=>closeDialog($('favorites-dialog')));return button;}));
   if(!items.length)$('favorites-list').append(node('p',{class:'empty',text:'在点位详情中点击收藏，就能在这里找到。'}));
+  renderRecentNote();
+}
+// 浏览记录只存 key，渲染时再拿当前点位表对一次账：点位被删掉，旧 key 自然落空，不会留下点不开的死链
+const pointsByKeys=keys=>{const byKey=new Map(allPoints().map(item=>[item.key,item]));return keys.map(key=>byKey.get(key)).filter(Boolean);};
+function renderRecentNote(){
+  const note=$('hub-history-note');if(!note)return;
+  const count=pointsByKeys(personal.recent).length;
+  note.textContent=count?'最近 '+count+' 个点位':'暂无记录';
+}
+function recordRecent(key){
+  personal.recent=[key,...personal.recent.filter(v=>v!==key)].slice(0,60);
+  savePersonal();
 }
 const map=new MapSurface($('viewer-map'),{onPoint:points=>points.length===1?openPoint(points[0]):pick(points)});
 // 手机端详情弹层手势：下拉滑出关闭、上滑全屏；桌面端不受影响。
@@ -222,6 +234,7 @@ function renderDetail(p){
   {const src=$('detail-source');if(p.kind!=='utility'){src.hidden=false;src.textContent=p.source==='player'?'玩家投稿':'站长实录';src.className='badge '+(p.source==='player'?'source-player':'source-admin');}else src.hidden=true;}
   if(p.detail.crouch)$('detail-badges').append(node('span',{class:'badge crouch',text:'需要蹲下'}));
   const key=pointKey(currentMap,p.id),favorite=node('button',{class:'favorite-button detail-fav'});
+  recordRecent(key);
   const updateFavorite=()=>{const active=personal.favorites.includes(key);favorite.textContent=active?'★ 已收藏':'☆ 收藏';favorite.setAttribute('aria-pressed',String(active));};
   favorite.onclick=()=>{personal.favorites=personal.favorites.includes(key)?personal.favorites.filter(v=>v!==key):[key,...personal.favorites].slice(0,200);savePersonal();updateFavorite();};updateFavorite();$('detail-badges').append(favorite);
   if(p.kind==='utility'){$('detail-badges').append(node('span',{class:'badge',text:abilityNames[p.ability]}));if(p.detail.jump)$('detail-badges').append(node('span',{class:'badge crouch',text:'需要跳投'}));}
@@ -388,6 +401,168 @@ window.addEventListener('keydown',e=>{
 new ResizeObserver(()=>{if(currentMap)updateTabs();}).observe($('map-tabs'));
 mobile.addEventListener('change',syncModal);$('reload-data').onclick=()=>location.reload();
 
+/* ---- 首页工具栏：快速检索 / Amari / 浏览历史 ----
+   三个入口共用一块从右侧滑出的面板，换的只是标题和内容。匹配逻辑仍然只有一份（hubMatch）：
+   检索是边打边看，Amari 是把同一批结果配一句话，浏览历史读的是 personal.recent。 */
+const HUB_SIDES=[['defense',/(防守|守方|defen|ct\b)/],['attack',/(进攻|攻方|attack)/]];
+function hubMatch(query){
+  const text=String(query||'').trim().toLowerCase();
+  if(!text)return{items:[],map:null,side:null};
+  const terms=text.split(/[\s,，、+/]+/).filter(Boolean);
+  let map=null,side=null;
+  for(const m of data.maps)if(text.includes(m.name.toLowerCase())||text.includes(m.id)){map=m;break;}
+  for(const [value,re] of HUB_SIDES)if(re.test(text)){side=value;break;}
+  // 地图名和阵营词是筛选条件，不能再当关键词打一次分：否则「隐世修所 进攻」会因为「进攻」命中描述而把结果筛歪
+  const filters=new Set(['防守','进攻','守方','攻方','防守方','进攻方','defen','attack','ct','t']);
+  if(map){filters.add(map.name.toLowerCase());filters.add(map.id);}
+  const scored=[];
+  for(const item of allPoints()){
+    if(map&&item.map.id!==map.id)continue;
+    if(side&&item.point.side!==side)continue;
+    const name=item.point.name.toLowerCase(),description=(item.point.detail?.description||'').toLowerCase(),mapName=item.map.name.toLowerCase();
+    let score=0;
+    for(const term of terms){
+      if(filters.has(term))continue;
+      if(name.includes(term))score+=6;
+      else if(description.includes(term))score+=3;
+      else if(mapName.includes(term))score+=2;
+    }
+    scored.push({item,score});
+  }
+  // 只说了地图或阵营（「隐世修所 进攻」）就该把符合条件的全给出来，不能因为一个关键词都没命中而清空；
+  // 但一个关键词都没命中、又没有任何筛选条件时（手滑打了 zzz），「全部点位」不是答案，空才是
+  const hit=scored.filter(entry=>entry.score>0);
+  const items=(!hit.length&&(map||side)?scored:hit).sort((a,b)=>b.score-a.score).map(entry=>entry.item);
+  return{items,map,side};
+}
+function hubScope(map,side){return(map?map.name:'全部地图')+(side?' · '+(side==='attack'?'进攻方':'防守方'):'');}
+function hubAnswer(query){
+  const {items,map,side}=hubMatch(query);
+  if(items.length)return'在 '+hubScope(map,side)+' 里找到 '+items.length+' 个点位。';
+  const live=data.maps.filter(m=>(data.points[m.id]||[]).length).map(m=>m.name+' '+data.points[m.id].length+' 个');
+  return'在 '+hubScope(map,side)+' 里没找到。目前公开的点位只有'+(live.length?live.join('、'):'（暂无）')+'。';
+}
+/* 面板的开合照 js/site-drawer.js 那套写法：只动 transform/opacity，Tab 圈在面板内，
+   Escape 和点遮罩都能收，收起来把焦点还给当初点开它的那颗按钮。 */
+let hubOpen=false,hubCloseTimer=0,hubTrigger=null;
+const hubPanel=()=>$('hub-panel');
+const hubControls=()=>{const panel=hubPanel();return [...panel.querySelectorAll('a[href],button:not([disabled]),input')].filter(el=>!el.hidden&&el.getClientRects().length);};
+// 打开时把焦点交到输入框上（检索和提问都是为了打字），浏览历史没输入框才退回第一个控件。
+// 不能直接用 hubControls()[0] —— DOM 里第一个是关闭键，「点开就想搜」的人得多按一次 Tab。
+const hubFirst=()=>{const controls=hubControls();return controls.find(el=>el.tagName==='INPUT')||controls[0];};
+// 三颗按钮是同一块面板的三个入口，同一时刻只能有一颗是展开态
+function setHubTrigger(button){for(const el of document.querySelectorAll('[aria-controls="hub-panel"]'))el.setAttribute('aria-expanded',String(el===button));}
+function closeHubPanel(restore=true){
+  if(!hubOpen)return;
+  hubOpen=false;clearTimeout(hubCloseTimer);
+  const panel=hubPanel(),backdrop=$('hub-panel-backdrop');
+  panel.classList.remove('is-open');backdrop.classList.remove('is-open');
+  document.removeEventListener('keydown',onHubKey);
+  document.documentElement.classList.remove('hub-panel-open');
+  // 等滑出动画走完再 hidden，否则面板会当场消失、没有退场过程（和站点抽屉同一个 330ms）
+  hubCloseTimer=setTimeout(()=>{if(!hubOpen){panel.hidden=true;panel.inert=true;backdrop.hidden=true;}},330);
+  setHubTrigger(null);
+  if(restore&&hubTrigger?.isConnected)hubTrigger.focus({preventScroll:true});
+}
+function onHubKey(event){
+  if(event.key==='Escape'){event.preventDefault();closeHubPanel();return;}
+  if(event.key!=='Tab')return;
+  const controls=hubControls(),first=controls[0],last=controls.at(-1);
+  if(!first)return;
+  if(event.shiftKey&&document.activeElement===first){event.preventDefault();last.focus();}
+  else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first.focus();}
+}
+function openHubPanel(button,title,render){
+  const panel=hubPanel(),backdrop=$('hub-panel-backdrop');
+  clearTimeout(hubCloseTimer);
+  $('hub-panel-title').textContent=title;
+  // body 三个视图共用同一个节点，布局修饰类得先清掉：Amari 的对话布局不能让检索也跟着 flex:1
+  const body=$('hub-panel-body');
+  body.className='hub-panel__body';
+  render(body);
+  if(hubOpen){hubFirst()?.focus({preventScroll:true});return;} // 已经开着，只是换了一格内容
+  hubOpen=true;hubTrigger=button;
+  panel.hidden=false;panel.inert=false;backdrop.hidden=false;
+  document.documentElement.classList.add('hub-panel-open');
+  setHubTrigger(button);
+  requestAnimationFrame(()=>{panel.classList.add('is-open');backdrop.classList.add('is-open');hubFirst()?.focus({preventScroll:true});});
+  document.addEventListener('keydown',onHubKey);
+}
+// 面板里的点位卡片：点完马上要跳走，所以不还原焦点（restore=false），让 hashchange 那一路收尾
+const panelPoint=item=>{const button=pointLink(item);button.addEventListener('click',()=>closeHubPanel(false));return button;};
+
+function renderHubSearch(body){
+  const input=node('input',{type:'search',placeholder:'点位或地图',autocomplete:'off',spellcheck:'false','aria-label':'检索点位'});
+  const list=node('div',{class:'hub-points'});
+  const note=node('p',{class:'home-hub__note'});
+  const update=()=>{
+    const text=input.value.trim();
+    if(!text){note.textContent='输入点位名、地图名，或者「进攻」「防守」。';list.replaceChildren();return;}
+    const {items}=hubMatch(text);
+    note.textContent=items.length?'找到 '+items.length+' 个点位':'没有匹配的点位';
+    list.replaceChildren(...items.slice(0,40).map(panelPoint));
+  };
+  input.addEventListener('input',update);
+  update();
+  // 单个输入框的 form，回车会触发隐式提交（等于刷新页面），拦下来
+  body.replaceChildren(node('form',{class:'hub-panel__form',onsubmit:event=>event.preventDefault()},[input]),note,list);
+}
+/* Amari 的窗口照豆包那类对话 app 摆：中间一条消息流自己滚，输入行和快捷提问压在最底下。
+   回答仍然只是 hubMatch 的那批结果加一句话，没有第二个匹配器 —— 这里换的只是摆法。 */
+const amariAvatar=()=>node('img',{class:'amari-avatar',src:'assets/brand/hub-amari.webp',alt:'',width:'160',height:'160',draggable:'false','aria-hidden':'true'});
+// 箭头是描出来的矢量，不是「↑」那个字符：字模的箭头粗细跟着字重走、边缘还带字体的
+// hinting 毛刺，缩到 20px 就是个糊三角，跟旁边那圈干净的圆一比就露怯。
+const amariSend=()=>{const button=node('button',{type:'submit',class:'amari-send','aria-label':'发送'});
+  button.innerHTML='<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 16V4M5 9l5-5 5 5"/></svg>';
+  return button;};
+function renderHubAmari(body){
+  body.classList.add('hub-panel__body--chat');
+  const log=node('div',{class:'amari-log',role:'log','aria-live':'polite'});
+  const input=node('input',{type:'text',placeholder:'问 Amari：隐世修所 进攻 车库',autocomplete:'off','aria-label':'向 Amari 提问'});
+  const form=node('form',{class:'amari-composer'},[input,amariSend()]);
+  const chips=node('div',{class:'amari-chips'},['隐世修所 进攻','车库穿中门','A厅 直架'].map(text=>node('button',{type:'button',class:'amari-chip',text,onclick:()=>ask(text)})));
+  const bubble=(kind,text)=>node('p',{class:'amari-msg amari-msg--'+kind,text});
+  // extra 是跟在气泡下面的点位卡片，挂在同一列里，跟头像对齐
+  const bot=(children,extra)=>{const stack=node('div',{class:'amari-stack'},children);if(extra)stack.append(extra);return node('div',{class:'amari-row'},[amariAvatar(),stack]);};
+  const toBottom=()=>{log.scrollTop=log.scrollHeight;};
+  function ask(query){
+    query=query.trim();if(!query)return;
+    const {items}=hubMatch(query);
+    // 先给一句话的答案，想看得细再往下点卡片
+    const cards=items.length?node('div',{class:'hub-points'},items.slice(0,12).map(panelPoint)):null;
+    log.append(node('div',{class:'amari-row amari-row--user'},[bubble('user',query)]),bot([bubble('bot',hubAnswer(query))],cards));
+    input.value='';chips.hidden=true;toBottom();
+  }
+  form.addEventListener('submit',event=>{event.preventDefault();ask(input.value);});
+  // 开场白当成对话里的第一条消息，而不是面板顶上的一行说明 —— 底下永远是输入框
+  log.append(bot([bubble('bot','我是 Amari。问我点位在哪：带上地图名，或者「进攻」「防守」，再加点位名里的关键词。')]));
+  body.replaceChildren(log,chips,form);
+}
+function renderHubHistory(body){
+  const items=pointsByKeys(personal.recent);
+  if(!items.length){body.replaceChildren(node('p',{class:'home-hub__note',text:'还没有浏览记录。打开任意点位后，这里会记下来。'}));return;}
+  body.replaceChildren(node('div',{class:'hub-points'},items.map(panelPoint)));
+}
+function initHomeHub(){
+  const views=[['hub-find-open','快速检索',renderHubSearch],['hub-amari','Amari · AI 助手',renderHubAmari],['hub-history','浏览历史',renderHubHistory]];
+  for(const [id,title,render] of views){const button=$(id);if(button)button.onclick=()=>openHubPanel(button,title,render);}
+  const panel=hubPanel();if(!panel)return;
+  panel.inert=true;
+  $('hub-panel-close').onclick=()=>closeHubPanel();
+  $('hub-panel-backdrop').onclick=()=>closeHubPanel();
+  // 面板和它的遮罩都挂在 main 之外，路由走了不会自己跟着藏，得手动收
+  window.addEventListener('hashchange',()=>closeHubPanel(false));
+  // 鼠标那团跟着走的光：CSS 拿不到指针位置，只能由这里把行内坐标写进 --mx/--my。
+  // 只挂指针设备（触摸没有 hover，写了也没人看），三行各挂一个，没有共享状态
+  if(matchMedia('(hover:hover) and (pointer:fine)').matches)for(const row of document.querySelectorAll('.home-hub__row')){
+    row.addEventListener('pointermove',event=>{
+      const rect=row.getBoundingClientRect();
+      row.style.setProperty('--mx',(event.clientX-rect.left)+'px');
+      row.style.setProperty('--my',(event.clientY-rect.top)+'px');
+    });
+  }
+}
+
 try{
   const response=await fetch('data/points.json');if(!response.ok)throw Error('无法读取点位数据');data=await response.json();if(!data.maps?.length)throw Error('没有地图数据');
   for(const m of data.maps){
@@ -397,7 +572,8 @@ try{
   const featured=data.maps.find(m=>data.points[m.id]?.length)||data.maps[0];
   $('enter-map').disabled=false;$('enter-map').onclick=()=>goMap(featured.id);
   renderPersonal();
-  await route();if(currentPage==='home'){enter($('hub-title'),450);[...document.querySelectorAll('.menu-section')].forEach((el,i)=>enter(el,500,60+i*65));}
+  initHomeHub();
+  await route();if(currentPage==='home'){[...document.querySelectorAll('.menu-section')].forEach((el,i)=>enter(el,500,60+i*65));}
 }catch(e){$('load-error').hidden=false;$('load-error').textContent='点位内容暂时无法加载，请重新加载。';$('reload-data').hidden=false;$('enter-map').disabled=true;}
 document.documentElement.classList.remove('initial-deep-route');
 
