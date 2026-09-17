@@ -5,6 +5,8 @@
    网格就只能在 auto 轨道里求 100%，百分比成环，面板会塌成 0 宽。
    高度不再需要第二个变量：舞台按照片自己的 1080:608 用 aspect-ratio 推。 */
 .home-hero{--band-w:600px;max-width:1120px;margin:0 auto;padding:0 40px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,var(--band-w));align-items:start;gap:24px 56px}
+/* 超宽屏和下面的功能卡片网格同宽（见 spray-menu.css 的 1240），不然两栏左缘错开 */
+@media(min-width:1400px){.home-hero{max-width:1240px}}
 /* 一列 flex：工具栏磁贴横排在里面，宽度跟着左栏走 */
 .home-hero__intro{min-width:0;display:flex;flex-direction:column}
 /* 品牌锁定：图标 + 字标。字标的 line-height 撑到和图标一样高，于是两件事同时成立 ——
@@ -52,6 +54,25 @@
 .home-hub__row:hover .home-hub__text strong,.home-hub__row:focus-within .home-hub__text strong{color:#fff}
 @media(hover:hover) and (pointer:fine){.home-hub__row:hover::before{opacity:1}}
 .home-hub__note{padding:12px 4px;color:#98a0ae;font-size:13px;text-align:center}
+/* 网站动态：桌面摆在磁贴下面填左栏空白，两行竖排（上次更新 / 更新动态）。
+   材质跟磁贴同源（渐变 + 内高光 + 深投影）但更安静。
+   桌面行用三列网格：标签一列、正文一列、日期一列 —— 正文换行时第二行对齐到
+   正文列而不是钻到标签底下，日期钉在右缘不再挤在文字尾巴上。行高 1.75 给两行留呼吸。 */
+.home-feed{margin-top:18px}
+.home-feed__base{display:flex;flex-direction:column;gap:14px;
+  padding:18px 22px;border:1px solid #ffffff14;border-radius:18px;
+  background:linear-gradient(180deg,#1c202a,#14161c);box-shadow:inset 0 1px 0 #ffffff17,0 10px 24px -14px #000c}
+/* 一行 = 标签 + 正文 + 日期。正文 flex:1 撑开、换行时第二行对齐到正文列（悬挂缩进），
+   日期 margin-left:auto 顶到右缘。不用网格固定列：窄两栏（左栏 250）里固定日期列会把正文
+   挤成每行一个字。行高 1.8、行间 14、内边距 18×22，整体比之前松一档。 */
+.home-feed__row{display:flex;align-items:baseline;gap:12px;min-width:0}
+.home-feed__row span{flex:none;font-size:13px;color:#8f98a7;letter-spacing:.04em}
+.home-feed__row b{flex:1;min-width:0;font-size:14px;font-weight:600;color:#dfe3ea;line-height:1.8}
+.home-feed__row time{flex:none;margin-left:auto;font-size:12px;color:#8f98a7;white-space:nowrap}
+/* 1001–1120 是最窄的两栏档：左栏只有 250–384px，标签+日期+内边距一占，正文只剩 70px，
+   一行一个字。日期是次要信息，这一档整个藏掉，正文拿回 200px 换行就顺了。 */
+@media(min-width:1001px) and (max-width:1120px){.home-feed__row time{display:none}}
+@media(max-width:700px){.home-feed{order:3;margin-top:10px}.home-feed__base{flex-direction:column;align-items:flex-start;gap:6px;padding:12px 14px}}
 
 /* 工具栏面板：三个入口共用一块从右边滑出的面板，换的只是标题和内容。
    尺寸和材质照站点的菜单抽屉（.site-drawer）来 —— 同一套 --drawer-* 变量、同样的竖向渐变底、
@@ -185,6 +206,16 @@ html.hub-panel-open{overflow:hidden}
 .photo-band__art{width:100%;height:100%;object-fit:cover;border-radius:24px;animation:band-in .9s var(--ease) both}
 @keyframes band-in{from{opacity:0;transform:scale(.97);filter:blur(9px)}}
 .photo-band__bars{display:flex;justify-content:center;align-items:center}
+/* 左右箭头压在照片两缘、竖向居中。半透黑圆底 + 白箭头，材质够轻不抢画面；
+   z-index 盖过当前那张（.is-active 是 1）。手机上点区本来就 44 见方，不另缩。 */
+.photo-band__nav{position:absolute;top:50%;z-index:2;display:grid;place-items:center;width:44px;height:44px;margin:0;padding:0;transform:translateY(-50%);border:1px solid #ffffff1a;border-radius:50%;background:#0b0d1159;color:#dfe2e8;cursor:pointer;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);transition:background .2s,border-color .2s,color .2s}
+.photo-band__nav:hover{background:#0b0d11b3;border-color:#ffffff3d;color:#fff}
+.photo-band__nav:active{transform:translateY(-50%) scale(.93)}
+.photo-band__nav:focus-visible{outline:2px solid #ff929c;outline-offset:2px}
+.photo-band__nav[hidden]{display:none}
+.photo-band__nav svg{width:22px;height:22px}
+.photo-band__prev{left:10px}
+.photo-band__next{right:10px}
 .photo-band__bars[hidden]{display:none}
 /* 横线本身只有 3px，点击区靠按钮的内边距撑到 30x40，否则手机上点不中 */
 .photo-band__bar{flex:0 1 30px;min-width:7px;height:40px;padding:0 4px;display:flex;align-items:center;border:0;background:none;cursor:pointer}
@@ -198,6 +229,16 @@ html.hub-panel-open{overflow:hidden}
    网格的条目，order 才够得着；摊平后网格 gap 全撤，间距改由各自的 margin-top 管。 */
 @media(max-width:700px){.home-hero{padding:0 20px;gap:0}.home-hero__intro{display:contents}
   .home-brand__mark{width:52px;height:52px;border-radius:16px}.home-brand__name{font-size:34px;line-height:52px}.home-hero__motto{margin-top:12px;font-size:14px}
+  /* 手机端动态框浮到头部那一行的右上角（汉堡在左上，右边整段空着）。
+     锚点是 .home-hero 自己（glass.css 给 .home-page>* 统一加了 relative），
+     头部在它上面、高 82px，所以 top 用负值才浮得进去：-60 + 38 高 ≈ 头部竖向居中。
+     只留最新一条（日期 + 截断正文），「上次更新」行藏掉，桌面才摆得下两行。 */
+  .home-feed{position:absolute;top:-60px;right:20px;margin:0;max-width:min(50vw,220px);z-index:2}
+  .home-feed__base{flex-direction:row;align-items:center;gap:7px;padding:8px 12px;border-radius:999px}
+  .home-feed__row:first-child{display:none}
+  .home-feed__row{gap:6px}
+  .home-feed__row b{font-size:12.5px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .home-feed__row time{font-size:11.5px}
   /* 活动图的极简语言（无边框、无底板、按照片原比例铺满）已经升到基础规则里，
      桌面手机共用；这里只剩挪位置和圆角收一档。 */
   .photo-band{order:1;margin-top:20px}.photo-band__stage,.photo-band__art{border-radius:18px}
@@ -212,11 +253,71 @@ html.hub-panel-open{overflow:hidden}
   .hub-panel{width:min(340px,calc(100vw - 20px));padding-inline:14px}.hub-panel__heading h2{font-size:19px}.amari-log{padding-top:14px}.amari-avatar{width:26px;height:26px;border-radius:8px}}
 @media(prefers-reduced-motion:reduce){.photo-band__slide{transition:none}.photo-band__art{animation:none}}
 
-/* 2026 冠军赛主题页：一张大图压住首屏，标题落在图下沿的渐变上。
-   版式照站内专题页（home-container + home-header 那套），不另起语言。 */
+/* 2026 冠军赛主题页：一张大图压住首屏，下面三块卡片。
+   版式照站内专题页（home-container + home-header 那套），卡片材质照夜市那两张
+   日期卡（渐变 + 顶部内高光 + 深投影），只是换成冠军赛的红金双色。 */
 .champions-hub{padding:10px 0 56px}
 .champions-hero{display:block;width:100%;max-height:min(62vh,560px);object-fit:cover;object-position:center 30%;border-radius:24px}
 .champions-copy{margin-top:26px}
 .champions-copy h1{margin:0;font-size:clamp(28px,4vw,44px);font-weight:650;letter-spacing:var(--track-title)}
 .champions-copy p{margin:12px 0 0;max-width:60ch;color:var(--muted);font-size:15px;line-height:1.8}
-@media(max-width:700px){.champions-hub{padding:6px 0 40px}.champions-hero{border-radius:18px}.champions-copy{margin-top:18px}}
+.champ-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:26px}
+.champ-card{position:relative;min-height:170px;padding:24px 26px;overflow:hidden;border:1px solid #ffffff16;border-radius:24px;box-shadow:inset 0 1px 0 #ffffff14,0 18px 55px #0004}
+.champ-card>span{display:block;margin-bottom:18px;color:#c9bda8;font-size:14px;letter-spacing:.06em}
+.champ-card--countdown{background:radial-gradient(circle at 12% 115%,#ff46552e,transparent 50%),linear-gradient(135deg,#2a1c1e,#171720 75%)}
+.champ-card--teams{background:radial-gradient(circle at 88% -8%,#c9a24a22,transparent 50%),linear-gradient(145deg,#232019,#151620 78%)}
+.champ-card--links{background:linear-gradient(160deg,#1d212b,#14161d 80%)}
+/* 倒计时数字：等宽数字防跳位，单位小字贴基线 */
+#champ-countdown{display:flex;align-items:baseline;gap:8px;font-variant-numeric:tabular-nums}
+#champ-countdown strong{font-size:44px;font-weight:600;line-height:1;color:#f4efe6}
+#champ-countdown span{color:#b3a68e;font-size:15px}
+.champ-card>p{margin:12px 0 0;color:#9691a0;font-size:13px}
+.champ-teams{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
+.champ-teams li{display:flex;align-items:baseline;gap:6px;padding:7px 12px;border:1px solid #ffffff16;border-radius:10px;background:#ffffff08}
+.champ-teams b{font-size:14px;font-weight:600;color:#e9e4d8}
+.champ-teams small{font-size:11px;color:#8d8574}
+.champ-teams .champ-pending{border-style:dashed;color:#8f8a7d;font-size:13.5px}
+.champ-links{display:grid;gap:10px;margin:0;padding:0;list-style:none}
+.champ-links li{display:grid;gap:2px}
+.champ-links a{color:#e8c886;text-decoration:none;font-size:15px;font-weight:600;border-bottom:1px solid #e8c88633;width:fit-content}
+.champ-links a:hover{color:#f5dca4;border-bottom-color:#f5dca466}
+.champ-links small{color:#8b93a2;font-size:12.5px}
+@media(max-width:700px){.champions-hub{padding:6px 0 40px}.champions-hero{border-radius:18px}.champions-copy{margin-top:18px}.champ-grid{grid-template-columns:1fr;gap:12px}.champ-card{min-height:145px;padding:20px;border-radius:20px}#champ-countdown strong{font-size:38px}}
+
+/* 收益公示页：卡片材质沿用冠军赛那三块，列表一行一个月。
+   数字用等宽（tabular-nums），金额上下对齐不跳位；捐出是主角，给最亮的白。 */
+.revenue-hub{padding:18px 0 56px}
+.revenue-hub>h1,.revenue-log-title{margin:0;font-size:clamp(28px,4vw,44px);font-weight:650;letter-spacing:var(--track-title)}
+.revenue-hub>.champions-copy{margin:0 0 8px}
+.revenue-log-title{margin:30px 0 14px;font-size:22px}
+.revenue-total{display:flex;align-items:baseline;gap:9px;font-variant-numeric:tabular-nums}
+.revenue-total strong{font-size:44px;font-weight:600;line-height:1;color:#f4efe6}
+.revenue-total span{color:#b3a68e;font-size:15px}
+.revenue-rules{margin:0;padding:0 0 0 2px;list-style:none;font-size:14px;color:#c8c2b4;line-height:2}
+.revenue-rules strong{color:#f0e9db}
+.revenue-list{display:grid;gap:12px}
+.revenue-row{display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:center;gap:18px;padding:18px 22px;border:1px solid #ffffff14;border-radius:18px;background:linear-gradient(160deg,#1c1f28,#14161d)}
+.revenue-row__head time{font-size:17px;font-weight:650;color:#eef0f4}
+.revenue-row__note{margin:6px 0 0;color:#8f98a7;font-size:13px;max-width:46ch}
+.revenue-row__figs{display:flex;gap:22px;margin:0}
+.revenue-row__figs div{text-align:right}
+.revenue-row__figs dt{font-size:11.5px;color:#7f8794;letter-spacing:.05em}
+.revenue-row__figs dd{margin:3px 0 0;font-size:16px;font-variant-numeric:tabular-nums;color:#c9cfd9}
+.revenue-row__figs .revenue-donate{color:#fff;font-weight:650}
+.revenue-receipt{display:grid;justify-items:center;gap:3px;padding:0;border:0;background:none;cursor:pointer}
+.revenue-receipt img{width:54px;height:54px;object-fit:cover;border:1px solid #ffffff26;border-radius:10px;transition:border-color .2s,transform .16s var(--ease)}
+.revenue-receipt:hover img{border-color:#ffffff55;transform:scale(1.06)}
+.revenue-receipt:focus-visible{outline:2px solid #ff929c;outline-offset:2px;border-radius:10px}
+.revenue-receipt small{font-size:11px;color:#8f98a7}
+.revenue-row__pending{font-size:12px;color:#6e7684;border:1px dashed #ffffff1f;border-radius:10px;padding:16px 12px;min-width:54px;text-align:center}
+.revenue-empty{padding:26px 0;color:#8f98a7;font-size:14px}
+.revenue-empty[hidden]{display:none}
+/* 凭证灯箱：铺满的深色遮罩，图居中，点空白或 × 或 Esc 收 */
+.receipt-overlay{position:fixed;inset:0;z-index:9700;display:grid;place-items:center;gap:0;padding:24px;background:#05070cf2;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+.receipt-overlay[hidden]{display:none}
+html.receipt-open{overflow:hidden}
+.receipt-overlay img{max-width:min(92vw,720px);max-height:78vh;border-radius:14px;object-fit:contain}
+.receipt-overlay p{position:fixed;left:0;right:0;bottom:26px;margin:0;text-align:center;color:#a5aab5;font-size:13px}
+.receipt-close{position:fixed;top:calc(14px + env(safe-area-inset-top));right:18px;display:grid;place-items:center;width:44px;height:44px;border:1px solid #ffffff1f;border-radius:12px;background:#ffffff0a;color:#cdd2db;font-size:22px;line-height:1;cursor:pointer}
+.receipt-close:hover{background:#ffffff14;color:#fff}
+@media(max-width:700px){.revenue-row{grid-template-columns:1fr;gap:12px}.revenue-row__figs{justify-content:flex-start}.revenue-row__figs div{text-align:left}#revenue-total strong{font-size:38px}}

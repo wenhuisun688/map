@@ -45,7 +45,28 @@ if(band&&PHOTOS.length){
   band.addEventListener('pointerleave',run);
   band.addEventListener('focusin',stop);
   band.addEventListener('focusout',run);
+  // 左右箭头：桌面手机都摆，压在照片两缘
+  const step=d=>{show(index+d);run();};
+  const navs=[];
+  for(const [cls,dir,label,path] of [['photo-band__prev',-1,'上一张','m15 5-7 7 7 7'],['photo-band__next',1,'下一张','m9 5 7 7-7 7']]){
+    const b=document.createElement('button');
+    b.type='button';b.className='photo-band__nav '+cls;b.setAttribute('aria-label',label);
+    b.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="'+path+'"/></svg>';
+    b.onclick=()=>step(dir);
+    navs.push(b);stage.append(b);
+  }
+  // 手机上横向滑动切换：只认明显大于纵向位移的横拖，竖着滚页面不算
+  let tx=null,ty=null;
+  stage.addEventListener('touchstart',event=>{if(event.touches.length!==1)return;tx=event.touches[0].clientX;ty=event.touches[0].clientY;},{passive:true});
+  stage.addEventListener('touchend',event=>{
+    if(tx===null)return;
+    const t=event.changedTouches[0],dx=t.clientX-tx,dy=t.clientY-ty;
+    tx=null;
+    if(Math.abs(dx)>40&&Math.abs(dx)>Math.abs(dy)*1.5)step(dx<0?1:-1);
+  },{passive:true});
+  // 照片不许被拖走（拖到收藏栏、别的窗口都不行）；链接的拖拽也从这里一起拦
+  stage.addEventListener('dragstart',event=>event.preventDefault());
   show(0);
-  // 只有一张时横线和自动切换都是空转：藏掉，不启动计时器
-  if(PHOTOS.length<2)barRow.hidden=true;else run();
+  // 只有一张时横线、箭头和自动切换都是空转：藏掉，不启动计时器
+  if(PHOTOS.length<2){barRow.hidden=true;for(const b of navs)b.hidden=true;}else run();
 }

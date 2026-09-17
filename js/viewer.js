@@ -1,5 +1,8 @@
 import {showNightWeapons} from './night-weapons.js';
 import {showNight} from './night.js';
+import {showChampions} from './champions.js';
+import {showRevenue} from './revenue.js';
+import {CHANGELOG} from './changelog.js';
 import {showUpdates} from './updates.js';
 import {MapSurface,node} from './map.js';
 import {showSkinRanks,weaponLabels} from './skin-ranks.js';
@@ -317,7 +320,8 @@ async function prepareAgents(){
 async function renderRoute(hash){
   let parts;try{parts=decodeURIComponent(hash.slice(1).split('?')[0]).split('/');}catch{parts=[];}
   if(parts[0]==='updates'){await setDetail(null);currentMap=null;await page(false,null,'updates-page');showUpdates();document.title='版本最新改动 · 瓦小探';return;}
-  if(parts[0]==='champions'){await setDetail(null);currentMap=null;await page(false,null,'champions-page');document.title='2026 全球冠军赛 · 瓦小探';return;}
+  if(parts[0]==='champions'){await setDetail(null);currentMap=null;await page(false,showChampions,'champions-page');document.title='2026 全球冠军赛 · 瓦小探';return;}
+  if(parts[0]==='revenue'){await setDetail(null);currentMap=null;await page(false,showRevenue,'revenue-page');document.title='收益与善款公示 · 瓦小探';return;}
   const oldAgent=currentAgent,oldSide=currentSide;
   currentAgent=parts[0]==='utility'&&agentNames[parts[1]]?parts[1]:null;
   if(parts[0]==='skins'&&parts[1]==='ranking'&&weaponLabels[parts[2]]){await setDetail(null);currentMap=null;await page(false,null,'skin-ranks-page');await showSkinRanks(parts[2]);document.title=weaponLabels[parts[2]]+' · 皮肤人气排行';return;}
@@ -372,6 +376,7 @@ if(treasureOpen){
  const closeConfirm=()=>{confirmDialog.close();stage=0;};
  treasureOpen.onclick=()=>toggleTreasureMenu(treasureMenu.hidden);
  $('treasure-music').onclick=()=>{toggleTreasureMenu(false);navigate('treasure');};
+ $('treasure-revenue').onclick=()=>{toggleTreasureMenu(false);navigate('revenue');};
  $('treasure-danger').onclick=()=>{toggleTreasureMenu(false);stage=0;renderConfirm();confirmDialog.showModal();confirmNext.focus();};
  $('treasure-confirm-cancel').onclick=closeConfirm;
  confirmNext.onclick=()=>{if(stage<2){stage++;renderConfirm();return;}const videos=['https://www.bilibili.com/video/BV151fQBSERC/?spm_id_from=333.337.search-card.all.click','https://www.bilibili.com/video/BV1VyNwzfEQG/?spm_id_from=333.337.search-card.all.click'];confirmDialog.close();window.open(videos[Math.floor(Math.random()*videos.length)],'_blank','noopener');stage=0;};
@@ -663,6 +668,20 @@ function renderHubHistory(body){
   if(!items.length){body.replaceChildren(node('p',{class:'home-hub__note',text:'还没有浏览记录。打开任意点位后，这里会记下来。'}));return;}
   body.replaceChildren(node('div',{class:'hub-points'},items.map(panelPoint)));
 }
+/* 网站动态框：上次更新时间来自内容库的 updatedAt（每次保存点位都会刷新，
+   发布时随 points.json 一起导出，是真数据不是手填）；更新动态取 js/changelog.js
+   人工维护的日志最新一条。手机端这块会浮到品牌行右上角（见 gallery.css 的 .home-feed）。 */
+function initHomeFeed(){
+  const updated=$('feed-updated'),latest=$('feed-latest'),latestDate=$('feed-latest-date');
+  if(!updated||!latest)return;
+  if(data?.updatedAt){
+    const d=new Date(data.updatedAt);
+    if(!Number.isNaN(d.getTime()))updated.textContent=`${d.getFullYear()} 年 ${d.getMonth()+1} 月 ${d.getDate()} 日`;
+  }
+  const entry=CHANGELOG[0];
+  if(entry){latest.textContent=entry.text;latestDate.dateTime=entry.date;
+    const d=new Date(entry.date);if(!Number.isNaN(d.getTime()))latestDate.textContent=`${d.getMonth()+1} 月 ${d.getDate()} 日`;}
+}
 function initHomeHub(){
   const views=[['hub-find-open','快速检索',renderHubSearch],['hub-amari','Amari · AI 助手',renderHubAmari],['hub-history','浏览历史',renderHubHistory]];
   for(const [id,title,render] of views){const button=$(id);if(button)button.onclick=()=>openHubPanel(button,title,render);}
@@ -693,6 +712,7 @@ try{
   $('enter-map').disabled=false;$('enter-map').onclick=()=>goMap(featured.id);
   renderPersonal();
   initHomeHub();
+  initHomeFeed();
   await route();if(currentPage==='home'){[...document.querySelectorAll('.menu-section')].forEach((el,i)=>enter(el,500,60+i*65));}
 }catch(e){$('load-error').hidden=false;$('load-error').textContent='点位内容暂时无法加载，请重新加载。';$('reload-data').hidden=false;$('enter-map').disabled=true;}
 document.documentElement.classList.remove('initial-deep-route');
