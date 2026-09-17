@@ -237,6 +237,18 @@ function renderDetail(p){
   recordRecent(key);
   const updateFavorite=()=>{const active=personal.favorites.includes(key);favorite.textContent=active?'★ 已收藏':'☆ 收藏';favorite.setAttribute('aria-pressed',String(active));};
   favorite.onclick=()=>{personal.favorites=personal.favorites.includes(key)?personal.favorites.filter(v=>v!==key):[key,...personal.favorites].slice(0,200);savePersonal();updateFavorite();};updateFavorite();$('detail-badges').append(favorite);
+  // 分享：手机（含桌面 Chrome 的触屏设备）走系统分享面板，其余复制链接。
+  // 链接就是当前路由的深链，队友点开直接落在这个点位上。
+  const share=node('button',{class:'favorite-button detail-share',text:'⤴ 分享','aria-label':'分享这个点位'});
+  share.onclick=async()=>{
+    const url=location.origin+location.pathname+'#'+routeFor(currentMap,p),mapName=data.maps.find(m=>m.id===currentMap)?.name||'',text=p.name+(mapName?' · '+mapName:'');
+    if(navigator.share){try{await navigator.share({title:'瓦小探 · '+p.name,text,url});return;}catch(e){if(e.name!=='AbortError')console.warn(e);}}
+    let ok=false;
+    try{await navigator.clipboard.writeText(url);ok=true;}
+    catch{const t=node('textarea');t.value=url;t.style.position='fixed';t.style.opacity='0';document.body.append(t);t.select();try{ok=document.execCommand('copy');}catch{}t.remove();}
+    share.textContent=ok?'✓ 链接已复制':'复制没成功，手动复制地址栏';
+    setTimeout(()=>{share.textContent='⤴ 分享';},2200);
+  };$('detail-badges').append(share);
   if(p.kind==='utility'){$('detail-badges').append(node('span',{class:'badge',text:abilityNames[p.ability]}));if(p.detail.jump)$('detail-badges').append(node('span',{class:'badge crouch',text:'需要跳投'}));}
   const items=p.detail.images.map((src,i)=>({src,thumbnail:p.detail.thumbnails?.[i]||src,caption:p.detail.captions?.[i]||'截图 '+(i+1)}));
   $('detail-images').replaceChildren(...items.map((item,i)=>{
@@ -305,10 +317,11 @@ async function prepareAgents(){
 async function renderRoute(hash){
   let parts;try{parts=decodeURIComponent(hash.slice(1).split('?')[0]).split('/');}catch{parts=[];}
   if(parts[0]==='updates'){await setDetail(null);currentMap=null;await page(false,null,'updates-page');showUpdates();document.title='版本最新改动 · 瓦小探';return;}
+  if(parts[0]==='champions'){await setDetail(null);currentMap=null;await page(false,null,'champions-page');document.title='2026 全球冠军赛 · 瓦小探';return;}
   const oldAgent=currentAgent,oldSide=currentSide;
   currentAgent=parts[0]==='utility'&&agentNames[parts[1]]?parts[1]:null;
-  if(parts[0]==='skins'&&parts[1]==='ranking'&&weaponLabels[parts[2]]){await setDetail(null);currentMap=null;await page(false,null,'skin-ranks-page');await showSkinRanks(parts[2]);document.title=weaponLabels[parts[2]]+' · 手感排行';return;}
-  if(parts[0]==='skins'&&parts[1]==='ranking'){await setDetail(null);currentMap=null;await page(false,null,'ranking-page');document.title='手感排行 · 瓦小探';return;}
+  if(parts[0]==='skins'&&parts[1]==='ranking'&&weaponLabels[parts[2]]){await setDetail(null);currentMap=null;await page(false,null,'skin-ranks-page');await showSkinRanks(parts[2]);document.title=weaponLabels[parts[2]]+' · 皮肤人气排行';return;}
+  if(parts[0]==='skins'&&parts[1]==='ranking'){await setDetail(null);currentMap=null;await page(false,null,'ranking-page');document.title='皮肤人气排行 · 瓦小探';return;}
   if(parts[0]==='skins'&&parts[1]==='night'&&parts[2]==='weapons'){await setDetail(null);currentMap=null;await page(false,null,'night-weapons-page');await showNightWeapons(parts[3]);document.title='夜市全部武器 · 瓦小探';return;}
   if(parts[0]==='skins'&&parts[1]==='night'){await setDetail(null);currentMap=null;await page(false,null,'night-page');showNight();document.title='夜市专题 · 瓦小探';return;}
   if(parts[0]==='skins'){await setDetail(null);currentMap=null;await page(false,null,'skins-page');document.title='皮肤专题 · 瓦小探';return;}
@@ -447,9 +460,10 @@ function hubAnswer(query){
 let hubOpen=false,hubCloseTimer=0,hubTrigger=null;
 const hubPanel=()=>$('hub-panel');
 const hubControls=()=>{const panel=hubPanel();return [...panel.querySelectorAll('a[href],button:not([disabled]),input')].filter(el=>!el.hidden&&el.getClientRects().length);};
-// 打开时把焦点交到输入框上（检索和提问都是为了打字），浏览历史没输入框才退回第一个控件。
-// 不能直接用 hubControls()[0] —— DOM 里第一个是关闭键，「点开就想搜」的人得多按一次 Tab。
-const hubFirst=()=>{const controls=hubControls();return controls.find(el=>el.tagName==='INPUT')||controls[0];};
+// 打开时把焦点交到最能直接操作的东西上：检索向导是第一颗选项药丸，Amari 是输入框。
+// 不能直接用 hubControls()[0] —— DOM 里第一个是关闭键，「点开就想选」的人得多按一次 Tab。
+// 关着的抽屉层在 hidden 容器里，hubControls 已经把它们滤掉了，find 天然落在开着的层上。
+const hubFirst=()=>{const controls=hubControls();return controls.find(el=>el.classList.contains('hub-opt')||el.classList.contains('hub-map'))||controls.find(el=>el.tagName==='INPUT')||controls[0];};
 // 三颗按钮是同一块面板的三个入口，同一时刻只能有一颗是展开态
 function setHubTrigger(button){for(const el of document.querySelectorAll('[aria-controls="hub-panel"]'))el.setAttribute('aria-expanded',String(el===button));}
 function closeHubPanel(restore=true){
@@ -491,25 +505,111 @@ function openHubPanel(button,title,render){
 // 面板里的点位卡片：点完马上要跳走，所以不还原焦点（restore=false），让 hashchange 那一路收尾
 const panelPoint=item=>{const button=pointLink(item);button.addEventListener('click',()=>closeHubPanel(false));return button;};
 
+/* 快速检索：一问一屏的向导，选项跟着数据长。
+   地图 → 类型（穿墙/道具/烟位）→ 阵营 → 特工 → 包点。每一屏只列「在当前这张图 +
+   已选条件里真有点位」的选项：这张图没有 C 点就不出 C，某个特工没录点位就不出那个特工，
+   点了必然落空的按钮不摆出来。类型这一屏例外 —— 三格永远都在，没数据的压成灰标「待收录」，
+   道具和烟位是功能本身，藏起来会让人以为站里没有。
+   改上面任意一屏的答案，下面几屏自动清空重问。回退靠「← 上一步」。特工名单写死国服译名，决斗不列。 */
+const HUB_AGENTS=['幽影','炼狱','蝰蛇','星礈','海若','暮蝶','猎枭','铁臂','斯凯','KAY/O','盖可','黑梦','泰乔','贤者','奇乐','零','钱勃','死锁','薇丝'];
+const HUB_CATEGORIES=[['wallbang','穿墙'],['utility','道具'],['smoke','烟位']];
+const HUB_SITES=[['A','A 包点'],['B','B 包点'],['C','C 包点']];
+const HUB_SIDE={attack:'进攻方',defense:'防守方'};
 function renderHubSearch(body){
-  const input=node('input',{type:'search',placeholder:'点位或地图',autocomplete:'off',spellcheck:'false','aria-label':'检索点位'});
-  const list=node('div',{class:'hub-points'});
-  const note=node('p',{class:'home-hub__note'});
-  const update=()=>{
-    const text=input.value.trim();
-    if(!text){note.textContent='输入点位名、地图名，或者「进攻」「防守」。';list.replaceChildren();return;}
-    const {items}=hubMatch(text);
-    note.textContent=items.length?'找到 '+items.length+' 个点位':'没有匹配的点位';
+  const kindOf=p=>p.kind||'wallbang';
+  // 包点以录入时标的 p.site 为准；没标的老数据退回去名字里猜第一个 A/B/C
+  const siteOf=p=>p.site||(p.name.match(/[ABC]/)||[])[0]||'';
+  const textOf=p=>p.name+(p.detail.description||'');
+  const ORDER=['category','side','agent','site'];
+  // 穿墙不问特工：点位是固定的墙洞，跟谁玩无关；道具和烟位才按人分。
+  // 所以步骤序列跟着已选的类型变 —— 选了穿墙，agent 这一屏整个不存在。
+  const stepKeys=()=>state.category==='wallbang'?['category','side','site']:ORDER;
+  const TITLES={category:'选类型',side:'选阵营',agent:'选特工',site:'选包点'};
+  const state={map:'',category:'',side:'',agent:'',site:''};
+  let index=0; // 0=地图屏，1..4=ORDER[index-1]，5=结果
+  // 匹配「这张图 + 除 skip 外所有已选条件」的点位；skip 传 '' 就是全条件
+  const matchExcept=skip=>allPoints().filter(({point,map})=>map.id===state.map
+    &&(skip==='category'||!state.category||kindOf(point)===state.category)
+    &&(skip==='side'||!state.side||point.side===state.side)
+    &&(skip==='agent'||!state.agent||textOf(point).includes(state.agent))
+    &&(skip==='site'||!state.site||siteOf(point)===state.site));
+  function options(key){
+    const base=matchExcept(key),count=pred=>base.filter(pred).length;
+    // 类型三格永远都在（没数据的压灰标「待收录」）；其余维度只列有数据的
+    if(key==='category')return HUB_CATEGORIES.map(([v,label])=>({value:v,label,count:count(({point})=>kindOf(point)===v)}));
+    if(key==='side')return Object.entries(HUB_SIDE).map(([v,label])=>({value:v,label,count:count(({point})=>point.side===v)})).filter(o=>o.count);
+    if(key==='agent')return HUB_AGENTS.map(a=>({value:a,label:a,count:count(({point})=>textOf(point).includes(a))})).filter(o=>o.count);
+    return HUB_SITES.map(([v,label])=>({value:v,label,count:count(({point})=>siteOf(point)===v)})).filter(o=>o.count);
+  }
+  const head=(title,stepNo,stepTotal)=>node('div',{class:'hub-wiz__head'},[
+    stepNo>1?node('button',{type:'button',class:'hub-wiz__back',text:'← 上一步',onclick:back}):node('span',{class:'hub-wiz__back','aria-hidden':'true'}),
+    node('b',{text:title}),node('i',{text:stepNo+' / '+stepTotal})]);
+  function back(){index=Math.max(0,index-1);index?showStep():showMap();}
+  function choose(key,value){state[key]=value;
+    // 下游清空要用完整 ORDER 而不是当前 stepKeys：选了穿墙后 agent 不在序列里，
+    // 但它可能是之前选道具时留下的旧答案，不清会一直偷偷过滤结果
+    ORDER.slice(ORDER.indexOf(key)+1).forEach(k=>state[k]='');
+    index++;showStep();}
+  function showStep(){
+    const keys=stepKeys();
+    if(index>keys.length)return showResults();
+    const key=keys[index-1],opts=options(key);
+    if(!opts.length||opts.every(o=>!o.count))return showEmpty(); // 这层没有可点的选项 = 前面的组合已经落空
+    const grid=node('div',{class:'hub-wiz__opts'},opts.map(({value,label,count})=>{
+      const dead=!count;
+      const opt=node('button',{type:'button',class:'hub-opt','aria-pressed':String(state[key]===value),
+        onclick:()=>choose(key,value)},[node('span',{text:label}),node('small',{text:dead?'待收录':count+' 个'})]);
+      if(dead)opt.disabled=true; // 布尔属性不能走 setAttribute('disabled',false)：属性只要存在就是禁用
+      return opt;}));
+    body.replaceChildren(node('div',{class:'hub-wiz'},[head(TITLES[key],index+1,keys.length+1),grid]));
+    body.querySelector('.hub-opt:not([disabled])').focus({preventScroll:true});
+  }
+  function showMap(){
+    index=0;state.map='';ORDER.forEach(k=>state[k]='');
+    const grid=node('div',{class:'hub-wiz__maps'},data.maps.map(m=>{
+      const count=(data.points[m.id]||[]).length;
+      const card=node('button',{type:'button',class:'hub-map','aria-pressed':'false',
+        onclick:()=>{state.map=m.id;index=1;showStep();}},[
+        node('img',{src:'assets/maps/'+m.id+'.webp',alt:'',loading:'lazy',decoding:'async',draggable:'false',width:'150',height:'84'}),
+        node('span',{text:m.name}),node('small',{text:count?count+' 个点位':'待收录'})]);
+      if(!count)card.disabled=true;
+      return card;}));
+    body.replaceChildren(node('div',{class:'hub-wiz'},[head('选地图',1,ORDER.length+1),grid]));
+    (body.querySelector('.hub-map:not([disabled])')||body.querySelector('.hub-map')).focus({preventScroll:true});
+  }
+  function showEmpty(){
+    const backBtn=node('button',{type:'button',class:'hub-again',text:'← 上一步',onclick:back});
+    body.replaceChildren(node('div',{class:'hub-wiz'},[node('p',{class:'home-hub__note',text:'这个组合下还没有点位，回上一步放宽一档。'}),backBtn]));
+    backBtn.focus({preventScroll:true});
+  }
+  function showResults(){
+    const items=matchExcept(''),list=node('div',{class:'hub-points'});
+    const note=node('p',{class:'home-hub__note',text:'找到 '+items.length+' 个点位'});
     list.replaceChildren(...items.slice(0,40).map(panelPoint));
-  };
-  input.addEventListener('input',update);
-  update();
-  // 单个输入框的 form，回车会触发隐式提交（等于刷新页面），拦下来
-  body.replaceChildren(node('form',{class:'hub-panel__form',onsubmit:event=>event.preventDefault()},[input]),note,list);
+    // 结果页两个退法：上一步回到最后一个问题（答案还在，重选一个就刷新结果），
+    // 重新筛选整个从头来。只有后者会让人不敢点 —— 改一个条件等于全部重答。
+    const backBtn=node('button',{type:'button',class:'hub-again',text:'← 上一步',onclick:back});
+    const again=node('button',{type:'button',class:'hub-again',text:'↺ 重新筛选',onclick:showMap});
+    body.replaceChildren(node('div',{class:'hub-wiz__foot'},[backBtn,again]),note,list);
+    backBtn.focus({preventScroll:true});
+  }
+  showMap();
 }
 /* Amari 的窗口照豆包那类对话 app 摆：中间一条消息流自己滚，输入行和快捷提问压在最底下。
    回答仍然只是 hubMatch 的那批结果加一句话，没有第二个匹配器 —— 这里换的只是摆法。 */
 const amariAvatar=()=>node('img',{class:'amari-avatar',src:'assets/brand/hub-amari.webp',alt:'',width:'160',height:'160',draggable:'false','aria-hidden':'true'});
+/* 点位之外的几句人话。放在检索之后：先 hubMatch，没命中才轮到这张表，
+   所以「你好 隐世修所」这种带寒暄的检索词仍然先出点位。命中即停，顺序只影响
+   两个正则都能吃掉同一句话时谁优先（比如「你是谁」别被泛问候截走）。 */
+const AMARI_INTENTS=[
+  [/^(你是谁|你叫什么|自我介绍)/,'我是瓦小探的点位助手 Amari，专门帮你找点位。'],
+  [/(联系|站长|反馈|纠错|投诉|建议|邮箱|mailto)/i,{reply:'点位有错、想补充新点位、或者提建议，都可以给站长写信：',link:'mailto:2452988105@qq.com'}],
+  [/^(什么时候更新|还有新的吗|新点位|多久更新)/,'点位一直在补。想要哪个图哪个位置，写信告诉站长最快。'],
+  [/^(谢谢|多谢|感谢|辛苦了|thx|thanks)/i,'不客气。还有要找的点位就继续问。'],
+  [/^(再见|拜拜|下次见|886)/i,'下次见，枪法见长。'],
+  [/^(你好|您好|哈喽|嗨|hi|hello|hey|在吗|在不在|早上好|下午好|晚上好)/i,'你好。问我点位就行：地图名、进攻还是防守，再加点位名里的关键词，比如「隐世修所 进攻 车库」。'],
+  [/^(怎么(用|问)|帮助|help|能(干|做)什么|会什么|使用说明)/i,'我能找点位：说地图名（隐世修所、日落之城……），加上进攻或防守，再加点位名里的关键词。只说地图名也行，我把那张图的点位全列给你。'],
+];
 // 箭头是描出来的矢量，不是「↑」那个字符：字模的箭头粗细跟着字重走、边缘还带字体的
 // hinting 毛刺，缩到 20px 就是个糊三角，跟旁边那圈干净的圆一比就露怯。
 const amariSend=()=>{const button=node('button',{type:'submit',class:'amari-send','aria-label':'发送'});
@@ -520,18 +620,38 @@ function renderHubAmari(body){
   const log=node('div',{class:'amari-log',role:'log','aria-live':'polite'});
   const input=node('input',{type:'text',placeholder:'问 Amari：隐世修所 进攻 车库',autocomplete:'off','aria-label':'向 Amari 提问'});
   const form=node('form',{class:'amari-composer'},[input,amariSend()]);
-  const chips=node('div',{class:'amari-chips'},['隐世修所 进攻','车库穿中门','A厅 直架'].map(text=>node('button',{type:'button',class:'amari-chip',text,onclick:()=>ask(text)})));
+  const chips=node('div',{class:'amari-chips'},['隐世修所 进攻','车库穿中门','A厅 直架','怎么用','联系站长'].map(text=>node('button',{type:'button',class:'amari-chip',text,onclick:()=>ask(text)})));
   const bubble=(kind,text)=>node('p',{class:'amari-msg amari-msg--'+kind,text});
   // extra 是跟在气泡下面的点位卡片，挂在同一列里，跟头像对齐
   const bot=(children,extra)=>{const stack=node('div',{class:'amari-stack'},children);if(extra)stack.append(extra);return node('div',{class:'amari-row'},[amariAvatar(),stack]);};
   const toBottom=()=>{log.scrollTop=log.scrollHeight;};
   function ask(query){
     query=query.trim();if(!query)return;
-    const {items}=hubMatch(query);
-    // 先给一句话的答案，想看得细再往下点卡片
-    const cards=items.length?node('div',{class:'hub-points'},items.slice(0,12).map(panelPoint)):null;
-    log.append(node('div',{class:'amari-row amari-row--user'},[bubble('user',query)]),bot([bubble('bot',hubAnswer(query))],cards));
-    input.value='';chips.hidden=true;toBottom();
+    log.append(node('div',{class:'amari-row amari-row--user'},[bubble('user',query)]));
+    input.value='';chips.hidden=true;
+    // 「稍作思考」：先挂一颗三个点的占位气泡，七百来毫秒后原地换成真回答。
+    // 答案本来就是秒出的（本地查表），快反而假 —— 这点延迟买的是一口气口。
+    // 不用 Math.random：同一句话每次回答的节奏该一样，固定 700ms 够拟真。
+    const dots=bubble('bot','');dots.classList.add('amari-typing');dots.append(node('i'));
+    const pending=bot([dots]);
+    log.append(pending);toBottom();
+    setTimeout(()=>{
+      const {items}=hubMatch(query);
+      // 先给一句话的答案，想看得细再往下点卡片
+      const cards=items.length?node('div',{class:'hub-points'},items.slice(0,12).map(panelPoint)):null;
+      let reply;
+      if(items.length)reply=bubble('bot',hubAnswer(query));
+      else{
+        const hit=AMARI_INTENTS.find(([re])=>re.test(query));
+        if(!hit)reply=bubble('bot',hubAnswer(query));
+        else if(typeof hit[1]==='string')reply=bubble('bot',hit[1]);
+        // 带链接的那条（联系站长）：邮箱做成真正的 <a>，手机上点一下就能发信
+        else{reply=bubble('bot',hit[1].reply);reply.append(node('a',{class:'amari-mail',href:hit[1].link,text:hit[1].link.slice(7)}));}
+      }
+      pending.querySelector('.amari-stack').replaceChildren(reply);
+      if(cards)pending.querySelector('.amari-stack').append(cards);
+      toBottom();
+    },700);
   }
   form.addEventListener('submit',event=>{event.preventDefault();ask(input.value);});
   // 开场白当成对话里的第一条消息，而不是面板顶上的一行说明 —— 底下永远是输入框
@@ -585,7 +705,7 @@ for(const card of document.querySelectorAll('.agent-card')){
 }
 
 $('enter-skins').onclick=()=>navigate('skins');
-for(const button of document.querySelectorAll('[data-skin-topic]'))button.onclick=()=>{if(button.dataset.skinTopic==='夜市专题'){navigate('skins/night');return;}if(button.dataset.skinTopic==='手感排行'){navigate('skins/ranking');return;}$('upcoming-title').textContent=button.dataset.skinTopic;$('upcoming-description').textContent='专题内容正在准备中。';openDialog($('upcoming-dialog'));};
+for(const button of document.querySelectorAll('[data-skin-topic]'))button.onclick=()=>{if(button.dataset.skinTopic==='夜市专题'){navigate('skins/night');return;}if(button.dataset.skinTopic==='皮肤人气排行'){navigate('skins/ranking');return;}$('upcoming-title').textContent=button.dataset.skinTopic;$('upcoming-description').textContent='专题内容正在准备中。';openDialog($('upcoming-dialog'));};
 
 for(const button of document.querySelectorAll('[data-weapon]'))button.onclick=()=>{const id=Object.keys(weaponLabels).find(k=>weaponLabels[k]===button.dataset.weapon);navigate('skins/ranking/'+id);};
 

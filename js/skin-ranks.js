@@ -20,7 +20,7 @@ export async function showSkinRanks(weapon){
  if(!rows.length){list.replaceChildren(node('p',{class:'empty',text:'这个武器的皮肤排行还没有录入。'}));return;}
  const captured=rows.map(s=>s.sources?.capturedAt).filter(Boolean).sort().at(-1),capturedLabel=document.getElementById('ranking-captured-at');
  if(capturedLabel)capturedLabel.textContent=captured?'数据快照：'+new Intl.DateTimeFormat('zh-CN',{year:'numeric',month:'long',day:'numeric',timeZone:'Asia/Shanghai'}).format(new Date(captured)):'';
- const max=(Math.max(...rows.map(s=>s.heat))||1),ol=node('ol',{class:'heat-chart','aria-label':weaponLabels[weapon]+'皮肤手感排行'});
+ const max=(Math.max(...rows.map(s=>s.heat))||1),ol=node('ol',{class:'heat-chart','aria-label':weaponLabels[weapon]+'皮肤人气排行'});
  const head=node('div',{class:'heat-chart-head','aria-hidden':'true'},[
   node('span',{text:'皮肤'}),node('span',{text:'排名表现'}),
   ...metricColumns.map(([label,key])=>node('span',{class:'metric-'+key,text:label}))

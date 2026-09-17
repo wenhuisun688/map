@@ -1,16 +1,11 @@
-/* 首页顶部：左边品牌锁定 + 一句二字形容词的小字说明，右边一块固定尺寸的活动图面板。
+/* 首页顶部：左边品牌锁定 + 一句二字形容词的小字说明 + 工具栏磁贴，右边一块活动图。
    栏宽是这么分的：1120 减掉左右各 40 的留白、再减掉 56 的栏间距，剩下的给文字，
-   所以面板最多 600。窄到摆不下两栏就竖过来，文字在上、图在下。
-   面板的三个尺寸是一组的，改一个就得跟着改另外两个，别单独动：
-     --band-w    面板宽度
-     --band-ring 照片四周留多宽的光晕
-     --band-h    面板高度 = (--band-w − 2 − 2×ring) ÷ 宽高比 + 2×ring + 2
-   当前 600 / 16 / 353 是照照片自己的 1080:608 算的，四周正好留出均匀的 16px 光晕。
-   定义放在这一层是因为下面那栏要拿 --band-w 当轨道宽度：写死在面板自己身上，
-   网格就只能在 auto 轨道里求 100%，百分比成环，面板会塌成 0 宽。 */
-.home-hero{--band-w:600px;--band-ring:16px;--band-h:353px;max-width:1120px;margin:0 auto;padding:0 40px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,var(--band-w));align-items:start;gap:24px 56px}
-/* 一列 flex（而不是普通块级）：底下的个人中心才能 flex:1 去吃掉剩余高度。
-   块级流里没有「吃掉剩余高度」这回事，面板就只能是它内容的高度。 */
+   所以面板最多 600。窄到摆不下两栏就竖过来。
+   --band-w 是右栏轨道的宽度：写死在面板自己身上，
+   网格就只能在 auto 轨道里求 100%，百分比成环，面板会塌成 0 宽。
+   高度不再需要第二个变量：舞台按照片自己的 1080:608 用 aspect-ratio 推。 */
+.home-hero{--band-w:600px;max-width:1120px;margin:0 auto;padding:0 40px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,var(--band-w));align-items:start;gap:24px 56px}
+/* 一列 flex：工具栏磁贴横排在里面，宽度跟着左栏走 */
 .home-hero__intro{min-width:0;display:flex;flex-direction:column}
 /* 品牌锁定：图标 + 字标。字标的 line-height 撑到和图标一样高，于是两件事同时成立 ——
    字看着是在图标里居中的，但它的盒子上边框和图标、和右边图片的上边框都齐平。
@@ -22,62 +17,41 @@
    所以是纯文本不是 flex —— 一旦用 flex 排 span，标点会被 gap 推开成孤零零的符号 */
 .home-hero__motto{margin:14px 0 0;font-size:16px;letter-spacing:.05em;color:var(--muted)}
 
-/* 工具栏：品牌下面那一块，三个入口共用一块面板。
-   高度不是拍脑袋定的：桌面上 .home-hero 拉成 stretch，左栏是列 flex，
-   这块 flex:1 吃掉剩下的高度，底边正好落在右边活动图面板的底边上 —— 两栏收在同一条线。
-   圆角 23、行内缩 20 也是跟着下面那排功能卡片来的（卡片圆角 23，卡片文字内缩 21）。
-   这块不再写「工具栏」那行小标题：三个入口自己就把话说完了，省下的 45px 全给了行高。 */
-.home-hub{position:relative;display:flex;flex:1;flex-direction:column;margin:26px 0 0;
+/* 工具栏：品牌下面那一块，三个入口共用一块面板。桌面和手机同一套语言：
+   一行三块方磁贴 —— 图标居中、只留标题，副标题和箭头收掉（整块可点，箭头是噪音）。
+   材质还是站内那套渐变 + 顶部内高光 + 深投影，只是从一块大盒子拆成三张小卡。
+   不再和右边活动图拉底边对齐：磁贴是紧凑的一行，硬撑到 353 高会变成三根柱子。
+   跟随鼠标的那团光留着，小卡面上反而更明显。 */
+.home-hub{position:relative;display:flex;flex-direction:column;margin:26px 0 0;
   /* 系统里最讲究的一套：Segoe UI Variable 是 Win11 的可变字体（Display 给大字、Text 给小字），
      中文配 YaHei UI 而不是 YaHei —— UI 那一版是专门给界面用的，字距和行高更紧。
      一个字体字节都不发：CSP 的 default-src 'self' 本来就放不出外部字体，全靠系统自带的。 */
   font-family:"Segoe UI Variable Display","Microsoft YaHei UI","PingFang SC",system-ui,sans-serif;
   font-optical-sizing:auto}
-/* 材质照站内既有的分组列表（menu-group / menu-row），但叠两层：一层极淡的自上而下高光，
-   一层本色渐变；再补一条底边内阴影和近/远两道投影。单层渐变加一道大模糊，就是「平」的来源。 */
-.home-hub__base{display:flex;flex:1;flex-direction:column;overflow:hidden;border:1px solid #ffffff1c;border-radius:23px;
-  background:linear-gradient(180deg,#ffffff0b,#ffffff00 46%),linear-gradient(180deg,#20232d,#14161c);
-  box-shadow:inset 0 1px 0 #ffffff1f,inset 0 -1px 0 #0000005c,0 2px 4px #0000006b,0 24px 60px -16px #000000a3}
-/* border:0 是先清掉 base.css 给 button 的那套边框底色，分隔线改为另画（见下）。
-   flex-basis 给 0 而不是 auto：auto 是按内容算基数、再把余量均分，
-   于是「两行文字」的入口会比别的那个高 2px。基数归零三行才真的一样高。
-   isolation 是给下面那团跟随鼠标的光圈用的：光圈 z-index:-1 压在内容后面，
-   没有 isolation 它会一路穿到这块的底色底下，等于没画。 */
-.home-hub__row{position:relative;isolation:isolate;overflow:hidden;display:flex;flex:1 1 0;align-items:center;gap:15px;width:100%;min-height:66px;padding:0 20px;border:0;border-radius:0;background:none;text-align:left;transition:background .24s var(--ease)}
+.home-hub__base{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+/* border:0 先清掉 base.css 给 button 的那套边框底色。isolation 是给跟随鼠标的光圈用的：
+   光圈 z-index:-1 压在内容后面，没有 isolation 它会穿到卡片底色底下，等于没画。 */
+.home-hub__row{position:relative;isolation:isolate;overflow:hidden;display:flex;flex:1 1 0;flex-direction:column;align-items:center;justify-content:center;gap:9px;width:100%;min-height:112px;padding:14px 6px;border:1px solid #ffffff14;border-radius:18px;background:linear-gradient(180deg,#1c202a,#14161c);text-align:center;box-shadow:inset 0 1px 0 #ffffff17,0 10px 24px -14px #000c;transition:transform .18s var(--ease),background .22s var(--ease),border-color .22s var(--ease)}
 /* 跟随鼠标的一小团光。坐标由 js 在 pointermove 里写进 --mx/--my —— 纯 CSS 拿不到指针位置；
    也不去改 background，免得把上面那套渐变重写一遍。触摸设备没有 hover，整条关在媒体查询里。 */
 .home-hub__row::before{content:'';position:absolute;inset:0;z-index:-1;opacity:0;background:radial-gradient(200px circle at var(--mx,50%) var(--my,50%),#ffffff17,#ffffff00 72%);transition:opacity .26s var(--ease)}
-/* 分隔线从图标那一格之后起笔，而不是拉满一条：三条切满的横杠会让这块看着是张表格。
-   往右渐隐是给那道箭头让路，齐刷刷一条实线太重。81 = 内缩 20 + 图标 46 + 间距 15 */
-.home-hub__row+.home-hub__row::after{content:'';position:absolute;left:81px;right:0;top:0;height:1px;background:linear-gradient(90deg,#ffffff1a,#ffffff08 58%,#ffffff00)}
 /* base.css 的 button:hover 是 0-1-1，比 .home-hub__row 高，不给它单独写一条就会被刷成灰块。
-   底色只给 6%：真正那层「亮了」是上面那团跟着鼠标走的光，静态底色只是兜底
-   （指针停下、或者键盘走到这边时，得有个看得见的状态）。 */
-.home-hub__row:hover{background:#ffffff06}
-.home-hub__row:active{background:#ff465518}
-.home-hub__row:focus-visible{outline:2px solid var(--red);outline-offset:-4px;border-radius:16px}
-/* 图标 46 一格，装的就是那张图本身。不垫 padding、不套哑光底色：图自带深底和描边，
-   再套一层方块就成了「画框里的画」。悬停也不换底色 —— 青色的图压红底会脏，
-   改成整体提亮、往右上抬 2px 并顶出一道投影，和右边箭头一起动。 */
-.home-hub__icon{flex:none;width:46px;height:46px;border-radius:13px;object-fit:cover;transition:filter .24s var(--ease),transform .24s var(--ease),box-shadow .24s var(--ease)}
-/* 主标题 19px 已经算大字，所以走 Display 那一档；副标题 14px 走 Text 那一档。
-   两块都是 nowrap + 省略号：250 宽那档两栏布局里，副标题再长一点就会顶到箭头上。 */
-.home-hub__text{display:flex;flex-direction:column;gap:4px;min-width:0;transition:transform .24s var(--ease)}
-.home-hub__text strong{font-family:"Segoe UI Variable Display","Microsoft YaHei UI","PingFang SC",system-ui,sans-serif;font-size:19px;font-weight:600;letter-spacing:.005em;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:color .24s var(--ease)}
-.home-hub__text small{font-family:"Segoe UI Variable Text","Microsoft YaHei UI","PingFang SC",system-ui,sans-serif;font-size:14px;color:#a3abb9;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:color .24s var(--ease)}
-.home-hub__go{flex:none;width:19px;height:19px;margin-left:auto;color:#7f8794;transition:transform .28s var(--ease),color .24s var(--ease)}
+   悬停整条重写渐变（只写 background 颜色会把渐变层抹掉）。 */
+.home-hub__row:hover{background:linear-gradient(180deg,#242a36,#181c24);border-color:#ffffff24}
+.home-hub__row:active{transform:scale(.96);background:linear-gradient(180deg,#282f3d,#1b1f28)}
+.home-hub__row:focus-visible{outline:2px solid var(--red);outline-offset:-4px}
+/* 图标 44 一格，装的就是那张图本身。不垫 padding、不套哑光底色：图自带深底和描边，
+   再套一层方块就成了「画框里的画」。悬停改成整体提亮、往右上抬 2px 并顶出一道投影。 */
+.home-hub__icon{flex:none;width:44px;height:44px;border-radius:12px;object-fit:cover;transition:filter .24s var(--ease),transform .24s var(--ease),box-shadow .24s var(--ease)}
+.home-hub__text{display:flex;flex-direction:column;align-items:center;gap:0;min-width:0;transition:transform .24s var(--ease)}
+.home-hub__text strong{font-family:"Segoe UI Variable Display","Microsoft YaHei UI","PingFang SC",system-ui,sans-serif;font-size:15.5px;font-weight:600;letter-spacing:.01em;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;transition:color .24s var(--ease)}
+/* 副标题和箭头在磁贴上没有容身之处。注意 #hub-history-note 是藏起来而不是删掉：
+   浏览记录的计数还在往里写，只是不再展示。 */
+.home-hub__text small,.home-hub__go{display:none}
 .home-hub__row:hover .home-hub__icon,.home-hub__row:focus-within .home-hub__icon{filter:brightness(1.2) saturate(1.06);transform:translate(2px,-2px) scale(1.05);box-shadow:0 10px 20px #00000073}
-.home-hub__row:hover .home-hub__text,.home-hub__row:focus-within .home-hub__text{transform:translateX(2px)}
 .home-hub__row:hover .home-hub__text strong,.home-hub__row:focus-within .home-hub__text strong{color:#fff}
-.home-hub__row:hover .home-hub__text small,.home-hub__row:focus-within .home-hub__text small{color:#c6ccd6}
-.home-hub__row:hover .home-hub__go,.home-hub__row:focus-within .home-hub__go{transform:translateX(5px) scale(1.06);color:#fff}
 @media(hover:hover) and (pointer:fine){.home-hub__row:hover::before{opacity:1}}
-/* 按下去把那些位移收回来，像真的被按进去一点。这几条必须排在上面所有 hover 之后：
-   选择器权重一样（.row:active .x 和 .row:hover .x 都是 0-3-0），靠源码顺序决胜。 */
-.home-hub__row:active .home-hub__icon,.home-hub__row:active .home-hub__text,.home-hub__row:active .home-hub__go{transform:none}
 .home-hub__note{padding:12px 4px;color:#98a0ae;font-size:13px;text-align:center}
-/* 只在桌面两栏时拉平：单栏的时候底下没有东西可对齐，面板就不该硬撑 */
-@media(min-width:1001px){.home-hero{align-items:stretch}}
 
 /* 工具栏面板：三个入口共用一块从右边滑出的面板，换的只是标题和内容。
    尺寸和材质照站点的菜单抽屉（.site-drawer）来 —— 同一套 --drawer-* 变量、同样的竖向渐变底、
@@ -103,12 +77,42 @@ html.hub-panel-open{overflow:hidden}
 .hub-panel__close:active{transform:scale(.95)}
 .hub-panel__close:focus-visible{outline:2px solid #ff7d89;outline-offset:2px}
 .hub-panel__body{padding:18px 0 0}
-/* 检索和提问共用同一条输入行：两处本来就是同一个控件，没理由写两遍 */
-.hub-panel__form{display:flex;gap:10px;margin:0 0 4px}
-.hub-panel__form input{flex:1;min-width:0}
-.hub-panel__form button{flex:none;background:var(--red);border-color:var(--red);color:#fff;font-weight:650}
-.hub-panel__form button:hover{background:#e53849;border-color:#e53849}
-.hub-panel__form button:active{transform:scale(.97)}
+/* 快速检索的向导：一步一屏。屏头是「上一步 · 问题 · 第几步」，
+   下面整屏留给选项 —— 地图屏是带概览图的格子，其余是大号药丸两列排。
+   字号整体比抽屉版大两档：问题 17px、选项 15px，手机上隔着半臂也点得清。 */
+.hub-wiz{display:flex;flex-direction:column;gap:14px}
+.hub-wiz__head{display:flex;align-items:center;gap:10px}
+.hub-wiz__head b{font-size:17px;font-weight:650;color:#f3f5f8;letter-spacing:.02em}
+.hub-wiz__head i{margin-left:auto;font-style:normal;font-size:12.5px;color:#6e7684;font-variant-numeric:tabular-nums}
+.hub-wiz__back{flex:none;padding:6px 10px;border:1px solid #ffffff16;border-radius:999px;background:#ffffff08;color:#c3cad5;font-size:13px}
+.hub-wiz__back:hover{color:#fff;background:#ffffff14}
+.hub-wiz__back[aria-hidden]{visibility:hidden}
+.hub-wiz__opts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.hub-opt{display:flex;flex-direction:column;align-items:flex-start;gap:3px;padding:14px 12px;border:1px solid #ffffff16;border-radius:13px;background:#ffffff08;color:#dfe3ea;font-size:15px;font-weight:500;line-height:1.3;transition:color .18s,background .18s,border-color .18s,transform .12s var(--ease)}
+.hub-opt small{font-size:11.5px;font-weight:400;color:#7f8794;letter-spacing:.02em}
+.hub-opt:hover{color:#fff;background:#ffffff12;border-color:#ffffff2b}
+.hub-opt:active{transform:scale(.97)}
+.hub-opt[aria-pressed=true]{border-color:var(--red);background:#ff465526;color:#ffd9df;font-weight:600}
+/* 待收录：这一格当前没有点位，压灰、点不动，但留在原位 —— 让人知道功能在、只是还没数据 */
+.hub-opt:disabled,.hub-map:disabled{opacity:.4;cursor:default}
+.hub-opt:disabled:hover{background:#ffffff08;border-color:#ffffff16;color:#dfe3ea}
+.hub-wiz__maps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+/* 官方加载图是 150x84 的横版图，卡片就按这个比例摆、名字放在图下面 ——
+   裁成方形会把图的上下切掉，压渐变又白丢一块画面。原尺寸 150 宽，卡片正好 1:1 用，不糊。 */
+.hub-map{display:flex;flex-direction:column;padding:0;border:1px solid #ffffff16;border-radius:13px;overflow:hidden;background:#14171d;text-align:left;transition:border-color .18s,transform .12s var(--ease)}
+.hub-map:hover{border-color:#ffffff30}
+.hub-map:active{transform:scale(.98)}
+.hub-map[aria-pressed=true]{border-color:var(--red);box-shadow:inset 0 0 0 1px var(--red)}
+.hub-map img{display:block;width:100%;height:auto;aspect-ratio:150/84;object-fit:cover}
+.hub-map span{padding:8px 10px 0;font-size:14px;font-weight:600;color:#e6eaf0}
+.hub-map small{padding:1px 10px 9px;font-size:11.5px;color:#7f8794}
+.hub-map[aria-pressed=true] span{color:#ffd9df}
+.hub-again{margin:2px 0 12px;padding:8px 14px;border-radius:999px;font-size:13.5px;color:#c3cad5}
+/* 结果页脚部：上一步 + 重新筛选并排，按钮自身的 margin 在这里让给 gap */
+.hub-wiz__foot{display:flex;gap:8px}
+.hub-wiz__foot .hub-again{margin:0}
+/* 没输条件时计数行整个收掉，别留一行空 padding */
+.home-hub__note:empty{display:none}
 /* base.css 给所有可聚焦元素配的是蓝色光圈（--blue），在这块红品牌色的面板里跟发送键、
    跟面板本身都打架。换成站里自己那支 focus 色（和 a/button 的 #ff929c 同源），
    偏移收到 2px：输入行是药丸，5px 的圈在行里会顶到上下沿。 */
@@ -132,6 +136,16 @@ html.hub-panel-open{overflow:hidden}
 .amari-avatar{flex:none;width:28px;height:28px;border-radius:9px;object-fit:cover}
 .amari-msg{max-width:100%;padding:10px 13px;border:1px solid #ffffff12;border-radius:16px;background:#ffffff0a;color:#e6eaf0;font-size:14px;line-height:1.7;overflow-wrap:anywhere}
 .amari-msg--bot{border-bottom-left-radius:5px}
+/* 「思考中」占位气泡：三个点错拍起伏，700ms 后原地换成真回答。
+   空文本的气泡靠 ::before/::after 凑齐三颗，min-width 撑出不塌。
+   全局 prefers-reduced-motion 那条会把 animation 掐掉，剩三个静止的灰点，照样读得懂。 */
+.amari-typing{display:inline-flex;align-items:center;gap:5px;min-width:56px;padding:13px 14px}
+.amari-typing::before,.amari-typing::after,.amari-typing i{content:'';width:6px;height:6px;border-radius:50%;background:#8b93a1;animation:amari-dot 1.05s var(--ease) infinite}
+.amari-typing::after{animation-delay:.17s}
+@keyframes amari-dot{30%{transform:translateY(-4px);background:#c9cfda}60%,100%{transform:none}}
+/* 邮箱链接：跟正文同色会看不出能点，用站点那支浅红，换行时整串不断行 */
+.amari-mail{color:#ff929c;text-decoration:none;border-bottom:1px solid #ff929c4d;white-space:nowrap}
+.amari-mail:hover{color:#ffb9c1;border-bottom-color:#ffb9c166}
 /* 自己发的那条靠右、红底；右下角收一点直角，指向「这话是从这边出去的」 */
 .amari-msg--user{border-color:transparent;border-bottom-right-radius:5px;background:var(--red);color:#fff;font-weight:500}
 /* 面板一共 380，头像加气泡之后只剩 ~300，两列点位卡片会挤成两条窄缝 */
@@ -156,23 +170,19 @@ html.hub-panel-open{overflow:hidden}
 .amari-send:focus-visible{outline:2px solid #ffd9df;outline-offset:3px}
 @media(max-width:640px){.hub-points{grid-template-columns:1fr}}
 
-/* 活动图面板：一块固定尺寸的圆角盒子，盒子里是照片自己虚化出来的环境光，照片居中。
-   尺寸是写死的，照片缩在里面、不参与撑开面板。 */
+/* 活动图：照片自己就是整块 —— 不画边框、不垫底板、不留光晕圈，圆角裁一下浮在页面上。
+   桌面和手机同一套（这是从手机端定下来的语言）。比例钉死照片自己的 1080:608，
+   object-fit:cover 铺满，不会上下留黑边；宽度跟着 --band-w 走，改一处两边都跟着变。
+   下面那排功能卡片是「描边 + 底色」的盒子，这里再套一个框就撞了。 */
 .photo-band{width:min(var(--band-w),100%);margin-left:auto}
-.photo-band__stage{position:relative;width:100%;height:var(--band-h);overflow:hidden;border:1px solid #ffffff23;border-radius:24px;background:linear-gradient(180deg,#17161c,#0e0e13)}
+.photo-band__stage{position:relative;width:100%;aspect-ratio:1080/608;overflow:hidden;border-radius:24px}
 .photo-band__slide{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .6s var(--ease)}
 /* 当前这张压在上面，才不会出现「淡出的旧图盖住淡入的新图」 */
 .photo-band__slide.is-active{z-index:1;opacity:1}
-/* 环境光：照片自己放大虚化铺满整块面板，压暗当背光，慢慢漂移。
-   静止时它是一块死图，漂着才有「有光源」的感觉。
-   渐隐到透明而不是渐隐到某个底色：面板底色本身是渐变的，填死色会露出一块色斑。 */
-.photo-band__slide::before{content:'';position:absolute;inset:0;background-image:var(--art);background-position:center;background-size:cover;background-repeat:no-repeat;filter:blur(34px) brightness(.58) saturate(.9);transform:scale(1.06);animation:band-ambient 24s ease-in-out infinite alternate;
-  mask-image:radial-gradient(closest-side,#000 42%,#0000)}
-@keyframes band-ambient{to{transform:scale(1.11)}}
-/* 宽高都给 auto 让 max 去夹，浏览器会按原比例缩到同时满足两个上限 —— 照片的盒子
-   始终等于照片本身。用 height:100% 的话会被 max-width 拉宽、再靠 contain 缩图，
-   窄屏上就变成一张小图飘在大片空白里 */
-.photo-band__art{width:auto;height:auto;max-width:calc(100% - var(--band-ring)*2);max-height:calc(100% - var(--band-ring)*2);border-radius:14px;animation:band-in .9s var(--ease) both}
+/* 可点的那张照片包了一层 <a>：铺满整格，鼠标变手型，焦点圈画在照片上而不是空气里 */
+.photo-band__link{display:block;width:100%;height:100%;cursor:pointer}
+.photo-band__link:focus-visible{outline:2px solid var(--red);outline-offset:-3px;border-radius:24px}
+.photo-band__art{width:100%;height:100%;object-fit:cover;border-radius:24px;animation:band-in .9s var(--ease) both}
 @keyframes band-in{from{opacity:0;transform:scale(.97);filter:blur(9px)}}
 .photo-band__bars{display:flex;justify-content:center;align-items:center}
 .photo-band__bars[hidden]{display:none}
@@ -182,6 +192,31 @@ html.hub-panel-open{overflow:hidden}
 .photo-band__bar:hover::after{background:#ffffff73}
 .photo-band__bar[aria-current=true]::after{background:#f4f3f5}
 @media(max-width:1000px){.home-hero{padding:0 28px;grid-template-columns:minmax(0,1fr);gap:24px}.photo-band{margin-left:0}}
-/* 窄屏上面板宽度被屏幕卡住，光晕和高度都得跟着收，否则照片四周全是空的 */
-@media(max-width:700px){.home-hero{padding:0 20px}.home-brand__mark{width:52px;height:52px;border-radius:16px}.home-brand__name{font-size:34px;line-height:52px}.home-hero__motto{margin-top:12px;font-size:14px}.home-hub{margin-top:20px}.home-hub__base{border-radius:21px}.home-hub__row{padding:0 16px;gap:13px;min-height:62px}.home-hub__row+.home-hub__row::after{left:71px}.home-hub__icon{width:42px;height:42px;border-radius:12px}.home-hub__text strong{font-size:18px}.home-hub__text small{font-size:13.5px}.home-hub__go{width:18px;height:18px}.hub-panel{width:min(340px,calc(100vw - 20px));padding-inline:14px}.hub-panel__heading h2{font-size:19px}.amari-log{padding-top:14px}.amari-avatar{width:26px;height:26px;border-radius:8px}.photo-band{--band-ring:10px;--band-h:clamp(150px,22vh,215px)}.photo-band__bar{flex-basis:24px}}
-@media(prefers-reduced-motion:reduce){.photo-band__slide{transition:none}.photo-band__slide::before,.photo-band__art{animation:none}}
+/* 手机端把工具栏和活动图对调：活动图挪到品牌下面当主角，磁贴跟在它后面 ——
+   手机上「先看到比赛现场，再决定用哪个工具」比反过来顺。
+   对调靠的是把 .home-hero__intro 摊平（display:contents），这样工具栏和活动图成了同一个
+   网格的条目，order 才够得着；摊平后网格 gap 全撤，间距改由各自的 margin-top 管。 */
+@media(max-width:700px){.home-hero{padding:0 20px;gap:0}.home-hero__intro{display:contents}
+  .home-brand__mark{width:52px;height:52px;border-radius:16px}.home-brand__name{font-size:34px;line-height:52px}.home-hero__motto{margin-top:12px;font-size:14px}
+  /* 活动图的极简语言（无边框、无底板、按照片原比例铺满）已经升到基础规则里，
+     桌面手机共用；这里只剩挪位置和圆角收一档。 */
+  .photo-band{order:1;margin-top:20px}.photo-band__stage,.photo-band__art{border-radius:18px}
+  /* 手机端磁贴收一档（桌面 112 高、18 圆角、44 图标；手机 92 / 16 / 40）。
+     布局本身桌面手机同一套，这里只剩尺寸微调。 */
+  .home-hub{order:2;margin-top:20px}
+  .home-hub__base{gap:10px}
+  .home-hub__row{min-height:92px;padding:14px 4px;border-radius:16px}
+  .home-hub__icon{width:40px;height:40px}
+  .home-hub__text strong{font-size:13.5px;letter-spacing:.02em}
+  .photo-band__bar{flex-basis:24px}
+  .hub-panel{width:min(340px,calc(100vw - 20px));padding-inline:14px}.hub-panel__heading h2{font-size:19px}.amari-log{padding-top:14px}.amari-avatar{width:26px;height:26px;border-radius:8px}}
+@media(prefers-reduced-motion:reduce){.photo-band__slide{transition:none}.photo-band__art{animation:none}}
+
+/* 2026 冠军赛主题页：一张大图压住首屏，标题落在图下沿的渐变上。
+   版式照站内专题页（home-container + home-header 那套），不另起语言。 */
+.champions-hub{padding:10px 0 56px}
+.champions-hero{display:block;width:100%;max-height:min(62vh,560px);object-fit:cover;object-position:center 30%;border-radius:24px}
+.champions-copy{margin-top:26px}
+.champions-copy h1{margin:0;font-size:clamp(28px,4vw,44px);font-weight:650;letter-spacing:var(--track-title)}
+.champions-copy p{margin:12px 0 0;max-width:60ch;color:var(--muted);font-size:15px;line-height:1.8}
+@media(max-width:700px){.champions-hub{padding:6px 0 40px}.champions-hero{border-radius:18px}.champions-copy{margin-top:18px}}
